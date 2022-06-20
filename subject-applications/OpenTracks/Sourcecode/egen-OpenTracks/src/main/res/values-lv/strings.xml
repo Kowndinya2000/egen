@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">lidmašīna</string>
+    <string name="activity_type_atv">Visurgājējs</string>
+    <string name="activity_type_biking">riteņbraukšana</string>
+    <string name="activity_type_blimp">dirižablis</string>
+    <string name="activity_type_boat">laiva</string>
+    <string name="activity_type_climbing">kāpšana kalnos</string>
+    <string name="activity_type_commercial_airplane">komerciālo pārvadājumu lidmašīna</string>
+    <string name="activity_type_cross_country_skiing">distanču slēpošana</string>
+    <string name="activity_type_cycling">riteņbraukšana</string>
+    <string name="activity_type_dirt_bike">bezceļu motocikli</string>
+    <string name="activity_type_donkey_back_riding">izjādes ar ēzeli</string>
+    <string name="activity_type_driving">ar automašīnu</string>
+    <string name="activity_type_driving_bus">braukšana ar autobusu</string>
+    <string name="activity_type_driving_car">braukšana ar automašīnu</string>
+    <string name="activity_type_ferry">prāmis</string>
+    <string name="activity_type_frisbee">frīsbijs</string>
+    <string name="activity_type_gliding">planēšana</string>
+    <string name="activity_type_hang_gliding">planēšana ar atklātā tipa planieri</string>
+    <string name="activity_type_helicopter">helikopters</string>
+    <string name="activity_type_hiking">pārgājieni</string>
+    <string name="activity_type_horse_back_riding">izjādes ar zirgu</string>
+    <string name="activity_type_hot_air_balloon">karstā gaisa balons</string>
+    <string name="activity_type_ice_sailing">ledus burāšana</string>
+    <string name="activity_type_inline_skating">skrituļslidošana</string>
+    <string name="activity_type_kayaking">braukšana ar kajaku</string>
+    <string name="activity_type_kite_surfing">kaitošana</string>
+    <string name="activity_type_land_sailing">burāšana pa sauszemi</string>
+    <string name="activity_type_mixed_type">jaukta tipa</string>
+    <string name="activity_type_motor_bike">motocikls</string>
+    <string name="activity_type_motor_boating">braukšana ar motorlaivu</string>
+    <string name="activity_type_mountain_biking">kalnu riteņbraukšana</string>
+    <string name="activity_type_off_trail_hiking">došanās pārgājienos ārpus maršruta</string>
+    <string name="activity_type_other">citi</string>
+    <string name="activity_type_paddling">airēšana</string>
+    <string name="activity_type_para_gliding">lidošana ar paraplānu</string>
+    <string name="activity_type_rc_airplane">Radiovadāma lidmašīna</string>
+    <string name="activity_type_rc_boat">Radiovadāms kuģis</string>
+    <string name="activity_type_rc_helicopter">Radiovadāms helikopters</string>
+    <string name="activity_type_riding">jāšana</string>
+    <string name="activity_type_road_biking">šosejas riteņbraukšana</string>
+    <string name="activity_type_roller_skiing">skrituļslēpošana</string>
+    <string name="activity_type_rowing">airēšana</string>
+    <string name="activity_type_running">skriešana</string>
+    <string name="activity_type_sailing">burāšana</string>
+    <string name="activity_type_seaplane">hidroplāns</string>
+    <string name="activity_type_skate_boarding">skeitbordings</string>
+    <string name="activity_type_skating">slidošana</string>
+    <string name="activity_type_skiing">slēpošana</string>
+    <string name="activity_type_sky_jumping">lēkšana ar izpletni</string>
+    <string name="activity_type_sled">ragavas</string>
+    <string name="activity_type_snow_boarding">braukšana ar sniega dēli</string>
+    <string name="activity_type_snow_shoeing">staigāšana ar sniega kurpēm</string>
+    <string name="activity_type_speed_walking">ātrā soļošana</string>
+    <string name="activity_type_street_running">skriešana pa ielām</string>
+    <string name="activity_type_surfing">sērfošana</string>
+    <string name="activity_type_track_cycling">treka riteņbraukšana</string>
+    <string name="activity_type_track_running">skriešana pa maršrutu</string>
+    <string name="activity_type_trail_hiking">pārgājiens pa maršrutu</string>
+    <string name="activity_type_trail_running">apvidus skriešana</string>
+    <string name="activity_type_train">vilciens</string>
+    <string name="activity_type_ultimate_frisbee">frīsbijs</string>
+    <string name="activity_type_unknown">nezināms</string>
+    <string name="activity_type_wakeboarding">veikbords</string>
+    <string name="activity_type_walking">iešana</string>
+    <string name="activity_type_water_skiing">ūdensslēpošana</string>
+    <string name="activity_type_wind_surfing">vindsērfings</string>
+    <!-- Description -->
+    <string name="description_activity_type">Nodarbes veids: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Vidējais pārvietošanās temps: %1$s min/km (%2$s min/jūdzē)</string>
+    <string name="description_average_moving_speed">Vidējais pārvietošanās ātrums: %1$.2f km/h (%2$.1f jūdze(-es)/h)</string>
+    <string name="description_average_pace_in_minute">Vidējais temps: %1$s min/km (%2$s min/jūdzē)</string>
+    <string name="description_average_speed">Vidējais ātrums: %1$.2f km/h (%2$.1f jūdze(-es)/h)</string>
+    <string name="description_altitude_gain">Kopējais pacēlums: %1$d m (%2$d pēda(-as))</string>
+    <string name="description_altitude_imperial">Pacēlums (pēdas)</string>
+    <string name="description_altitude_metric">Pacēlums (m)</string>
+    <string name="description_fastest_pace_in_minute">Ātrākais temps: %1$s min/km (%2$s min/jūdzē)</string>
+    <string name="description_max_altitude">Maksimālais pacēlums: %1$d m (%2$d pēda(-as))</string>
+    <string name="description_max_speed">Maksimālais ātrums: %1$.2f km/h (%2$.1f jūdze(-es)/h)</string>
+    <string name="description_min_altitude">Minimālais pacēlums: %1$d m (%2$d pēda(-as))</string>
+    <string name="description_moving_time">Pārvietošanās laiks: %1$s</string>
+    <string name="description_pace_imperial">Temps (min/jūdzē)</string>
+    <string name="description_pace_metric">Temps (min/km)</string>
+    <string name="description_recorded_time">Ierakstīts: %1$s</string>
+    <string name="description_speed_ms">Ātrums (m/s)</string>
+    <string name="description_sensor_cadence">Kadence (apgriezienu skaits minūtē)</string>
+    <string name="description_sensor_heart_rate">Sirdsdarbības ātrums (sitieni minūtē)</string>
+    <string name="description_sensor_power">Jauda (W)</string>
+    <string name="description_speed_imperial">Ātrums (jūdzes/h)</string>
+    <string name="description_speed_metric">Ātrums (km/h)</string>
+    <string name="description_time">Laiks</string>
+    <string name="description_total_distance">Kopējais attālums: %1$.2f km (%2$.1f jūdze(-es))</string>
+    <string name="description_total_time">Kopējais laiks: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">Notiek eksportēšana uz %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="zero">%1$d failu</item>
+        <item quantity="one">%1$d fails</item>
+        <item quantity="other">%1$d faili</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Pievienot</string>
+    <string name="generic_delete_selected_confirm_title">Vai dzēst atlasītos vienumus?</string>
+    <string name="generic_description">Apraksts</string>
+    <string name="generic_description_line">Apraksts: %1$s</string>
+    <string name="generic_name">Nosaukums</string>
+    <string name="generic_name_line">Nosaukums: %1$s</string>
+    <string name="generic_paused">Apturēts</string>
+    <string name="generic_recording">Notiek ierakstīšana…</string>
+    <string name="generic_save">Saglabāt</string>
+    <string name="generic_tracks">Maršruti</string>
+    <!-- Gps -->
+    <string name="gps_starting">Notiek GPS navigācijas aktivizēšana</string>
+    <string name="gps_wait_for_better_signal">Gaida spēcīgāku GPS signālu</string>
+    <string name="gps_wait_for_signal">Gaida GPS signālu</string>
+    <!-- Image -->
+    <string name="image_arrow">Bultiņa</string>
+    <string name="image_marker">Atzīme</string>
+    <string name="image_marker_count">Atzīmju numerācija</string>
+    <string name="image_pause">Pauze</string>
+    <string name="image_photo_marker">Fotoattēlu atzīme</string>
+    <string name="image_record">Ierakstīt</string>
+    <string name="image_stop">Apturēt</string>
+    <string name="image_track">Maršruts</string>
+    <!-- Import -->
+    <string name="import_progress_message">Notiek importēšana no %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Nav iespējams ievietot marķieri. Nav GPS signāla. Mēģiniet vēlreiz.</string>
+    <string name="marker_add_success">Atzīme ievietota</string>
+    <string name="marker_add_canceled">Darbība atcelta, atzīme nav ievietota</string>
+    <string name="marker_delete_one_confirm_message">Atzīme tiks neatgriezeniski dzēsta no ierīces</string>
+    <string name="marker_delete_one_confirm_title">Vai dzēst atzīmi?</string>
+    <string name="marker_delete_multiple_confirm_message">Atlasītās atzīmes tiks neatgriezeniski dzēstas no ierīces</string>
+    <string name="marker_name_format">Marķieris %1$d</string>
+    <string name="marker_title">%1$d no %2$d atzīmes(-ēm)</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Marķiera veids (piemēram, ūdenskritums)</string>
+    <string name="marker_edit_marker_type_hint">Marķiera veids</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Jums nav pieejama neviena atzīme</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Statistikas apkopojums</string>
+    <string name="menu_delete">Dzēst</string>
+    <string name="menu_edit">Rediģēt</string>
+    <string name="menu_export_all">Eksportēt visus</string>
+    <string name="menu_help">Palīdzība</string>
+    <string name="menu_import_all">Importēt visus</string>
+    <string name="menu_insert_marker">Ievietot marķieri</string>
+    <string name="menu_insert_photo">Ievietot fotoattēlu</string>
+    <string name="menu_markers">Marķieri</string>
+    <string name="menu_search">Meklēt</string>
+    <string name="menu_select_all">Atlasīt visus</string>
+    <string name="menu_settings">Iestatījumi</string>
+    <string name="menu_share">Kopīgot</string>
+    <string name="menu_show_on_map">Rādīt kartē</string>
+    <string name="menu_start_gps">Palaist GPS</string>
+    <string name="menu_stop_gps">Apturēt GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Ierakstīšanas pakalpojums</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Akumulatora uzlādes līmenis</string>
+    <string name="sensor_state_cadence">Kadence</string>
+    <string name="sensor_state_cadence_value"> %1$d apgr./min</string>
+    <string name="sensor_state_heart_rate">Sirdsdarbības ātrums</string>
+    <string name="sensor_state_heart_rate_value">%1$d sit./min</string>
+    <string name="sensor_state_power">Jauda</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">Nav pieejams maršruta ierakstīšanas laikā</string>
+    <string name="settings_show">Rādīt</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Papildu iestatījumi</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Pēc attāluma</string>
+    <string name="settings_chart_by_time">Pēc laika</string>
+    <string name="settings_recording">Notiek ierakstīšana</string>
+    <string name="settings_recording_default_activity_title">Noklusējuma aktivitātes veids</string>
+    <string name="settings_recording_location_frequency_summary">%1$s starp ierakstītajām atrašanās vietām</string>
+    <string name="settings_recording_max_recording_distance_summary">Ja attālums starp divām atrašanās vietām ir lielāks par %1$s, tiek izveidots jauns atzars</string>
+    <string name="settings_recording_max_recording_distance_title">Maksimālais attālums</string>
+    <string name="settings_recording_min_recording_distance_title">Attāluma intervāla ierakstīšana</string>
+    <string name="settings_recording_min_recording_interval_title">Laika intervāla ierakstīšana</string>
+    <string name="settings_recording_min_required_accuracy_summary">Atrašanās vieta tiek ignorēta, ja tās precizitāte ir zemāka par %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">GPS precizitāte</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Datums (ISO 8601 form.)</string>
+    <string name="settings_recording_track_name_date_local_option">Datums (vietējā form.)</string>
+    <string name="settings_recording_track_name_number_option">Numurs</string>
+    <string name="settings_recording_track_name_title">Noklusējuma maršruta nosaukums</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Atiestatīt</string>
+    <string name="settings_reset_confirm_message">Visiem iestatījumiem tiks atjaunotas to noklusējuma vērtības.</string>
+    <string name="settings_reset_confirm_title">Vai atiestatīt tagad?</string>
+    <string name="settings_reset_done">Visos iestatījumos atjaunotas to noklusējuma vērtības</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Vēlamais rādītājs</string>
+    <string name="settings_stats_units_imperial">Standarta (jūdzes, pēdas)</string>
+    <string name="settings_stats_units_metric">Metriskās (km, m)</string>
+    <string name="settings_stats_units_title">Vēlamās mērvienības</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Manuprāt, jūs varētu interesēt šis maršruts.
+\n
+\n%1$s</string>
+    <string name="share_track_subject">Vēlos ar jums koplietot maršrutu</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Vidējais pārvietošanās temps</string>
+    <string name="stats_average_moving_speed">Vidējais pārvietošanās ātrums</string>
+    <string name="stats_average_pace">Vidējais temps</string>
+    <string name="stats_average_speed">Vidējais ātrums</string>
+    <string name="stats_altitude">Pacēlums</string>
+    <string name="stats_fastest_pace">Ātrākais temps</string>
+    <string name="stats_gain">Pieaugums</string>
+    <string name="stats_latitude">Platums</string>
+    <string name="stats_longitude">Garums</string>
+    <string name="stats_max_speed">Maks. ātrums</string>
+    <string name="stats_moving_time">Pārvietošanās laiks</string>
+    <string name="stats_pace">Temps</string>
+    <string name="stats_speed">Ātrums</string>
+    <string name="stats_distance">Attālums</string>
+    <string name="stats_total_time">Kopējais laiks</string>
+    <!-- Track -->
+    <string name="track_name_format">%1$d. maršruts</string>
+    <string name="track_markers">Maršruta %1$s atzīmes</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Maršruts un tā marķieri tiks neatgriezeniski dzēsti no ierīces.</string>
+    <string name="track_delete_one_confirm_title">Vai dzēst maršrutu?</string>
+    <string name="track_delete_multiple_confirm_message">Atlasītie maršruti un to marķieri tiks neatgriezeniski dzēsti no ierīces.</string>
+    <string name="track_delete_progress_message">Notiek dzēšana…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Statistika</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Aktivitātes veids (piemēram, došanās pārgājienā)</string>
+    <string name="track_edit_activity_type_hint">Aktivitātes veids</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Sāciet ierakstīt savu nākamo piedzīvojumu šeit</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">pēdas</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">jūdzes</string>
+    <string name="unit_mile_per_hour">jūdzes</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/jūdzē</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d pēda(-as)</string>
+    <string name="value_integer_feet_excellent_gps">%1$d pēda(-as) (izcilas kvalitātes GPS)</string>
+    <string name="value_integer_feet_recommended">%1$d pēdas (ieteicams)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/h</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (izcilas kvalitātes GPS)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (vājš GPS)</string>
+    <string name="value_integer_meter_recommended">%1$d m (ieteicams)</string>
+    <string name="value_integer_mile">%1$d jūdze(-es)</string>
+    <string name="value_integer_mile_hour">%1$d jūdze(-es)/h</string>
+    <string name="value_integer_minute">%1$d min</string>
+    <string name="value_integer_second">%1$d sek</string>
+    <string name="value_none">Nav</string>
+    <string name="value_off">Izslēgts</string>
+    <string name="value_smallest_recommended">Mazākais (ieteicams)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="zero">%1$d stundas</item>
+        <item quantity="one">%1$d stunda</item>
+        <item quantity="other">%1$d stundas</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="zero">%1$d minūtes</item>
+        <item quantity="one">%1$d minūte</item>
+        <item quantity="other">%1$d minūtes</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="zero">%1$d sekundes</item>
+        <item quantity="one">%1$d sekunde</item>
+        <item quantity="other">%1$d sekundes</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="zero">%1$.1f kilometri stundā</item>
+        <item quantity="one">%1$.1f kilometrs stundā</item>
+        <item quantity="other">%1$.1f kilometri stundā</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="zero">kopējais garums ir %1$.1f kilometri</item>
+        <item quantity="one">kopējais garums ir %1$.1f kilometrs</item>
+        <item quantity="other">kopējais garums ir %1$.1f kilometri</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="zero">kopējais garums ir %1$.2f jūdzes</item>
+        <item quantity="one">kopējais garums ir %1$.2f jūdze</item>
+        <item quantity="other">kopējais garums ir %1$.2f jūdzes</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">Bankas automāts</string>
+    <string name="waypoint_type_bank">banka</string>
+    <string name="waypoint_type_bar">bārs</string>
+    <string name="waypoint_type_barbecue">barbekjū</string>
+    <string name="waypoint_type_building">ēka</string>
+    <string name="waypoint_type_bus_stop">autobusu pietura</string>
+    <string name="waypoint_type_cafe">kafejnīca</string>
+    <string name="waypoint_type_campfire">nometnes ugunskurs</string>
+    <string name="waypoint_type_campground">nometņu vietas</string>
+    <string name="waypoint_type_church">baznīca</string>
+    <string name="waypoint_type_coffee_house">kafejnīca</string>
+    <string name="waypoint_type_convenience_store">diennakts veikals</string>
+    <string name="waypoint_type_drinking_water">dzeramais ūdens</string>
+    <string name="waypoint_type_falling_rocks">krītoši akmeņi</string>
+    <string name="waypoint_type_ferry">prāmis</string>
+    <string name="waypoint_type_fire_place">ugunskura vieta</string>
+    <string name="waypoint_type_fire_station">ugunsdzēsēju depo</string>
+    <string name="waypoint_type_fishing">makšķerēšana</string>
+    <string name="waypoint_type_gas_station">degvielas uzpildes stacija</string>
+    <string name="waypoint_type_golf_course">golfa laukums</string>
+    <string name="waypoint_type_grocery_store">pārtikas preču veikals</string>
+    <string name="waypoint_type_hair_dresser">frizieris</string>
+    <string name="waypoint_type_harbor">osta</string>
+    <string name="waypoint_type_hiking_path">pārgājienu taka</string>
+    <string name="waypoint_type_hotel">viesnīca</string>
+    <string name="waypoint_type_house">māja</string>
+    <string name="waypoint_type_information">informācija</string>
+    <string name="waypoint_type_intersection">krustojums</string>
+    <string name="waypoint_type_mail_box">pastkaste</string>
+    <string name="waypoint_type_market">tirgus</string>
+    <string name="waypoint_type_meeting_point">tikšanās vieta</string>
+    <string name="waypoint_type_opera">opera</string>
+    <string name="waypoint_type_parking">autostāvvieta</string>
+    <string name="waypoint_type_police_station">policijas iecirknis</string>
+    <string name="waypoint_type_post_office">pasta nodaļa</string>
+    <string name="waypoint_type_pothole">gramba</string>
+    <string name="waypoint_type_railway_crossing">dzelzceļa pārbrauktuve</string>
+    <string name="waypoint_type_restaurant">restorāns</string>
+    <string name="waypoint_type_shopping">iepirkšanās</string>
+    <string name="waypoint_type_sight">skats</string>
+    <string name="waypoint_type_store">veikals</string>
+    <string name="waypoint_type_swimming_pool">peldbaseins</string>
+    <string name="waypoint_type_telephone">tālrunis</string>
+    <string name="waypoint_type_theater">teātris</string>
+    <string name="waypoint_type_toilet">tualete</string>
+    <string name="waypoint_type_tourist_information">tūristu informācija</string>
+    <string name="waypoint_type_tree">koks</string>
+    <string name="waypoint_type_tunnel">tunelis</string>
+    <string name="waypoint_type_waterfall">ūdenskritums</string>
+    <string name="waypoint_type_water_fountain">ūdens strūklaka</string>
+    <string name="waypoint_type_waypoint">atrašanās vietas punkts</string>
+    <string name="export_progress_summary_new_msg">Eksportēti jauni celiņi</string>
+    <string name="export_all_do_it_for_all">darīt to visos konfliktos</string>
+    <string name="import_unable_to_import_file">Nevar importēt failu: %1$s</string>
+    <string name="menu_voice_rate">Balsošanas ātrums</string>
+    <string name="track_delete_not_recording">Šo ierakstu nevar dzēst, jo tas pašlaik ir ierakstīts.</string>
+    <string name="about_url">Projekta tīmekļa vietne: <a href="%1$s">%1$s</a></string>
+    <string name="about_version_code">Versijas kods: %1$d</string>
+    <string name="about_preference_title">Par OpenTracks</string>
+    <string name="export_error_post_workout">Pēc treniņa eksportēšana neizdevās, lūdzu, pārbaudiet eksporta direktoriju.</string>
+    <string name="settings_sensor_running_speed_and_cadence">Skriešana: distance, ātrums un kadence</string>
+    <string name="help_support_title">Kā atbalstīt OpenTracks\?</string>
+    <string name="open_track_as_KML">Atvērts kā KML</string>
+    <string name="import_parser_error">Kļūda parserī: %1$s</string>
+    <string name="export_progress_summary_skip_msg">Izlaistie celiņi</string>
+    <string name="help_storage_pictures_title">Kā OpenTracks saglabā attēlus, kas uzņemti kā marķieri\?</string>
+    <string name="generic_click_twice_cancel">Vēlreiz noklikšķiniet atpakaļ, lai atceltu</string>
+    <string name="import_error_info">%1$s: %2$s</string>
+    <string name="settings_sensor_cycling_distance_speed">Riteņbraukšana: distance un ātrums</string>
+    <string name="track_detail_intervals_tab">Intervāli</string>
+    <string name="track_distance_notification">Atstatums: %1$s</string>
+    <string name="about_description"><i>OpenTracks</i> ir sporta izsekošanas programma, kas pilnībā ievēro jūsu konfidencialitāti.</string>
+    <string name="stats_loss">Zaudējums</string>
+    <string name="about_history">OpenTracks ir atvasinājums no <a href="https://code.google.com/archive/p/mytracks/"><i>Google MyTracks</i></a> (pārtraukta 2016. gadā).</string>
+    <string name="settings_prevent_reimport_tracks_title">Dziesmu atkārtotas importēšanas novēršana</string>
+    <string name="about_third_party_data">Trešo pušu dati</string>
+    <string name="settings_sensor_wheel_circumference">Riteņa apkārtmērs (mm)</string>
+    <string name="help_feature_title">OpenTracks ir šādas iespējas:</string>
+    <string name="settings_sensor_cycling_cadence">Riteņbraukšana: cadence</string>
+    <string name="help_feature_content">* izveidot GPS trases
+\n * izmantot sirdsdarbības sensoru (tikai Bluetooth LE)
+\n * balss paziņojumi (pēc laika vai attāluma)
+\n * izveidot marķierus (tostarp attēlus)
+\n * darbojas pilnībā bezsaistē
+\n * rādīt trases kartē (skatiet tālāk)</string>
+    <string name="sensor_state_heart_rate_max">Maksimālais pulss</string>
+    <string name="help_storage_pictures_content">Tie tiek glabāti lietotnes iekšējā atmiņā (t. i., pieejami tikai OpenTracks ietvaros).</string>
+    <string name="sensor_state_cadence_max">Maks. kadence</string>
+    <string name="help_gps_troubleshooting_title">OpenTracks nereģistrē vietas\?</string>
+    <string name="menu_resume_track">Atkārtot dziesmu</string>
+    <string name="help_track_export_content"> Trases var eksportēt no iestatījumiem kā KMZ, KML vai GPX. KMZ/KML visi dati; GPX tikai vietas. Trases, kas kopīgotas, izmantojot <i>kopīgošanas ikonu</i>, tiek kopīgotas kā KMZ. </string>
+    <string name="import_progress_summary_errors_msg">Kļūdas</string>
+    <string name="help_gps_troubleshooting_content"> Ko jūs varat darīt:
+\n a) pārbaudīt, vai ir ieslēgts GPS,
+\n b) uzlabot GPS uztveršanu (piemēram, doties ārā),
+\n c) pārbaudīt, izmantojot lietotni <a href="https://f-droid.org/en/packages/com.android.gpstest.osmdroid/">GPSTest</a>, un
+\n d) atslēgt enerģijas taupīšanu.
+\n
+\n Ja viss nepalīdz, lūdzu, ziņojiet par kļūdu. </string>
+    <string name="import_progress_summary_ok_msg">Importēti faili</string>
+    <string name="export_track_errors">Neeksportētie celiņi</string>
+    <string name="generic_separator_done_total">/</string>
+    <string name="generic_show_errors">Rādīt kļūmes</string>
+    <string name="generic_completed">Pabeigti</string>
+    <string name="gps_disabled_msg">GPS izslēgts</string>
+    <string name="import_no_kml_file_found">KMZ nav atrasts dok.kml fails</string>
+    <string name="settings_default_trackfileformat">Eksporta/ koplietošanas faila formāts</string>
+    <string name="settings_recording_show_on_lockscreen_while_recording_title">Rādīt statistiku bloķēšanas ekrānā</string>
+    <string name="settings_recording_fullscreen_on_while_recording_summary">Ierakstīšanas laikā ir pilnekrāna režīmā.</string>
+    <string name="settings_error_initial_values_restored">Atvainojiet, bet ir notikusi kļūda. Visi iestatījumi ir atjaunoti līdz noklusējuma vērtībām.</string>
+    <string name="settings_default_export_uri_title">Dziesmu eksporta direktorija</string>
+    <string name="instant_export_enabled_title">Tūlītējs eksports pēc treniņa</string>
+    <string name="voice_pace_per_kilometer">%1$s par kilometru</string>
+    <string name="interval_list_empty_message">Pagaidām nav intervālu</string>
+    <string name="settings_night_mode_option_night">Nakts</string>
+    <string name="import_thread_interrupted">Vītne pārtraukts</string>
+    <string name="track_speed_notification">Ātrums: %1$s</string>
+    <string name="permission_gps_failed">Programmai OpenTracks ir nepieciešama atļauja izmantot GPS.</string>
+    <string name="help_recording_content">OpenTracks izmanto ierīces GPS sensoru, lai nepārtraukti reģistrētu atrašanās vietu. Ja GPS ierīce ziņo neprecīzus datus (piemēram, atrašanās vietas, ātruma, augstuma), OpenTracks nevar neko darīt.</string>
+    <string name="sensor_could_not_scan">Nebija iespējams skenēt Bluetooth ierīces (kļūda %1$i).</string>
+    <string name="export_without_photos">bez fotogrāfijām</string>
+    <string name="import_prevent_reimport">Jūs esat iestatījis novērst atkārtotas importēšanas dziesmu</string>
+    <string name="hold_to_pause">Turiet, lai pauzē</string>
+    <string name="gps_fixed_and_ready">GPS ir fiksēts un gatavs</string>
+    <string name="settings_night_mode_title">UI tēma</string>
+    <string name="stats_split_interval">Sadalītais intervāls</string>
+    <string name="hold_to_stop">Turēt, lai apturētu</string>
+    <string name="export_track_already_exists_msg">Dziesma %1$s jau eksistē galamērķa direktorijā.</string>
+    <string name="marker_add_photo_canceled">Atcelts, foto zīme nav pievienota</string>
+    <string name="help_track_export_title">Kā es varu eksportēt/ kopīgot ierakstītos ierakstus\?</string>
+    <string name="voice_pace_lap">Klēpes laiks %1$s</string>
+    <string name="instant_export_enabled_summary">Dziesmas eksportēšana uz krātuvi pēc ierakstīšanas pabeigšanas</string>
+    <string name="activity_type_escooter">eScooter</string>
+    <string name="track_delete_progress">%1$d/%2$d</string>
+    <string name="sensor_state_power_avg">Vidējā jauda</string>
+    <string name="voice_template">%1$s in %2$s pie %3$s</string>
+    <string name="about_libraries">Bibliotēkas</string>
+    <string name="description_default_speed_or_pace">Pēc aktivitātes veida</string>
+    <string name="import_progress_summary_exists_msg">Jau eksistē</string>
+    <string name="delete_service">Dzēšanas pakalpojuma</string>
+    <string name="settings_recording_show_on_lockscreen_while_recording_summary">Ierakstīšanas laikā rādiet statistiku, neatbloķējot ierīci.</string>
+    <string name="import_file_imported">Failu %1$s importēšana</string>
+    <string name="settings_sensor_connecting">Saistīts ar %1$s</string>
+    <string name="track_recording_notification_accuracy">Atrašanās vietas precizitāte: %1$s</string>
+    <string name="share_image_subject">Vēlos dalīties ar jums kādā attēlā</string>
+    <string name="import_error_list_dialog_title">Faili nav importēti</string>
+    <string name="settings_recording_fullscreen_on_while_recording_title">Pilna ekrāna</string>
+    <string name="generic_skip">Izlaist .</string>
+    <string name="open_track_as_trackfileformat">Atvērts kā %1$s</string>
+    <string name="settings_recording_keep_screen_on_while_recording_title">Ekrāna ieslēgšana</string>
+    <string name="share_image_body">Domāju, ka jūs varētu ieinteresēt šis attēls.</string>
+    <string name="export_progress_summary_overwrite_msg">Pārrakstītās dziesmas</string>
+    <string name="help_data_google_play_services_title">Vai OpenTracks ir nepieciešams/izmantots Google Play pakalpojums\?</string>
+    <string name="menu_insert_gallery_img">Galerijas attēlu ievietošana</string>
+    <string name="help_data_storage_content"> Sensoru dati tiek saglabāti katrai reģistrētajai vietai. Runājot par sirdsdarbības sensoru, tas nozīmē, ka tikai <i>viens</i> sirdsdarbības frekvences mērījums tiek saglabāts katrā atrašanās vietā. Ja stāvat nekustīgi vai atrodaties iekštelpās, sensora dati netiks ierakstīti (bet tie tiks parādīti). </string>
+    <string name="export_progress_summary_errors_msg">Kļūdas</string>
+    <string name="settings_night_mode_option_day">Diena</string>
+    <string name="open_track_as_GPX">Atvērts kā GPX</string>
+    <string name="description_altitude_loss">Augstuma zudums: %1$d m (%2$d ft)</string>
+    <string name="sensor_state_cadence_avg">Vidējā kadence</string>
+    <string name="settings_night_mode_option_system">Sistēmas</string>
+    <string name="help_track_map_title">Kā attēlot trasi kartē\?</string>
+    <string name="voice_speed_lap">Klēpes ātrums %1$s</string>
+    <string name="generic_overwrite">Pārraksti</string>
+    <string name="settings_recording_keep_screen_on_while_recording_summary">Ierakstīšanas laikā ekrāns ir ieslēgts.</string>
+    <string name="import_unsupported_format">Neatbalstīts faila formāts</string>
+    <string name="track_pace_notification">Temps: %1$s</string>
+    <string name="about_version_name">Versijas vārds: %1$s</string>
+    <string name="help_data_storage_title">Kā OpenTracks glabā sensoru datus\?</string>
+    <string name="help_recording_title">Kā OpenTracks ieraksta datus\?</string>
+    <string name="voice_pace_per_mile">%1$s par jūdzi</string>
+    <string name="export_with_photos">ar fotogrāfijām</string>
+    <string name="sensor_state_heart_rate_avg">Vidējais sirdsdarbība</string>
+    <string name="generic_open_track">Atvērtā trase</string>
+    <string name="aggregated_stats_empty_message">Ierakstiet savu pirmo dziesmu, lai redzētu apkopoto statistiku</string>
+    <string name="settings_sensor_disconnected">Atslēgts no %1$s</string>
+    <string name="bluetooth_disabled">Lūdzu, iespējojiet Bluetooth.</string>
+</resources>

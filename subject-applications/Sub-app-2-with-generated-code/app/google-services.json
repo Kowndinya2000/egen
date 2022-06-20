@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "268540082679",
+    "firebase_url": "https://egen-83c1a.firebaseio.com",
+    "project_id": "egen-83c1a",
+    "storage_bucket": "egen-83c1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268540082679:android:95f90593c354a80c5856f2",
+        "android_client_info": {
+          "package_name": "com.batteryaware.egen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268540082679-djrl5eqr016f3o5fe7jl4o0i9sb5scpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdB18J7pNkNeK6BRorOfzjfkWVIa6eZoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268540082679-djrl5eqr016f3o5fe7jl4o0i9sb5scpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

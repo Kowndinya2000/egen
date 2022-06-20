@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--~ Copyright (C) 2014 jonas.oreland@gmail.com
+  ~
+  ~  This program is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
+  <string name="cue_activity">veikla</string>
+  <string name="cue_interval">intervalas</string>
+  <string name="cue_lap">etapas</string>
+  <string name="cue_warmup">apšilimas</string>
+  <string name="cue_cooldown">atvėsimas</string>
+  <string name="cue_current">dabar</string>
+  <string name="cue_perkilometer">per kilometrą</string>
+  <string name="cue_permile">per mylią</string>
+  <string name="cue_started">pradėta</string>
+  <string name="cue_paused">pauzė</string>
+  <string name="cue_resumed">tęsiama</string>
+  <string name="cue_stopped">sustabdyta</string>
+  <string name="cue_completed">baigta</string>
+  <string name="cue_speedup">greičiau</string>
+  <string name="cue_slowdown">lėčiau</string>
+  <plurals name="cue_hour">
+    <item quantity="one">%d valanda</item>
+    <item quantity="few">%d valandos</item>
+    <item quantity="many">%d valandos</item>
+    <item quantity="other">%d valandos</item>
+  </plurals>
+  <plurals name="cue_minute">
+    <item quantity="one">%d minutė</item>
+    <item quantity="few">%d minutės</item>
+    <item quantity="many">%d minutės</item>
+    <item quantity="other">%d minutės</item>
+  </plurals>
+  <plurals name="cue_second">
+    <item quantity="one">%d sekundė</item>
+    <item quantity="few">%d sekundės</item>
+    <item quantity="many">%d sekundės</item>
+    <item quantity="other">%d sekundės</item>
+  </plurals>
+  <plurals name="cue_meter">
+    <item quantity="one">%d metras</item>
+    <item quantity="few">%d metrai</item>
+    <item quantity="many">%d metrai</item>
+    <item quantity="other">%d metrai</item>
+  </plurals>
+  <plurals name="cue_kilometer">
+    <item quantity="one">%s kilometras</item>
+    <item quantity="few">%s kilometrai</item>
+    <item quantity="many">%s kilometrai</item>
+    <item quantity="other">%s kilometrai</item>
+  </plurals>
+  <plurals name="cue_mile">
+    <item quantity="one">%s mylia</item>
+    <item quantity="few">%s mylios</item>
+    <item quantity="many">%s mylios</item>
+    <item quantity="other">%s mylios</item>
+  </plurals>
+  <plurals name="cue_kilometers_per_hour">
+    <item quantity="one">%s kilometras per valandą</item>
+    <item quantity="few">%s kilometrai per valandą</item>
+    <item quantity="many">%s kilometrų per valandą</item>
+    <item quantity="other">%s kilometrai per valandą</item>
+  </plurals>
+  <plurals name="cue_miles_per_hour">
+    <item quantity="one">%s mylia per valandą</item>
+    <item quantity="few">%s mylios per valandą</item>
+    <item quantity="many">%s mylių per valandą</item>
+    <item quantity="other">%s mylios per valandą</item>
+  </plurals>
+  <plurals name="cue_bpm">
+    <item quantity="one">%d bpm</item>
+    <item quantity="few">%d bpm</item>
+    <item quantity="many">%d bpm</item>
+    <item quantity="other">%d bpm</item>
+  </plurals>
+  <plurals name="cue_rpm">
+    <item quantity="one">%d dpm</item>
+    <item quantity="few">%d dpm</item>
+    <item quantity="many">%d dpm</item>
+    <item quantity="other">%d dpm</item>
+  </plurals>
+  <string name="cue_activity_paused">veikla pristabdyta</string>
+  <string name="cue_activity_resumed">veikla tęsiama</string>
+  <string name="cue_activity_stopped">veikla sustabdyta</string>
+  <string name="cue_lap_started">etapas pradėtas</string>
+  <string name="cue_lap_completed">etapas baigtas</string>
+  <string name="cue_warmup_started">apšilimas pradėtas</string>
+  <string name="cue_cooldown_started">atvėsimas pradėtas</string>
+</resources>

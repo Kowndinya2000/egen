@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 - 2013 jonas.oreland@gmail.com
+  ~
+  ~  This program is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/table_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/RunHeader"
+                android:gravity="end"
+                android:text="@string/time" />
+
+            <TextView
+                style="@style/RunHeader"
+                android:gravity="end"
+                android:text="@string/distance" />
+
+            <TextView
+                style="@style/RunHeader"
+                android:id="@+id/velocity_label"
+                android:gravity="end"
+                android:text="@string/Pace" />
+
+            <TextView
+                android:id="@+id/activity_header_hr"
+                style="@style/RunHeader"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:gravity="end"
+                android:text="@string/metrics_heartrate" />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/countdown_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/RunHeader"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/Total" />
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/run_activity_time"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/run_activity_distance"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/run_activity_pace"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/activity_hr"
+                    style="@style/RunInfo"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="3dp" />
+            </TableRow>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/table_row_interval"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/countdown_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/RunHeader"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/Interval" />
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/run_interval_time"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/intervall_distance"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/interval_pace"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/interval_hr"
+                    style="@style/RunInfo"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="3dp" />
+            </TableRow>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/countdown_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/RunHeader"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/Lap" />
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end">
+
+                <TextView
+                    android:id="@+id/lap_time"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/lap_distance"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/lap_pace"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/lap_hr"
+                    style="@style/RunInfo"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="3dp" />
+            </TableRow>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/table_row_current"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/countdown_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/RunHeader"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/Current" />
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp">
+
+                <TextView
+                    android:id="@+id/current_time_unused"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/current_distance_unused"
+                    style="@style/RunInfo" />
+
+                <TextView
+                    android:id="@+id/current_pace"
+                    style="@style/RunInfo"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="3dp" />
+
+                <TextView
+                    android:id="@+id/current_hr"
+                    style="@style/RunInfo"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="3dp" />
+            </TableRow>
+        </LinearLayout>
+
+    </TableLayout>
+        
+    <LinearLayout
+        android:id="@+id/countdown_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/table_layout1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/countdown_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/countdown_background"
+            android:textColor="@android:color/white"
+            android:padding="20dp"
+            android:text=""
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/workout_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/run_table_row1"
+        android:layout_below="@id/countdown_layout" >
+    </ListView>
+
+    <TableRow
+        android:id="@+id/run_table_row1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/run_table_row2" >
+
+        <Button
+            android:id="@+id/new_lap_button"
+            style="@style/ButtonText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_blue"
+            android:text="@string/New_lap"
+            android:drawableEnd="@drawable/ic_av_newlap"
+            android:drawableRight="@drawable/ic_av_newlap"
+            android:drawablePadding="-32dp" />
+
+        <Button
+            android:id="@+id/pause_button"
+            style="@style/ButtonText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_blue"
+            android:text="@string/Pause"
+            android:drawableEnd="@drawable/ic_av_pause"
+            android:drawableRight="@drawable/ic_av_pause"
+            android:drawablePadding="-32dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/run_table_row2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/stop_button"
+            style="@style/ButtonText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_red"
+            android:text="@string/Stop"
+            android:drawableEnd="@drawable/ic_av_stop"
+            android:drawableRight="@drawable/ic_av_stop"
+            android:drawablePadding="-32dp" />
+    </TableRow>
+
+</RelativeLayout>

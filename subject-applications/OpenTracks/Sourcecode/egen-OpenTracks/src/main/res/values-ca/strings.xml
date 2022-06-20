@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">avió</string>
+    <string name="activity_type_atv">Vehicles tot terreny</string>
+    <string name="activity_type_biking">anar en bicicleta</string>
+    <string name="activity_type_blimp">dirigible</string>
+    <string name="activity_type_boat">barca</string>
+    <string name="activity_type_climbing">escalada</string>
+    <string name="activity_type_commercial_airplane">avió comercial</string>
+    <string name="activity_type_cross_country_skiing">esquí de fons</string>
+    <string name="activity_type_cycling">ciclisme</string>
+    <string name="activity_type_dirt_bike">motocicleta tot terreny</string>
+    <string name="activity_type_donkey_back_riding">muntar en burro</string>
+    <string name="activity_type_driving">conduint</string>
+    <string name="activity_type_driving_bus">conducció d\'autobús</string>
+    <string name="activity_type_driving_car">conducció de cotxe</string>
+    <string name="activity_type_ferry">ferri</string>
+    <string name="activity_type_frisbee">frisbee</string>
+    <string name="activity_type_gliding">ala delta</string>
+    <string name="activity_type_hang_gliding">vol amb ala delta</string>
+    <string name="activity_type_helicopter">helicòpter</string>
+    <string name="activity_type_hiking">senderisme</string>
+    <string name="activity_type_horse_back_riding">muntar a cavall</string>
+    <string name="activity_type_hot_air_balloon">globus aerostàtic</string>
+    <string name="activity_type_ice_sailing">vela sobre gel</string>
+    <string name="activity_type_inline_skating">patinatge en línia</string>
+    <string name="activity_type_kayaking">caiac</string>
+    <string name="activity_type_kite_surfing">surf d\'estel</string>
+    <string name="activity_type_land_sailing">vela de rodes</string>
+    <string name="activity_type_mixed_type">tipus mixt</string>
+    <string name="activity_type_motor_bike">moto</string>
+    <string name="activity_type_motor_boating">navegació a motor</string>
+    <string name="activity_type_mountain_biking">ciclisme de muntanya</string>
+    <string name="activity_type_off_trail_hiking">senderisme fora de pista</string>
+    <string name="activity_type_other">altres</string>
+    <string name="activity_type_paddling">paleig</string>
+    <string name="activity_type_para_gliding">parapent</string>
+    <string name="activity_type_rc_airplane">Avió teledirigit</string>
+    <string name="activity_type_rc_boat">vaixell teledirigit</string>
+    <string name="activity_type_rc_helicopter">helicòpter teledirigit</string>
+    <string name="activity_type_riding">equitació</string>
+    <string name="activity_type_road_biking">ciclisme de carretera</string>
+    <string name="activity_type_roller_skiing">fer skiroll</string>
+    <string name="activity_type_rowing">rem</string>
+    <string name="activity_type_running">córrer</string>
+    <string name="activity_type_sailing">vela</string>
+    <string name="activity_type_seaplane">hidroavió</string>
+    <string name="activity_type_skate_boarding">patinatge en monopatí</string>
+    <string name="activity_type_skating">patinatge</string>
+    <string name="activity_type_skiing">esquí</string>
+    <string name="activity_type_sky_jumping">salt lliure</string>
+    <string name="activity_type_sled">trineu</string>
+    <string name="activity_type_snow_boarding">surf de neu</string>
+    <string name="activity_type_snow_shoeing">raquetes de neu</string>
+    <string name="activity_type_speed_walking">velocitat de marxa</string>
+    <string name="activity_type_street_running">cursa urbana</string>
+    <string name="activity_type_surfing">surf</string>
+    <string name="activity_type_track_cycling">ciclisme de pista</string>
+    <string name="activity_type_track_running">atletisme</string>
+    <string name="activity_type_trail_hiking">ruta de senderisme</string>
+    <string name="activity_type_trail_running">cursa de muntanya</string>
+    <string name="activity_type_train">tren</string>
+    <string name="activity_type_ultimate_frisbee">ultimate frisbee</string>
+    <string name="activity_type_unknown">desconegut</string>
+    <string name="activity_type_wakeboarding">esquí-surf</string>
+    <string name="activity_type_walking">caminar</string>
+    <string name="activity_type_water_skiing">esquí nàutic</string>
+    <string name="activity_type_wind_surfing">surf de vela</string>
+    <!-- Description -->
+    <string name="description_activity_type">Tipus d\'activitat: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Ritme de moviment mitjà: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_moving_speed">Velocitat mitjana en moviment: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_average_pace_in_minute">Ritme mitjà: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_speed">Velocitat mitjana: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_altitude_gain">Desnivell: %1$d m (%2$d peus)</string>
+    <string name="description_altitude_imperial">Altitud (peus)</string>
+    <string name="description_altitude_metric">Altitud (metres)</string>
+    <string name="description_fastest_pace_in_minute">Ritme màxim: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_max_altitude">Elevació màxima: %1$d m (%2$d peus)</string>
+    <string name="description_max_speed">Velocitat màxima: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_min_altitude">Elevació mínima: %1$d m (%2$d peus)</string>
+    <string name="description_moving_time">Temps en moviment: %1$s</string>
+    <string name="description_pace_imperial">Ritme (min/mi)</string>
+    <string name="description_pace_metric">Ritme (min/km)</string>
+    <string name="description_recorded_time">Enregistrament: %1$s</string>
+    <string name="description_speed_ms">Velocitat (m/s)</string>
+    <string name="description_sensor_cadence">Cadència (rpm)</string>
+    <string name="description_sensor_heart_rate">Freqüència cardíaca (bpm)</string>
+    <string name="description_sensor_power">Potència (W)</string>
+    <string name="description_speed_imperial">Velocitat (mi/h)</string>
+    <string name="description_speed_metric">Velocitat (km/h)</string>
+    <string name="description_time">Temps</string>
+    <string name="description_total_distance">Distància total: %1$.2f km (%2$.1f mi)</string>
+    <string name="description_total_time">Temps total: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">S\'està exportant a %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">1 fitxer</item>
+        <item quantity="other">%1$d fitxers</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Afegeix</string>
+    <string name="generic_delete_selected_confirm_title">Voleu esborrar els elements seleccionats?</string>
+    <string name="generic_description">Descripció</string>
+    <string name="generic_description_line">Descripció: %1$s</string>
+    <string name="generic_name">Nom</string>
+    <string name="generic_name_line">Nom: %1$s</string>
+    <string name="generic_paused">En pausa</string>
+    <string name="generic_recording">S\'està enregistrant…</string>
+    <string name="generic_save">Desa</string>
+    <string name="generic_tracks">Rutes</string>
+    <!-- Gps -->
+    <string name="gps_starting">El GPS s\'està iniciant.</string>
+    <string name="gps_wait_for_better_signal">S\'està esperant un senyal GPS de millor qualitat.</string>
+    <string name="gps_wait_for_signal">S\'està esperant el senyal GPS.</string>
+    <!-- Image -->
+    <string name="image_arrow">Fletxa</string>
+    <string name="image_marker">Marcador</string>
+    <string name="image_marker_count">Recompte de marcadors</string>
+    <string name="image_pause">Atura</string>
+    <string name="image_photo_marker">Marcador de fotos</string>
+    <string name="image_record">Enregistra</string>
+    <string name="image_stop">Atura</string>
+    <string name="image_track">Ruta</string>
+    <!-- Import -->
+    <string name="import_progress_message">S\'està important des de %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">No es pot inserir un marcador. No hi ha senyal del GPS. Torneu-ho a provar.</string>
+    <string name="marker_add_success">S\'ha inserit un marcador.</string>
+    <string name="marker_add_canceled">L\'acció s\'ha cancel·lat. No s\'ha afegit cap marcador.</string>
+    <string name="marker_delete_one_confirm_message">El marcador se suprimirà definitivament del dispositiu.</string>
+    <string name="marker_delete_one_confirm_title">Voleu suprimir el marcador?</string>
+    <string name="marker_delete_multiple_confirm_message">Els marcadors seleccionats se suprimiran definitivament del dispositiu.</string>
+    <string name="marker_name_format">Marcador %1$d</string>
+    <string name="marker_title">%1$d de %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Tipus de marcador (p. ex. cascada)</string>
+    <string name="marker_edit_marker_type_hint">Tipus de marcador</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">No teniu cap marcador.</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Estadístiques globals</string>
+    <string name="menu_delete">Suprimeix</string>
+    <string name="menu_edit">Edita</string>
+    <string name="menu_export_all">Exporta-ho tot</string>
+    <string name="menu_help">ajuda</string>
+    <string name="menu_import_all">Importa-ho tot</string>
+    <string name="menu_insert_marker">Insereix un marcador</string>
+    <string name="menu_insert_photo">Insereix una foto</string>
+    <string name="menu_markers">Marcadors</string>
+    <string name="menu_search">Cerca</string>
+    <string name="menu_select_all">Selecciona-ho tot</string>
+    <string name="menu_settings">Configuració</string>
+    <string name="menu_share">Comparteix</string>
+    <string name="menu_show_on_map">Mostra-ho al mapa</string>
+    <string name="menu_start_gps">Activa el GPS</string>
+    <string name="menu_stop_gps">Desactiva el GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Servei d\'enregistrament</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Nivell de la bateria</string>
+    <string name="sensor_state_cadence">Cadència</string>
+    <string name="sensor_state_cadence_value">%1$d rpm</string>
+    <string name="sensor_state_heart_rate">Freqüència cardíaca</string>
+    <string name="sensor_state_heart_rate_value">%1$d ppm</string>
+    <string name="sensor_state_power">Potència</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">No està disponible durant l\'enregistrament d\'una ruta.</string>
+    <string name="settings_show">Mostra\'n més</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Avançades</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Per distància</string>
+    <string name="settings_chart_by_time">Per temps</string>
+    <string name="settings_recording">Enregistrament</string>
+    <string name="settings_recording_default_activity_title">Activitat predeterminada</string>
+    <string name="settings_recording_location_frequency_summary">%1$s entre ubicacions registrades</string>
+    <string name="settings_recording_max_recording_distance_summary">Es crea un tram si la distància entre dues ubicacions és superior a %1$s.</string>
+    <string name="settings_recording_max_recording_distance_title">Distància màxima</string>
+    <string name="settings_recording_min_recording_distance_title">Interval de distàncies</string>
+    <string name="settings_recording_min_recording_interval_title">Interval de temps</string>
+    <string name="settings_recording_min_required_accuracy_summary">La ubicació s\'ignora si la seva precisió és inferior a %1$s.</string>
+    <string name="settings_recording_min_required_accuracy_title">Precisió del GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Data (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Data (local)</string>
+    <string name="settings_recording_track_name_number_option">Número</string>
+    <string name="settings_recording_track_name_title">Nom de la ruta</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Restableix</string>
+    <string name="settings_reset_confirm_message">Es tornaran a definir els valors predeterminats de la configuració.</string>
+    <string name="settings_reset_confirm_title">Voleu restablir-ho ara?</string>
+    <string name="settings_reset_done">S\'ha recuperat la configuració predeterminada.</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Mesura preferida</string>
+    <string name="settings_stats_units_imperial">Sistema anglosaxó (milles, peus)</string>
+    <string name="settings_stats_units_metric">Sistema mètric (km, m)</string>
+    <string name="settings_stats_units_title">Unitats preferides</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Crec que aquesta ruta et podria interessar.\n\nLa pots veure amb Google Earth o qualsevol altre programari de mapatge.\n\n%1$s</string>
+    <string name="share_track_subject">Vull compartir una ruta amb tu</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Ritme de moviment mitjà</string>
+    <string name="stats_average_moving_speed">Velocitat de moviment mitjana</string>
+    <string name="stats_average_pace">Ritme mitjà</string>
+    <string name="stats_average_speed">Velocitat mitjana</string>
+    <string name="stats_altitude">Altitud</string>
+    <string name="stats_fastest_pace">Ritme més ràpid</string>
+    <string name="stats_gain">Augment</string>
+    <string name="stats_latitude">Latitud</string>
+    <string name="stats_longitude">Longitud</string>
+    <string name="stats_max_speed">Velocitat màxima</string>
+    <string name="stats_moving_time">Temps en moviment</string>
+    <string name="stats_pace">Ritme</string>
+    <string name="stats_speed">Velocitat</string>
+    <string name="stats_distance">Distància</string>
+    <string name="stats_total_time">Temps total</string>
+    <!-- Track -->
+    <string name="track_name_format">Ruta %1$d</string>
+    <string name="track_markers">Marcadors de %1$s</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">La ruta i els seus marcadors se suprimiran definitivament del dispositiu.</string>
+    <string name="track_delete_one_confirm_title">Voleu suprimir la ruta?</string>
+    <string name="track_delete_multiple_confirm_message">Les rutes seleccionades i els seus marcadors se suprimiran definitivament del dispositiu.</string>
+    <string name="track_delete_progress_message">S\'està suprimint…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Estadístiques</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Tipus d\'activitat (p. ex. senderisme)</string>
+    <string name="track_edit_activity_type_hint">Tipus d\'activitat</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Comenceu a enregistrar aquí la vostra pròxima aventura.</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">peus</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">km</string>
+    <string name="unit_mile_per_hour">milles/h</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/milles</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d peus</string>
+    <string name="value_integer_feet_excellent_gps">%1$d peus (senyal de GPS excel·lent)</string>
+    <string name="value_integer_feet_recommended">%1$d peus (recomanat)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/h</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (GPS amb bona senyal)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (GPS amb poca senyal)</string>
+    <string name="value_integer_meter_recommended">%1$d m (recomanat)</string>
+    <string name="value_integer_mile">%1$d milles</string>
+    <string name="value_integer_mile_hour">%1$d mi/h</string>
+    <string name="value_integer_minute">%1$d min</string>
+    <string name="value_integer_second">%1$d s</string>
+    <string name="value_none">Cap</string>
+    <string name="value_off">Desactivat</string>
+    <string name="value_smallest_recommended">Més petit (recomanat)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">1 hora</item>
+        <item quantity="other">%1$d hores</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">1 minut</item>
+        <item quantity="other">%1$d minuts</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">1 segon</item>
+        <item quantity="other">%1$d segons</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">1 quilòmetre per hora</item>
+        <item quantity="other">%1$.1f quilòmetres per hora</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">1 milla per hora</item>
+        <item quantity="other">%1$.1f milles per hora</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s per quilòmetre</string>
+    <string name="voice_pace_per_mile">%1$s per milla</string>
+    <string name="voice_template">%1$s en %2$s a %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">1 quilòmetre de distància total</item>
+        <item quantity="other">%1$.2f quilòmetres de distància total</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">1 milla de distància total</item>
+        <item quantity="other">%1$.2f milles de distància total</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">caixer</string>
+    <string name="waypoint_type_bank">banc</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">barbacoa</string>
+    <string name="waypoint_type_building">edifici</string>
+    <string name="waypoint_type_bus_stop">parada d\'autobús</string>
+    <string name="waypoint_type_cafe">cafeteria</string>
+    <string name="waypoint_type_campfire">foguera</string>
+    <string name="waypoint_type_campground">zona d\'acampada</string>
+    <string name="waypoint_type_church">església</string>
+    <string name="waypoint_type_coffee_house">cafeteria</string>
+    <string name="waypoint_type_convenience_store">botiga de barri</string>
+    <string name="waypoint_type_drinking_water">aigua potable</string>
+    <string name="waypoint_type_falling_rocks">despreniments</string>
+    <string name="waypoint_type_ferry">ferri</string>
+    <string name="waypoint_type_fire_place">llar de foc</string>
+    <string name="waypoint_type_fire_station">parc de bombers</string>
+    <string name="waypoint_type_fishing">pesca</string>
+    <string name="waypoint_type_gas_station">gasolinera</string>
+    <string name="waypoint_type_golf_course">camp de golf</string>
+    <string name="waypoint_type_grocery_store">supermercat</string>
+    <string name="waypoint_type_hair_dresser">perruqueria</string>
+    <string name="waypoint_type_harbor">port</string>
+    <string name="waypoint_type_hiking_path">camí de senderisme</string>
+    <string name="waypoint_type_hotel">hotel</string>
+    <string name="waypoint_type_house">casa</string>
+    <string name="waypoint_type_information">informació</string>
+    <string name="waypoint_type_intersection">intersecció</string>
+    <string name="waypoint_type_mail_box">bústia de correu</string>
+    <string name="waypoint_type_market">mercat</string>
+    <string name="waypoint_type_meeting_point">punt de trobada</string>
+    <string name="waypoint_type_opera">òpera</string>
+    <string name="waypoint_type_parking">aparcament</string>
+    <string name="waypoint_type_police_station">comissaria de policia</string>
+    <string name="waypoint_type_post_office">oficina de correus</string>
+    <string name="waypoint_type_pothole">sot</string>
+    <string name="waypoint_type_railway_crossing">encreuament ferroviari</string>
+    <string name="waypoint_type_restaurant">restaurant</string>
+    <string name="waypoint_type_shopping">compres</string>
+    <string name="waypoint_type_sight">vista</string>
+    <string name="waypoint_type_store">botiga</string>
+    <string name="waypoint_type_swimming_pool">piscina</string>
+    <string name="waypoint_type_telephone">telèfon</string>
+    <string name="waypoint_type_theater">teatre</string>
+    <string name="waypoint_type_toilet">lavabo</string>
+    <string name="waypoint_type_tourist_information">informació turística</string>
+    <string name="waypoint_type_tree">arbre</string>
+    <string name="waypoint_type_tunnel">túnel</string>
+    <string name="waypoint_type_waterfall">salt d\'aigua</string>
+    <string name="waypoint_type_water_fountain">font d\'aigua</string>
+    <string name="waypoint_type_waypoint">punt de ruta</string>
+    <!-- Share image -->
+    <string name="share_image_subject">Vull compartir una imatge amb tu</string>
+    <string name="share_image_body">Crec que aquesta imatge et podria interessar.</string>
+</resources>

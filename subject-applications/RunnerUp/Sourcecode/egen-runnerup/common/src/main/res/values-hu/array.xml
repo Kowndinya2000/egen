@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string-array name="unitEntries">
+    <item>Mérföld</item>
+    <item>Kilométer</item>
+  </string-array>
+  <!--Note: keep in same order as DB.INTENSITY-->
+  <string-array name="step_intensity_types">
+    <item>Bemelegítés</item>
+    <item>Aktív</item>
+    <item>Pihenés</item>
+    <item>Regeneráció</item>
+    <item>Levezetés</item>
+  </string-array>
+  <string-array name="duration_types">
+    <item>Megnyomásig</item>
+    <item>Idő</item>
+    <item>Távolság</item>
+  </string-array>
+  <string-array name="target_types">
+    <item>Nincs</item>
+    <item>Tempó</item>
+    <item>Pulzus zóna</item>
+  </string-array>
+  <!--Note: keep in same order as DB.ACCOUNT.SPORT_-->
+  <string-array name="sportEntries">
+    <item>Futás</item>
+    <item>Kerékpározás</item>
+    <item>Egyéb</item>
+    <item>Tájfutás</item>
+    <item>Gyaloglás</item>
+  </string-array>
+  <string-array name="types">
+    <item>Idő</item>
+    <item>Távolság</item>
+  </string-array>
+  <string-array name="sexes">
+    <item>Férfi</item>
+    <item>Nő</item>
+  </string-array>
+  <!--Note: keep in same order as DB-->
+</resources>

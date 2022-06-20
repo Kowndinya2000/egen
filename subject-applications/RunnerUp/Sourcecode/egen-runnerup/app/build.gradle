@@ -1,0 +1,236 @@
+apply plugin: 'com.android.application'
+
+def getGitHash = { ->
+    def stdout = new ByteArrayOutputStream()
+    exec {
+        commandLine 'git', 'rev-parse', '--short', 'HEAD'
+        standardOutput = stdout
+    }
+    return stdout.toString().trim()
+}
+
+android {
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        // Skip pre-dexing when running on Travis CI or when disabled via -Dpre-dex=false.
+        preDexLibraries = preDexEnabled && !travisBuild
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src/main']
+            if (rootProject.ext.allowNonFree) {
+                java.srcDirs += ['src/play']
+            } else {
+                java.srcDirs += ['src/free']
+            }
+            resources.srcDirs = java.srcDirs
+            aidl.srcDirs = java.srcDirs
+            renderscript.srcDirs = java.srcDirs
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+        test.setRoot('test')
+    }
+
+    flavorDimensions "all"
+    productFlavors {
+        latest {
+            dimension "all"
+            minSdkVersion 26
+            compileSdkVersion rootProject.ext.compileSdkVersion
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            versionName rootProject.ext.versionName
+            versionCode rootProject.ext.latestBaseVersionCode + rootProject.ext.versionCode
+        }
+    }
+
+    splits {
+        abi {
+            // Disable, app bundles used in play
+            // enable rootProject.ext.allowNonFree && gradle.startParameter.taskNames.contains("assembleLatestRelease")
+            // relevant archs only - these are the only available anyway for newer NDK
+            include 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+            universalApk true
+        }
+    }
+
+    defaultConfig {
+        // Set a separate applicationId to allow variant installations
+        // The applicationId is also used in some xml files (android:targetPackage)
+        // The packageId (in the manifest) is never changed
+        // See also applicationIdFull in common/build.gradle, must be in sync
+        applicationId = rootProject.ext.applicationId
+        vectorDrawables.useSupportLibrary = true
+        //By default all AppCompat translations are included, saves 350KB
+        resConfigs "ar", "bs", "cs", "ca", "de", "en", "es", "fa", "fi", "fr", "hu", "id", "in", "it", "iw", "ja", "lt", "nb", "nl", "pl", "pt", "ro", "ru", "sv", "tr", "uk", "zh"
+    }
+
+    signingConfigs {
+        //noinspection GroovyMissingReturnStatement
+        release {
+        }
+    }
+
+    buildTypes {
+        debug {
+            // Separate the debug build, sync with common/build.gradle
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-${getGitHash()}"
+        }
+        release {
+            applicationIdSuffix ""
+
+            minifyEnabled rootProject.ext.allowNonFree
+            shrinkResources rootProject.ext.allowNonFree
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.txt'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        //Configure checks with paths
+        lintConfig file("lint.xml")
+        baseline file("lint-baseline.xml")
+        checkReleaseBuilds true
+
+        showAll true
+        //debug issues in Travis
+        textReport true
+        textOutput 'stdout'
+    }
+}
+
+repositories {
+    google()
+    jcenter()
+    mavenCentral() //MapBox GraphView
+    maven { url "https://oss.sonatype.org/content/groups/public/" } //pebblekit
+}
+
+dependencies {
+    implementation project(':common')
+    implementation project(':hrdevice')
+
+    implementation "androidx.annotation:annotation:${rootProject.ext.annotation_version}"
+    implementation "androidx.appcompat:appcompat:${rootProject.ext.appcompat_version}"
+
+    latestImplementation "com.google.android.material:material:1.2.1"
+    if (rootProject.ext.enableWear) {
+        latestWearApp project(':wear')
+        //noinspection GradleDependency
+        latestImplementation "com.google.android.gms:play-services-wearable:${rootProject.ext.googlePlayServicesVersion}"
+    }
+
+    implementation "com.squareup.okhttp3:okhttp:3.12.3"
+    latestImplementation 'com.getpebble:pebblekit:4.0.1'
+    if (rootProject.ext.allowNonFree) {
+        // MapBox uses telemetry, without Play there may be exceptions from mapbox (OK to ignore)
+        latestImplementation "com.google.android.gms:play-services-location:${rootProject.ext.googlePlayServicesVersion}"
+
+        //noinspection GradleDependency
+        latestImplementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:8.2.2'
+        latestImplementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v8:0.7.0'
+        latestImplementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-scalebar-v8:0.2.0'
+    }
+    latestImplementation 'com.jjoe64:graphview:4.2.2'
+
+    testImplementation "junit:junit:${rootProject.ext.junitVersion}"
+    testImplementation "org.mockito:mockito-core:${rootProject.ext.mockitoVersion}"
+}
+
+allprojects {
+    tasks.withType(JavaCompile) {
+        // options.compilerArgs << "-Xlint:deprecation";
+        options.compilerArgs << "-Xlint:unchecked"
+    }
+}
+
+def props = new Properties()
+if (rootProject.file("release.properties").exists()) {
+    props.load(new FileInputStream(rootProject.file("release.properties")))
+
+    android.signingConfigs.release.storeFile rootProject.file(props.keyStore)
+    android.signingConfigs.release.storePassword props.keyStorePassword
+    android.signingConfigs.release.keyAlias props.keyAlias
+    android.signingConfigs.release.keyPassword props.keyAliasPassword
+} else {
+    project.logger.info('INFO: Set the values storeFile, storePassword, keyAlias, and keyPassword in release.properties to sign the release.')
+    android.buildTypes.release.signingConfig = null
+}
+
+android.applicationVariants.all {
+    // Note: As a minimum extra security at least obfuscate the strings with Proguard
+    if (rootProject.ext.allowNonFree && rootProject.file("mapbox.properties").exists()) {
+        // https://www.mapbox.com/account/
+        props.load(new FileInputStream(rootProject.file("mapbox.properties")))
+        buildConfigField 'int', 'MAPBOX_ENABLED', "1"
+        buildConfigField 'String', 'MAPBOX_ACCESS_TOKEN', props.mapboxAccessToken
+    }
+    else {
+        buildConfigField 'int', 'MAPBOX_ENABLED', "0"
+        buildConfigField 'String', 'MAPBOX_ACCESS_TOKEN', '""'
+    }
+
+    if (rootProject.file("runalyze.properties").exists()) {
+        // Contact Runalyze team at https://forum.runalyze.com/
+        props.load(new FileInputStream(rootProject.file("runalyze.properties")))
+        buildConfigField 'int', 'RUNALYZE_ENABLED', "1"
+        buildConfigField 'String', 'RUNALYZE_ID', props.CLIENT_ID
+        buildConfigField 'String', 'RUNALYZE_SECRET', props.CLIENT_SECRET
+    }
+    else {
+        // Demo, connect to testing.runalyze.com
+        buildConfigField 'int', 'RUNALYZE_ENABLED', "0"
+        buildConfigField 'String', 'RUNALYZE_ID', '"8_2jx5jt9r39ic40ooc80c8c0884okgk0owsowg808c4csg8ko8g"'
+        buildConfigField 'String', 'RUNALYZE_SECRET', '"1v7d6nwe1v9c8skok44g0gc8cc04cc0wwwo8swwgckoogwsww4"'
+    }
+
+    if (rootProject.file("dropbox.properties").exists()) {
+        // Create an app at https://www.dropbox.com/developers/apps/
+        // Dropbox API, App folder -> create app
+        // Enable additional users, Redirect URI:http://localhost:8080/runnerup/dropbox, Disallow implicit grant
+        // Set branding icon
+        // Create dropbox.properties with two lines:
+        //   CLIENT_ID="replace_dropbox_id"
+        //   CLIENT_SECRET="replace_dropbox_secret"
+        props.load(new FileInputStream(rootProject.file("dropbox.properties")))
+        buildConfigField 'int', 'DROPBOX_ENABLED', "1"
+        buildConfigField 'String', 'DROPBOX_ID', props.CLIENT_ID
+        buildConfigField 'String', 'DROPBOX_SECRET', props.CLIENT_SECRET
+    }
+    else {
+        buildConfigField 'int', 'DROPBOX_ENABLED', "0"
+        buildConfigField 'String', 'DROPBOX_ID', "null"
+        buildConfigField 'String', 'DROPBOX_SECRET', "null"
+    }
+}
+
+//Based on an example from https://developer.android.com/studio/build/configure-apk-splits.html
+//Most comments from there removed
+
+// Map for the version code that gives each ABI a value (generic has lower value)
+ext.abiCodes = ['arm64-v8a': 8, 'armeabi':2, 'armeabi-v7a':3, 'mips':4, 'mips64':5, 'x86':6, 'x86_64':7]
+
+import com.android.build.OutputFile
+
+// For each APK output variant, override versionCode with a combination of
+// ext.abiCodes * 10000 + variant.versionCode. (universal gets no offset)
+android.applicationVariants.all { variant ->
+    variant.outputs.each { output ->
+        def baseAbiVersionCode =
+                project.ext.abiCodes.get(output.getFilter(OutputFile.ABI))
+
+        if (baseAbiVersionCode != null) {
+            output.versionCodeOverride =
+                    baseAbiVersionCode * 10000 + variant.versionCode
+        }
+    }
+}

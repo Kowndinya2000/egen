@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">飛行機</string>
+    <string name="activity_type_atv">全地形対応車（ATV）</string>
+    <string name="activity_type_biking">サイクリング</string>
+    <string name="activity_type_blimp">飛行船</string>
+    <string name="activity_type_boat">ボート</string>
+    <string name="activity_type_climbing">登山</string>
+    <string name="activity_type_commercial_airplane">民間航空機</string>
+    <string name="activity_type_cross_country_skiing">クロスカントリースキー</string>
+    <string name="activity_type_cycling">サイクリング</string>
+    <string name="activity_type_dirt_bike">オフロードバイク</string>
+    <string name="activity_type_donkey_back_riding">ロバ騎乗</string>
+    <string name="activity_type_driving">運転</string>
+    <string name="activity_type_driving_bus">バス</string>
+    <string name="activity_type_driving_car">自動車</string>
+    <string name="activity_type_ferry">フェリー</string>
+    <string name="activity_type_frisbee">フリスビー</string>
+    <string name="activity_type_gliding">グライダー</string>
+    <string name="activity_type_hang_gliding">ハンググライディング</string>
+    <string name="activity_type_helicopter">ヘリコプター</string>
+    <string name="activity_type_hiking">ハイキング</string>
+    <string name="activity_type_horse_back_riding">乗馬</string>
+    <string name="activity_type_hot_air_balloon">熱気球</string>
+    <string name="activity_type_ice_sailing">アイスセーリング</string>
+    <string name="activity_type_inline_skating">インラインスケート</string>
+    <string name="activity_type_kayaking">カヤック</string>
+    <string name="activity_type_kite_surfing">カイトサーフィン</string>
+    <string name="activity_type_land_sailing">ランドセーリング</string>
+    <string name="activity_type_mixed_type">複合タイプ</string>
+    <string name="activity_type_motor_bike">バイク</string>
+    <string name="activity_type_motor_boating">モーターボート</string>
+    <string name="activity_type_mountain_biking">マウンテンバイク</string>
+    <string name="activity_type_off_trail_hiking">オフトレイルハイキング</string>
+    <string name="activity_type_other">その他</string>
+    <string name="activity_type_paddling">パドリング</string>
+    <string name="activity_type_para_gliding">パラグライディング</string>
+    <string name="activity_type_rc_airplane">ラジコン飛行機</string>
+    <string name="activity_type_rc_boat">ラジコンボート</string>
+    <string name="activity_type_rc_helicopter">ラジコンヘリコプター</string>
+    <string name="activity_type_riding">騎乗</string>
+    <string name="activity_type_road_biking">ロードバイク</string>
+    <string name="activity_type_roller_skiing">ローラースキー</string>
+    <string name="activity_type_rowing">ボート</string>
+    <string name="activity_type_running">ランニング</string>
+    <string name="activity_type_sailing">セーリング</string>
+    <string name="activity_type_seaplane">水上飛行機</string>
+    <string name="activity_type_skate_boarding">スケボー</string>
+    <string name="activity_type_skating">スケート</string>
+    <string name="activity_type_skiing">スキー</string>
+    <string name="activity_type_sky_jumping">スカイジャンプ</string>
+    <string name="activity_type_sled">そり滑り</string>
+    <string name="activity_type_snow_boarding">スノーボード</string>
+    <string name="activity_type_snow_shoeing">スノーシュー</string>
+    <string name="activity_type_speed_walking">スピードウォーキング</string>
+    <string name="activity_type_street_running">市街地ランニング</string>
+    <string name="activity_type_surfing">サーフィン</string>
+    <string name="activity_type_track_cycling">トラックサイクリング</string>
+    <string name="activity_type_track_running">トラックランニング</string>
+    <string name="activity_type_trail_hiking">トレイルハイキング</string>
+    <string name="activity_type_trail_running">トレイルラン</string>
+    <string name="activity_type_train">電車</string>
+    <string name="activity_type_ultimate_frisbee">アルティメットフリスビー</string>
+    <string name="activity_type_unknown">不明</string>
+    <string name="activity_type_wakeboarding">ウェイクボード</string>
+    <string name="activity_type_walking">ウォーキング</string>
+    <string name="activity_type_water_skiing">水上スキー</string>
+    <string name="activity_type_wind_surfing">ウィンドサーフィン</string>
+    <!-- Description -->
+    <string name="description_activity_type">活動タイプ： %1$s</string>
+    <string name="description_average_moving_pace_in_minute">平均移動ペース: %1$s分/km（%2$s分/マイル）</string>
+    <string name="description_average_moving_speed">平均移動速度： %1$.2fkm/時（%2$.1fマイル/時）</string>
+    <string name="description_average_pace_in_minute">平均ペース: %1$s分/km（%2$s分/マイル）</string>
+    <string name="description_average_speed">平均速度： %1$.2fkm/時（%2$.1fマイル/時）</string>
+    <string name="description_altitude_gain">標高の上昇： %1$dm（%2$dフィート）</string>
+    <string name="description_altitude_imperial">標高（フィート）</string>
+    <string name="description_altitude_metric">標高（m）</string>
+    <string name="description_fastest_pace_in_minute">最速ペース: %1$s分/km（%2$s分/マイル）</string>
+    <string name="description_max_altitude">最大標高： %1$dm（%2$dフィート）</string>
+    <string name="description_max_speed">最高速度： %1$.2fkm/時（%2$.1fマイル/時）</string>
+    <string name="description_min_altitude">最小標高： %1$dm（%2$dフィート）</string>
+    <string name="description_moving_time">移動時間： %1$s</string>
+    <string name="description_pace_imperial">ペース（分/マイル）</string>
+    <string name="description_pace_metric">ペース（分/km）</string>
+    <string name="description_recorded_time">記録： %1$s</string>
+    <string name="description_speed_ms">速度（m/秒）</string>
+    <string name="description_sensor_cadence">ケイデンス（rpm）</string>
+    <string name="description_sensor_heart_rate">心拍数（bpm）</string>
+    <string name="description_sensor_power">電力（W）</string>
+    <string name="description_speed_imperial">速度（マイル/時）</string>
+    <string name="description_speed_metric">速度（km/時）</string>
+    <string name="description_time">時間</string>
+    <string name="description_total_distance">総距離： %1$.2fkm（%2$.1fマイル）</string>
+    <string name="description_total_time">合計時間： %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">%1$sにエクスポート中…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="other">%1$d個のファイル</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">追加</string>
+    <string name="generic_delete_selected_confirm_title">選択したアイテムを削除しますか？</string>
+    <string name="generic_description">説明</string>
+    <string name="generic_description_line">説明: %1$s</string>
+    <string name="generic_name">名前</string>
+    <string name="generic_name_line">名前: %1$s</string>
+    <string name="generic_paused">一時停止</string>
+    <string name="generic_recording">記録中…</string>
+    <string name="generic_save">保存</string>
+    <string name="generic_tracks">トラック</string>
+    <!-- Gps -->
+    <string name="gps_starting">GPSを起動しています</string>
+    <string name="gps_wait_for_better_signal">GPS信号の精度が上がるまで待機しています</string>
+    <string name="gps_wait_for_signal">GPS信号を待機しています</string>
+    <!-- Image -->
+    <string name="image_arrow">矢印</string>
+    <string name="image_marker">マーカー</string>
+    <string name="image_marker_count">マーカー数</string>
+    <string name="image_pause">停止</string>
+    <string name="image_photo_marker">写真マーカー</string>
+    <string name="image_record">記録</string>
+    <string name="image_stop">停止</string>
+    <string name="image_track">トラック</string>
+    <!-- Import -->
+    <string name="import_progress_message">%1$sからインポート中…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">GPS信号がないため、マーカーを追加できません。もう一度やり直してください。</string>
+    <string name="marker_add_success">マーカーを追加しました</string>
+    <string name="marker_add_canceled">キャンセルしました。追加したマーカーはありません</string>
+    <string name="marker_delete_one_confirm_message">このマーカーが端末から完全に削除されます</string>
+    <string name="marker_delete_one_confirm_title">マーカーを削除しますか？</string>
+    <string name="marker_delete_multiple_confirm_message">選択したマーカーが端末から完全に削除されます</string>
+    <string name="marker_name_format">マーカー%1$d</string>
+    <string name="marker_title">%1$d/%2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">マーカーの種類（例: 滝）</string>
+    <string name="marker_edit_marker_type_hint">マーカーの種類</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">マーカーはありません</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">集計統計</string>
+    <string name="menu_delete">削除</string>
+    <string name="menu_edit">編集</string>
+    <string name="menu_export_all">すべてエクスポート</string>
+    <string name="menu_help">ヘルプ</string>
+    <string name="menu_import_all">すべてインポート</string>
+    <string name="menu_insert_marker">マーカーを追加</string>
+    <string name="menu_insert_photo">写真を挿入</string>
+    <string name="menu_markers">マーカー</string>
+    <string name="menu_search">検索</string>
+    <string name="menu_select_all">すべて選択</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_share">共有</string>
+    <string name="menu_show_on_map">地図で見る</string>
+    <string name="menu_start_gps">GPSを開始</string>
+    <string name="menu_stop_gps">GPSを停止</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">記録サービス</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">電池残量</string>
+    <string name="sensor_state_cadence">ケイデンス</string>
+    <string name="sensor_state_cadence_value">%1$drpm</string>
+    <string name="sensor_state_heart_rate">心拍数</string>
+    <string name="sensor_state_heart_rate_value">%1$dbpm</string>
+    <string name="sensor_state_power">電源</string>
+    <string name="sensor_state_power_value">%1$dW</string>
+    <string name="settings_not_while_recording">トラックの記録中はご利用いただけません</string>
+    <string name="settings_show">表示</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">詳細設定</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">距離</string>
+    <string name="settings_chart_by_time">時間</string>
+    <string name="settings_recording">記録</string>
+    <string name="settings_recording_default_activity_title">デフォルトのアクティビティタイプ</string>
+    <string name="settings_recording_location_frequency_summary">現在地の記録頻度: %1$s</string>
+    <string name="settings_recording_max_recording_distance_summary">2地点間の距離が%1$sを超える場合は新しいセグメントを作成します</string>
+    <string name="settings_recording_max_recording_distance_title">最大距離</string>
+    <string name="settings_recording_min_recording_distance_title">記録する距離の間隔</string>
+    <string name="settings_recording_min_recording_interval_title">記録する時間の間隔</string>
+    <string name="settings_recording_min_required_accuracy_summary">精度が%1$s以下の場合は現在地を無視します</string>
+    <string name="settings_recording_min_required_accuracy_title">GPSの精度</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">日付（ISO 8601）</string>
+    <string name="settings_recording_track_name_date_local_option">日付（ローカル）</string>
+    <string name="settings_recording_track_name_number_option">番号</string>
+    <string name="settings_recording_track_name_title">デフォルトのトラック名</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">リセット</string>
+    <string name="settings_reset_confirm_message">すべての設定がデフォルト値に戻されます。</string>
+    <string name="settings_reset_confirm_title">リセットしますか？</string>
+    <string name="settings_reset_done">すべての設定をデフォルト値に戻しました</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">計測方法</string>
+    <string name="settings_stats_units_imperial">ヤード･ポンド法（マイル、フィート）</string>
+    <string name="settings_stats_units_metric">メートル法（km、m）</string>
+    <string name="settings_stats_units_title">計測単位</string>
+
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">次のトラックを見てみてください。\n\nトラックを表示するには、Google Earthか他のマッピングソフトウェアを使用してください。\n\n%1$s</string>
+    <string name="share_track_subject">トラック共有のお知らせ</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">平均移動ペース</string>
+    <string name="stats_average_moving_speed">平均移動速度</string>
+    <string name="stats_average_pace">平均ペース</string>
+    <string name="stats_average_speed">平均速度</string>
+    <string name="stats_altitude">標高</string>
+    <string name="stats_fastest_pace">最速ペース</string>
+    <string name="stats_gain">増加</string>
+    <string name="stats_latitude">緯度</string>
+    <string name="stats_longitude">経度</string>
+    <string name="stats_max_speed">最大速度</string>
+    <string name="stats_moving_time">移動時間</string>
+    <string name="stats_pace">ペース</string>
+    <string name="stats_speed">速度</string>
+    <string name="stats_distance">距離</string>
+    <string name="stats_total_time">合計時間</string>
+    <!-- Track -->
+    <string name="track_name_format">トラック%1$d</string>
+    <string name="track_markers">%1$sのマーカー</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">トラックとマーカーが端末から完全に削除されます。</string>
+    <string name="track_delete_one_confirm_title">トラックを削除しますか？</string>
+    <string name="track_delete_multiple_confirm_message">選択したトラックとマーカーが端末から完全に削除されます。</string>
+    <string name="track_delete_progress_message">削除中…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">統計情報</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">活動タイプ（例: ハイキング）</string>
+    <string name="track_edit_activity_type_hint">活動タイプ</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">このボタンでトラックの記録を開始しよう</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">ft</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/時</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">mi</string>
+    <string name="unit_mile_per_hour">マイル/時</string>
+    <string name="unit_minute_per_kilometer">分/km</string>
+    <string name="unit_minute_per_mile">分/マイル</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$dft</string>
+    <string name="value_integer_feet_excellent_gps">%1$dft（GPS信号: 強）</string>
+    <string name="value_integer_feet_recommended">%1$dft（推奨）</string>
+    <string name="value_integer_kilometer">%1$dkm</string>
+    <string name="value_integer_kilometer_hour">%1$dkm/時</string>
+    <string name="value_integer_meter">%1$dm</string>
+    <string name="value_integer_meter_excellent_gps">%1$dm（GPS信号: 強）</string>
+    <string name="value_integer_meter_poor_gps">%1$dm（GPS信号: 弱）</string>
+    <string name="value_integer_meter_recommended">%1$dm（推奨）</string>
+    <string name="value_integer_mile">%1$dmi</string>
+    <string name="value_integer_mile_hour">%1$dマイル/時</string>
+    <string name="value_integer_minute">%1$d分</string>
+    <string name="value_integer_second">%1$d秒</string>
+    <string name="value_none">選択しない</string>
+    <string name="value_off">オフ</string>
+    <string name="value_smallest_recommended">最小値（推奨）</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="other">%1$d時間</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="other">%1$d分</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="other">時速%1$.1fキロ</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="other">時速%1$.1fマイル</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">1キロあたり%1$s</string>
+    <string name="voice_pace_per_mile">1マイルあたり%1$s</string>
+    <string name="voice_template">の記録距離は%1$s、所要時間は%2$s、ペースは%3$sです</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="other">合計距離%1$.2fキロ</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="other">合計距離%1$.2fマイル</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">ATM</string>
+    <string name="waypoint_type_bank">銀行</string>
+    <string name="waypoint_type_bar">バー</string>
+    <string name="waypoint_type_barbecue">バーベキュー</string>
+    <string name="waypoint_type_building">建物</string>
+    <string name="waypoint_type_bus_stop">バス停</string>
+    <string name="waypoint_type_cafe">カフェ</string>
+    <string name="waypoint_type_campfire">キャンプファイア</string>
+    <string name="waypoint_type_campground">キャンプ場</string>
+    <string name="waypoint_type_church">教会</string>
+    <string name="waypoint_type_coffee_house">コーヒーハウス</string>
+    <string name="waypoint_type_convenience_store">コンビニ</string>
+    <string name="waypoint_type_drinking_water">水飲み場</string>
+    <string name="waypoint_type_falling_rocks">落石</string>
+    <string name="waypoint_type_ferry">フェリー</string>
+    <string name="waypoint_type_fire_place">暖炉</string>
+    <string name="waypoint_type_fire_station">消防署</string>
+    <string name="waypoint_type_fishing">釣り</string>
+    <string name="waypoint_type_gas_station">ガソリンスタンド</string>
+    <string name="waypoint_type_golf_course">ゴルフコース</string>
+    <string name="waypoint_type_grocery_store">食料品店</string>
+    <string name="waypoint_type_hair_dresser">美容院</string>
+    <string name="waypoint_type_harbor">港</string>
+    <string name="waypoint_type_hiking_path">ハイキングパス</string>
+    <string name="waypoint_type_hotel">ホテル</string>
+    <string name="waypoint_type_house">家屋</string>
+    <string name="waypoint_type_information">インフォメーション</string>
+    <string name="waypoint_type_intersection">交差点</string>
+    <string name="waypoint_type_mail_box">ポスト</string>
+    <string name="waypoint_type_market">マーケット</string>
+    <string name="waypoint_type_meeting_point">待ち合わせスポット</string>
+    <string name="waypoint_type_opera">オペラ</string>
+    <string name="waypoint_type_parking">駐車場</string>
+    <string name="waypoint_type_police_station">交番</string>
+    <string name="waypoint_type_post_office">郵便局</string>
+    <string name="waypoint_type_pothole">洞穴</string>
+    <string name="waypoint_type_railway_crossing">踏切</string>
+    <string name="waypoint_type_restaurant">レストラン</string>
+    <string name="waypoint_type_shopping">ショッピング</string>
+    <string name="waypoint_type_sight">名所</string>
+    <string name="waypoint_type_store">ストア</string>
+    <string name="waypoint_type_swimming_pool">プール</string>
+    <string name="waypoint_type_telephone">電話</string>
+    <string name="waypoint_type_theater">劇場</string>
+    <string name="waypoint_type_toilet">公衆トイレ</string>
+    <string name="waypoint_type_tourist_information">観光情報</string>
+    <string name="waypoint_type_tree">樹木</string>
+    <string name="waypoint_type_tunnel">トンネル</string>
+    <string name="waypoint_type_waterfall">滝</string>
+    <string name="waypoint_type_water_fountain">噴水</string>
+    <string name="waypoint_type_waypoint">地点</string>
+</resources>

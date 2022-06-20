@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 jonas.oreland@gmail.com
+  ~
+  ~  This program is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dialog_padding_horiz"
+    android:paddingRight="@dimen/dialog_padding_horiz"
+    android:paddingBottom="@dimen/dialog_padding_vert"
+    android:paddingTop="@dimen/dialog_padding_vert">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/userpass_textViewAuthNotice"
+        android:layout_marginBottom="16dp" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/table_row_url"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:importantForAccessibility="no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/Website" />
+
+            <EditText
+                android:id="@+id/url_input"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:inputType="textUri"
+                android:hint="@string/Website"
+                tools:ignore="AutoFill" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/userpass_table_row1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:importantForAccessibility="no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/Username" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress"
+                android:hint="@string/Username"
+                tools:ignore="UnusedAttribute" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/userpass_table_row2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:importantForAccessibility="no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/Password" />
+
+            <EditText
+                android:id="@+id/password_input"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:inputType="textPassword"
+                android:autofillHints="password"
+                android:hint="@string/Password"
+                tools:ignore="UnusedAttribute" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <CheckBox
+        android:layout_marginTop="8dp"
+        android:id="@+id/showpass"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="@string/Show_password" />
+
+</LinearLayout>

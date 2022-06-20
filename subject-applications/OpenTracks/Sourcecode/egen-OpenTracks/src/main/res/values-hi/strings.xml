@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">विमान</string>
+    <string name="activity_type_atv">ATV</string>
+    <string name="activity_type_biking">बाइकिंग</string>
+    <string name="activity_type_blimp">ब्लिंप</string>
+    <string name="activity_type_boat">नाव</string>
+    <string name="activity_type_climbing">चढ़ना</string>
+    <string name="activity_type_commercial_airplane">वाणिज्यिक विमान</string>
+    <string name="activity_type_cross_country_skiing">क्रॉस कंट्री स्कीइंग</string>
+    <string name="activity_type_cycling">साइकल चलाना</string>
+    <string name="activity_type_dirt_bike">डर्ट बाइक</string>
+    <string name="activity_type_donkey_back_riding">गधे की सवारी</string>
+    <string name="activity_type_driving">वाहन चला रहे हैं</string>
+    <string name="activity_type_driving_bus">बस चालन</string>
+    <string name="activity_type_driving_car">कार चलाना</string>
+    <string name="activity_type_ferry">फ़ेरी</string>
+    <string name="activity_type_frisbee">फ्रिस्बी</string>
+    <string name="activity_type_gliding">ग्लाइडिंग</string>
+    <string name="activity_type_hang_gliding">हैंग ग्लाइडिंग</string>
+    <string name="activity_type_helicopter">हेलीकॉप्टर</string>
+    <string name="activity_type_hiking">हाइकिंग</string>
+    <string name="activity_type_horse_back_riding">घोड़े की सवारी</string>
+    <string name="activity_type_hot_air_balloon">गर्म हवा वाला गुब्बारा</string>
+    <string name="activity_type_ice_sailing">आइस सेलिंग</string>
+    <string name="activity_type_inline_skating">इनलाइन स्केटिंग</string>
+    <string name="activity_type_kayaking">कायाकिंग</string>
+    <string name="activity_type_kite_surfing">काइट सर्फ़िंग</string>
+    <string name="activity_type_land_sailing">लैंड सेलिंग</string>
+    <string name="activity_type_mixed_type">मिश्रित प्रकार</string>
+    <string name="activity_type_motor_bike">मोटर बाइक</string>
+    <string name="activity_type_motor_boating">मोटर बोटिंग</string>
+    <string name="activity_type_mountain_biking">माउंटेन बाइकिंग</string>
+    <string name="activity_type_off_trail_hiking">ऑफ़ ट्रेल हाइकिंग</string>
+    <string name="activity_type_other">अन्‍य</string>
+    <string name="activity_type_paddling">पैडलिंग</string>
+    <string name="activity_type_para_gliding">पैरा ग्लाइडिंग</string>
+    <string name="activity_type_rc_airplane">RC वायुयान</string>
+    <string name="activity_type_rc_boat">RC बोट</string>
+    <string name="activity_type_rc_helicopter">RC हेलीकॉप्टर</string>
+    <string name="activity_type_riding">राइडिंग</string>
+    <string name="activity_type_road_biking">रोड बाइकिंग</string>
+    <string name="activity_type_roller_skiing">रोलर स्कीइंग</string>
+    <string name="activity_type_rowing">पंक्तिबद्ध करना</string>
+    <string name="activity_type_running">दौड़ना</string>
+    <string name="activity_type_sailing">नौकायन</string>
+    <string name="activity_type_seaplane">जलविमान</string>
+    <string name="activity_type_skate_boarding">स्केट बोर्डिंग</string>
+    <string name="activity_type_skating">स्केटिंग</string>
+    <string name="activity_type_skiing">स्कीइंग</string>
+    <string name="activity_type_sky_jumping">स्काई जंपिंग</string>
+    <string name="activity_type_sled">स्लेड</string>
+    <string name="activity_type_snow_boarding">स्नो बोर्डिंग</string>
+    <string name="activity_type_snow_shoeing">स्नो शूइंग</string>
+    <string name="activity_type_speed_walking">तेज़ चलना</string>
+    <string name="activity_type_street_running">सड़क दौड़</string>
+    <string name="activity_type_surfing">सर्फ़िंग</string>
+    <string name="activity_type_track_cycling">ट्रैक साइकिलिंग</string>
+    <string name="activity_type_track_running">ट्रैक रनिंग</string>
+    <string name="activity_type_trail_hiking">पगडंडी हाइकिंग</string>
+    <string name="activity_type_trail_running">पगडंडी दौड़</string>
+    <string name="activity_type_train">ट्रेन</string>
+    <string name="activity_type_ultimate_frisbee">चरम फ़्रिस्बी</string>
+    <string name="activity_type_unknown">अज्ञात</string>
+    <string name="activity_type_wakeboarding">वेकबोर्डिंग</string>
+    <string name="activity_type_walking">चलना</string>
+    <string name="activity_type_water_skiing">वॉटर स्कीइंग</string>
+    <string name="activity_type_wind_surfing">विंड सर्फ़िंग</string>
+    <!-- Description -->
+    <string name="description_activity_type">गतिविधि प्रकार: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">चलने की औसत गति: %1$s मिनट/किमी (%2$s मिनट/मील)</string>
+    <string name="description_average_moving_speed">चलने की औसत गति: %1$.2f किमी/घं ( %2$.1f मील/घं)</string>
+    <string name="description_average_pace_in_minute">औसत गति: %1$s मिनट/किमी ( %2$s मिनट/मील)</string>
+    <string name="description_average_speed">औसत गति: %1$.2f किमी/घं (%2$.1f मील/घं)</string>
+    <string name="description_altitude_gain">हासिल की गई ऊंचाई: %1$d मी (%2$d फु)</string>
+    <string name="description_altitude_imperial">ऊंचाई (फुट)</string>
+    <string name="description_altitude_metric">ऊंचाई (मी)</string>
+    <string name="description_fastest_pace_in_minute">सबसे तेज़ गति: %1$s मिनट/किमी ( %2$s मिनट/मील)</string>
+    <string name="description_max_altitude">अधिकतम ऊंचाई: %1$d मी (%2$d फु)</string>
+    <string name="description_max_speed">अधिकतम गति: %1$.2f किमी/घं (%2$.1f मील/घं)</string>
+    <string name="description_min_altitude">न्यूनतम ऊंचाई: %1$d मी (%2$d फु)</string>
+    <string name="description_moving_time">चलायमान समय: %1$s</string>
+    <string name="description_pace_imperial">गति (मिनट/मील)</string>
+    <string name="description_pace_metric">गति (मिनट/किमी)</string>
+    <string name="description_recorded_time">रिकॉर्ड किया गया: %1$s</string>
+    <string name="description_speed_ms">गति (मी/से)</string>
+    <string name="description_sensor_cadence">लय (आरपीएम)</string>
+    <string name="description_sensor_heart_rate">हृदय दर (बीपीएम)</string>
+    <string name="description_sensor_power">पावर (वाट)</string>
+    <string name="description_speed_imperial">गति (मील/घंटा)</string>
+    <string name="description_speed_metric">गति (किमी/घंटा)</string>
+    <string name="description_time">समय</string>
+    <string name="description_total_distance">कुल दूरी: %1$.2f किमी (%2$.1f मील)</string>
+    <string name="description_total_time">कुल समय: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">%1$s पर निर्यात किया जा रहा है…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">%1$d फ़ाइलें</item>
+        <item quantity="other">%1$d फ़ाइलें</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">जोड़ें</string>
+    <string name="generic_delete_selected_confirm_title">चयनित हटाएं?</string>
+    <string name="generic_description">विवरण</string>
+    <string name="generic_description_line">विवरण: %1$s</string>
+    <string name="generic_name">नाम</string>
+    <string name="generic_name_line">नाम: %1$s</string>
+    <string name="generic_paused">पॉज़ किया गया</string>
+    <string name="generic_recording">रेकॉर्ड हो रहा है…</string>
+    <string name="generic_save">सहेजें</string>
+    <string name="generic_tracks">ट्रैक</string>
+    <!-- Gps -->
+    <string name="gps_starting">GPS को प्रारंभ किया जा रहा है</string>
+    <string name="gps_wait_for_better_signal">बेहतर GPS सिग्नल की प्रतीक्षा की जा रही है</string>
+    <string name="gps_wait_for_signal">GPS सिग्नल की प्रतीक्षा की जा रही है</string>
+    <!-- Image -->
+    <string name="image_arrow">तीर</string>
+    <string name="image_marker">मार्कर</string>
+    <string name="image_marker_count">मार्कर गणना</string>
+    <string name="image_pause">पॉज़ करें</string>
+    <string name="image_photo_marker">फ़ोटो मार्कर</string>
+    <string name="image_record">रिकॉर्ड करें</string>
+    <string name="image_stop">रोकें</string>
+    <string name="image_track">ट्रैक</string>
+    <!-- Import -->
+    <string name="import_progress_message">%1$s से आयात किया जा रहा है…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">मार्कर नहीं डाल सके. कोई GPS सिग्नल नहीं है. फिर से कोशिश करें.</string>
+    <string name="marker_add_success">एक मार्कर सम्मिलित किया गया</string>
+    <string name="marker_add_canceled">रद्द किया गया, कोई मार्कर जोड़ा नहीं गया</string>
+    <string name="marker_delete_one_confirm_message">मार्कर को उपकरण से स्थायी रूप से हटा दिया जाएगा</string>
+    <string name="marker_delete_one_confirm_title">मार्कर हटाएं?</string>
+    <string name="marker_delete_multiple_confirm_message">चयनित मार्कर उपकरण से स्थायी रूप से हटा दिए जाएंगे</string>
+    <string name="marker_name_format">मार्कर %1$d</string>
+    <string name="marker_title">%2$d में से %1$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">मार्कर प्रकार (उदा., झरना)</string>
+    <string name="marker_edit_marker_type_hint">मार्कर प्रकार</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">आपके पास कोई मार्कर नहीं है</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">सकल आंकड़े</string>
+    <string name="menu_delete">हटाएं</string>
+    <string name="menu_edit">संपादित करें</string>
+    <string name="menu_export_all">सभी निर्यात करें</string>
+    <string name="menu_help">सहायता</string>
+    <string name="menu_import_all">सभी आयात करें</string>
+    <string name="menu_insert_marker">मार्कर डालें</string>
+    <string name="menu_insert_photo">फ़ोटो सम्‍मिलित करें</string>
+    <string name="menu_markers">मार्कर</string>
+    <string name="menu_search">खोजें</string>
+    <string name="menu_select_all">सभी चुनें</string>
+    <string name="menu_settings">सेटिंग</string>
+    <string name="menu_share">साझा करें</string>
+    <string name="menu_show_on_map">नक्शे पर दिखाएं</string>
+    <string name="menu_start_gps">GPS प्रारंभ करें</string>
+    <string name="menu_stop_gps">GPS बंद करें</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">रिकॉर्डिंग सेवा</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">बैटरी स्‍तर</string>
+    <string name="sensor_state_cadence">केडेंस</string>
+    <string name="sensor_state_cadence_value">%1$d rpm</string>
+    <string name="sensor_state_heart_rate">हृदय गति</string>
+    <string name="sensor_state_heart_rate_value">%1$d bpm</string>
+    <string name="sensor_state_power">पॉवर</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">ट्रैक रिकॉर्ड करते समय उपलब्ध नहीं</string>
+    <string name="settings_show">दिखाएं</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">उन्नत</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">दूरी के अनुसार</string>
+    <string name="settings_chart_by_time">समय के अनुसार</string>
+    <string name="settings_recording">रिकॉर्डिंग</string>
+    <string name="settings_recording_default_activity_title">डिफ़ॉल्ट गतिविधि प्रकार</string>
+    <string name="settings_recording_location_frequency_summary">रिकॉर्ड किए गए स्थानों के बीच %1$s</string>
+    <string name="settings_recording_max_recording_distance_summary">यदि रिकॉर्ड किए गए दो स्थानों के बीच दूरी %1$s से अधिक हो तो एक नया खंड बनाया जाता है</string>
+    <string name="settings_recording_max_recording_distance_title">अधिकतम दूरी</string>
+    <string name="settings_recording_min_recording_distance_title">रिकॉर्डिंग दूरी अंतराल</string>
+    <string name="settings_recording_min_recording_interval_title">रिकॉर्डिंग समय अंतराल</string>
+    <string name="settings_recording_min_required_accuracy_summary">यदि स्थान की सटीकता %1$s से कम होती है तो इसपर ध्यान नहीं दिया जाता</string>
+    <string name="settings_recording_min_required_accuracy_title">GPS सटीकता</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">तिथि (आईएसओ 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">तिथि (स्थानीय)</string>
+    <string name="settings_recording_track_name_number_option">नंबर</string>
+    <string name="settings_recording_track_name_title">डिफ़ॉल्ट ट्रैक नाम</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">रीसेट करें</string>
+    <string name="settings_reset_confirm_message">सभी सेटिंग को डिफ़ॉल्ट मानों पर उलट दिया जाएगा.</string>
+    <string name="settings_reset_confirm_title">अभी रीसेट करें?</string>
+    <string name="settings_reset_done">सभी सेटिंग को सामान्य मानों में उलट दिया गया है</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">पसंदीदा दर</string>
+    <string name="settings_stats_units_imperial">इंपीरियल (मील, फुट)</string>
+    <string name="settings_stats_units_metric">मेट्रिक (किमी, मी)</string>
+    <string name="settings_stats_units_title">पसंदीदा इकाइयां</string>
+
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">मेरा विचार है कि आपको इस ट्रैक में रुचि हो सकती है.\n\nइस ट्रैक को देखने के लिए Google Earth या अन्य मानचित्रन सॉफ्टवेयर का उपयोग करें.\n\n%1$s</string>
+    <string name="share_track_subject">मैं आपके साथ एक ट्रैक साझा करना चाहता/चाहती हूं</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">चलने की औसत प्रगति</string>
+    <string name="stats_average_moving_speed">चलने की औसत गति</string>
+    <string name="stats_average_pace">औसत प्रगति</string>
+    <string name="stats_average_speed">औसत गति</string>
+    <string name="stats_altitude">ऊंचाई</string>
+    <string name="stats_fastest_pace">सबसे तेज चाल</string>
+    <string name="stats_gain">वृद्धि</string>
+    <string name="stats_latitude">अक्षांश</string>
+    <string name="stats_longitude">देशांतर</string>
+    <string name="stats_max_speed">अधिकतम गति</string>
+    <string name="stats_moving_time">चलते रहने का समय</string>
+    <string name="stats_pace">चाल</string>
+    <string name="stats_speed">गति</string>
+    <string name="stats_distance">दूरी</string>
+    <string name="stats_total_time">कुल समय</string>
+    <!-- Track -->
+    <string name="track_name_format">ट्रैक %1$d</string>
+    <string name="track_markers">%1$s मार्कर</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">ट्रैक और इसके मार्कर को उपकरण से स्थायी रूप से हटा दिया जाएगा.</string>
+    <string name="track_delete_one_confirm_title">ट्रैक हटाएं?</string>
+    <string name="track_delete_multiple_confirm_message">चयनित ट्रैक और उनके मार्कर को उपकरण से स्थायी रूप से हटा दिया जाएगा.</string>
+    <string name="track_delete_progress_message">हटा रहा है…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">आंकड़े</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">गतिविधि प्रकार (उदा. हाइकिंग)</string>
+    <string name="track_edit_activity_type_hint">गतिविधि प्रकार</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">अपनी अगली साहसिक यात्रा यहां रिकॉर्ड करना शुरू करें</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">फ़ीट</string>
+    <string name="unit_kilometer">किमी</string>
+    <string name="unit_kilometer_per_hour">किमी/घं</string>
+    <string name="unit_meter">मी</string>
+    <string name="unit_mile">मील</string>
+    <string name="unit_mile_per_hour">मि/घं</string>
+    <string name="unit_minute_per_kilometer">मि/किमी</string>
+    <string name="unit_minute_per_mile">मि/मील</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d फुट</string>
+    <string name="value_integer_feet_excellent_gps">%1$d फुट (उत्कृष्ट GPS)</string>
+    <string name="value_integer_feet_recommended">%1$d फ़ुट (अनुशंसित)</string>
+    <string name="value_integer_kilometer">%1$d किमी</string>
+    <string name="value_integer_kilometer_hour">%1$d किमी/घं</string>
+    <string name="value_integer_meter">%1$d मी</string>
+    <string name="value_integer_meter_excellent_gps">%1$d मीटर (उत्कृष्ट GPS)</string>
+    <string name="value_integer_meter_poor_gps">%1$d मी (खराब GPS)</string>
+    <string name="value_integer_meter_recommended">%1$d मी (अनुशंसित)</string>
+    <string name="value_integer_mile">%1$d मील</string>
+    <string name="value_integer_mile_hour">%1$d मील/घं</string>
+    <string name="value_integer_minute">%1$d मि</string>
+    <string name="value_integer_second">%1$d</string>
+    <string name="value_none">कोई नहीं</string>
+    <string name="value_off">बंद करें</string>
+    <string name="value_smallest_recommended">सबसे छोटा (अनुशंसित)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">%1$d घंटा</item>
+        <item quantity="other">%1$d घंटे</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">%1$d मिनट</item>
+        <item quantity="other">%1$d मिनट</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">%1$d सेकंड</item>
+        <item quantity="other">%1$d सेकंड</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">%1$.1f किलोमीटर प्रति घंट</item>
+        <item quantity="other">%1$.1f किलोमीटर प्रति घंट</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">%1$.1f  मील प्रति घंटा</item>
+        <item quantity="other">%1$.1f मील प्रति घंट</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s प्रति किलोमीटर</string>
+    <string name="voice_pace_per_mile">%1$s प्रति मील</string>
+    <string name="voice_template">%3$s पर %2$s में %1$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">कुल दूरी %1$.2f किलोमीटर</item>
+        <item quantity="other">कुल दूरी %1$.2f किलोमीटर</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">कुल दूरी %1$.2f मील</item>
+        <item quantity="other">कुल दूरी %1$.2f मील</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">ATM</string>
+    <string name="waypoint_type_bank">बैंक</string>
+    <string name="waypoint_type_bar">बार</string>
+    <string name="waypoint_type_barbecue">बारबेक्यू</string>
+    <string name="waypoint_type_building">भवन</string>
+    <string name="waypoint_type_bus_stop">बस स्टॉप</string>
+    <string name="waypoint_type_cafe">कैफ़े</string>
+    <string name="waypoint_type_campfire">कैंपफ़ायर</string>
+    <string name="waypoint_type_campground">कैंपग्राउंड</string>
+    <string name="waypoint_type_church">गिरजाघर</string>
+    <string name="waypoint_type_coffee_house">कॉफ़ी हाउस</string>
+    <string name="waypoint_type_convenience_store">सुविधा स्टोर</string>
+    <string name="waypoint_type_drinking_water">पेय जल</string>
+    <string name="waypoint_type_falling_rocks">गिरती चट्टानें</string>
+    <string name="waypoint_type_ferry">फ़ेरी</string>
+    <string name="waypoint_type_fire_place">फ़ायर प्लेस</string>
+    <string name="waypoint_type_fire_station">दमकल स्टेशन</string>
+    <string name="waypoint_type_fishing">मछली पकड़ना</string>
+    <string name="waypoint_type_gas_station">गैस स्टेशन</string>
+    <string name="waypoint_type_golf_course">गोल्फ़ कोर्स</string>
+    <string name="waypoint_type_grocery_store">किराना दुकान</string>
+    <string name="waypoint_type_hair_dresser">हेयर ड्रेसर</string>
+    <string name="waypoint_type_harbor">बंदरगाह</string>
+    <string name="waypoint_type_hiking_path">हाइकिंग मार्ग</string>
+    <string name="waypoint_type_hotel">होटल</string>
+    <string name="waypoint_type_house">घर</string>
+    <string name="waypoint_type_information">सूचना</string>
+    <string name="waypoint_type_intersection">प्रतिच्छेदन</string>
+    <string name="waypoint_type_mail_box">मेल बॉक्स</string>
+    <string name="waypoint_type_market">बाज़ार</string>
+    <string name="waypoint_type_meeting_point">मिलन बिंदु</string>
+    <string name="waypoint_type_opera">ओपेरा</string>
+    <string name="waypoint_type_parking">पार्किंग</string>
+    <string name="waypoint_type_police_station">पुलिस स्टेशन</string>
+    <string name="waypoint_type_post_office">डाकघर</string>
+    <string name="waypoint_type_pothole">गढ्ढे</string>
+    <string name="waypoint_type_railway_crossing">रेलवे क्रॉसिंग</string>
+    <string name="waypoint_type_restaurant">रेस्तरां</string>
+    <string name="waypoint_type_shopping">खरीदारी</string>
+    <string name="waypoint_type_sight">दर्शनीय स्थान</string>
+    <string name="waypoint_type_store">संगृहीत करें</string>
+    <string name="waypoint_type_swimming_pool">स्विमिंग पूल</string>
+    <string name="waypoint_type_telephone">टेलीफ़ोन</string>
+    <string name="waypoint_type_theater">थिएटर</string>
+    <string name="waypoint_type_toilet">प्रसाधन</string>
+    <string name="waypoint_type_tourist_information">पर्यटक सूचना</string>
+    <string name="waypoint_type_tree">पेड़</string>
+    <string name="waypoint_type_tunnel">सुरंग</string>
+    <string name="waypoint_type_waterfall">झरना</string>
+    <string name="waypoint_type_water_fountain">जल का फव्वारा</string>
+    <string name="waypoint_type_waypoint">वेपॉइंट</string>
+</resources>

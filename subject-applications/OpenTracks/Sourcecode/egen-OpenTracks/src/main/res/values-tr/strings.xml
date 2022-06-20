@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">uçak</string>
+    <string name="activity_type_atv">ATV</string>
+    <string name="activity_type_biking">bisiklet</string>
+    <string name="activity_type_blimp">keşif balonu</string>
+    <string name="activity_type_boat">tekne</string>
+    <string name="activity_type_climbing">tırmanma</string>
+    <string name="activity_type_commercial_airplane">yolcu uçağı</string>
+    <string name="activity_type_cross_country_skiing">kros kayağı</string>
+    <string name="activity_type_cycling">bisiklet</string>
+    <string name="activity_type_dirt_bike">arazi motosikleti</string>
+    <string name="activity_type_donkey_back_riding">eşek binme</string>
+    <string name="activity_type_driving">araba yolculuğu</string>
+    <string name="activity_type_driving_bus">otobüs sürme</string>
+    <string name="activity_type_driving_car">araba sürme</string>
+    <string name="activity_type_ferry">feribot</string>
+    <string name="activity_type_frisbee">frisbee</string>
+    <string name="activity_type_gliding">planör uçuşu</string>
+    <string name="activity_type_hang_gliding">asılı planör uçuşu</string>
+    <string name="activity_type_helicopter">helikopter</string>
+    <string name="activity_type_hiking">yürüyüş</string>
+    <string name="activity_type_horse_back_riding">ata binme</string>
+    <string name="activity_type_hot_air_balloon">sıcak hava balonu</string>
+    <string name="activity_type_ice_sailing">buz üzerinde yelken</string>
+    <string name="activity_type_inline_skating">tekerlekli paten</string>
+    <string name="activity_type_kayaking">kayaking</string>
+    <string name="activity_type_kite_surfing">uçurtma kayağı</string>
+    <string name="activity_type_land_sailing">kara yelkeni</string>
+    <string name="activity_type_mixed_type">karışık türde</string>
+    <string name="activity_type_motor_bike">motosiklet</string>
+    <string name="activity_type_motor_boating">motorlu tekne</string>
+    <string name="activity_type_mountain_biking">dağ bisikleti</string>
+    <string name="activity_type_off_trail_hiking">patika dışı yürüyüş</string>
+    <string name="activity_type_other">diğer</string>
+    <string name="activity_type_paddling">kano</string>
+    <string name="activity_type_para_gliding">yamaç paraşütü</string>
+    <string name="activity_type_rc_airplane">Uzaktan kumandalı uçak</string>
+    <string name="activity_type_rc_boat">Uzaktan kumandalı tekne</string>
+    <string name="activity_type_rc_helicopter">Uzaktan kumandalı helikopter</string>
+    <string name="activity_type_riding">binicilik</string>
+    <string name="activity_type_road_biking">yol bisikleti</string>
+    <string name="activity_type_roller_skiing">tekerlekli kayak</string>
+    <string name="activity_type_rowing">kürek</string>
+    <string name="activity_type_running">koşu</string>
+    <string name="activity_type_sailing">yelken</string>
+    <string name="activity_type_seaplane">deniz uçağı</string>
+    <string name="activity_type_skate_boarding">kaykay</string>
+    <string name="activity_type_skating">paten</string>
+    <string name="activity_type_skiing">kayak</string>
+    <string name="activity_type_sky_jumping">gökyüzünden atlama</string>
+    <string name="activity_type_sled">kızak</string>
+    <string name="activity_type_snow_boarding">snowboarding</string>
+    <string name="activity_type_snow_shoeing">kar yürüyüşü</string>
+    <string name="activity_type_speed_walking">tempolu yürüyüş</string>
+    <string name="activity_type_street_running">serbest koşu</string>
+    <string name="activity_type_surfing">sörf</string>
+    <string name="activity_type_track_cycling">parkurlu bisiklet</string>
+    <string name="activity_type_track_running">pist koşusu</string>
+    <string name="activity_type_trail_hiking">patika yürüyüşü</string>
+    <string name="activity_type_trail_running">patika koşusu</string>
+    <string name="activity_type_train">tren</string>
+    <string name="activity_type_ultimate_frisbee">ultimate frisbee</string>
+    <string name="activity_type_unknown">bilinmiyor</string>
+    <string name="activity_type_wakeboarding">wakeboarding</string>
+    <string name="activity_type_walking">yürüyüş</string>
+    <string name="activity_type_water_skiing">su kayağı</string>
+    <string name="activity_type_wind_surfing">rüzgâr sörfü</string>
+    <!-- Description -->
+    <string name="description_activity_type">Etkinlik türü: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Ortalama tempo (hareket halinde): %1$s dk/km (%2$s dk/mil)</string>
+    <string name="description_average_moving_speed">Ortalama hareket hızı: %1$.2f km/sa (%2$.1f mil/sa)</string>
+    <string name="description_average_pace_in_minute">Ortalama tempo: %1$s dk/km (%2$s dk/mil)</string>
+    <string name="description_average_speed">Ortalama hız: %1$.2f km/sa (%2$.1f mil/sa)</string>
+    <string name="description_altitude_gain">İrtifa kazancı: %1$d m (%2$d fit)</string>
+    <string name="description_altitude_imperial">İrtifa (ft)</string>
+    <string name="description_altitude_metric">İrtifa (m)</string>
+    <string name="description_fastest_pace_in_minute">En yüksek tempo: %1$s dk/km (%2$s dk/mil)</string>
+    <string name="description_max_altitude">Maks. irtifa: %1$d m (%2$d fit)</string>
+    <string name="description_max_speed">Maks. hız: %1$.2f km/sa (%2$.1f mil/sa)</string>
+    <string name="description_min_altitude">Min. irtifa: %1$d m (%2$d fit)</string>
+    <string name="description_moving_time">Hareket süresi: %1$s</string>
+    <string name="description_pace_imperial">Tempo (dk/mil)</string>
+    <string name="description_pace_metric">Tempo (dk/km)</string>
+    <string name="description_recorded_time">Kayıt zamanı: %1$s</string>
+    <string name="description_speed_ms">Hız (m/sn)</string>
+    <string name="description_sensor_cadence">Kadans (rpm)</string>
+    <string name="description_sensor_heart_rate">Kalp atış hızı (bmp)</string>
+    <string name="description_sensor_power">Güç (W)</string>
+    <string name="description_speed_imperial">Hız (mil/sa.)</string>
+    <string name="description_speed_metric">Hız (km/sa.)</string>
+    <string name="description_time">Zaman</string>
+    <string name="description_total_distance">Toplam mesafe: %1$.2f km (%2$.1f mil)</string>
+    <string name="description_total_time">Toplam süre: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">%1$s dizinine aktarılıyor…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">1 dosya</item>
+        <item quantity="other">%1$d dosya</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Ekle</string>
+    <string name="generic_delete_selected_confirm_title">Seçilenler silinsin mi?</string>
+    <string name="generic_description">Açıklama</string>
+    <string name="generic_description_line">Açıklama: %1$s</string>
+    <string name="generic_name">Adı</string>
+    <string name="generic_name_line">Adı: %1$s</string>
+    <string name="generic_paused">Duraklatıldı</string>
+    <string name="generic_recording">Kaydediliyor…</string>
+    <string name="generic_save">Kaydet</string>
+    <string name="generic_tracks">Parkurlar</string>
+    <!-- Gps -->
+    <string name="gps_starting">GPS başlatılıyor</string>
+    <string name="gps_wait_for_better_signal">Daha iyi bir GPS sinyali bekleniyor</string>
+    <string name="gps_wait_for_signal">GPS sinyali bekleniyor</string>
+    <!-- Image -->
+    <string name="image_arrow">Ok</string>
+    <string name="image_marker">İşaretçi</string>
+    <string name="image_marker_count">İşaretçi sayısı</string>
+    <string name="image_pause">Duraklat</string>
+    <string name="image_photo_marker">Fotoğraf işaretçisi</string>
+    <string name="image_record">Kaydet</string>
+    <string name="image_stop">Durdur</string>
+    <string name="image_track">Parkur</string>
+    <!-- Import -->
+    <string name="import_progress_message">%1$s dizininden içe aktarılıyor…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">İşaretçi eklenemiyor. GPS sinyali yok. Tekrar deneyin.</string>
+    <string name="marker_add_success">Bir işaretçi eklendi</string>
+    <string name="marker_add_canceled">İptal edildi, işaretçi eklenmedi</string>
+    <string name="marker_delete_one_confirm_message">İşaretçi cihazdan kalıcı olarak silinecek</string>
+    <string name="marker_delete_one_confirm_title">İşaretçi silinsin mi?</string>
+    <string name="marker_delete_multiple_confirm_message">Seçilen işaretçiler cihazdan kalıcı olarak silinecek</string>
+    <string name="marker_name_format">İşaretçi %1$d</string>
+    <string name="marker_title">%1$d/%2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">İşaretçi türü (ör. şelale)</string>
+    <string name="marker_edit_marker_type_hint">İşaretçi türü</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Hiç işaretçiniz yok</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Toplu istatistikler</string>
+    <string name="menu_delete">Sil</string>
+    <string name="menu_edit">Düzenle</string>
+    <string name="menu_export_all">Tümünü dışa aktar</string>
+    <string name="menu_help">Yardım</string>
+    <string name="menu_import_all">Tümünü içe aktar</string>
+    <string name="menu_insert_marker">İşaretçi ekle</string>
+    <string name="menu_insert_photo">Fotoğraf ekle</string>
+    <string name="menu_markers">İşaretçiler</string>
+    <string name="menu_search">Ara</string>
+    <string name="menu_select_all">Tümünü seç</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_show_on_map">Haritada göster</string>
+    <string name="menu_start_gps">GPS\'i aç</string>
+    <string name="menu_stop_gps">GPS\'i kapat</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Kayıt hizmeti</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Pil seviyesi</string>
+    <string name="sensor_state_cadence">Ritim</string>
+    <string name="sensor_state_cadence_value">%1$d rpm</string>
+    <string name="sensor_state_heart_rate">Kalp hızı</string>
+    <string name="sensor_state_heart_rate_value">%1$d bpm</string>
+    <string name="sensor_state_power">Güç</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">Parkur kaydı sırasında kullanılamaz</string>
+    <string name="settings_show">Göster</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Gelişmiş</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Mesafeye göre</string>
+    <string name="settings_chart_by_time">Zamana göre</string>
+    <string name="settings_recording">Kayıt</string>
+    <string name="settings_recording_default_activity_title">Varsayılan aktivite türü</string>
+    <string name="settings_recording_location_frequency_summary">Kaydedilen konumlar arası %1$s</string>
+    <string name="settings_recording_max_recording_distance_summary">İki konum arasındaki mesafe şundan fazlaysa yeni segment oluşturulur: %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">Maks. mesafe</string>
+    <string name="settings_recording_min_recording_distance_title">Kayıt mesafe aralığı</string>
+    <string name="settings_recording_min_recording_interval_title">Kayıt zaman aralığı</string>
+    <string name="settings_recording_min_required_accuracy_summary">Doğruluğu şundan düşükse konum yoksayılır: %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">GPS doğruluğu</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Tarih (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Tarih (yerel)</string>
+    <string name="settings_recording_track_name_number_option">Sayı</string>
+    <string name="settings_recording_track_name_title">Varsayılan parkur adı</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Sıfırla</string>
+    <string name="settings_reset_confirm_message">Tüm ayarlar varsayılan değerlerine geri alınacak.</string>
+    <string name="settings_reset_confirm_title">Şimdi sıfırlansın mı?</string>
+    <string name="settings_reset_done">Tüm ayarlar varsayılan değerlere döndürüldü</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Tercih edilen oran</string>
+    <string name="settings_stats_units_imperial">İngiliz (mil, fit)</string>
+    <string name="settings_stats_units_metric">Metrik (km, m)</string>
+    <string name="settings_stats_units_title">Not sure.</string>
+
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Bu parkurun ilgini çekebileceğini düşünüyorum.\n\nBu parkuru görüntülemek için Google Earth\'ü veya başka bir harita yazılımını kullanabilirsin.\n\n%1$s</string>
+    <string name="share_track_subject">Seninle bir parkur paylaşmak istiyorum</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Ort. hareket temposu</string>
+    <string name="stats_average_moving_speed">Ort. hareket hızı</string>
+    <string name="stats_average_pace">Ort. tempo</string>
+    <string name="stats_average_speed">Ort. hız</string>
+    <string name="stats_altitude">İrtifa</string>
+    <string name="stats_fastest_pace">En hızlı tempo</string>
+    <string name="stats_gain">Artış</string>
+    <string name="stats_latitude">Enlem</string>
+    <string name="stats_longitude">Boylam</string>
+    <string name="stats_max_speed">Maks. hız</string>
+    <string name="stats_moving_time">Hareketli zaman</string>
+    <string name="stats_pace">Tempo</string>
+    <string name="stats_speed">Hız</string>
+    <string name="stats_distance">Mesafe</string>
+    <string name="stats_total_time">Toplam süre</string>
+    <!-- Track -->
+    <string name="track_name_format">Parkur %1$d</string>
+    <string name="track_markers">%1$s İşaretçileri</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Parkur ve işaretçileri cihazdan kalıcı olarak silinecek.</string>
+    <string name="track_delete_one_confirm_title">Parkur silinsin mi?</string>
+    <string name="track_delete_multiple_confirm_message">Seçilen parkurlar ve işaretçileri cihazdan kalıcı olarak silinecek.</string>
+    <string name="track_delete_progress_message">Siliniyor…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">İstatistikler</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Aktivite türü (ör. yürüyüş)</string>
+    <string name="track_edit_activity_type_hint">Aktivite türü</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Bir sonraki maceranızı kaydetmeye buradan başlayın</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">ft</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/sa.</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">mil</string>
+    <string name="unit_mile_per_hour">mil/sa.</string>
+    <string name="unit_minute_per_kilometer">dk./km</string>
+    <string name="unit_minute_per_mile">dk./mil</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d ft</string>
+    <string name="value_integer_feet_excellent_gps">%1$d ft (mükemmel GPS)</string>
+    <string name="value_integer_feet_recommended">%1$d ft (önerilir)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/sa.</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (mükemmel GPS)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (zayıf GPS)</string>
+    <string name="value_integer_meter_recommended">%1$d m (önerilen)</string>
+    <string name="value_integer_mile">%1$d mil</string>
+    <string name="value_integer_mile_hour">%1$d mil/sa.</string>
+    <string name="value_integer_minute">%1$d dk.</string>
+    <string name="value_integer_second">%1$d sn.</string>
+    <string name="value_none">Hiç</string>
+    <string name="value_off">Kapalı</string>
+    <string name="value_smallest_recommended">En küçük (önerilir)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">1 saat</item>
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">1 dakika</item>
+        <item quantity="other">%1$d dakika</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">1 saniye</item>
+        <item quantity="other">%1$d saniye</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">saatte 1 kilometre</item>
+        <item quantity="other">saatte %1$.1f kilometre</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">saatte 1 mil</item>
+        <item quantity="other">saatte %1$.1f mil</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">kilometrede %1$s</string>
+    <string name="voice_pace_per_mile">milde %1$s</string>
+    <string name="voice_template">%3$s hızla %2$s sürede %1$s mesafe</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">toplam mesafe 1 kilometre</item>
+        <item quantity="other">toplam mesafe %1$.2f kilometre</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">toplam mesafe 1 mil</item>
+        <item quantity="other">toplam mesafe %1$.2f mil</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">ATM</string>
+    <string name="waypoint_type_bank">banka</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">mangal</string>
+    <string name="waypoint_type_building">yapı</string>
+    <string name="waypoint_type_bus_stop">otobüs durağı</string>
+    <string name="waypoint_type_cafe">kafe</string>
+    <string name="waypoint_type_campfire">kamp ateşi</string>
+    <string name="waypoint_type_campground">kamp alanı</string>
+    <string name="waypoint_type_church">kilise</string>
+    <string name="waypoint_type_coffee_house">kahvehane</string>
+    <string name="waypoint_type_convenience_store">market</string>
+    <string name="waypoint_type_drinking_water">içme suyu</string>
+    <string name="waypoint_type_falling_rocks">heyelan bölgesi</string>
+    <string name="waypoint_type_ferry">feribot</string>
+    <string name="waypoint_type_fire_place">şömine</string>
+    <string name="waypoint_type_fire_station">itfaiye binası</string>
+    <string name="waypoint_type_fishing">balıkçılık</string>
+    <string name="waypoint_type_gas_station">benzin istasyonu</string>
+    <string name="waypoint_type_golf_course">golf sahası</string>
+    <string name="waypoint_type_grocery_store">bakkal</string>
+    <string name="waypoint_type_hair_dresser">kuaför</string>
+    <string name="waypoint_type_harbor">liman</string>
+    <string name="waypoint_type_hiking_path">yürüyüş yolu</string>
+    <string name="waypoint_type_hotel">otel</string>
+    <string name="waypoint_type_house">ev</string>
+    <string name="waypoint_type_information">danışma bürosu</string>
+    <string name="waypoint_type_intersection">Kavşak</string>
+    <string name="waypoint_type_mail_box">posta kutusu</string>
+    <string name="waypoint_type_market">pazar yeri</string>
+    <string name="waypoint_type_meeting_point">buluşma noktası</string>
+    <string name="waypoint_type_opera">opera</string>
+    <string name="waypoint_type_parking">park yeri</string>
+    <string name="waypoint_type_police_station">emniyet müdürlüğü</string>
+    <string name="waypoint_type_post_office">postane</string>
+    <string name="waypoint_type_pothole">çukur</string>
+    <string name="waypoint_type_railway_crossing">demiryolu geçidi</string>
+    <string name="waypoint_type_restaurant">restoran</string>
+    <string name="waypoint_type_shopping">alışveriş</string>
+    <string name="waypoint_type_sight">görülmeye değer yer</string>
+    <string name="waypoint_type_store">mağaza</string>
+    <string name="waypoint_type_swimming_pool">yüzme havuzu</string>
+    <string name="waypoint_type_telephone">telefon</string>
+    <string name="waypoint_type_theater">sinema</string>
+    <string name="waypoint_type_toilet">tuvalet</string>
+    <string name="waypoint_type_tourist_information">turist danışma bürosu</string>
+    <string name="waypoint_type_tree">ağaç</string>
+    <string name="waypoint_type_tunnel">tünel</string>
+    <string name="waypoint_type_waterfall">şelale</string>
+    <string name="waypoint_type_water_fountain">içme suyu çeşmesi</string>
+    <string name="waypoint_type_waypoint">referans noktası</string>
+</resources>

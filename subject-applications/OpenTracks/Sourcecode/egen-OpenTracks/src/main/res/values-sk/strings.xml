@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">lietadlo</string>
+    <string name="activity_type_atv">Všetky terénne vozidlá</string>
+    <string name="activity_type_biking">cyklistika</string>
+    <string name="activity_type_blimp">aerostat</string>
+    <string name="activity_type_boat">čln</string>
+    <string name="activity_type_climbing">horolezectvo</string>
+    <string name="activity_type_commercial_airplane">komerčné lietadlo</string>
+    <string name="activity_type_cross_country_skiing">beh na lyžiach</string>
+    <string name="activity_type_cycling">cyklistika</string>
+    <string name="activity_type_dirt_bike">motokros</string>
+    <string name="activity_type_donkey_back_riding">jazda na oslovi</string>
+    <string name="activity_type_driving">auto</string>
+    <string name="activity_type_driving_bus">jazda autobusom</string>
+    <string name="activity_type_driving_car">jazda autom</string>
+    <string name="activity_type_ferry">trajekt</string>
+    <string name="activity_type_frisbee">frisbee</string>
+    <string name="activity_type_gliding">lietanie</string>
+    <string name="activity_type_hang_gliding">lietanie na rogale</string>
+    <string name="activity_type_helicopter">vrtuľník</string>
+    <string name="activity_type_hiking">turistika</string>
+    <string name="activity_type_horse_back_riding">jazda na koni</string>
+    <string name="activity_type_hot_air_balloon">teplovzdušný balón</string>
+    <string name="activity_type_ice_sailing">jachting na ľade</string>
+    <string name="activity_type_inline_skating">in-line korčuľovanie</string>
+    <string name="activity_type_kayaking">plavba na kajaku</string>
+    <string name="activity_type_kite_surfing">kite surfovanie</string>
+    <string name="activity_type_land_sailing">pozemný jachting</string>
+    <string name="activity_type_mixed_type">zmiešaný typ</string>
+    <string name="activity_type_motor_bike">motocykel</string>
+    <string name="activity_type_motor_boating">plavba na motorovej lodi</string>
+    <string name="activity_type_mountain_biking">horská cyklistika</string>
+    <string name="activity_type_off_trail_hiking">turistika mimo vyznačených chodníkov</string>
+    <string name="activity_type_other">iné</string>
+    <string name="activity_type_paddling">pádlovanie</string>
+    <string name="activity_type_para_gliding">paraglajding</string>
+    <string name="activity_type_rc_airplane">lietadlo na diaľkové ovládanie</string>
+    <string name="activity_type_rc_boat">loď na diaľkové ovládanie</string>
+    <string name="activity_type_rc_helicopter">vrtuľník na diaľkové ovládanie</string>
+    <string name="activity_type_riding">jazdectvo</string>
+    <string name="activity_type_road_biking">cestná cyklistika</string>
+    <string name="activity_type_roller_skiing">lyžovanie na kolieskových lyžiach</string>
+    <string name="activity_type_rowing">veslovanie</string>
+    <string name="activity_type_running">beh</string>
+    <string name="activity_type_sailing">jachting</string>
+    <string name="activity_type_seaplane">hydroplán</string>
+    <string name="activity_type_skate_boarding">skateboarding</string>
+    <string name="activity_type_skating">korčuľovanie</string>
+    <string name="activity_type_skiing">lyžovanie</string>
+    <string name="activity_type_sky_jumping">zoskok padákom</string>
+    <string name="activity_type_sled">sane</string>
+    <string name="activity_type_snow_boarding">snowboarding</string>
+    <string name="activity_type_snow_shoeing">chôdza na snežniciach</string>
+    <string name="activity_type_speed_walking">rýchla chôdza</string>
+    <string name="activity_type_street_running">beh v uliciach</string>
+    <string name="activity_type_surfing">surfovanie</string>
+    <string name="activity_type_track_cycling">dráhová cyklistika</string>
+    <string name="activity_type_track_running">dráhový beh</string>
+    <string name="activity_type_trail_hiking">turistika</string>
+    <string name="activity_type_trail_running">beh v teréne</string>
+    <string name="activity_type_train">vlak</string>
+    <string name="activity_type_ultimate_frisbee">ultimate frisbee</string>
+    <string name="activity_type_unknown">neznáme</string>
+    <string name="activity_type_wakeboarding">wakeboarding</string>
+    <string name="activity_type_walking">chôdza</string>
+    <string name="activity_type_water_skiing">vodné lyžovanie</string>
+    <string name="activity_type_wind_surfing">windsurfing</string>
+    <!-- Description -->
+    <string name="description_activity_type">Typ aktivity: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Priemerné tempo pohybu: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_moving_speed">Priemerná rýchlosť pohybu: %1$.2f km/h (%2$.1f míľ/h)</string>
+    <string name="description_average_pace_in_minute">Priemerné tempo: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_speed">Priemerná rýchlosť: %1$.2f km/h (%2$.1f míľ/h)</string>
+    <string name="description_altitude_gain">Prevýšenie: %1$d m (%2$d stôp)</string>
+    <string name="description_altitude_imperial">Nadmorská výška (ft)</string>
+    <string name="description_altitude_metric">Nadmorská výška (m)</string>
+    <string name="description_fastest_pace_in_minute">Najrýchlejšie tempo: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_max_altitude">Max. prevýšenie: %1$d m (%2$d stôp)</string>
+    <string name="description_max_speed">Max. rýchlosť: %1$.2f km/h (%2$.1f míľ/h)</string>
+    <string name="description_min_altitude">Min. prevýšenie: %1$d m (%2$d stôp)</string>
+    <string name="description_moving_time">Čas presunu: %1$s</string>
+    <string name="description_pace_imperial">Tempo (min/mi)</string>
+    <string name="description_pace_metric">Tempo (min/km)</string>
+    <string name="description_recorded_time">Zaznamenané: %1$s</string>
+    <string name="description_speed_ms">Rýchlosť (m/s)</string>
+    <string name="description_sensor_cadence">Rytmus (ot./min.)</string>
+    <string name="description_sensor_heart_rate">Pulz (údery/min.)</string>
+    <string name="description_sensor_power">Výkon (W)</string>
+    <string name="description_speed_imperial">Rýchlosť (mi/hod)</string>
+    <string name="description_speed_metric">Rýchlosť (km/hod)</string>
+    <string name="description_time">Čas</string>
+    <string name="description_total_distance">Celková vzdialenosť: %1$.2f km (%2$.1f míľ)</string>
+    <string name="description_total_time">Celkový čas: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">Prebieha exportovanie do adresára %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">1 súbor</item>
+        <item quantity="few">%1$d súbory</item>
+        <item quantity="other">%1$d súborov</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Pridať</string>
+    <string name="generic_delete_selected_confirm_title">Odstrániť vybraté položky?</string>
+    <string name="generic_description">Popis</string>
+    <string name="generic_description_line">Popis: %1$s</string>
+    <string name="generic_name">Meno</string>
+    <string name="generic_name_line">Meno: %1$s</string>
+    <string name="generic_paused">Pozastavené</string>
+    <string name="generic_recording">Zaznamenáva sa…</string>
+    <string name="generic_save">Uložiť</string>
+    <string name="generic_tracks">Trasy</string>
+    <!-- Gps -->
+    <string name="gps_starting">Spúšťa sa systém GPS</string>
+    <string name="gps_wait_for_better_signal">Čaká sa na lepší signál systému GPS</string>
+    <string name="gps_wait_for_signal">Čaká sa na signál systému GPS</string>
+    <!-- Image -->
+    <string name="image_arrow">Šípka</string>
+    <string name="image_marker">Značka</string>
+    <string name="image_marker_count">Počet značiek</string>
+    <string name="image_pause">Pozastaviť</string>
+    <string name="image_photo_marker">Fotografická značka</string>
+    <string name="image_record">Zaznamenať</string>
+    <string name="image_stop">Zastaviť</string>
+    <string name="image_track">Trasa</string>
+    <!-- Import -->
+    <string name="import_progress_message">Prebieha import z úložiska %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Značku sa nepodarilo vložiť. Nie je k dispozícii signál GPS. Skúste to znova.</string>
+    <string name="marker_add_success">Značka bola vložená</string>
+    <string name="marker_add_canceled">Zrušené, nebola pridaná žiadna značka</string>
+    <string name="marker_delete_one_confirm_message">Značka sa zo zariadenia natrvalo odstráni</string>
+    <string name="marker_delete_one_confirm_title">Odstrániť značku?</string>
+    <string name="marker_delete_multiple_confirm_message">Vybraté značky sa zo zariadenia natrvalo odstránia</string>
+    <string name="marker_name_format">Značka %1$d</string>
+    <string name="marker_title">%1$d z %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Typ značky (napr. vodopád…)</string>
+    <string name="marker_edit_marker_type_hint">Typ značky</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Nemáte žiadne značky</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Súhrnné štatistiky</string>
+    <string name="menu_delete">Odstrániť</string>
+    <string name="menu_edit">Upraviť</string>
+    <string name="menu_export_all">Exportovať všetky</string>
+    <string name="menu_help">Pomocník</string>
+    <string name="menu_import_all">Importovať všetky</string>
+    <string name="menu_insert_marker">Vložiť značku</string>
+    <string name="menu_insert_photo">Vložiť fotografiu</string>
+    <string name="menu_markers">Značky</string>
+    <string name="menu_search">Hľadať</string>
+    <string name="menu_select_all">Vybrať všetky</string>
+    <string name="menu_settings">Nastavenia</string>
+    <string name="menu_share">Zdieľať</string>
+    <string name="menu_show_on_map">Zobraziť na mape</string>
+    <string name="menu_start_gps">Aktivovať GPS</string>
+    <string name="menu_stop_gps">Deaktivovať GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Služba na záznam</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Stav batérie</string>
+    <string name="sensor_state_cadence">Kadencia</string>
+    <string name="sensor_state_cadence_value">%1$d otáčok/min.</string>
+    <string name="sensor_state_heart_rate">Srdcová frekvencia</string>
+    <string name="sensor_state_heart_rate_value">%1$d úderov/min.</string>
+    <string name="sensor_state_power">Výkon</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">Počas záznamu trasy nie je k dispozícii</string>
+    <string name="settings_show">Zobraziť</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Rozšírené</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Podľa vzdialenosti</string>
+    <string name="settings_chart_by_time">Podľa času</string>
+    <string name="settings_recording">Záznam</string>
+    <string name="settings_recording_default_activity_title">Predvolený typ aktivity</string>
+    <string name="settings_recording_location_frequency_summary">%1$s medzi zaznamenanými polohami</string>
+    <string name="settings_recording_max_recording_distance_summary">Nový segment bude vytvorený v prípade, že vzdialenosť medzi dvoma polohami prekoná %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">Max. vzdialenosť</string>
+    <string name="settings_recording_min_recording_distance_title">Interval záznamu vzdialenosti</string>
+    <string name="settings_recording_min_recording_interval_title">Časový interval záznamu</string>
+    <string name="settings_recording_min_required_accuracy_summary">Poloha je ignorovaná, ak je jej presnosť nižšia než %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">Presnosť systému GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Dátum (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Dátum (miestny)</string>
+    <string name="settings_recording_track_name_number_option">Číslovanie</string>
+    <string name="settings_recording_track_name_title">Predvolený názov trasy</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Obnoviť</string>
+    <string name="settings_reset_confirm_message">Obnovia sa predvolené hodnoty všetkých nastavení.</string>
+    <string name="settings_reset_confirm_title">Obnoviť?</string>
+    <string name="settings_reset_done">Boli vrátené predvolené hodnoty všetkých nastavení</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Preferovaná hodnota</string>
+    <string name="settings_stats_units_imperial">Imperiálne jednotky (mi, ft)</string>
+    <string name="settings_stats_units_metric">Metrické jednotky (km, m)</string>
+    <string name="settings_stats_units_title">Preferované jednotky</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Táto trasa by ťa mohla zaujímať.\n\nPre zobrazenie tejto trasy použi aplikáciu Google zem alebo iný mapový softvér.\n\n%1$s</string>
+    <string name="share_track_subject">Chcem s vami zdieľať trasu</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Priem. tempo pohybu</string>
+    <string name="stats_average_moving_speed">Priem. rýchlosť pohybu</string>
+    <string name="stats_average_pace">Priem. tempo</string>
+    <string name="stats_average_speed">Priem. rýchlosť</string>
+    <string name="stats_altitude">Nadmorská výška</string>
+    <string name="stats_fastest_pace">Najrýchlejšie tempo</string>
+    <string name="stats_gain">Zisk</string>
+    <string name="stats_latitude">Zemepisná šírka</string>
+    <string name="stats_longitude">Zemepisná dĺžka</string>
+    <string name="stats_max_speed">Max. rýchlosť</string>
+    <string name="stats_moving_time">Čas pohybu</string>
+    <string name="stats_pace">Tempo</string>
+    <string name="stats_speed">Rýchlosť</string>
+    <string name="stats_distance">Vzdialenosť</string>
+    <string name="stats_total_time">Celkový čas</string>
+    <!-- Track -->
+    <string name="track_name_format">Trasa %1$d</string>
+    <string name="track_markers">Značky pre %1$s</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Trasa a jej značky sa natrvalo odstránia zo zariadenia.</string>
+    <string name="track_delete_one_confirm_title">Odstrániť trasu?</string>
+    <string name="track_delete_multiple_confirm_message">Zvolené trasy a ich značky budú zo zariadenia natrvalo odstránené.</string>
+    <string name="track_delete_progress_message">Prebieha odstraňovanie…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Štatistiky</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Typ aktivity (napr. turistika)</string>
+    <string name="track_edit_activity_type_hint">Typ aktivity</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Tu spustite zaznamenávanie ďalšieho dobrodružstva</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">st.</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">mi.</string>
+    <string name="unit_mile_per_hour">mi./h</string>
+    <string name="unit_minute_per_kilometer">min./km</string>
+    <string name="unit_minute_per_mile">min./mi.</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d st.</string>
+    <string name="value_integer_feet_excellent_gps">%1$d st. (výborný signál GPS)</string>
+    <string name="value_integer_feet_recommended">%1$d st. (odporúčané)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/h</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (výborný signál GPS)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (slabý signál GPS)</string>
+    <string name="value_integer_meter_recommended">%1$d m (odporúčané)</string>
+    <string name="value_integer_mile">%1$d mi.</string>
+    <string name="value_integer_mile_hour">%1$d mi/h</string>
+    <string name="value_integer_minute">%1$d min.</string>
+    <string name="value_integer_second">%1$d s</string>
+    <string name="value_none">Žiadne</string>
+    <string name="value_off">Vypnúť</string>
+    <string name="value_smallest_recommended">Najmenšia (odporúčané)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">1 hodina</item>
+        <item quantity="few">%1$d hodiny</item>
+        <item quantity="other">%1$d hodín</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">1 minúta</item>
+        <item quantity="few">%1$d minúty</item>
+        <item quantity="other">%1$d minút</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">1 sekunda</item>
+        <item quantity="few">%1$d sekundy</item>
+        <item quantity="other">%1$d sekúnd</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">1 kilometer za hodinu</item>
+        <item quantity="few">%1$.1f kilometre za hodinu</item>
+        <item quantity="other">%1$.1f kilometrov za hodinu</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">1 míľa za hodinu</item>
+        <item quantity="few">%1$.1f míľ za hodinu</item>
+        <item quantity="other">%1$.1f míľ za hodinu</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s na kilometer</string>
+    <string name="voice_pace_per_mile">%1$s na míľu</string>
+    <string name="voice_template">%1$s, čas %2$s, rýchlosť %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">celková vzdialenosť 1 kilometer</item>
+        <item quantity="few">celková vzdialenosť %1$.2f kilometra</item>
+        <item quantity="other">celková vzdialenosť %1$.2f kilometra</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">celková vzdialenosť 1 míľa</item>
+        <item quantity="few">celková vzdialenosť %1$.2f míle</item>
+        <item quantity="other">celková vzdialenosť %1$.2f míľ</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">bankomat</string>
+    <string name="waypoint_type_bank">banka</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">grilovanie</string>
+    <string name="waypoint_type_building">budova</string>
+    <string name="waypoint_type_bus_stop">autobusová zastávka</string>
+    <string name="waypoint_type_cafe">kaviareň</string>
+    <string name="waypoint_type_campfire">ohnisko</string>
+    <string name="waypoint_type_campground">kemp</string>
+    <string name="waypoint_type_church">kostol</string>
+    <string name="waypoint_type_coffee_house">kaviareň</string>
+    <string name="waypoint_type_convenience_store">obchod so zmiešaným tovarom</string>
+    <string name="waypoint_type_drinking_water">pitná voda</string>
+    <string name="waypoint_type_falling_rocks">padajúce skaly</string>
+    <string name="waypoint_type_ferry">trajekt</string>
+    <string name="waypoint_type_fire_place">ohnisko</string>
+    <string name="waypoint_type_fire_station">hasičská stanica</string>
+    <string name="waypoint_type_fishing">rybolov</string>
+    <string name="waypoint_type_gas_station">čerpacia stanica</string>
+    <string name="waypoint_type_golf_course">golfové ihrisko</string>
+    <string name="waypoint_type_grocery_store">obchod s potravinami</string>
+    <string name="waypoint_type_hair_dresser">kaderník</string>
+    <string name="waypoint_type_harbor">prístav</string>
+    <string name="waypoint_type_hiking_path">turistická cesta</string>
+    <string name="waypoint_type_hotel">hotel</string>
+    <string name="waypoint_type_house">budova</string>
+    <string name="waypoint_type_information">informácie</string>
+    <string name="waypoint_type_intersection">križovatka</string>
+    <string name="waypoint_type_mail_box">poštová schránka</string>
+    <string name="waypoint_type_market">trh</string>
+    <string name="waypoint_type_meeting_point">miesto stretnutia</string>
+    <string name="waypoint_type_opera">opera</string>
+    <string name="waypoint_type_parking">parkovanie</string>
+    <string name="waypoint_type_police_station">policajná stanica</string>
+    <string name="waypoint_type_post_office">pošta</string>
+    <string name="waypoint_type_pothole">výmoľ</string>
+    <string name="waypoint_type_railway_crossing">železničné priecestie</string>
+    <string name="waypoint_type_restaurant">reštaurácia</string>
+    <string name="waypoint_type_shopping">nakupovanie</string>
+    <string name="waypoint_type_sight">pamätihodnosť</string>
+    <string name="waypoint_type_store">obchod</string>
+    <string name="waypoint_type_swimming_pool">bazén</string>
+    <string name="waypoint_type_telephone">telefón</string>
+    <string name="waypoint_type_theater">divadlo</string>
+    <string name="waypoint_type_toilet">WC</string>
+    <string name="waypoint_type_tourist_information">turistické informácie</string>
+    <string name="waypoint_type_tree">strom</string>
+    <string name="waypoint_type_tunnel">tunel</string>
+    <string name="waypoint_type_waterfall">vodopád</string>
+    <string name="waypoint_type_water_fountain">fontána</string>
+    <string name="waypoint_type_waypoint">navigačný bod</string>
+    <string name="settings_recording_customize_layout_select_columns">Počet polí na riadok</string>
+    <string name="settings_recording_fullscreen_on_while_recording_title">Na celú obrazovku</string>
+    <string name="settings_recording_customize_layout_title">Prispôsobiť vzhľad meranie</string>
+</resources>

@@ -1,0 +1,19 @@
+@startuml
+interface TrackExporter {
+}
+class KmzTrackExporter implements TrackExporter
+class KmlTrackExporter implements TrackExporter
+
+interface TrackImporter {
+}
+class KmzTrackImporter implements TrackImporter {
+}
+KmzTrackImporter o-- KmlFileTrackImporter
+class AbstractFileTrackImporter implements TrackImporter {
+}
+class GpxFileTrackImporter extends AbstractFileTrackImporter {
+}
+class KmlFileTrackImporter extends AbstractFileTrackImporter {
+/' Supports multiple tracks via folders '/
+}
+@enduml

@@ -1,0 +1,153 @@
+<!--
+  ~ Copyright (c) 2017 Bartek Fabiszewski
+  ~ http://www.fabiszewski.net
+  ~
+  ~ This file is part of μlogger-android.
+  ~ Licensed under GPL, either version 3, or any later.
+  ~ See <http://www.gnu.org/licenses/>
+  -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">(Non eGEN) μlogger</string>
+    <string name="app_name_ascii" translatable="false">ulogger</string>
+    <string name="button_newtrack">New track</string>
+    <string name="button_upload">Upload</string>
+    <string name="is_running" comment="substituted app_name">%s is running</string>
+    <string name="title_newtrack">New track</string>
+    <string name="label_track">Current track</string>
+    <string name="label_newtrack_name">New track name</string>
+    <string name="label_name">Name</string>
+    <string name="label_last_update">Last update: %s</string>
+    <string name="label_synchronized">Synchronized</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="ok">OK</string>
+    <string name="settings">Settings</string>
+    <string name="pref_username_title">User name</string>
+    <string name="pref_username_summary">User login on remote server</string>
+    <string name="pref_pass_title">Password</string>
+    <string name="pref_pass_summary">User password on remote server</string>
+    <string name="pref_host_title">Server URL</string>
+    <string name="pref_host_summary">Base URL of the remote server</string>
+    <string name="pref_mintime_title">Minimum time</string>
+    <string name="pref_mintime_summary">Minimum time between location updates</string>
+    <string name="pref_mintime_default" translatable="false">30</string>
+    <string name="pref_mindistance_title">Minimum distance</string>
+    <string name="pref_mindistance_summary">Minimum distance between location updates</string>
+    <string name="pref_mindistance_default" translatable="false">100</string>
+    <string name="pref_minaccuracy_title">Minimum accuracy</string>
+    <string name="pref_minaccuracy_summary">Minimum accuracy of position</string>
+    <string name="pref_minaccuracy_default" translatable="false">100</string>
+    <string name="pref_imagesize_title">Image size</string>
+    <string name="pref_imagesize_summary">Maximum width/height of uploaded images in pixels. In case of downsampling resized image copy will be temporarily stored in application folder before uploading. If you choose “actual size” option no copy will be made, so original files must be available during uploading.</string>
+    <string name="pref_imagesize_default" translatable="false">800</string>
+    <string name="pref_livesync_title">Live synchronization</string>
+    <string name="pref_livesync_summary">Live uploading of positions to the server. Requires valid user name, password and server URL.</string>
+    <string name="pref_livesync_default" translatable="false">false</string>
+    <string name="pref_autostart_title">Auto start</string>
+    <string name="pref_autostart_summary">Application will start on system boot</string>
+    <string name="pref_autostart_default" translatable="false">false</string>
+    <string name="pref_external_title">Allow external commands</string>
+    <string name="pref_external_summary">Allow receiving commands from other applications to facilitate automation and tasks scheduling.</string>
+    <string name="pref_external_default" translatable="false">false</string>
+    <string name="pref_provider_title">Location provider</string>
+    <string name="pref_provider_summary">Location may be supplied by GPS provider, by network or by both. Both providers will give best results, but use more battery.</string>
+    <string name="pref_units_title">Units</string>
+    <string name="pref_units_summary">Preferred units for displaying track summary</string>
+    <string name="pref_units_default" translatable="false">metric</string>
+    <string name="pref_units_metric">Metric</string>
+    <string name="pref_units_imperial">Imperial</string>
+    <string name="pref_units_nautical">Nautical</string>
+    <string name="pref_auto_name_title">Track name template</string>
+    <string name="pref_auto_name_summary" formatted="false">Template for new track name. Following patterns will be substituted with current date elements: %y (year), %m (month), %d (day), %H (hour), %M (minute), %S (second). If you need literal percent character use %%.</string>
+    <string name="pref_auto_name_default" formatted="false" translatable="false">Auto_%y.%m.%d_%H.%M.%S</string>
+    <string name="label_status">Status</string>
+    <string name="label_location">Location</string>
+    <string name="label_synchronization">Synchronization</string>
+    <string name="dash" translatable="false">-</string>
+    <string name="tracking_stopped">Tracking stopped</string>
+    <string name="tracking_started">Tracking started</string>
+    <string name="uploading_started">Uploading started</string>
+    <string name="nothing_to_synchronize">Nothing to synchronize</string>
+    <string name="no_positions">Current track has no positions</string>
+    <string name="warning">Warning</string>
+    <string name="notsync_warning">Current track contains not synchronized positions. Setting new track will delete all this data.</string>
+    <string name="clear_warning">Are you sure you want to delete current track and all its data from device? It will not delete any data from server.</string>
+    <string name="no_track_warning">Please set up new track first</string>
+    <string name="empty_trackname_warning">Track name cannot be empty</string>
+    <string name="logger_running_warning">Please stop current tracking first</string>
+    <string name="about">About</string>
+    <string name="about_description">Simple location logger with support for live tracking and position uploading to own <xliff:g id="server_link_open"><![CDATA[<a href="https://github.com/bfabiszewski/ulogger-server">]]></xliff:g>μlogger server<xliff:g id="server_link_close"><![CDATA[</a>]]></xliff:g>.</string>
+    <string name="about_description2">For more information and help please see <xliff:g id="app_link_open"><![CDATA[<a href="https://github.com/bfabiszewski/ulogger-android">]]></xliff:g>μlogger homepage<xliff:g id="app_link_close"><![CDATA[</a>]]></xliff:g>.</string>
+    <string name="about_version">Version %s</string>
+    <string name="about_license">License: GPL</string>
+    <string name="about_credits" translatable="false">© Bartek Fabiszewski</string>
+    <string name="uploading_failed">Uploading failed:</string>
+    <string name="uploading_done">Uploading done</string>
+    <string name="track_summary">Track summary</string>
+    <string name="summary_distance" comment="1-distance, 2-unit name">%1$s %2$s</string>
+    <plurals name="summary_positions">
+        <item quantity="one">%d position</item>
+        <item quantity="other">%d positions</item>
+    </plurals>
+    <string name="summary_duration">%1$d h %2$d min</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_mile">mi.</string>
+    <string name="provide_valid_url">Please provide valid server URL</string>
+    <string name="provide_user_pass_url">Please enter user, password and server URL first</string>
+    <string name="e_illegal_state">Illegal state error: %s</string>
+    <string name="e_illegal_redirect">Illegal redirect: %d</string>
+    <string name="e_auth_failure">Authorization failure: %d</string>
+    <string name="e_http_code">HTTP error code: %d</string>
+    <string name="e_server_response">Server response error</string>
+    <string name="e_unknown_host">Unknown host: %s</string>
+    <string name="e_bad_url">Bad URL: %s</string>
+    <string name="e_connect">Connection error: %s</string>
+    <string name="gps_disabled_warning">Warning: GPS provider is disabled</string>
+    <string name="net_disabled_warning">Warning: network provider is disabled</string>
+    <string name="location_disabled">You must enable at least one location provider</string>
+    <string name="location_permission_denied">You must accept permission for location updates</string>
+    <string name="using_network">Using network provider</string>
+    <string name="using_gps">Using GPS provider</string>
+    <string name="export">Export to GPX</string>
+    <string name="waypoint">Waypoint</string>
+    <string name="nothing_to_export">Nothing to export</string>
+    <string name="export_done">Track successfully saved</string>
+    <string name="export_failed">Export failed</string>
+    <string name="unknown_track">Unknown track</string>
+    <string name="export_started">Export started</string>
+    <plurals name="label_positions_behind">
+        <item quantity="one">%d position behind</item>
+        <item quantity="other">%d positions behind</item>
+    </plurals>
+    <string name="track_server_setup_warning">If you change server setup you may not be able to synchronize current track.</string>
+    <string name="pref_mintime_other">Minimum time interval in seconds</string>
+    <string name="pref_mindistance_other">Minimum distance in meters</string>
+    <string name="pref_minaccuracy_other">Minimum accuracy in meters</string>
+    <string name="pref_imagesize_other">Maximum image width/height in pixels</string>
+    <string name="unit_nmile">nm</string>
+    <string name="pref_cat_location">Tracking</string>
+    <string name="pref_cat_server">Server</string>
+    <string name="pref_cat_other">Other</string>
+    <string name="illegal_template_warning">Template contains illegal characters</string>
+    <string name="cannot_open_picker">Cannot open file picker</string>
+    <string name="e_open_out_stream">Failed to open output stream</string>
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Network</string>
+    <string name="provider_gps_network">Network and GPS</string>
+    <string name="logger_task_failure">Couldn’t get location</string>
+    <string name="take_photo">Take photo</string>
+    <string name="from_library">Choose from Library</string>
+    <string name="accuracy_meters">%d m accuracy</string>
+    <string name="meters_asl">%s m a.s.l.</string>
+    <string name="label_position">Position</string>
+    <string name="label_waypoint_description">Waypoint description</string>
+    <string name="label_add_photo">Add photo</string>
+    <string name="button_save">Save</string>
+    <string name="tracking">Tracking</string>
+    <string name="clear">Clear track</string>
+    <string name="share_link">Share track link</string>
+    <string name="image_task_failed">Image resampling failed</string>
+    <string name="background_location_rationale">Background location permission is only needed when tracking is started without user interaction: through external command or when application is automatically started on system boot.\nFor this functionality to work you must select \"%s\" option in the location permission dialog.\nProceed to application permissions?</string>
+    <string name="background_location_required">Background location permission required</string>
+</resources>

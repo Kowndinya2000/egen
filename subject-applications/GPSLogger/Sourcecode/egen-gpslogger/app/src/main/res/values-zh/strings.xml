@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ strings.xml
+  ~ Created by G.Capelli on 8/5/2016
+  ~ This file is part of BasicAirData GPS Logger
+  ~
+  ~ Copyright (C) 2011 BasicAirData
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program. If not, see <http://www.gnu.org/licenses/>.
+  -->
+<resources>
+    <!-- Tabs -->
+    <string name="tab_gpsfix">GPS定位</string>
+    <string name="tab_track">轨迹</string>
+    <string name="tab_tracklist">轨迹列表</string>
+    <!-- GPS Fix -->
+    <string name="latitude">纬度</string>
+    <string name="longitude">经度</string>
+    <string name="altitude">高度</string>
+    <string name="speed">速度</string>
+    <string name="direction">方向</string>
+    <string name="accuracy">精度</string>
+    <string name="time">时间</string>
+    <string name="satellites">卫星数量</string>
+    <string name="north">北</string>
+    <string name="north_northeast">东北偏北</string>
+    <string name="northeast">东北</string>
+    <string name="east_northeast">东北偏东</string>
+    <string name="east">东</string>
+    <string name="east_southeast">东南偏东</string>
+    <string name="southeast">东南</string>
+    <string name="south_southeast">东南偏南</string>
+    <string name="south">南</string>
+    <string name="south_southwest">西南偏南</string>
+    <string name="southwest">西南</string>
+    <string name="west_southwest">西南偏西</string>
+    <string name="west">西</string>
+    <string name="west_northwest">西北偏西</string>
+    <string name="northwest">西北</string>
+    <string name="north_northwest">西北偏北</string>
+    <!-- GPS Status messages -->
+    <string name="gps_not_accessible">无法访问 GPS</string>
+    <string name="gps_disabled">GPS处于停用状态</string>
+    <string name="gps_out_of_service">GPS无服务</string>
+    <string name="gps_searching">正在寻找GPS</string>
+    <string name="gps_stabilizing">正在稳定信号</string>
+    <string name="warning_location_denied">应用无法访问位置信息</string>
+    <string name="warning_background_restricted">应用无法在后台工作。\n请点击这里进入系统设置，在电池栏目中，您可以允许应用在后台活动。</string>
+    <string name="warning_enable_location_service">GPS传感器已禁用。\n点击这里前往系统设置，在那里您可以启用定位服务并设置一个使用GPS传感器的定位方法</string>
+    <!-- Track -->
+    <string name="track_id">轨迹</string>
+    <string name="duration">持续时间</string>
+    <string name="max_speed">最高速度</string>
+    <string name="average_speed">平均速度</string>
+    <string name="distance">距离</string>
+    <string name="overall_direction">总体方向</string>
+    <string name="altitude_gap">高度差</string>
+    <!-- Track Status message -->
+    <string name="track_empty">新轨迹</string>
+    <string name="track_start_with_button_below">开始记录路点\n或者使用下方其中一个按钮\n添加批注</string>
+    <!-- Recording buttons (bottom side) -->
+    <string name="record">记录</string>
+    <string name="pause">暂停</string>
+    <string name="annotate">批注</string>
+    <string name="stop">停止</string>
+    <string name="lock">锁定</string>
+    <string name="unlock">解锁</string>
+    <string name="finalize_track">完成轨迹</string>
+    <string name="toast_bottom_bar_locked">底部栏已锁定</string>
+    <string name="toast_nothing_to_save">没有要保存的数据</string>
+    <string name="toast_recording_when_gps_found">当找到 GPS 信号时，记录将开始</string>
+    <string name="toast_annotate_when_gps_found">当找到 GPS 信号时，将添加批注</string>
+    <string name="ok">确定</string>
+    <string name="annotations">批注</string>
+    <string name="trackpoints">路点</string>
+    <!-- Main menu -->
+    <string name="menu_settings">设置</string>
+    <string name="toast_track_saved_into_tracklist">此轨迹已保存至轨迹列表中</string>
+    <string name="toast_track_exported">已把轨迹导出至/GPSLogger目录</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_online_help">在线帮助</string>
+    <string name="menu_shutdown">关闭</string>
+    <!-- Annotation Creation dialog -->
+    <string name="dlg_add_annotation">添加批注</string>
+    <string name="dlg_enter_the_description">输入描述</string>
+    <string name="dlg_button_add">添加</string>
+    <!-- Tracklist -->
+    <string name="tracklist_empty">轨迹列表为空</string>
+    <string name="card_trackinfo_length">长度</string>
+    <string name="card_trackinfo_duration">持续时间</string>
+    <string name="card_trackinfo_altitude_gap">高度差</string>
+    <string name="card_trackinfo_max_speed">最高速</string>
+    <string name="card_trackinfo_average_speed">均速</string>
+    <string name="card_trackinfo_geopoints">路点</string>
+    <string name="card_trackinfo_annotations">批注</string>
+    <!-- Context menu of Tracklist -->
+    <string name="card_menu_export">导出</string>
+    <string name="card_menu_view_selector">查看</string>
+    <string name="card_menu_view">使用%1$s查看</string>
+    <string name="card_menu_delete">删除</string>
+    <string name="card_menu_share">分享</string>
+    <string name="card_menu_edit">编辑详细信息</string>
+    <!-- Tracklist toasts and messagebox -->
+    <string name="card_message_delete_also_exported">您是否还想删除所选轨道的所有导出文件？</string>
+    <string name="card_message_delete_confirmation">您确定要删除已选择的轨迹？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="cancel">取消</string>
+    <string name="export_unable_to_write_file">无法写入到文件</string>
+    <string name="please_grant_storage_permission">请授予存储权限以启用此功能</string>
+    <!-- Notification App killed messagebox -->
+    <string name="dlg_app_killed">本应用在后台记录过程中被终止。</string>
+    <string name="dlg_app_killed_description">请检查安卓设置，确保本应用不被电量优化或后台限制。</string>
+    <string name="open_android_app_settings">打开设置</string>
+    <!-- Preferences -->
+    <string name="pref_category_interface">界面</string>
+    <string name="pref_keep_screen_on">保持屏幕常亮</string>
+    <string name="pref_keep_screen_on_summary">电池消耗更快</string>
+    <string name="pref_color_theme">颜色主题</string>
+    <string name="pref_color_theme_dark">暗色主题</string>
+    <string name="pref_color_theme_light">浅色主题</string>
+    <string name="pref_show_decimal_coordinates">显示十进制坐标</string>
+    <string name="pref_show_decimal_coordinates_summary">以十进制显示小数部分</string>
+    <string name="pref_show_gps_time_local">以本地时区显示GPS时间</string>
+    <string name="pref_show_gps_time_local_summary">而不是全球GPS时间</string>
+    <string name="pref_show_directions">如何显示方向</string>
+    <string name="pref_show_directions_angle">北偏东的角度</string>
+    <string name="pref_show_directions_cardinal">基点</string>
+    <string name="pref_unit_of_measurement">测量系统</string>
+    <string name="pref_unit_of_measurement_metric">公制</string>
+    <string name="pref_unit_of_measurement_imperial">英制</string>
+    <string name="pref_unit_of_measurement_aerial_nautical">空中/航海</string>
+    <string name="pref_unit_of_measurement_speed">显示速度单位</string>
+    <string name="pref_track_viewer">轨迹查看器</string>
+    <string name="pref_track_viewer_not_installed">未安装 GPX/KML 查看器</string>
+    <string name="pref_track_viewer_select_every_time">每次选择</string>
+    <string name="pref_category_tracking">轨迹记录</string>
+    <string name="pref_GPS_distance">记录密度</string>
+    <string name="pref_GPS_distance_max">最大值</string>
+    <string name="pref_GPS_distance_1m">1米</string>
+    <string name="pref_GPS_distance_2m">2米</string>
+    <string name="pref_GPS_distance_5m">5米</string>
+    <string name="pref_GPS_distance_10m">10米</string>
+    <string name="pref_GPS_distance_20m">20米</string>
+    <string name="pref_GPS_distance_3ft">3英尺</string>
+    <string name="pref_GPS_distance_6ft">6英尺</string>
+    <string name="pref_GPS_distance_16ft">16英尺</string>
+    <string name="pref_GPS_distance_33ft">33英尺</string>
+    <string name="pref_GPS_distance_66ft">66英尺</string>
+    <string name="pref_GPS_update_frequency">GPS更新间隔</string>
+    <string name="pref_GPS_update_frequency_max">最短可用间隔</string>
+    <string name="pref_GPS_update_frequency_1s">1秒 (最佳精度)</string>
+    <string name="pref_GPS_update_frequency_2s">2秒</string>
+    <string name="pref_GPS_update_frequency_3s">3秒 (不太准确)</string>
+    <string name="pref_category_altitude_corrections">高度修正</string>
+    <string name="pref_EGM96AltitudeCorrection">EGM96修正</string>
+    <string name="pref_EGM96AltitudeCorrection_summary">基于NGA地球大地水准面模型的自动高度校正</string>
+    <string name="pref_EGM96AltitudeCorrection_download_progress">下载2028kb文件:\nEGM96大地水准面高度表。</string>
+    <string name="pref_AltitudeCorrection">手动校正</string>
+    <string name="pref_AltitudeCorrection_summary_offset">偏移：</string>
+    <string name="pref_AltitudeCorrection_summary_not_defined">未定义偏移量</string>
+    <string name="pref_category_exporting">导出设置</string>
+    <string name="pref_export_TXT">以TXT格式导出轨迹</string>
+    <string name="pref_export_TXT_summary">纯文本, 逗号分隔的值</string>
+    <string name="pref_export_KML">以KML格式导出轨迹</string>
+    <string name="pref_export_KML_summary">Keyhole Markup 语言(v.2.2)</string>
+    <string name="pref_export_GPX">以GPX格式导出轨迹</string>
+    <string name="pref_export_GPX_summary">标准GPS交换格式</string>
+    <string name="pref_GPX_version">GPX标准版本</string>
+    <string name="pref_GPX_version_1_0">GPX 1.0</string>
+    <string name="pref_GPX_version_1_1">GPX 1.1</string>
+    <string name="pref_KML_altitude_mode">KML高度模式</string>
+    <string name="pref_KML_altitude_mode_absolute">绝对</string>
+    <string name="pref_KML_altitude_mode_projected">投影到地面</string>
+    <string name="pref_track_stats">轨迹统计数据基于</string>
+    <string name="pref_track_stats_totaltime">总时长</string>
+    <string name="pref_track_stats_movingtime">移动时间</string>
+    <!-- Preferences toasts -->
+    <string name="toast_download_error">下载错误</string>
+    <string name="toast_download_completed">下载已完成</string>
+    <string name="toast_download_failed">下载失败。请稍后再试</string>
+    <string name="toast_active_track_not_empty">当前活动轨迹非空</string>
+    <string name="toast_no_browser_installed">未安装互联网浏览器</string>
+    <!-- About Dialog -->
+    <string name="about_version">版本</string>
+    <string name="about_description">版权所有(C)2016 BasicAirData \nhttp://www.basicairdata.eu\n\nBasicAirData GPS Logger使用GPS记录您的轨迹。您可以在喜欢的查看器中查看它们，并以KML，GPX和TXT格式将它们分享，导出到设备的GPSLogger文件夹中。\n\n此程序是免费软件，根据GNU通用公共许可证条款发布。\n有关详细信息，请参阅：http://www.gnu.org/licenses/gpl.txt</string>
+    <string name="about_description_googleplaystore">如果您喜欢使用此应用程序，请花点时间在Google Store中为GPS Logger评分。</string>
+    <string name="about_ok">关闭</string>
+    <string name="about_rate_this_app">评价此应用</string>
+    <string name="about_unable_to_rate">无法访问Google应用商店</string>
+    <!-- Notification icon -->
+    <string name="notification_contenttext">处于活动状态</string>
+    <!-- Exit confirmation -->
+    <string name="message_exit_finalizing">您正准备关闭本应用。\n您要现在结束当前轨迹记录吗？</string>
+    <!-- Units of Measurement -->
+    <string name="UM_m">米</string>
+    <string name="UM_km">公里</string>
+    <string name="UM_m_s">米/秒</string>
+    <string name="UM_km_h">公里/时</string>
+    <string name="UM_ft">英尺</string>
+    <string name="UM_mi">英里</string>
+    <string name="UM_fps">英尺/秒</string>
+    <string name="UM_mph">英里/时</string>
+    <string name="UM_nm">海里</string>
+    <string name="UM_kn">节</string>
+</resources>

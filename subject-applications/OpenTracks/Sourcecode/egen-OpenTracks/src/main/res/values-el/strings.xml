@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">αεροπλάνο</string>
+    <string name="activity_type_atv">ATV</string>
+    <string name="activity_type_biking">ποδηλασία</string>
+    <string name="activity_type_blimp">μικρό αερόστατο</string>
+    <string name="activity_type_boat">πλοίο</string>
+    <string name="activity_type_climbing">αναρρίχηση</string>
+    <string name="activity_type_commercial_airplane">εμπορικό αεροπλάνο</string>
+    <string name="activity_type_cross_country_skiing">σκι στα χιόνια</string>
+    <string name="activity_type_cycling">ποδηλασία</string>
+    <string name="activity_type_dirt_bike">μοτοκρός</string>
+    <string name="activity_type_donkey_back_riding">ιππασία με γάϊδαρο</string>
+    <string name="activity_type_driving">οδήγηση</string>
+    <string name="activity_type_driving_bus">οδήγηση λεωφορείου</string>
+    <string name="activity_type_driving_car">οδήγηση αυτοκινήτου</string>
+    <string name="activity_type_ferry">Φέρι μποτ</string>
+    <string name="activity_type_frisbee">φρισμπι</string>
+    <string name="activity_type_gliding">ανεμόπτερο</string>
+    <string name="activity_type_hang_gliding">αιωροπτερισμός</string>
+    <string name="activity_type_helicopter">ελικόπτερο</string>
+    <string name="activity_type_hiking">πεζοπορία</string>
+    <string name="activity_type_horse_back_riding">ιππασία</string>
+    <string name="activity_type_hot_air_balloon">αερόστατο</string>
+    <string name="activity_type_ice_sailing">ιστιοπλοΐα στον πάγο</string>
+    <string name="activity_type_inline_skating">πατινάζ με μονό ρόλερ</string>
+    <string name="activity_type_kayaking">καγιάκ</string>
+    <string name="activity_type_kite_surfing">σέρφινγκ με αετό</string>
+    <string name="activity_type_land_sailing">ιστιοπλοΐα γης</string>
+    <string name="activity_type_mixed_type">μικτού τύπου</string>
+    <string name="activity_type_motor_bike">μηχανάκι</string>
+    <string name="activity_type_motor_boating">Μηχανοκίνητα σκάφη</string>
+    <string name="activity_type_mountain_biking">Ποδηλασία στο βουνό</string>
+    <string name="activity_type_off_trail_hiking">πεζοπορία σε ανώμαλο έδαφος</string>
+    <string name="activity_type_other">Άλλη</string>
+    <string name="activity_type_paddling">κωπηλασία</string>
+    <string name="activity_type_para_gliding">παραπέντε</string>
+    <string name="activity_type_rc_airplane">τηλεχειριζόμενο αεροπλάνο</string>
+    <string name="activity_type_rc_boat">Τηλεχειριζόμενη βάρκα</string>
+    <string name="activity_type_rc_helicopter">Τηλεχειριζόμενο ελικόπτερο</string>
+    <string name="activity_type_riding">ιππασία</string>
+    <string name="activity_type_road_biking">ποδηλασία</string>
+    <string name="activity_type_roller_skiing">ρόλερ σκι ρολό</string>
+    <string name="activity_type_rowing">κωπηλασία</string>
+    <string name="activity_type_running">τρέξιμο</string>
+    <string name="activity_type_sailing">ιστιοπλοΐα</string>
+    <string name="activity_type_seaplane">υδροπλάνο</string>
+    <string name="activity_type_skate_boarding">skate boarding</string>
+    <string name="activity_type_skating">πατινάζ</string>
+    <string name="activity_type_skiing">σκι</string>
+    <string name="activity_type_sky_jumping">πτώση με αλεξίπτωτο</string>
+    <string name="activity_type_sled">έλκηθρο</string>
+    <string name="activity_type_snow_boarding">snow boarding</string>
+    <string name="activity_type_snow_shoeing">περπάτημα με χιονοπέδιλα</string>
+    <string name="activity_type_speed_walking">γρήγορο βάδισμα</string>
+    <string name="activity_type_street_running">τροχάδην στο δρόμο</string>
+    <string name="activity_type_surfing">σέρφινγκ</string>
+    <string name="activity_type_track_cycling">ποδηλασία πίστας</string>
+    <string name="activity_type_track_running">Τρέξιμο σε γήπεδο</string>
+    <string name="activity_type_trail_hiking">πεζοπορία σε μονοπάτι</string>
+    <string name="activity_type_trail_running">τροχάδην σε μονοπάτι</string>
+    <string name="activity_type_train">τρένο</string>
+    <string name="activity_type_ultimate_frisbee">ultimate frisbee</string>
+    <string name="activity_type_unknown">άγνωστη</string>
+    <string name="activity_type_wakeboarding">wakeboarding</string>
+    <string name="activity_type_walking">βάδισμα</string>
+    <string name="activity_type_water_skiing">θαλάσσιο σκι</string>
+    <string name="activity_type_wind_surfing">Ιστιοσανίδα</string>
+    <!-- Description -->
+    <string name="description_activity_type">Τύπος δραστηριότητας: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Μέσος ρυθμός κίνησης: %1$s λεπτά/χλμ (%2$s λεπτά/μίλι)</string>
+    <string name="description_average_moving_speed">Μέση ταχύτητα κίνησης: %1$.2f χλμ/ώρα (%2$.1f μίλια/ώρα)</string>
+    <string name="description_average_pace_in_minute">Μέσος ρυθμός: %1$s λεπτά/χλμ (%2$s λεπτά/μίλι)</string>
+    <string name="description_average_speed">Μέση ταχύτητα: %1$.2f χλμ/ώρα (%2$.1f μίλια/ώρα)</string>
+    <string name="description_altitude_gain">Υψομετρικό κέρδος: %1$d μέτρα (%2$d πόδια)</string>
+    <string name="description_altitude_imperial">Υψόμετρο (πόδια)</string>
+    <string name="description_altitude_metric">Υψόμετρο (μέτρα)</string>
+    <string name="description_fastest_pace_in_minute">Ταχύτερος ρυθμός: %1$s λεπτά/χλμ (%2$s λεπτά/μίλι)</string>
+    <string name="description_max_altitude">Μέγιστη ανύψωση: %1$d μέτρα (%2$d πόδια)</string>
+    <string name="description_max_speed">Μέγιστη ταχύτητα: %1$.2f χλμ/ώρα (%2$.1f μίλια/ώρα)</string>
+    <string name="description_min_altitude">Ελάχιστη ανύψωση: %1$d μέτρα (%2$d πόδια)</string>
+    <string name="description_moving_time">Χρόνος μεταφοράς: %1$s</string>
+    <string name="description_pace_imperial">Ρυθμός (λεπτά/μίλι)</string>
+    <string name="description_pace_metric">Ρυθμός (λεπτά/χλμ)</string>
+    <string name="description_recorded_time">Εγγραφή: %1$s</string>
+    <string name="description_speed_ms">Ταχύτητα (μέτρα/δευτ)</string>
+    <string name="description_sensor_cadence">Ρυθμός (σ.α.λ.)</string>
+    <string name="description_sensor_heart_rate">Καρδιακός ρυθμός (χ.α.λ.)</string>
+    <string name="description_sensor_power">Ισχύς (W)</string>
+    <string name="description_speed_imperial">Ταχύτητα (μίλια/ώρα)</string>
+    <string name="description_speed_metric">Ταχύτητα (χλμ/ώρα)</string>
+    <string name="description_time">Χρόνος</string>
+    <string name="description_total_distance">Συνολική απόσταση: %1$.2f χλμ (%2$.1f μίλια)</string>
+    <string name="description_total_time">Συνολικός χρόνος: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">Εξαγωγή στο %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">1 αρχείο</item>
+        <item quantity="other">%1$d αρχεία</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Προσθήκη</string>
+    <string name="generic_delete_selected_confirm_title">Διαγραφή επιλεγμένων;</string>
+    <string name="generic_description">Περιγραφή</string>
+    <string name="generic_description_line">Περιγραφή: %1$s</string>
+    <string name="generic_name">Όνομα</string>
+    <string name="generic_name_line">Όνομα: %1$s</string>
+    <string name="generic_paused">Σε παύση</string>
+    <string name="generic_recording">Καταγραφή…</string>
+    <string name="generic_save">αποθήκευση</string>
+    <string name="generic_tracks">Διαδρομές</string>
+    <!-- Gps -->
+    <string name="gps_starting">Εκκίνηση GPS</string>
+    <string name="gps_wait_for_better_signal">Αναμονή για καλύτερο σήμα GPS</string>
+    <string name="gps_wait_for_signal">Αναμονή για σήμα GPS</string>
+    <!-- Image -->
+    <string name="image_arrow">Βέλος</string>
+    <string name="image_marker">Δείκτης</string>
+    <string name="image_marker_count">Αριθμός δείκτη</string>
+    <string name="image_pause">Παύση</string>
+    <string name="image_photo_marker">Δείκτης φωτογραφίας</string>
+    <string name="image_record">Εγγραφή</string>
+    <string name="image_stop">Στοπ</string>
+    <string name="image_track">Διαδρομή</string>
+    <!-- Import -->
+    <string name="import_progress_message">Εισαγωγή από %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Δεν είναι δυνατή η εισαγωγή σήμανσης. Δεν υπάρχει σήμα GPS. Δοκιμάστε ξανά.</string>
+    <string name="marker_add_success">Έγινε εισαγωγή δείκτη</string>
+    <string name="marker_add_canceled">Ακυρώθηκε, δεν προστέθηκε κανένας δείκτης</string>
+    <string name="marker_delete_one_confirm_message">Ο δείκτης θα διαγραφεί οριστικά από τη συσκευή</string>
+    <string name="marker_delete_one_confirm_title">Διαγραφή δείκτη;</string>
+    <string name="marker_delete_multiple_confirm_message">Οι επιλεγμένοι δείκτες θα διαγραφούν οριστικά από τη συσκευή</string>
+    <string name="marker_name_format">Σήμανση %1$d</string>
+    <string name="marker_title">%1$d από %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Τύπος σήμανσης (π.χ. καταρράκτης)</string>
+    <string name="marker_edit_marker_type_hint">Τύπος σήμανσης</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Δεν έχετε κανένα δείκτη</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Στατιστικά</string>
+    <string name="menu_delete">Διαγραφή</string>
+    <string name="menu_edit">Επεξεργασία</string>
+    <string name="menu_export_all">Εξαγωγή όλων</string>
+    <string name="menu_help">Bοήθεια</string>
+    <string name="menu_import_all">Εισαγωγή όλων</string>
+    <string name="menu_insert_marker">Εισαγωγή σήμανσης</string>
+    <string name="menu_insert_photo">Εισαγωγή φωτογραφίας</string>
+    <string name="menu_markers">Δείκτες</string>
+    <string name="menu_search">Αναζήτηση</string>
+    <string name="menu_select_all">Επιλογή όλων</string>
+    <string name="menu_settings">Ρυθμίσεις</string>
+    <string name="menu_share">Κοινή χρήση</string>
+    <string name="menu_show_on_map">Εμφάνιση στον χάρτη</string>
+    <string name="menu_start_gps">Έναρξη GPS</string>
+    <string name="menu_stop_gps">Διακοπή GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Υπηρεσία καταγραφής</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Στάθμη μπαταρίας</string>
+    <string name="sensor_state_cadence">Ρυθμός</string>
+    <string name="sensor_state_cadence_value">%1$d rpm</string>
+    <string name="sensor_state_heart_rate">Καρδιακοί παλμοί</string>
+    <string name="sensor_state_heart_rate_value">%1$d bpm</string>
+    <string name="sensor_state_power">Ισχύς</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">Η επιλογή δεν είναι διαθέσιμη κατά την εγγραφή ίχνους</string>
+    <string name="settings_show">Εμφάνιση</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Προηγμένες</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Κατά απόσταση</string>
+    <string name="settings_chart_by_time">Κατά χρόνο</string>
+    <string name="settings_recording">Εγγραφή</string>
+    <string name="settings_recording_default_activity_title">Προεπιλεγμένος τύπος δραστηριότητας</string>
+    <string name="settings_recording_location_frequency_summary">%1$s μεταξύ καταγεγραμμένων θέσεων</string>
+    <string name="settings_recording_max_recording_distance_summary">Δημιουργείται ένα νέο τμήμα εάν η απόσταση ανάμεσα σε δύο θέσεις είναι μεγαλύτερη από %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">Μέγιστη απόσταση</string>
+    <string name="settings_recording_min_recording_distance_title">Διάστημα καταγραφής αποστάσεων</string>
+    <string name="settings_recording_min_recording_interval_title">Διάστημα καταγραφής χρόνου</string>
+    <string name="settings_recording_min_required_accuracy_summary">Η τοποθεσία αγνοείται εάν η ακρίβεια είναι μικρότερη από %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">Ακρίβεια GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Ημερομηνία (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Ημερομηνία (τοπική)</string>
+    <string name="settings_recording_track_name_number_option">Αριθμός</string>
+    <string name="settings_recording_track_name_title">Προεπιλεγμένο όνομα ίχνους</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Επαναφορά</string>
+    <string name="settings_reset_confirm_message">Όλες οι ρυθμίσεις θα επανέλθουν στις προεπιλεγμένες τιμές.</string>
+    <string name="settings_reset_confirm_title">Επαναφορά τώρα;</string>
+    <string name="settings_reset_done">Όλες οι ρυθμίσεις έχουν επανέλθει στις προεπιλεγμένες τιμές</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Προτιμώμενος ρυθμός</string>
+    <string name="settings_stats_units_imperial">Αγγλοσαξονικό (μίλια, πόδια)</string>
+    <string name="settings_stats_units_metric">Μετρικό (χλμ, μέτρα)</string>
+    <string name="settings_stats_units_title">Προτιμώμενες μονάδες</string>
+
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Νομίζω ότι μπορεί να σε ενδιαφέρει αυτό το ίχνος.\n\nΓια να δεις αυτό το ίχνος, χρησιμοποίησε το Google Earth ή άλλο λογισμικό χαρτογράφησης.\n\n%1$s</string>
+    <string name="share_track_subject">Θα ήθελα να μοιραστώ μία διαδρομή μαζί σου</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Μέσος ρυθμός κίνησης</string>
+    <string name="stats_average_moving_speed">Μέση ταχύτητα κίνησης</string>
+    <string name="stats_average_pace">Μέσος ρυθμός</string>
+    <string name="stats_average_speed">Μέση ταχύτητα</string>
+    <string name="stats_altitude">Υψόμετρο</string>
+    <string name="stats_fastest_pace">Ταχύτερος ρυθμός</string>
+    <string name="stats_gain">Αύξηση</string>
+    <string name="stats_latitude">Γεωγραφικό πλάτος</string>
+    <string name="stats_longitude">Γεωγραφικό μήκος</string>
+    <string name="stats_max_speed">Μέγιστη ταχύτητα</string>
+    <string name="stats_moving_time">Διάρκεια κίνησης</string>
+    <string name="stats_pace">Ρυθμός</string>
+    <string name="stats_speed">Ταχύτητα</string>
+    <string name="stats_distance">Απόσταση</string>
+    <string name="stats_total_time">Συνολικός χρόνος</string>
+    <!-- Track -->
+    <string name="track_name_format">Διαδρομή %1$d</string>
+    <string name="track_markers">%1$s Δείκτες</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Η διαδρομή και οι δείκτες της θα διαγραφούν οριστικά από τη συσκευή.</string>
+    <string name="track_delete_one_confirm_title">Διαγραφή διαδρομής;</string>
+    <string name="track_delete_multiple_confirm_message">Οι επιλεγμένες διαδρομές και οι δείκτες τους θα διαγραφούν οριστικά από τη συσκευή.</string>
+    <string name="track_delete_progress_message">Διαγραφή…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Στατιστικά</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Τύπος δραστηριότητας (π.χ. πεζοπορία)</string>
+    <string name="track_edit_activity_type_hint">Τύπος δραστηριότητας</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Ξεκινήστε την εγγραφή της επόμενης περιπέτειάς σας εδώ</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">πόδια</string>
+    <string name="unit_kilometer">χλμ.</string>
+    <string name="unit_kilometer_per_hour">χλμ/ώρα</string>
+    <string name="unit_meter">μέτρα</string>
+    <string name="unit_mile">μίλι</string>
+    <string name="unit_mile_per_hour">μίλια/ώρα</string>
+    <string name="unit_minute_per_kilometer">λεπτά / χιλ.</string>
+    <string name="unit_minute_per_mile">λεπτά/μίλι</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d πόδια</string>
+    <string name="value_integer_feet_excellent_gps">%1$d πόδια (τέλειο σήμα GPS)</string>
+    <string name="value_integer_feet_recommended">%1$d ft (συνιστάται)</string>
+    <string name="value_integer_kilometer">%1$d χιλιόμετρα</string>
+    <string name="value_integer_kilometer_hour">%1$d χλμ/ώρα</string>
+    <string name="value_integer_meter">%1$d μέτρα</string>
+    <string name="value_integer_meter_excellent_gps">%1$d μέτρα (τέλειο σήμα GPS)</string>
+    <string name="value_integer_meter_poor_gps">%1$d μέτρα (χαμηλό σήμα GPS)</string>
+    <string name="value_integer_meter_recommended">%1$d m (συνιστάται)</string>
+    <string name="value_integer_mile">%1$d μίλια</string>
+    <string name="value_integer_mile_hour">%1$d μίλια/ώρα</string>
+    <string name="value_integer_minute">%1$d λεπ.</string>
+    <string name="value_integer_second">%1$d δευτ</string>
+    <string name="value_none">Καμία</string>
+    <string name="value_off">Απενεργοποιημένο</string>
+    <string name="value_smallest_recommended">Μικρότερη (συνιστάται)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">1 ώρα</item>
+        <item quantity="other">%1$d ώρες</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">1 λεπτό</item>
+        <item quantity="other">%1$d λεπτά</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">1 δευτερόλεπτο</item>
+        <item quantity="other">%1$d δευτερόλεπταr</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">1 χιλιόμετρο ανά ώρα</item>
+        <item quantity="other">%1$.1f χιλιόμετρα ανά ώρα</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">1 μίλι ανά ώρα</item>
+        <item quantity="other">%1$.1f μίλια ανά ώρα</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s ανά χιλιόμετρο</string>
+    <string name="voice_pace_per_mile">%1$s ανά μίλι</string>
+    <string name="voice_template">%1$s σε %2$s με ταχύτητα %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">συνολική απόσταση 1 χιλιόμετρο</item>
+        <item quantity="other">συνολική απόσταση %1$.2f χιλιόμετρα</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">συνολική απόσταση 1 μίλι</item>
+        <item quantity="other">συνολική απόσταση %1$.2f μίλια</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">ATM</string>
+    <string name="waypoint_type_bank">τράπεζα</string>
+    <string name="waypoint_type_bar">μπαρ</string>
+    <string name="waypoint_type_barbecue">ψησταριά</string>
+    <string name="waypoint_type_building">κτίριο</string>
+    <string name="waypoint_type_bus_stop">στάση λεωφορείου</string>
+    <string name="waypoint_type_cafe">καφετέρια</string>
+    <string name="waypoint_type_campfire">φωτιά κάμπινγκ</string>
+    <string name="waypoint_type_campground">χώρος κάμπινγκ</string>
+    <string name="waypoint_type_church">εκκλησία</string>
+    <string name="waypoint_type_coffee_house">καφετέρια</string>
+    <string name="waypoint_type_convenience_store">Μίνι μάρκετ</string>
+    <string name="waypoint_type_drinking_water">πόσιμο νερό</string>
+    <string name="waypoint_type_falling_rocks">πτώση βράχων</string>
+    <string name="waypoint_type_ferry">Φέριμποτ</string>
+    <string name="waypoint_type_fire_place">τζάκι</string>
+    <string name="waypoint_type_fire_station">πυροσβεστική</string>
+    <string name="waypoint_type_fishing">ψάρεμα</string>
+    <string name="waypoint_type_gas_station">Βενζινάδικο</string>
+    <string name="waypoint_type_golf_course">γήπεδο γκολφ</string>
+    <string name="waypoint_type_grocery_store">παντοπωλείο</string>
+    <string name="waypoint_type_hair_dresser">κομμωτήριο</string>
+    <string name="waypoint_type_harbor">λιμάνι</string>
+    <string name="waypoint_type_hiking_path">μονοπάτι πεζοπορίας</string>
+    <string name="waypoint_type_hotel">ξενοδοχείο</string>
+    <string name="waypoint_type_house">σπίτι</string>
+    <string name="waypoint_type_information">πληροφορίες</string>
+    <string name="waypoint_type_intersection">διασταύρωση</string>
+    <string name="waypoint_type_mail_box">γραμματοκιβώτιο</string>
+    <string name="waypoint_type_market">αγορά</string>
+    <string name="waypoint_type_meeting_point">σημείο συνάντησης</string>
+    <string name="waypoint_type_opera">όπερα</string>
+    <string name="waypoint_type_parking">χώρος στάθμευσης</string>
+    <string name="waypoint_type_police_station">αστυνομικό τμήμα</string>
+    <string name="waypoint_type_post_office">ταχυδρομείο</string>
+    <string name="waypoint_type_pothole">λακκούβα</string>
+    <string name="waypoint_type_railway_crossing">σιδηροδρομική διάβαση</string>
+    <string name="waypoint_type_restaurant">εστιατόριο</string>
+    <string name="waypoint_type_shopping">ψώνια</string>
+    <string name="waypoint_type_sight">όραση</string>
+    <string name="waypoint_type_store">κατάστημα</string>
+    <string name="waypoint_type_swimming_pool">πισίνα</string>
+    <string name="waypoint_type_telephone">τηλέφωνο</string>
+    <string name="waypoint_type_theater">θέατρο</string>
+    <string name="waypoint_type_toilet">τουαλέτα</string>
+    <string name="waypoint_type_tourist_information">τουριστικές πληροφορίες</string>
+    <string name="waypoint_type_tree">δέντρο</string>
+    <string name="waypoint_type_tunnel">τούνελ</string>
+    <string name="waypoint_type_waterfall">καταρράκτης</string>
+    <string name="waypoint_type_water_fountain">συντριβάνι</string>
+    <string name="waypoint_type_waypoint">σημείο διαδρομής</string>
+</resources>

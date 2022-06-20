@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">літак</string>
+    <string name="activity_type_atv">Мотовсюдиходи</string>
+    <string name="activity_type_biking">велосипедний спорт</string>
+    <string name="activity_type_blimp">дирижабль</string>
+    <string name="activity_type_boat">човен</string>
+    <string name="activity_type_climbing">скелелазіння</string>
+    <string name="activity_type_commercial_airplane">комерційний літак</string>
+    <string name="activity_type_cross_country_skiing">лижні перегони</string>
+    <string name="activity_type_cycling">велоспорт</string>
+    <string name="activity_type_dirt_bike">Їзда на велосипеді по бездоріжжю</string>
+    <string name="activity_type_donkey_back_riding">верхова їзда на віслюках</string>
+    <string name="activity_type_driving">автомобіль</string>
+    <string name="activity_type_driving_bus">водіння автобуса</string>
+    <string name="activity_type_driving_car">водіння автомобіля</string>
+    <string name="activity_type_ferry">переправа</string>
+    <string name="activity_type_frisbee">фризбі</string>
+    <string name="activity_type_gliding">планеризм</string>
+    <string name="activity_type_hang_gliding">дельтапланеризм</string>
+    <string name="activity_type_helicopter">вертоліт</string>
+    <string name="activity_type_hiking">пішохідний туризм</string>
+    <string name="activity_type_horse_back_riding">верхова їзда на конях</string>
+    <string name="activity_type_hot_air_balloon">повітряна куля</string>
+    <string name="activity_type_ice_sailing">буерний спорт</string>
+    <string name="activity_type_inline_skating">катання на роликових ковзанах з колесами, розташованими в лінію</string>
+    <string name="activity_type_kayaking">каякінг</string>
+    <string name="activity_type_kite_surfing">кайтсерфінг</string>
+    <string name="activity_type_land_sailing">наземні вітрильники</string>
+    <string name="activity_type_mixed_type">змішаного типу</string>
+    <string name="activity_type_motor_bike">мотоцикл</string>
+    <string name="activity_type_motor_boating">моторні човни</string>
+    <string name="activity_type_mountain_biking">гірський велосипедний спорт</string>
+    <string name="activity_type_off_trail_hiking">пішохідний туризм поза прокладеними марштутами</string>
+    <string name="activity_type_other">інше</string>
+    <string name="activity_type_paddling">байдарки</string>
+    <string name="activity_type_para_gliding">парапланеризм</string>
+    <string name="activity_type_rc_airplane">авіамодель на дистанційному керуванні</string>
+    <string name="activity_type_rc_boat">човен на дистанційному керуванні</string>
+    <string name="activity_type_rc_helicopter">Вертоліт на дистанційному керуванні</string>
+    <string name="activity_type_riding">верхова їзда</string>
+    <string name="activity_type_road_biking">шляховий велоспорт</string>
+    <string name="activity_type_roller_skiing">роликові лижі</string>
+    <string name="activity_type_rowing">веслування</string>
+    <string name="activity_type_running">біг</string>
+    <string name="activity_type_sailing">вітрильний спорт</string>
+    <string name="activity_type_seaplane">гідролітак</string>
+    <string name="activity_type_skate_boarding">скейтбординг</string>
+    <string name="activity_type_skating">катання на ковзанах</string>
+    <string name="activity_type_skiing">лижний спорт</string>
+    <string name="activity_type_sky_jumping">стрибки на лижах</string>
+    <string name="activity_type_sled">сани</string>
+    <string name="activity_type_snow_boarding">сноубординг</string>
+    <string name="activity_type_snow_shoeing">снігоступи</string>
+    <string name="activity_type_speed_walking">спортивна ходьба</string>
+    <string name="activity_type_street_running">вуличний біг</string>
+    <string name="activity_type_surfing">серфінг</string>
+    <string name="activity_type_track_cycling">змагання на велотреку</string>
+    <string name="activity_type_track_running">біг</string>
+    <string name="activity_type_trail_hiking">пішохідний туризм за прокладеними марштутами</string>
+    <string name="activity_type_trail_running">біг по пересіченій місцевості</string>
+    <string name="activity_type_train">потяг</string>
+    <string name="activity_type_ultimate_frisbee">алтимат фризбі</string>
+    <string name="activity_type_unknown">невідомо</string>
+    <string name="activity_type_wakeboarding">вейкбординг</string>
+    <string name="activity_type_walking">ходьба</string>
+    <string name="activity_type_water_skiing">водні лижі</string>
+    <string name="activity_type_wind_surfing">віндсерфінг</string>
+    <!-- Description -->
+    <string name="description_activity_type">Тип тренування: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Середній темп: %1$s хв/км (%2$s хв/мл)</string>
+    <string name="description_average_moving_speed">Середня швидкість: %1$.2f км/год (%2$.1f мл/год)</string>
+    <string name="description_average_pace_in_minute">Середній темп: %1$s хв/км (%2$s хв/мл)</string>
+    <string name="description_average_speed">Середня швидкість: %1$.2f км/год (%2$.1f мл/год)</string>
+    <string name="description_altitude_gain">Сумарний підйом: %1$d м (%2$d фт)</string>
+    <string name="description_altitude_imperial">Підйом (фути)</string>
+    <string name="description_altitude_metric">Підйом (м)</string>
+    <string name="description_fastest_pace_in_minute">Найшвидший темп: %1$s хв/км (%2$s хв/мл)</string>
+    <string name="description_max_altitude">Максимальний підйом: %1$d м (%2$d фт)</string>
+    <string name="description_max_speed">Макс. швидкість: %1$.2f км/год (%2$.1f мл/год)</string>
+    <string name="description_min_altitude">Мін. підйом: %1$d м (%2$d фт)</string>
+    <string name="description_moving_time">Час руху: %1$s</string>
+    <string name="description_pace_imperial">Темп (хв/мл)</string>
+    <string name="description_pace_metric">Темп (хв/км)</string>
+    <string name="description_recorded_time">Записано: %1$s</string>
+    <string name="description_speed_ms">Швидкість (м/с)</string>
+    <string name="description_sensor_cadence">Темп (об/хв)</string>
+    <string name="description_sensor_heart_rate">Пульс (уд/хв)</string>
+    <string name="description_sensor_power">Потужність (Вт)</string>
+    <string name="description_speed_imperial">Швидкість (миль/год.)</string>
+    <string name="description_speed_metric">Швидкість (км/год.)</string>
+    <string name="description_time">Час</string>
+    <string name="description_total_distance">Загальна відстань: %1$.2f км (%2$.1f мл)</string>
+    <string name="description_total_time">Загальний час: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">Триває експорт у %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">%1$d файл</item>
+        <item quantity="few">%1$d файли</item>
+        <item quantity="many">%1$d файлів</item>
+        <item quantity="other">%1$d файлу</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Додати</string>
+    <string name="generic_delete_selected_confirm_title">Видалити вибрані?</string>
+    <string name="generic_description">Опис</string>
+    <string name="generic_description_line">Опис: %1$s</string>
+    <string name="generic_name">Назва</string>
+    <string name="generic_name_line">Назва: %1$s</string>
+    <string name="generic_paused">Призупинено</string>
+    <string name="generic_recording">Записування…</string>
+    <string name="generic_save">Зберегти</string>
+    <string name="generic_tracks">Шляхи</string>
+    <!-- Gps -->
+    <string name="gps_starting">Запуск GPS</string>
+    <string name="gps_wait_for_better_signal">Очікується кращий GPS-сигналу</string>
+    <string name="gps_wait_for_signal">Очікується GPS-сигнал</string>
+    <!-- Image -->
+    <string name="image_arrow">Стрілка</string>
+    <string name="image_marker">Маркер</string>
+    <string name="image_marker_count">Кількість маркерів</string>
+    <string name="image_pause">Пауза</string>
+    <string name="image_photo_marker">Фотомаркер</string>
+    <string name="image_record">Записати</string>
+    <string name="image_stop">Зупинити</string>
+    <string name="image_track">Трек</string>
+    <!-- Import -->
+    <string name="import_progress_message">Імпорт із каталогу %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Неможливо вставити маркер, оскільки відсутній сигнал GPS. Повторіть спробу.</string>
+    <string name="marker_add_success">Маркер вставлено</string>
+    <string name="marker_add_canceled">Помилка: не додано маркер</string>
+    <string name="marker_delete_one_confirm_message">Маркер буде назавжди видалено з пам’яті пристрою</string>
+    <string name="marker_delete_one_confirm_title">Видалити маркер?</string>
+    <string name="marker_delete_multiple_confirm_message">Вибрані маркери буде назавжди видалено з пам’яті пристрою</string>
+    <string name="marker_name_format">Маркер %1$d</string>
+    <string name="marker_title">%1$d із %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Тип маркера (наприклад, водоспад)</string>
+    <string name="marker_edit_marker_type_hint">Тип маркера</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Немає маркерів</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Сукупна статистика</string>
+    <string name="menu_delete">Видалити</string>
+    <string name="menu_edit">Редагувати</string>
+    <string name="menu_export_all">Експортувати все</string>
+    <string name="menu_help">Довідка</string>
+    <string name="menu_import_all">Імпортувати все</string>
+    <string name="menu_insert_marker">Вставити маркер</string>
+    <string name="menu_insert_photo">Вставити фото</string>
+    <string name="menu_markers">Маркери</string>
+    <string name="menu_search">Пошук</string>
+    <string name="menu_select_all">Вибрати все</string>
+    <string name="menu_settings">Налаштування</string>
+    <string name="menu_share">Поділитись</string>
+    <string name="menu_show_on_map">Показати на карті</string>
+    <string name="menu_start_gps">Увімкнути GPS</string>
+    <string name="menu_stop_gps">Вимкнути GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Служба запису</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Рівень заряду батареї</string>
+    <string name="sensor_state_cadence">Темп</string>
+    <string name="sensor_state_cadence_value">%1$d об/хв</string>
+    <string name="sensor_state_heart_rate">Пульс</string>
+    <string name="sensor_state_heart_rate_value">%1$d уд/хв</string>
+    <string name="sensor_state_power">Потужність</string>
+    <string name="sensor_state_power_value">%1$d В</string>
+    <string name="settings_not_while_recording">Недоступно під час записування шляху</string>
+    <string name="settings_show">Показати</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Розширені</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Дистанція</string>
+    <string name="settings_chart_by_time">Час</string>
+    <string name="settings_recording">Записування</string>
+    <string name="settings_recording_default_activity_title">Тип за умовчанням</string>
+    <string name="settings_recording_location_frequency_summary">Записувати відрізок через кожні %1$s</string>
+    <string name="settings_recording_max_recording_distance_summary">Кожні %1$s шляху відміряється новий відрізок</string>
+    <string name="settings_recording_max_recording_distance_title">Максимальна відстань</string>
+    <string name="settings_recording_min_recording_distance_title">Відстань відрізка</string>
+    <string name="settings_recording_min_recording_interval_title">Тривалість відрізка</string>
+    <string name="settings_recording_min_required_accuracy_summary">Якщо точність менша за %1$s, місцезнаходження не враховується</string>
+    <string name="settings_recording_min_required_accuracy_title">Точність GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Дата (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Дата (локаль. формат)</string>
+    <string name="settings_recording_track_name_number_option">Номер</string>
+    <string name="settings_recording_track_name_title">Назва шляху за умовчанням</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Скинути</string>
+    <string name="settings_reset_confirm_message">Усі налаштування буде скинуто до значень за умовчанням.</string>
+    <string name="settings_reset_confirm_title">Скинути зараз?</string>
+    <string name="settings_reset_done">Для всіх налаштувань відновлено значення за умовчанням</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Система вимірювання</string>
+    <string name="settings_stats_units_imperial">Британська (милі, фути)</string>
+    <string name="settings_stats_units_metric">Метрична (км, м)</string>
+    <string name="settings_stats_units_title">Одиниці вимірювання</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Цей шлях може вас зацікавити.
+\n
+\n%1$s</string>
+    <string name="share_track_subject">Я хочу поділитися з вами інформацією про шлях</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Середній темп руху</string>
+    <string name="stats_average_moving_speed">Середня швидкість руху</string>
+    <string name="stats_average_pace">Середній темп</string>
+    <string name="stats_average_speed">Середня швидкість</string>
+    <string name="stats_altitude">Підйом</string>
+    <string name="stats_fastest_pace">Найшвидший темп</string>
+    <string name="stats_gain">Приріст</string>
+    <string name="stats_latitude">Широта</string>
+    <string name="stats_longitude">Довгота</string>
+    <string name="stats_max_speed">Макс. швидкість</string>
+    <string name="stats_moving_time">Час у дорозі</string>
+    <string name="stats_pace">Темп</string>
+    <string name="stats_speed">Швидкість</string>
+    <string name="stats_distance">Відстань</string>
+    <string name="stats_total_time">Загальний час</string>
+    <!-- Track -->
+    <string name="track_name_format">Шлях %1$d</string>
+    <string name="track_markers">Маркери шляху \"%1$s\"</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Шлях і його маркери буде остаточно видалено з пристрою.</string>
+    <string name="track_delete_one_confirm_title">Видалити шлях?</string>
+    <string name="track_delete_multiple_confirm_message">Вибрані шляхи та їх маркери буде остаточно видалено з пристрою.</string>
+    <string name="track_delete_progress_message">Видалення…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Статистика</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Тип активного відпочинку (наприклад, піший туризм)</string>
+    <string name="track_edit_activity_type_hint">Тип треку</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Запишіть свою наступну пригоду тут</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">фут.</string>
+    <string name="unit_kilometer">км</string>
+    <string name="unit_kilometer_per_hour">км/год.</string>
+    <string name="unit_meter">м</string>
+    <string name="unit_mile">милі</string>
+    <string name="unit_mile_per_hour">миль на годину</string>
+    <string name="unit_minute_per_kilometer">хв/км</string>
+    <string name="unit_minute_per_mile">хв./милю</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d фут</string>
+    <string name="value_integer_feet_excellent_gps">%1$d фут. (відмінний сигнал GPS)</string>
+    <string name="value_integer_feet_recommended">%1$d фут. (рекомендовано)</string>
+    <string name="value_integer_kilometer">%1$d км</string>
+    <string name="value_integer_kilometer_hour">%1$d км/год</string>
+    <string name="value_integer_meter">%1$d м</string>
+    <string name="value_integer_meter_excellent_gps">%1$d м (відмінний сигнал GPS)</string>
+    <string name="value_integer_meter_poor_gps">%1$d м (слабкий сигнал GPS)</string>
+    <string name="value_integer_meter_recommended">%1$d м (рекомендовано)</string>
+    <string name="value_integer_mile">Миль: %1$d</string>
+    <string name="value_integer_mile_hour">%1$d миль/год</string>
+    <string name="value_integer_minute">%1$d хв</string>
+    <string name="value_integer_second">%1$d сек</string>
+    <string name="value_none">Немає</string>
+    <string name="value_off">Вимк.</string>
+    <string name="value_smallest_recommended">Найменше (рекомендовано)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">%1$d година</item>
+        <item quantity="few">%1$d години</item>
+        <item quantity="many">%1$d годин</item>
+        <item quantity="other">%1$d годин</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">%1$d хвилина</item>
+        <item quantity="few">%1$d хвилини</item>
+        <item quantity="many">%1$d хвилин</item>
+        <item quantity="other">%1$d хв</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">%1$d секунда</item>
+        <item quantity="few">%1$d секунди</item>
+        <item quantity="many">%1$d секунд</item>
+        <item quantity="other">1$d секунд</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">%1$.1f кілометр на годину</item>
+        <item quantity="few">%1$.1f кілометри на годину</item>
+        <item quantity="many">%1$.1f км/год</item>
+        <item quantity="other">%1$.1f кілометра на годину</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">%1$.1f миля на годину</item>
+        <item quantity="few">%1$.1f милі на годину</item>
+        <item quantity="many">%1$.1f миль на годину</item>
+        <item quantity="other">%1$.1f милі на годину</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s на кілометр</string>
+    <string name="voice_pace_per_mile">%1$s на милю</string>
+    <string name="voice_template">%1$s за %2$s (зі швидкістю %3$s)</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">загальна відстань: %1$.2f кілометр</item>
+        <item quantity="few">загальна відстань: %1$.2f км</item>
+        <item quantity="many">загальна відстань: %1$.2f км</item>
+        <item quantity="other">загальна відстань: %1$.2f кілометра</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">загальна відстань: %1$.2f миля</item>
+        <item quantity="few">загальна відстань: %1$.2f милі</item>
+        <item quantity="many">загальна відстань: %1$.2f миль</item>
+        <item quantity="other">загальна відстань: %1$.2f милі</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">Банкомат</string>
+    <string name="waypoint_type_bank">банк</string>
+    <string name="waypoint_type_bar">бар</string>
+    <string name="waypoint_type_barbecue">барбекю</string>
+    <string name="waypoint_type_building">будівля</string>
+    <string name="waypoint_type_bus_stop">автобусна зупинка</string>
+    <string name="waypoint_type_cafe">кафе</string>
+    <string name="waypoint_type_campfire">вогнище</string>
+    <string name="waypoint_type_campground">наметові табори</string>
+    <string name="waypoint_type_church">церква</string>
+    <string name="waypoint_type_coffee_house">кав’ярня</string>
+    <string name="waypoint_type_convenience_store">цілодобова крамниця</string>
+    <string name="waypoint_type_drinking_water">питна вода</string>
+    <string name="waypoint_type_falling_rocks">обвал каміння</string>
+    <string name="waypoint_type_ferry">переправа</string>
+    <string name="waypoint_type_fire_place">вогнище</string>
+    <string name="waypoint_type_fire_station">пожежне депо</string>
+    <string name="waypoint_type_fishing">рибальство</string>
+    <string name="waypoint_type_gas_station">АЗС</string>
+    <string name="waypoint_type_golf_course">поле для гольфу</string>
+    <string name="waypoint_type_grocery_store">продуктовий магазин</string>
+    <string name="waypoint_type_hair_dresser">перукарня</string>
+    <string name="waypoint_type_harbor">гавань</string>
+    <string name="waypoint_type_hiking_path">пішохідна стежка</string>
+    <string name="waypoint_type_hotel">готель</string>
+    <string name="waypoint_type_house">будинок</string>
+    <string name="waypoint_type_information">відомості</string>
+    <string name="waypoint_type_intersection">перехрестя</string>
+    <string name="waypoint_type_mail_box">поштова скринька</string>
+    <string name="waypoint_type_market">ринок</string>
+    <string name="waypoint_type_meeting_point">місце зустрічі</string>
+    <string name="waypoint_type_opera">опера</string>
+    <string name="waypoint_type_parking">паркування</string>
+    <string name="waypoint_type_police_station">міліцейський відділок</string>
+    <string name="waypoint_type_post_office">поштове відділення</string>
+    <string name="waypoint_type_pothole">вибоїна</string>
+    <string name="waypoint_type_railway_crossing">залізничний переїзд</string>
+    <string name="waypoint_type_restaurant">ресторан</string>
+    <string name="waypoint_type_shopping">покупки</string>
+    <string name="waypoint_type_sight">місце</string>
+    <string name="waypoint_type_store">магазин</string>
+    <string name="waypoint_type_swimming_pool">плавальний басейн</string>
+    <string name="waypoint_type_telephone">телефон</string>
+    <string name="waypoint_type_theater">театр</string>
+    <string name="waypoint_type_toilet">туалет</string>
+    <string name="waypoint_type_tourist_information">інформація для туристів</string>
+    <string name="waypoint_type_tree">дерево</string>
+    <string name="waypoint_type_tunnel">тунель</string>
+    <string name="waypoint_type_waterfall">водоспад</string>
+    <string name="waypoint_type_water_fountain">фонтан</string>
+    <string name="waypoint_type_waypoint">точка маршруту</string>
+    <string name="sensor_state_heart_rate_avg">Сер. ритм серця</string>
+    <string name="sensor_state_heart_rate_max">Макс. ритм серця</string>
+    <string name="sensor_state_power_avg">Сер. потужність</string>
+    <string name="settings_night_mode_option_day">День</string>
+    <string name="settings_night_mode_option_night">Ніч</string>
+    <string name="settings_error_initial_values_restored">Вибачте, але сталася помилка. Всі налаштування було скинуто до стандартних значень.</string>
+    <string name="settings_sensor_connecting">Під\'єднано до %1$s</string>
+    <string name="settings_sensor_disconnected">Відключено від %1$s</string>
+    <string name="stats_split_interval">Розділити на</string>
+    <string name="track_recording_notification_accuracy">Точність місцеположення: %1$s</string>
+    <string name="track_detail_intervals_tab">Інтервали</string>
+    <string name="voice_speed_lap">Швидкість кола %1$s</string>
+    <string name="voice_pace_lap">Час кола %1$s</string>
+    <string name="interval_list_empty_message">Ще немає інтервалу</string>
+    <string name="share_image_body">Думаю, вам може бути цікаво це зображення.</string>
+    <string name="hold_to_pause">Затисніть</string>
+    <string name="instant_export_enabled_summary">Експорт треку в сховище після завершення запису</string>
+    <string name="instant_export_enabled_title">Миттєвий експорт після тренування</string>
+    <string name="help_gps_troubleshooting_content"> Що ви можете зробити:
+\na) перевірте, чи ввімкнено GPS,
+\nb) покращити прийом GPS (наприклад, вийти на вулицю),
+\nc) перевірити за допомогою додатку <a href="https://f-droid.org/en/packages/com.android.gpstest.osmdroid/">GPSTest</a> та
+\nd) вимкнути енергозбереження.
+\n
+\nЯкщо це не допомогло - будь ласка, повідомте про помилку. </string>
+    <string name="about_preference_title">Про Open Tracks</string>
+    <string name="about_url">Сторінка проекта: <a href="%1$s">%1$s</a></string>
+    <string name="about_version_name">Версія: %1$s</string>
+    <string name="about_version_code">Код версії: %1$d</string>
+    <string name="about_libraries">Бібліотеки</string>
+    <string name="help_feature_title">OpenTracks має такі особливості:</string>
+    <string name="help_storage_pictures_title">Як OpenTracks зберігає зображення зроблені за допомогою маркувань\?</string>
+    <string name="help_storage_pictures_content">Вони зберігаються у внутрішній пам\'яті додатку (тобто, доступні тільки для OpenTracks).</string>
+    <string name="help_data_google_play_services_title">Чи потребує OpenTracks використання Google Play Service\?</string>
+    <string name="help_track_map_title">Як показати трек на мапі\?</string>
+    <string name="help_data_storage_title">Як OpenTracks зберігає дані датчиків\?</string>
+    <string name="help_recording_title">Як OpenTracks записує дані\?</string>
+    <string name="help_track_export_title">Як я можу експортувати або обмінятися записаним треком\?</string>
+    <string name="settings_night_mode_title">Тема додатка</string>
+    <string name="help_gps_troubleshooting_title">OpenTracks не записує моє місцеположення\?</string>
+    <string name="help_support_title">Як я можу підтримати OpenTracks\?</string>
+    <string name="open_track_as_KML">Відкрити як KML</string>
+    <string name="open_track_as_GPX">Відкрити як GPX</string>
+    <string name="open_track_as_trackfileformat">Відкрити яка %1$s</string>
+    <string name="activity_type_escooter">електро-байк</string>
+    <string name="settings_sensor_wheel_circumference">Окружність колеса (мм)</string>
+    <string name="description_altitude_loss">Втрата висоти: %1$d м (%2$d фут.)</string>
+    <string name="export_progress_summary_new_msg">Нові треки експортовано</string>
+    <string name="export_progress_summary_overwrite_msg">Треки перезаписано</string>
+    <string name="export_progress_summary_skip_msg">Треки пропущено</string>
+    <string name="export_progress_summary_errors_msg">Помилки</string>
+    <string name="generic_open_track">Відкрити Трек</string>
+    <string name="import_file_imported">Файл %1$s імпортовано</string>
+    <string name="import_prevent_reimport">Ви встановили заборону на повторне імпортування треку</string>
+    <string name="import_progress_summary_ok_msg">Файли імпортовано</string>
+    <string name="import_progress_summary_exists_msg">Вже існує</string>
+    <string name="import_progress_summary_errors_msg">Помилки</string>
+    <string name="export_with_photos">з фото</string>
+    <string name="export_without_photos">без</string>
+    <string name="export_track_already_exists_msg">Трек %1$s вже існує в цільовій директорії.</string>
+    <string name="export_all_do_it_for_all">робити це для усіх конфліктів</string>
+    <string name="export_track_errors">Треки не експортовано</string>
+    <string name="generic_overwrite">Перезаписати</string>
+    <string name="generic_skip">Пропустити</string>
+    <string name="generic_show_errors">Показати помилки</string>
+    <string name="generic_completed">Завершено</string>
+    <string name="generic_click_twice_cancel">Натисніть ще раз щоб відмінити</string>
+    <string name="generic_separator_done_total">/</string>
+    <string name="gps_disabled_msg">GPS вимкнено</string>
+    <string name="import_thread_interrupted">Поток перервано</string>
+    <string name="import_unsupported_format">Формат файлу не підтримується</string>
+    <string name="import_parser_error">Помилка парсера: %1$s</string>
+    <string name="import_no_kml_file_found">Файл doc.kml не знайдено в KMZ</string>
+    <string name="import_error_list_dialog_title">Файли не імпортовано</string>
+    <string name="import_error_info">%1$s:%2$s</string>
+    <string name="marker_add_photo_canceled">Скасовано, фото-макркування не додано</string>
+    <string name="menu_insert_gallery_img">Додати зображення з галереї</string>
+    <string name="menu_resume_track">Відновити трек</string>
+    <string name="permission_gps_failed">OpenTracks вимагає дозволу на використання GPS.</string>
+    <string name="settings_night_mode_option_system">Системна</string>
+    <string name="about_description"><i>Open Tracks</i> це спортивний GPS трекер який поважає вашу приватність.</string>
+    <string name="about_history">Open Tracks це відгалуження додатку <a href="https://code.google.com/archive/p/mytracks/"><i>Google\'s MyTracks</i></a> (закритого в 2016р).</string>
+    <string name="help_feature_content">* запис GPS-шляху
+\n* використання датчика ритму серця (тільки Bluetooth LE)
+\n* голосовий путівник (за часом або дистацією)
+\n* створення маркувань (включаючи фотознімки)
+\n* повноцінний автономний режим
+\n* відображення щляхів на мапі (див. нижче)</string>
+    <string name="help_track_export_content"> Треки можна експортувати з налаштувань як KMZ, KML або GPX, KMZ/KML всі дані або тільки розташування GPX. Доріжки, опубліковані за допомогою <i>значка поширення</i>, експортуються як KMZ. </string>
+    <string name="help_recording_content">OpenTracks використовує датчик GPS пристрою для безперервного запису місця розташування. Якщо пристрій GPS повідомляє неточні дані (наприклад, місце розташування, швидкість, висоту), OpenTracks нічого не може з цим вдіяти.</string>
+    <string name="help_data_storage_content"> Дані датчика зиписуються в кожному зареєстрованому місці. Що стосується датчика частоти пульсу, це означає, що для кожного місця розташування зберігається тільки <i>одне</i> вимірювання частоти пульсу. Якщо ви зупинилися або перебуваєте в приміщенні, дані датчика не будуть записані (але будуть відображатися). </string>
+    <string name="help_support_content"> Ви можете:
+\nа) поширювати інформацію про OpenTracks,
+\nb) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">пропонувати функції</a>,
+\nc) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">повідомляти про помилки</a>,
+\nd) допомогnb в розробці програмного забезпечення,
+\ne) купувати в <a href="https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore">Google Play Store</a>,
+\nf) зробити фінаносовий внесок, та
+\ng) робити все, що, на вашу думку, допомагає OpenTracks. </string>
+    <string name="description_default_speed_or_pace">За активністю</string>
+    <string name="export_error_post_workout">Не вдалося виконати експорт після тренування, перевірте каталог експорту.</string>
+    <string name="aggregated_stats_empty_message">Запишіть свій перший трек, щоб побачити загальну статистику</string>
+    <string name="gps_fixed_and_ready">GPS готовий до роботи</string>
+    <string name="sensor_state_cadence_avg">Сер. каданс</string>
+    <string name="import_unable_to_import_file">Неможливо імпортувати файл: %1$s</string>
+    <string name="sensor_state_cadence_max">Макс. каданс</string>
+    <string name="sensor_could_not_scan">Не вдалося знайти Bluetooth пристрій (помилка %1$i).</string>
+    <string name="bluetooth_disabled">Увімкніть Bluetooth.</string>
+    <string name="settings_default_trackfileformat">Формат файла експорту/обміну</string>
+    <string name="settings_recording_show_on_lockscreen_while_recording_summary">Під час запису показувати статистику без розблокування пристрою.</string>
+    <string name="stats_loss">Втрачено</string>
+    <string name="share_image_subject">Я хотів би поділитися з вами зображенням</string>
+    <string name="settings_default_export_uri_title">Каталог експорту треків</string>
+    <string name="help_track_map_content"> Натисніть іконку мапи.
+\na) (оновлення в реальному часі) Встановіть додаток <a href="https://github.com/OpenTracksApp/OSMDashboard">OSMDashboard</a>. Він дозволить подивитися мапу онлайн й оффлайн завдяки <a href="https://www.openstreetmap.org">OpenStreetMap</a>.
+\nНасправді, OSMDashboard є окремим додатком який може отримати тимчасовий доступ до даних треку які будуть відобрежені на мапі.
+\nb) Через цвичайний картографічний додаток (на приклад, <a href="http://osmand.net/">OsmAnd</a> та <a href="https://maps.me/">MAPS.ME</a>). Ці додатки повинні підтримувати формати файлів треку KMZ (тільки місцеположення та мітки часу). Фактично, додаток повинен підтримувати функцію <i>ACTION_VIEW</i> із MIME <i>application/vnd.google-earth.kmz</i>. </string>
+    <string name="settings_prevent_reimport_tracks_title">Заборонити повторний імпорт треків</string>
+    <plurals name="generic_completed_with_errors">
+        <item quantity="one">Завершено з %1$d однією помилкою</item>
+        <item quantity="few">Заповнено з %1$d помилками</item>
+        <item quantity="many">Завершено з %1$d помилками</item>
+        <item quantity="other">Завершено з %1$d помилками</item>
+    </plurals>
+    <string name="settings_recording_show_on_lockscreen_while_recording_title">Показувати статистику на заблокованому єкрані</string>
+    <string name="settings_recording_keep_screen_on_while_recording_summary">Під час запису тримати екран включеним.</string>
+    <string name="settings_recording_keep_screen_on_while_recording_title">Єкран завжди включено</string>
+    <string name="settings_recording_fullscreen_on_while_recording_title">Повний екран</string>
+    <string name="settings_recording_fullscreen_on_while_recording_summary">Під час запису бути в повноекранному режимі.</string>
+    <string name="hold_to_stop">Затисніть щоб зупинити</string>
+    <string name="track_distance_notification">Відстань: %1$s</string>
+    <string name="track_speed_notification">Швидкість: %1$s</string>
+    <string name="track_pace_notification">Темп: %1$s</string>
+    <string name="about_third_party_data">Дані третіх сторін</string>
+    <string name="delete_service">Служба видалення</string>
+    <string name="track_delete_progress">%1$d/%2$d</string>
+    <string name="track_delete_not_recording">Цей трек не може бути видалений в тому вигляді, в якому він записаний в даний момент.</string>
+    <string name="menu_voice_rate">Швидкість передачі голосу</string>
+    <string name="settings_sensor_cycling_cadence">Велоспорт: частота обертання педалей</string>
+    <string name="settings_sensor_cycling_distance_speed">Їзда на велосипеді: відстань і швидкість</string>
+    <string name="settings_sensor_running_speed_and_cadence">БІГ: дистанція, швидкість і частота</string>
+</resources>

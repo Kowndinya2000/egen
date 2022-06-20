@@ -1,0 +1,55 @@
+@startuml
+title
+State of OpenTracks
+end title
+
+legend right
+SettingsActivity can be reached
+from every activity showing a menu.
+endlegend
+
+[*] --> TrackListActivity
+TrackListActivity --> TrackRecordingActivity : Start recording
+TrackListActivity --> TrackRecordedActivity : Show track
+TrackListActivity --> MarkerListActivity : Show all markers
+TrackListActivity --> AggregatedStatisticsActivity : Aggregated stats
+TrackListActivity --> TrackDeleteActivity
+
+TrackRecordedActivity --> TrackDeleteActivity
+TrackRecordedActivity --> TrackEditActivity
+TrackRecordedActivity --> MarkerListActivity
+TrackRecordedActivity --> MarkerEditActivity : Add marker
+TrackRecordedActivity --> CameraIntent : Add marker (with photo)
+TrackRecordedActivity --> ShareFileIntent
+TrackRecordedActivity --> DashboardIntent : Database cursor
+TrackRecordedActivity --> TrackOnMapIntent : KMZ
+TrackRecordedActivity --> TrackRecordingActivity
+TrackRecordedActivity --> SettingsActivity
+TrackRecordedActivity --> TrackListActivity : Back button
+
+TrackRecordingActivity --> TrackOnMapIntent
+TrackRecordingActivity --> MarkerEditActivity : Add marker
+TrackRecordingActivity --> MarkerListActivity
+TrackRecordingActivity --> TrackEditActivity
+TrackRecordingActivity --> SettingsActivity
+TrackRecordingActivity --> TrackRecordedActivity : Stop recording
+TrackRecordingActivity --> TrackListActivity : Back button
+
+MarkerListActivity --> MarkerDetailActivity
+
+MarkerDetailActivity --> MarkerEditActivity
+MarkerDetailActivity --> CoordinateOnMapIntent : URI
+
+SettingsActivity --> AboutActivity
+SettingsActivity --> HelpActivity
+SettingsActivity --> ImportActivity
+SettingsActivity --> ExportActivity
+SettingsActivity --> DirectoryChooserActivity.ImportDirectoryChooserActivity
+SettingsActivity --> DirectoryChooserActivity.ExportDirectoryChooserActivity
+SettingsActivity --> DirectoryChooserActivity.DefaultTrackExportDirectoryChooserActivity
+DirectoryChooserActivity.ImportDirectoryChooserActivity --> ImportActivity
+DirectoryChooserActivity.ExportDirectoryChooserActivity --> ExportActivity
+
+FileImportIntent --> ImportActivity
+
+@enduml

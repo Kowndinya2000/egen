@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "473634422342",
+    "firebase_url": "https://nonbatteryaware.firebaseio.com",
+    "project_id": "nonbatteryaware",
+    "storage_bucket": "nonbatteryaware.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473634422342:android:b07db4b4ecd92c64541447",
+        "android_client_info": {
+          "package_name": "com.batteryaware.nonbatteryaware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473634422342-es4cmn7rjq47ctnnj9h02drdj23453r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzSzWLr-gG8Cy8zXizdU-ZUYVPl-DNW24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473634422342-es4cmn7rjq47ctnnj9h02drdj23453r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

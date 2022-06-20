@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2019 Bartek Fabiszewski
+  ~ http://www.fabiszewski.net
+  ~
+  ~ This file is part of μlogger-android.
+  ~ Licensed under GPL, either version 3, or any later.
+  ~ See <http://www.gnu.org/licenses/>
+  -->
+
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    tools:context=".WaypointFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:labelFor="@+id/waypointLocation"
+                    android:text="@string/label_position"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/waypointLocationNotFound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/logger_task_failure"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/waypointLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="0dp"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    app:lineHeight="20dp"
+                    tools:text="21°1′00.0000″E\n—\n52°14′00.0000″N" />
+
+                <TextView
+                    android:id="@+id/waypointLocationDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="50dp"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    tools:text="121 m a.s.l. • 65 m accuracy (GPS)" />
+
+                <EditText
+                    android:id="@+id/waypointComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/label_waypoint_description"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:textAlignment="viewStart"
+                    tools:targetApi="o" />
+
+                <ImageView
+                    android:id="@+id/waypointThumbnail"
+                    android:layout_width="@dimen/thumbnail_size"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:contentDescription="@string/label_add_photo"
+                    android:minHeight="@dimen/thumbnail_size"
+                    android:src="@drawable/ic_photo_camera_gray_24dp" />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <Button
+            android:id="@+id/waypointButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:enabled="false"
+            android:minHeight="60dp"
+            android:text="@string/button_save" />
+
+    </LinearLayout>
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

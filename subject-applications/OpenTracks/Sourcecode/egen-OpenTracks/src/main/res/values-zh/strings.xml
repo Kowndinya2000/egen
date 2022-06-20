@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">坐飞机</string>
+    <string name="activity_type_atv">全地形越野</string>
+    <string name="activity_type_biking">自行车</string>
+    <string name="activity_type_blimp">小型飞艇游览</string>
+    <string name="activity_type_boat">船</string>
+    <string name="activity_type_climbing">攀岩</string>
+    <string name="activity_type_commercial_airplane">乘坐民航机</string>
+    <string name="activity_type_cross_country_skiing">越野滑雪</string>
+    <string name="activity_type_cycling">骑自行车</string>
+    <string name="activity_type_dirt_bike">泥地骑行</string>
+    <string name="activity_type_donkey_back_riding">骑驴</string>
+    <string name="activity_type_driving">开车</string>
+    <string name="activity_type_driving_bus">驾驶巴士</string>
+    <string name="activity_type_driving_car">开车</string>
+    <string name="activity_type_ferry">轮渡</string>
+    <string name="activity_type_frisbee">飞盘运动</string>
+    <string name="activity_type_gliding">滑翔</string>
+    <string name="activity_type_hang_gliding">滑翔翼运动</string>
+    <string name="activity_type_helicopter">乘坐直升机</string>
+    <string name="activity_type_hiking">徒步</string>
+    <string name="activity_type_horse_back_riding">骑马</string>
+    <string name="activity_type_hot_air_balloon">热气球游览</string>
+    <string name="activity_type_ice_sailing">冰上帆船</string>
+    <string name="activity_type_inline_skating">直排轮滑</string>
+    <string name="activity_type_kayaking">皮划艇</string>
+    <string name="activity_type_kite_surfing">风筝冲浪</string>
+    <string name="activity_type_land_sailing">陆地帆船</string>
+    <string name="activity_type_mixed_type">混合型</string>
+    <string name="activity_type_motor_bike">骑摩托车</string>
+    <string name="activity_type_motor_boating">摩托艇运动</string>
+    <string name="activity_type_mountain_biking">山地自行车</string>
+    <string name="activity_type_off_trail_hiking">越野徒步</string>
+    <string name="activity_type_other">其他</string>
+    <string name="activity_type_paddling">划船</string>
+    <string name="activity_type_para_gliding">滑翔伞运动</string>
+    <string name="activity_type_rc_airplane">遥控飞机</string>
+    <string name="activity_type_rc_boat">遥控船</string>
+    <string name="activity_type_rc_helicopter">遥控直升机</string>
+    <string name="activity_type_riding">乘骑</string>
+    <string name="activity_type_road_biking">公路自行车</string>
+    <string name="activity_type_roller_skiing">旱地滑雪</string>
+    <string name="activity_type_rowing">赛艇</string>
+    <string name="activity_type_running">跑步</string>
+    <string name="activity_type_sailing">帆船</string>
+    <string name="activity_type_seaplane">坐水上飞机</string>
+    <string name="activity_type_skate_boarding">滑板运动</string>
+    <string name="activity_type_skating">滑冰</string>
+    <string name="activity_type_skiing">滑雪</string>
+    <string name="activity_type_sky_jumping">跳伞</string>
+    <string name="activity_type_sled">坐雪橇</string>
+    <string name="activity_type_snow_boarding">单板滑雪</string>
+    <string name="activity_type_snow_shoeing">雪地健行</string>
+    <string name="activity_type_speed_walking">快步走</string>
+    <string name="activity_type_street_running">上街跑</string>
+    <string name="activity_type_surfing">冲浪</string>
+    <string name="activity_type_track_cycling">场地自行车</string>
+    <string name="activity_type_track_running">场地跑</string>
+    <string name="activity_type_trail_hiking">沿小路徒步</string>
+    <string name="activity_type_trail_running">越野跑</string>
+    <string name="activity_type_train">坐火车</string>
+    <string name="activity_type_ultimate_frisbee">极限飞盘</string>
+    <string name="activity_type_unknown">未知</string>
+    <string name="activity_type_wakeboarding">尾波滑水</string>
+    <string name="activity_type_walking">步行</string>
+    <string name="activity_type_water_skiing">划水</string>
+    <string name="activity_type_wind_surfing">帆板运动</string>
+    <!-- Description -->
+    <string name="description_activity_type">活动类型：%1$s</string>
+    <string name="description_average_moving_pace_in_minute">平均移动步速：%1$s分钟/公里（%2$s分钟/英里）</string>
+    <string name="description_average_moving_speed">平均移动速度：%1$.2f 公里/小时（%2$.1f 英里/小时）</string>
+    <string name="description_average_pace_in_minute">平均步速：%1$s分钟/公里（%2$s分钟/英里）</string>
+    <string name="description_average_speed">平均时速：%1$.2f 公里/小时（%2$.1f 英里/小时）</string>
+    <string name="description_altitude_gain">海拔升高：%1$d 米（%2$d 英尺）</string>
+    <string name="description_altitude_imperial">海拔（英尺）</string>
+    <string name="description_altitude_metric">海拔（米）</string>
+    <string name="description_fastest_pace_in_minute">最快步速：%1$s分钟/公里（%2$s分钟/英里）</string>
+    <string name="description_max_altitude">最高海拔：%1$d 米（%2$d 英尺）</string>
+    <string name="description_max_speed">最高限速：%1$.2f 公里/小时（%2$.1f 英里/小时）</string>
+    <string name="description_min_altitude">最低海拔：%1$d 米（%2$d 英尺）</string>
+    <string name="description_moving_time">移动时间：%1$s</string>
+    <string name="description_pace_imperial">步速（分钟/英里）</string>
+    <string name="description_pace_metric">步速（分钟/公里）</string>
+    <string name="description_recorded_time">记录时间：%1$s</string>
+    <string name="description_speed_ms">速度（米/秒）</string>
+    <string name="description_sensor_cadence">蹬踏频率（转数/分钟）</string>
+    <string name="description_sensor_heart_rate">心率（次/分钟）</string>
+    <string name="description_sensor_power">功率（瓦）</string>
+    <string name="description_speed_imperial">速度（英里/小时）</string>
+    <string name="description_speed_metric">速度（公里/小时）</string>
+    <string name="description_time">时间</string>
+    <string name="description_total_distance">总距离：%1$.2f 公里（%2$.1f 英里）</string>
+    <string name="description_total_time">总时间：%1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">正在导出到 %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="other">%1$d个文件</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">添加</string>
+    <string name="generic_delete_selected_confirm_title">删除所选项？</string>
+    <string name="generic_description">说明</string>
+    <string name="generic_description_line">说明：%1$s</string>
+    <string name="generic_name">名称</string>
+    <string name="generic_name_line">名称：%1$s</string>
+    <string name="generic_paused">已暂停</string>
+    <string name="generic_recording">正在记录…</string>
+    <string name="generic_save">保存</string>
+    <string name="generic_tracks">路线</string>
+    <!-- Gps -->
+    <string name="gps_starting">正在启动GPS</string>
+    <string name="gps_wait_for_better_signal">正在等待更好的GPS信号</string>
+    <string name="gps_wait_for_signal">正在等待GPS信号</string>
+    <!-- Image -->
+    <string name="image_arrow">箭头</string>
+    <string name="image_marker">标记</string>
+    <string name="image_marker_count">标记数</string>
+    <string name="image_pause">暂停</string>
+    <string name="image_photo_marker">照片标记</string>
+    <string name="image_record">记录</string>
+    <string name="image_stop">停止</string>
+    <string name="image_track">跟踪</string>
+    <!-- Import -->
+    <string name="import_progress_message">正在从 %1$s 导入…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">无法插入标记，无 GPS 信号。请重试。</string>
+    <string name="marker_add_success">已插入标记</string>
+    <string name="marker_add_canceled">已取消，未添加标记</string>
+    <string name="marker_delete_one_confirm_message">标记将永久地从设备中删除</string>
+    <string name="marker_delete_one_confirm_title">删除标记？</string>
+    <string name="marker_delete_multiple_confirm_message">所选标记将永久地从设备中删除</string>
+    <string name="marker_name_format">标记 %1$d</string>
+    <string name="marker_title">第%1$d个（共%2$d个）</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">标记类型（如瀑布）</string>
+    <string name="marker_edit_marker_type_hint">标记类型</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">您没有任何标记</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">汇总统计数据</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_edit">修改</string>
+    <string name="menu_export_all">全部导出</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_import_all">全部导入</string>
+    <string name="menu_insert_marker">插入标记</string>
+    <string name="menu_insert_photo">插入照片</string>
+    <string name="menu_markers">标记</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_select_all">全选</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_show_on_map">在地图上显示</string>
+    <string name="menu_start_gps">启动 GPS</string>
+    <string name="menu_stop_gps">关闭 GPS</string>
+    <string name="menu_voice_rate">语音提示速率</string>
+    <string name="menu_resume_track">继续</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">记录服务</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">电池电量</string>
+    <string name="sensor_state_cadence">蹬车频率</string>
+    <string name="sensor_state_cadence_value">%1$d RPM</string>
+    <string name="sensor_state_heart_rate">心率</string>
+    <string name="sensor_state_heart_rate_value">%1$d BPM</string>
+    <string name="sensor_state_power">功率</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">记录路线时不可用</string>
+    <string name="settings_show">显示</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">高级</string>
+    <string name="settings_default_trackfileformat">导出文件格式</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">按距离</string>
+    <string name="settings_chart_by_time">按时间</string>
+    <!-- Settings Recording -->
+    <string name="settings_recording_show_on_lockscreen_while_recording_title">锁屏显示</string>
+    <string name="settings_recording_show_on_lockscreen_while_recording_summary">记录时，无需解锁设备即可显示记录信息。</string>
+    <string name="settings_recording_keep_screen_on_while_recording_title">保持亮屏</string>
+    <string name="settings_recording_keep_screen_on_while_recording_summary">记录时，保持屏幕常亮。</string>
+    <string name="settings_recording_fullscreen_on_while_recording_title">全屏显示</string>
+    <string name="settings_recording_fullscreen_on_while_recording_summary">记录时，全屏幕显示。</string>
+    <string name="settings_recording">记录</string>
+    <string name="settings_recording_default_activity_title">默认活动类型</string>
+    <string name="settings_recording_location_frequency_summary">每隔%1$s记录一次位置</string>
+    <string name="settings_recording_max_recording_distance_summary">如果两个位置之间的距离超过%1$s，则创建新的路段</string>
+    <string name="settings_recording_max_recording_distance_title">最大距离</string>
+    <string name="settings_recording_min_recording_distance_title">记录距离间隔</string>
+    <string name="settings_recording_min_recording_interval_title">记录时间间隔</string>
+    <string name="settings_recording_min_required_accuracy_summary">如果位置的精度小于%1$s，则忽略该位置</string>
+    <string name="settings_recording_min_required_accuracy_title">GPS 精度</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">日期 (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">日期（本地）</string>
+    <string name="settings_recording_track_name_number_option">编号</string>
+    <string name="settings_recording_track_name_title">默认路线名称</string>
+    <string name="settings_night_mode_title">界面样式</string>
+    <string name="settings_night_mode_option_system">跟随系统</string>
+    <string name="settings_night_mode_option_day">白天模式</string>
+    <string name="settings_night_mode_option_night">夜间模式</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">重置</string>
+    <string name="settings_reset_confirm_message">所有设置都将恢复为默认值。</string>
+    <string name="settings_reset_confirm_title">立即重置？</string>
+    <string name="settings_reset_done">所有设置都已恢复为默认值</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">蓝牙</string>
+    <string name="settings_sensor_wheel_circumference">车轮周长 (mm)</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">首选速率</string>
+    <string name="settings_stats_units_imperial">英制（英里、英尺）</string>
+    <string name="settings_stats_units_metric">公制（公里、米）</string>
+    <string name="settings_stats_units_title">首选单位</string>
+    <string name="settings_prevent_reimport_tracks_title">禁止导出重复数据</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">我想您可能会对此路线感兴趣。
+\n
+\n%1$s</string>
+    <string name="share_track_subject">我要与您分享路线</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">平均移动步速</string>
+    <string name="stats_average_moving_speed">平均移动速度</string>
+    <string name="stats_average_pace">平均步速</string>
+    <string name="stats_average_speed">平均速度</string>
+    <string name="stats_altitude">海拔</string>
+    <string name="stats_fastest_pace">最快步速</string>
+    <string name="stats_gain">爬高</string>
+    <string name="stats_latitude">纬度</string>
+    <string name="stats_longitude">经度</string>
+    <string name="stats_max_speed">最高速度</string>
+    <string name="stats_moving_time">移动时间</string>
+    <string name="stats_pace">步速</string>
+    <string name="stats_speed">速度</string>
+    <string name="stats_distance">距离</string>
+    <string name="stats_total_time">总时间</string>
+    <string name="stats_split_interval">分段间隔</string>
+    <!-- Track -->
+    <string name="track_name_format">路线 %1$d</string>
+    <string name="track_markers">%1$s标记</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">系统将从设备中永久删除路线及其标记。</string>
+    <string name="track_delete_one_confirm_title">删除路线？</string>
+    <string name="track_delete_multiple_confirm_message">系统将从设备中永久删除选定的路线及其标记。</string>
+    <string name="track_delete_progress_message">正在删除…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">统计信息</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">活动类型（如徒步）</string>
+    <string name="track_edit_activity_type_hint">活动类型</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">在这里开始记录您的新冒险</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">英尺</string>
+    <string name="unit_kilometer">公里</string>
+    <string name="unit_kilometer_per_hour">公里/小时</string>
+    <string name="unit_meter">米</string>
+    <string name="unit_mile">英里</string>
+    <string name="unit_mile_per_hour">英里/小时</string>
+    <string name="unit_minute_per_kilometer">分钟/公里</string>
+    <string name="unit_minute_per_mile">分钟/英里</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d 英尺</string>
+    <string name="value_integer_feet_excellent_gps">%1$d 英尺（GPS 信号极佳）</string>
+    <string name="value_integer_feet_recommended">%1$d 英尺（推荐）</string>
+    <string name="value_integer_kilometer">%1$d 公里</string>
+    <string name="value_integer_kilometer_hour">%1$d 公里/小时</string>
+    <string name="value_integer_meter">%1$d 米</string>
+    <string name="value_integer_meter_excellent_gps">%1$d 米（GPS 信号极佳）</string>
+    <string name="value_integer_meter_poor_gps">%1$d 米（GPS 信号差）</string>
+    <string name="value_integer_meter_recommended">%1$d 米（推荐）</string>
+    <string name="value_integer_mile">%1$d 英里</string>
+    <string name="value_integer_mile_hour">%1$d 英里/小时</string>
+    <string name="value_integer_minute">%1$d 分钟</string>
+    <string name="value_integer_second">%1$d 秒</string>
+    <string name="value_none">无</string>
+    <string name="value_off">关闭</string>
+    <string name="value_smallest_recommended">最小（建议）</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="other">%1$d 小时</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="other">%1$d 分钟</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="other">每小时 %1$.1f 公里</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="other">每小时 %1$.1f 英里</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">每公里 %1$s</string>
+    <string name="voice_template">%1$s；时间：%2$s；速度：%3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="other">总距离 %1$.2f 公里</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="other">总距离 %1$.2f 英里</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">自动取款机</string>
+    <string name="waypoint_type_bank">银行</string>
+    <string name="waypoint_type_bar">酒吧</string>
+    <string name="waypoint_type_barbecue">烧烤</string>
+    <string name="waypoint_type_building">建筑物</string>
+    <string name="waypoint_type_bus_stop">公交车站</string>
+    <string name="waypoint_type_cafe">咖啡馆</string>
+    <string name="waypoint_type_campfire">营火</string>
+    <string name="waypoint_type_campground">露营地</string>
+    <string name="waypoint_type_church">教堂</string>
+    <string name="waypoint_type_coffee_house">咖啡屋</string>
+    <string name="waypoint_type_convenience_store">便利店</string>
+    <string name="waypoint_type_drinking_water">直饮水</string>
+    <string name="waypoint_type_falling_rocks">滚落的岩石</string>
+    <string name="waypoint_type_ferry">轮渡</string>
+    <string name="waypoint_type_fire_place">壁炉</string>
+    <string name="waypoint_type_fire_station">消防局</string>
+    <string name="waypoint_type_fishing">钓鱼</string>
+    <string name="waypoint_type_gas_station">加油站</string>
+    <string name="waypoint_type_golf_course">高尔夫球场</string>
+    <string name="waypoint_type_grocery_store">杂货店</string>
+    <string name="waypoint_type_hair_dresser">理发师</string>
+    <string name="waypoint_type_harbor">港口</string>
+    <string name="waypoint_type_hiking_path">徒步路线</string>
+    <string name="waypoint_type_hotel">宾馆</string>
+    <string name="waypoint_type_house">房屋</string>
+    <string name="waypoint_type_information">信息</string>
+    <string name="waypoint_type_intersection">交叉路口</string>
+    <string name="waypoint_type_mail_box">邮箱</string>
+    <string name="waypoint_type_market">市场</string>
+    <string name="waypoint_type_meeting_point">汇合点</string>
+    <string name="waypoint_type_opera">剧院</string>
+    <string name="waypoint_type_parking">停车场</string>
+    <string name="waypoint_type_police_station">警察局</string>
+    <string name="waypoint_type_post_office">邮局</string>
+    <string name="waypoint_type_pothole">坑洞</string>
+    <string name="waypoint_type_railway_crossing">铁路道口</string>
+    <string name="waypoint_type_restaurant">餐馆</string>
+    <string name="waypoint_type_shopping">购物</string>
+    <string name="waypoint_type_sight">景点</string>
+    <string name="waypoint_type_store">商店</string>
+    <string name="waypoint_type_swimming_pool">游泳池</string>
+    <string name="waypoint_type_telephone">电话</string>
+    <string name="waypoint_type_theater">影剧院</string>
+    <string name="waypoint_type_toilet">厕所</string>
+    <string name="waypoint_type_tourist_information">旅游信息</string>
+    <string name="waypoint_type_tree">树</string>
+    <string name="waypoint_type_tunnel">隧道</string>
+    <string name="waypoint_type_waterfall">瀑布</string>
+    <string name="waypoint_type_water_fountain">喷泉</string>
+    <string name="waypoint_type_waypoint">路标</string>
+    <string name="about_url">项目主页：<a href="%1$s">%1$s</a></string>
+    <string name="about_history">OpenTracks 是 <a href="https://code.google.com/archive/p/mytracks/"><i>Google MyTracks</i></a>（终止于 2016 年）的一个分支版本。</string>
+    <string name="open_track_as_KML">作为 KML 文件打开</string>
+    <string name="open_track_as_trackfileformat">作为 %1$s 文件打开</string>
+    <string name="about_preference_title">关于 OpenTracks</string>
+    <string name="about_version_name">版本名称：%1$s</string>
+    <string name="about_version_code">版本号：%1$d</string>
+    <string name="about_libraries">库</string>
+    <string name="help_feature_title">OpenTracks 支持以下特性：</string>
+    <string name="open_track_as_GPX">作为 GPX 文件打开</string>
+    <string name="activity_type_escooter">电动车</string>
+    <string name="description_altitude_loss">海拔降低：%1$d 米（%2$d 英尺）</string>
+    <string name="description_default_speed_or_pace">按活动类型</string>
+    <!-- Share image -->
+    <string name="hold_to_stop">长按停止</string>
+    <string name="hold_to_pause">长按暂停</string>
+
+    <string name="instant_export_enabled_summary">活动结束后，自动导出数据</string>
+    <string name="instant_export_enabled_title">自动导出</string>
+
+    <string name="settings_default_export_uri_title">选择导出目录</string>
+</resources>

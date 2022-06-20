@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">flygplan</string>
+    <string name="activity_type_atv">ATV</string>
+    <string name="activity_type_biking">cykling</string>
+    <string name="activity_type_blimp">luftskepp</string>
+    <string name="activity_type_boat">båt</string>
+    <string name="activity_type_climbing">klättring</string>
+    <string name="activity_type_commercial_airplane">kommersiellt flygplan</string>
+    <string name="activity_type_cross_country_skiing">längdskidåkning</string>
+    <string name="activity_type_cycling">cykling</string>
+    <string name="activity_type_dirt_bike">dirtbike</string>
+    <string name="activity_type_donkey_back_riding">åsneridning</string>
+    <string name="activity_type_driving">bilkörning</string>
+    <string name="activity_type_driving_bus">busskörning</string>
+    <string name="activity_type_driving_car">bilkörning</string>
+    <string name="activity_type_ferry">färja</string>
+    <string name="activity_type_frisbee">Frisbee</string>
+    <string name="activity_type_gliding">segelflygning</string>
+    <string name="activity_type_hang_gliding">hängglidning</string>
+    <string name="activity_type_helicopter">helikopter</string>
+    <string name="activity_type_hiking">vandring</string>
+    <string name="activity_type_horse_back_riding">ridning</string>
+    <string name="activity_type_hot_air_balloon">luftballong</string>
+    <string name="activity_type_ice_sailing">issegling</string>
+    <string name="activity_type_inline_skating">inlineåkning</string>
+    <string name="activity_type_kayaking">kajakpaddla</string>
+    <string name="activity_type_kite_surfing">drakflygning</string>
+    <string name="activity_type_land_sailing">landsegling</string>
+    <string name="activity_type_mixed_type">blandad typ</string>
+    <string name="activity_type_motor_bike">motorcykel</string>
+    <string name="activity_type_motor_boating">motorbåt</string>
+    <string name="activity_type_mountain_biking">Mountainbiking</string>
+    <string name="activity_type_off_trail_hiking">vandring utanför led</string>
+    <string name="activity_type_other">annan</string>
+    <string name="activity_type_paddling">paddla</string>
+    <string name="activity_type_para_gliding">paraglidning</string>
+    <string name="activity_type_rc_airplane">radiostyrt flygplan</string>
+    <string name="activity_type_rc_boat">RC-båt</string>
+    <string name="activity_type_rc_helicopter">RC-helikopter</string>
+    <string name="activity_type_riding">ridning</string>
+    <string name="activity_type_road_biking">cykling på väg</string>
+    <string name="activity_type_roller_skiing">rullskidor</string>
+    <string name="activity_type_rowing">rodd</string>
+    <string name="activity_type_running">löpning</string>
+    <string name="activity_type_sailing">segling</string>
+    <string name="activity_type_seaplane">sjöflygplan</string>
+    <string name="activity_type_skate_boarding">skateboarding</string>
+    <string name="activity_type_skating">skridskoåkning</string>
+    <string name="activity_type_skiing">skidåkning</string>
+    <string name="activity_type_sky_jumping">fallskärmshoppning</string>
+    <string name="activity_type_sled">kälkåkning</string>
+    <string name="activity_type_snow_boarding">snowboardåkning</string>
+    <string name="activity_type_snow_shoeing">snöskogång</string>
+    <string name="activity_type_speed_walking">gång</string>
+    <string name="activity_type_street_running">löpning på gata</string>
+    <string name="activity_type_surfing">surfning</string>
+    <string name="activity_type_track_cycling">velodromcykling</string>
+    <string name="activity_type_track_running">löpning på bana</string>
+    <string name="activity_type_trail_hiking">ledvandring</string>
+    <string name="activity_type_trail_running">terränglöpning</string>
+    <string name="activity_type_train">tåg</string>
+    <string name="activity_type_ultimate_frisbee">Ultimat frisbee</string>
+    <string name="activity_type_unknown">okänt</string>
+    <string name="activity_type_wakeboarding">kajakpaddling</string>
+    <string name="activity_type_walking">gång</string>
+    <string name="activity_type_water_skiing">vattenskidåkning</string>
+    <string name="activity_type_wind_surfing">vindsurfning</string>
+    <!-- Description -->
+    <string name="description_activity_type">Aktivitetstyp: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Genomsnittligt rörelsetempo: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_moving_speed">Medelhastighet: %1$.2f km/tim (%2$.1f mi/h)</string>
+    <string name="description_average_pace_in_minute">Genomsnittstempo: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_speed">Medelhastighet: %1$.2f km/tim (%2$.1f mi/h)</string>
+    <string name="description_altitude_gain">Höjdskillnad: %1$d m (%2$d ft)</string>
+    <string name="description_altitude_imperial">Höjd (ft)</string>
+    <string name="description_altitude_metric">Höjd (m)</string>
+    <string name="description_fastest_pace_in_minute">Snabbaste tempo: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_max_altitude">Max. höjd: %1$d m (%2$d ft)</string>
+    <string name="description_max_speed">Max. hastighet: %1$.2f km/tim (%2$.1f mi/h)</string>
+    <string name="description_min_altitude">Min. höjd: %1$d m (%2$d ft)</string>
+    <string name="description_moving_time">Förflyttningstid: %1$s</string>
+    <string name="description_pace_imperial">Tempo (min/mi)</string>
+    <string name="description_pace_metric">Tempo (min/km)</string>
+    <string name="description_recorded_time">Tidtagning: %1$s</string>
+    <string name="description_speed_ms">Hastighet (m/s)</string>
+    <string name="description_sensor_cadence">Rytm (rpm)</string>
+    <string name="description_sensor_heart_rate">Puls (bpm)</string>
+    <string name="description_sensor_power">Effekt (W)</string>
+    <string name="description_speed_imperial">Hastighet (mi/tim)</string>
+    <string name="description_speed_metric">Hastighet (km/tim)</string>
+    <string name="description_time">Tid</string>
+    <string name="description_total_distance">Total sträcka: %1$.2f km (%2$.1f mi)</string>
+    <string name="description_total_time">Total tid: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">Exporterar till %1$s …</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">1 fil</item>
+        <item quantity="other">%1$d filer</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Lägg till</string>
+    <string name="generic_delete_selected_confirm_title">Ta bort markerade?</string>
+    <string name="generic_description">Beskrivning</string>
+    <string name="generic_description_line">Beskrivning: %1$s</string>
+    <string name="generic_name">Namn</string>
+    <string name="generic_name_line">Namn: %1$s</string>
+    <string name="generic_paused">Pausat</string>
+    <string name="generic_recording">Spelar in…</string>
+    <string name="generic_save">Spara</string>
+    <string name="generic_tracks">Spår</string>
+    <!-- Gps -->
+    <string name="gps_starting">Startar GPS</string>
+    <string name="gps_wait_for_better_signal">Väntar på en bättre GPS-signal</string>
+    <string name="gps_wait_for_signal">Väntar på GPS-signal</string>
+    <!-- Image -->
+    <string name="image_arrow">Pil</string>
+    <string name="image_marker">Markör</string>
+    <string name="image_marker_count">Antal markörer</string>
+    <string name="image_pause">Pausa</string>
+    <string name="image_photo_marker">Fotomarkör</string>
+    <string name="image_record">Spela in</string>
+    <string name="image_stop">Stopp</string>
+    <string name="image_track">Spåra</string>
+    <!-- Import -->
+    <string name="import_progress_message">Importerar från %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Det går inte att infoga en markör. Ingen GPS-signal. Försök igen.</string>
+    <string name="marker_add_success">En markör infogades</string>
+    <string name="marker_add_canceled">Avbruten, ingen markör tillagd</string>
+    <string name="marker_delete_one_confirm_message">Markören tas permanent bort från enheten</string>
+    <string name="marker_delete_one_confirm_title">Ta bort markör?</string>
+    <string name="marker_delete_multiple_confirm_message">Markerade markörer tas bort permanent från enheten</string>
+    <string name="marker_name_format">Markör %1$d</string>
+    <string name="marker_title">%1$d av %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Markörtyp (t.ex. vattenfall)</string>
+    <string name="marker_edit_marker_type_hint">Markörtyp</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Du har inga markörer</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Samlad statistik</string>
+    <string name="menu_delete">Ta bort</string>
+    <string name="menu_edit">Redigera</string>
+    <string name="menu_export_all">Exportera alla</string>
+    <string name="menu_help">Hjälp</string>
+    <string name="menu_import_all">Importera alla</string>
+    <string name="menu_insert_marker">Infoga markör</string>
+    <string name="menu_insert_photo">Infoga foto</string>
+    <string name="menu_markers">Markörer</string>
+    <string name="menu_search">Sök</string>
+    <string name="menu_select_all">Markera alla</string>
+    <string name="menu_settings">Inställningar</string>
+    <string name="menu_share">Dela</string>
+    <string name="menu_show_on_map">Visa på karta</string>
+    <string name="menu_start_gps">Starta GPS</string>
+    <string name="menu_stop_gps">Stoppa GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Inspelningstjänst</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Batterinivå</string>
+    <string name="sensor_state_cadence">Kadens</string>
+    <string name="sensor_state_cadence_value">%1$d vpm</string>
+    <string name="sensor_state_heart_rate">Puls</string>
+    <string name="sensor_state_heart_rate_value">%1$d BPM</string>
+    <string name="sensor_state_power">Kraft</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">Inte tillgängligt under inspelning av ett spår</string>
+    <string name="settings_show">Visa</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Avancerat</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Efter avstånd</string>
+    <string name="settings_chart_by_time">Efter tid</string>
+    <string name="settings_recording">Inspelning</string>
+    <string name="settings_recording_default_activity_title">Standardaktivitetstyp</string>
+    <string name="settings_recording_location_frequency_summary">%1$s mellan inspelade platser</string>
+    <string name="settings_recording_max_recording_distance_summary">En nytt segment skapas om avståndet mellan två platser är längre än %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">Maximalt avstånd</string>
+    <string name="settings_recording_min_recording_distance_title">Inspelningens avståndsintervall</string>
+    <string name="settings_recording_min_recording_interval_title">Inspelningens tidsintervall</string>
+    <string name="settings_recording_min_required_accuracy_summary">Platsen ignoreras om dess noggrannhet är mindre än %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">Exakthet för GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Datum (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Datum (lokalt)</string>
+    <string name="settings_recording_track_name_number_option">Siffra</string>
+    <string name="settings_recording_track_name_title">Standardnamn</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Återställ</string>
+    <string name="settings_reset_confirm_message">Alla inställningar återställs till standardvärdena.</string>
+    <string name="settings_reset_confirm_title">Återställ nu?</string>
+    <string name="settings_reset_done">Alla inställningar har återställts till standardvärdena</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Föredragen mätning</string>
+    <string name="settings_stats_units_imperial">Imperial (mi, ft)</string>
+    <string name="settings_stats_units_metric">Metrisk (km, m)</string>
+    <string name="settings_stats_units_title">Föredragna enheter</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Du kanske är intresserad av det här spåret.
+\n
+\n%1$s</string>
+    <string name="share_track_subject">Jag vill dela ett spår med dig</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Genomsnittstempo</string>
+    <string name="stats_average_moving_speed">Medelhastighet</string>
+    <string name="stats_average_pace">Genomsnittligt tempo</string>
+    <string name="stats_average_speed">Medelhastighet</string>
+    <string name="stats_altitude">Stigning</string>
+    <string name="stats_fastest_pace">Snabbaste tempo</string>
+    <string name="stats_gain">Ökning</string>
+    <string name="stats_latitude">Latitud</string>
+    <string name="stats_longitude">Longitud</string>
+    <string name="stats_max_speed">Maximal hastighet</string>
+    <string name="stats_moving_time">Rörelsetid</string>
+    <string name="stats_pace">Tempo</string>
+    <string name="stats_speed">Hastighet</string>
+    <string name="stats_distance">Avstånd</string>
+    <string name="stats_total_time">Total tid</string>
+    <!-- Track -->
+    <string name="track_name_format">Spår %1$d</string>
+    <string name="track_markers">%1$s markörer</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Spåret och dess markörer tas bort permanent från enheten.</string>
+    <string name="track_delete_one_confirm_title">Ta bort spår?</string>
+    <string name="track_delete_multiple_confirm_message">De valda spåren och deras markörer tas permanent bort från enheten.</string>
+    <string name="track_delete_progress_message">Tar bort …</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Statistik</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Aktivitetstyp (t.ex. vandring)</string>
+    <string name="track_edit_activity_type_hint">Aktivitetstyp</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Börja spela in ditt nästa äventyr här</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">fot</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">mile</string>
+    <string name="unit_mile_per_hour">mpt</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/mile</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d fot</string>
+    <string name="value_integer_feet_excellent_gps">%1$d fot (utmärkt GPS-mottagning)</string>
+    <string name="value_integer_feet_recommended">%1$d fot (rekommenderas)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/tim</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (utmärkt GPS-mottagning)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (dålig GPS-mottagning)</string>
+    <string name="value_integer_meter_recommended">%1$d m (rekommenderas)</string>
+    <string name="value_integer_mile">%1$d mile</string>
+    <string name="value_integer_mile_hour">%1$d mi/tim</string>
+    <string name="value_integer_minute">%1$d min</string>
+    <string name="value_integer_second">%1$d s</string>
+    <string name="value_none">Inga</string>
+    <string name="value_off">Av</string>
+    <string name="value_smallest_recommended">Minsta (rekommenderas)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">1 timme</item>
+        <item quantity="other">%1$d timmar</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">1 sekund</item>
+        <item quantity="other">%1$d minuter</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">1 sekund</item>
+        <item quantity="other">%1$d sekunder</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">1 km per timme</item>
+        <item quantity="other">%1$.1f kilometer per timme</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">1 mile per timme</item>
+        <item quantity="other">%1$.1f miles per timme</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s par kilometer</string>
+    <string name="voice_pace_per_mile">%1$s per mile</string>
+    <string name="voice_template">%1$s på %2$s med %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">totalt avstånd 1 kilometer</item>
+        <item quantity="other">totalt avstånd %1$.2f kilometer</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">totalt avstånd 1 miles</item>
+        <item quantity="other">totalt avstånd %1$.2f miles</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">bankomat</string>
+    <string name="waypoint_type_bank">bank</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">grill</string>
+    <string name="waypoint_type_building">skapar</string>
+    <string name="waypoint_type_bus_stop">busshållplats</string>
+    <string name="waypoint_type_cafe">café</string>
+    <string name="waypoint_type_campfire">lägereld</string>
+    <string name="waypoint_type_campground">campingplats</string>
+    <string name="waypoint_type_church">kyrka</string>
+    <string name="waypoint_type_coffee_house">café</string>
+    <string name="waypoint_type_convenience_store">närbutik</string>
+    <string name="waypoint_type_drinking_water">dricksvatten</string>
+    <string name="waypoint_type_falling_rocks">fallande stenar</string>
+    <string name="waypoint_type_ferry">färja</string>
+    <string name="waypoint_type_fire_place">eldstad</string>
+    <string name="waypoint_type_fire_station">brandstation</string>
+    <string name="waypoint_type_fishing">fiske</string>
+    <string name="waypoint_type_gas_station">bensinstation</string>
+    <string name="waypoint_type_golf_course">golfbana</string>
+    <string name="waypoint_type_grocery_store">livsmedelsbutik</string>
+    <string name="waypoint_type_hair_dresser">frisör</string>
+    <string name="waypoint_type_harbor">hamn</string>
+    <string name="waypoint_type_hiking_path">vandringsled</string>
+    <string name="waypoint_type_hotel">hotell</string>
+    <string name="waypoint_type_house">hus</string>
+    <string name="waypoint_type_information">information</string>
+    <string name="waypoint_type_intersection">korsning</string>
+    <string name="waypoint_type_mail_box">brevlåda</string>
+    <string name="waypoint_type_market">marknad</string>
+    <string name="waypoint_type_meeting_point">mötesplats</string>
+    <string name="waypoint_type_opera">opera</string>
+    <string name="waypoint_type_parking">parkeringsplats</string>
+    <string name="waypoint_type_police_station">polisstation</string>
+    <string name="waypoint_type_post_office">postkontor</string>
+    <string name="waypoint_type_pothole">tjälskott</string>
+    <string name="waypoint_type_railway_crossing">järnvägsövergång</string>
+    <string name="waypoint_type_restaurant">restaurang</string>
+    <string name="waypoint_type_shopping">shoppa</string>
+    <string name="waypoint_type_sight">sevärdhet</string>
+    <string name="waypoint_type_store">affär</string>
+    <string name="waypoint_type_swimming_pool">simbassäng</string>
+    <string name="waypoint_type_telephone">telefon</string>
+    <string name="waypoint_type_theater">teater</string>
+    <string name="waypoint_type_toilet">toalett</string>
+    <string name="waypoint_type_tourist_information">turistinformation</string>
+    <string name="waypoint_type_tree">träd</string>
+    <string name="waypoint_type_tunnel">tunnlar</string>
+    <string name="waypoint_type_waterfall">vattenfall</string>
+    <string name="waypoint_type_water_fountain">fontän</string>
+    <string name="waypoint_type_waypoint">vägpunkt</string>
+    <string name="settings_default_trackfileformat">Exportera / dela filformat</string>
+    <string name="import_progress_summary_ok_msg">Importerade filer</string>
+    <string name="about_history">OpenTracks är en gaffel av <a href="https://code.google.com/archive/p/mytracks/"><i>Google\'s MyTracks</i></a> (som upphörde 2016).</string>
+    <string name="help_feature_content">* skapa GPS-spår
+\n * använda en pulssensor (endast Bluetooth LE)
+\n * Röstmeddelanden (efter tid eller avstånd).
+\n * skapa markörer (inkl. bilder)
+\n * fungerar helt offline
+\n * visa spår på en karta (se nedan)</string>
+    <string name="help_recording_content">OpenTracks använder GPS-sensorn på enheten för att spela in platsen kontinuerligt. Om GPS-enheten rapporterar felaktiga data (t.ex. plats, hastighet, höjd) kan OpenTracks inte göra något åt det.</string>
+    <string name="help_gps_troubleshooting_content"> Vad du kan göra:
+\n a) kontrollera om GPS är aktiverad,
+\n b) förbättra GPS-mottagningen (t.ex. genom att gå utomhus),
+\n c) kontrollera med appen <a href="https://f-droid.org/en/packages/com.android.gpstest.osmdroid/">GPSTest</a>, och
+\n d) inaktivera energisparande.
+\n
+\n Om allt inte hjälper, rapportera ett fel. </string>
+    <string name="description_altitude_loss">Höjdförlust: %1$d m (%2$d ft)</string>
+    <string name="export_progress_summary_new_msg">Nya spår exporteras</string>
+    <string name="export_progress_summary_errors_msg">Fel</string>
+    <string name="gps_disabled_msg">GPS inaktiverad</string>
+    <string name="import_thread_interrupted">Tråden avbruten</string>
+    <string name="settings_recording_show_on_lockscreen_while_recording_title">Visa statistik på lockscreen</string>
+    <string name="help_support_title">Hur kan jag stödja OpenTracks\?</string>
+    <string name="sensor_state_heart_rate_avg">Avg hjärtfrekvens</string>
+    <string name="export_error_post_workout">Efter träningen export misslyckades, kontrollera exportkatalogen.</string>
+    <string name="sensor_state_power_avg">Avg Effekt</string>
+    <string name="settings_sensor_cycling_distance_speed">Cykling: avstånd och hastighet</string>
+    <string name="aggregated_stats_empty_message">Spela in ditt första spår för att se aggregerad statistik</string>
+    <string name="help_storage_pictures_content">Dessa lagras i appens interna lagringsutrymme (dvs. de är endast tillgängliga inom OpenTracks).</string>
+    <string name="interval_list_empty_message">Det finns inte något intervall ännu</string>
+    <string name="voice_speed_lap">Varvtalet %1$s</string>
+    <string name="voice_pace_lap">Varvtid för %1$s</string>
+    <string name="hold_to_stop">Håll för att stoppa</string>
+    <string name="settings_night_mode_option_system">Systemet</string>
+    <string name="menu_voice_rate">Rösthastighet</string>
+    <string name="delete_service">Raderingstjäns</string>
+    <string name="track_delete_not_recording">Det här spåret kan inte tas bort eftersom det för närvarande spelas in.</string>
+    <string name="settings_night_mode_title">UI tema</string>
+    <string name="about_third_party_data">Uppgifter om tredje part</string>
+    <string name="import_parser_error">Tolkningsfel: %1$s</string>
+    <string name="export_without_photos">utan foton</string>
+    <string name="export_with_photos">med bilder</string>
+    <string name="settings_error_initial_values_restored">Ledsen, men ett fel uppstod. Alla inställningar har återställts till standardvärdena.</string>
+    <string name="open_track_as_KML">Öppna som KML</string>
+    <string name="permission_gps_failed">OpenTracks kräver tillstånd att använda GPS.</string>
+    <string name="sensor_state_cadence_avg">Avg Kadens</string>
+    <string name="settings_sensor_disconnected">Frånkopplad från %1$s</string>
+    <string name="generic_open_track">Öppna Spår</string>
+    <string name="track_distance_notification">Avstånd: %1$s</string>
+    <string name="about_libraries">Bibliotek</string>
+    <string name="settings_sensor_cycling_cadence">Cykling: kadens</string>
+    <string name="share_image_subject">Jag skulle vilja dela en bild med dig</string>
+    <string name="import_progress_summary_exists_msg">Finns redan</string>
+    <string name="help_track_map_content"> Använd den lilla kartikonen.
+\n a) (liveuppdateringar) Installera <a href="https://github.com/OpenTracksApp/OSMDashboard">OSMDashboard</a>. Den ger online- eller offlinekartor via <a href="https://www.openstreetmap.org">OpenStreetMap</a>.
+\n Egentligen är OSMDashboard en separat app som endast kan få tillgång (tillfälligt) till data för de spår som ska visas.
+\n b) Via ett vanligt kartprogram (t.ex. <a href="http://osmand.net/">OsmAnd</a> och <a href="https://maps.me/">MAPS.ME</a>). Dessa program måste ha stöd för KMZ-filformatet (endast platser och tidsstämplar). I själva verket måste en app stödja <i>ACTION_VIEW</i> med MIME <i>application/vnd.google-earth.kmz</i>. </string>
+    <string name="track_pace_notification">Takt: %1$s</string>
+    <string name="marker_add_photo_canceled">Avbruten, ingen fotomarkör tillagd</string>
+    <string name="settings_default_export_uri_title">Spåra export katalog</string>
+    <string name="import_error_list_dialog_title">Filer som inte importerats</string>
+    <string name="settings_recording_keep_screen_on_while_recording_summary">Håll skärmen på medan du spelar in.</string>
+    <string name="bluetooth_disabled">Vänligen aktivera Bluetooth.</string>
+    <string name="settings_recording_keep_screen_on_while_recording_title">Håll skärmen på</string>
+    <string name="track_speed_notification">Hastighet: %1$s</string>
+    <string name="settings_prevent_reimport_tracks_title">Förhindra återimport av spår</string>
+    <string name="open_track_as_GPX">Öppna som GPX</string>
+    <string name="track_recording_notification_accuracy">Plats noggrannhet: %1$s</string>
+    <string name="import_error_info">%1$s: %2$s</string>
+    <string name="help_gps_troubleshooting_title">Opentracks spelar inte in platser\?</string>
+    <string name="settings_night_mode_option_day">Dag</string>
+    <string name="help_track_export_title">Hur kan jag exportera/dela inspelade spår\?</string>
+    <string name="stats_loss">Förlust</string>
+    <string name="settings_sensor_connecting">Ansluten till %1$s</string>
+    <string name="about_url">Projektets webbsida: <a href="%1$s">%1$s</a></string>
+    <string name="export_all_do_it_for_all">gör det för alla konflikter</string>
+    <string name="help_data_google_play_services_title">Kräver/använder OpenTracks Google Play Service\?</string>
+    <string name="generic_skip">Hoppa</string>
+    <string name="description_default_speed_or_pace">Efter verksamhetstyp</string>
+    <string name="generic_click_twice_cancel">Klicka på tillbaka igen för att avbryta</string>
+    <string name="open_track_as_trackfileformat">Öppna som %1$s</string>
+    <string name="help_storage_pictures_title">Hur lagrar OpenTracks bilder som tagits som markörer\?</string>
+    <string name="about_version_name">Versionsnamn: %1$s</string>
+    <string name="settings_recording_fullscreen_on_while_recording_title">Helskärmsläge</string>
+    <string name="generic_completed">Slutföra</string>
+    <string name="instant_export_enabled_summary">Exportera spår till lagring efter inspelningen är klar</string>
+    <string name="import_unable_to_import_file">Det gick inte att importera fil: %1$s</string>
+    <string name="help_track_map_title">Hur visar man ett spår på en karta\?</string>
+    <string name="track_detail_intervals_tab">Intervall</string>
+    <string name="settings_recording_fullscreen_on_while_recording_summary">Under inspelning, närvarande i fullskärm.</string>
+    <string name="sensor_could_not_scan">Det gick inte att söka efter Bluetooth-enheter (fel %1$i).</string>
+    <string name="generic_show_errors">Visa Fel</string>
+    <string name="menu_insert_gallery_img">Infoga galleri bild</string>
+    <string name="about_version_code">Versionskod: %1$d</string>
+    <string name="help_feature_title">OpenTracks har följande funktioner:</string>
+    <string name="sensor_state_cadence_max">Max Kadens</string>
+    <string name="import_file_imported">Importerad fil %1$s</string>
+    <string name="share_image_body">Jag tror att du kanske är intresserad av den här bilden.</string>
+    <string name="settings_night_mode_option_night">Natt</string>
+    <string name="generic_overwrite">Skriva</string>
+    <string name="generic_separator_done_total">/</string>
+    <string name="hold_to_pause">Håll till paus</string>
+    <string name="export_track_errors">Spår som inte exporteras</string>
+    <string name="track_delete_progress">%1$d/%2$d</string>
+    <string name="help_data_storage_content"> Sensordata lagras per inspelad plats. När det gäller en pulssensor betyder det att endast <i>en</i> pulsmätning lagras per plats. Om du står stilla eller är inomhus, kommer inga sensordata att registreras (men det kommer att visas). </string>
+    <string name="help_recording_title">Hur registrerar OpenTracks data\?</string>
+    <string name="about_description"><i>OpenTracks</i> är ett program för sportspårning som helt respekterar din integritet.</string>
+    <string name="export_progress_summary_overwrite_msg">Spår över</string>
+    <string name="sensor_state_heart_rate_max">Max hjärtfrekvens</string>
+    <string name="help_data_storage_title">Hur OpenTracks lagra sensordata\?</string>
+    <string name="help_track_export_content"> Spår kan exporteras från inställningarna som KMZ, KML eller GPX. KMZ/KML alla data; GPX endast platser. Spår som delas via <i>delningsikonen</i> delas som KMZ. </string>
+    <string name="about_preference_title">Om OpenTracks</string>
+    <string name="import_progress_summary_errors_msg">Fel</string>
+    <string name="import_no_kml_file_found">Ingen doc.KML-filen finns i KMZ</string>
+    <string name="import_prevent_reimport">Du har angett förhindra åter importera spår</string>
+    <string name="menu_resume_track">Återuppta spår</string>
+    <string name="import_unsupported_format">Filformat som inte stöds</string>
+    <string name="instant_export_enabled_title">Omedelbar efter träning export</string>
+    <string name="settings_recording_show_on_lockscreen_while_recording_summary">När du spelar in, visa statistik utan att låsa upp enheten.</string>
+    <string name="settings_sensor_wheel_circumference">Hjulomkrets (mm)</string>
+    <string name="gps_fixed_and_ready">GPS fast och klar</string>
+    <string name="export_track_already_exists_msg">Spåret %1$s finns redan i målkatalogen.</string>
+    <string name="export_progress_summary_skip_msg">Spår hoppade över</string>
+    <plurals name="generic_completed_with_errors">
+        <item quantity="one">Slutfördes med ett fel</item>
+        <item quantity="other">Slutförs med %1$d fel</item>
+    </plurals>
+    <string name="help_support_content"> Det kan du göra:
+\n a) sprida ordet om OpenTracks,
+\n b) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">föreslå funktioner</a>,
+\n c) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">rapportera fel</a>,
+\n d) hjälpa till med programvaruutveckling,
+\n e) köpa i <a href="https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore">Google Play Store</a>,
+\n f) donera, och
+\n g) göra vad du än tror hjälper OpenTracks. </string>
+    <string name="activity_type_escooter">skoter</string>
+    <string name="stats_split_interval">Delat intervall</string>
+    <string name="settings_sensor_running_speed_and_cadence">Löpning: distans, hastighet och kadens</string>
+</resources>

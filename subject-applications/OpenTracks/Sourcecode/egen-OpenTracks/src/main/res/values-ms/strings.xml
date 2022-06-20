@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">kapal terbang</string>
+    <string name="activity_type_atv">ATV</string>
+    <string name="activity_type_biking">berbasikal</string>
+    <string name="activity_type_blimp">blim</string>
+    <string name="activity_type_boat">bot</string>
+    <string name="activity_type_climbing">memanjat</string>
+    <string name="activity_type_commercial_airplane">pesawat komersil</string>
+    <string name="activity_type_cross_country_skiing">ski merentas desa</string>
+    <string name="activity_type_cycling">berbasikal</string>
+    <string name="activity_type_dirt_bike">basikal lasak</string>
+    <string name="activity_type_donkey_back_riding">menunggang keldai</string>
+    <string name="activity_type_driving">memandu</string>
+    <string name="activity_type_driving_bus">memandu bas</string>
+    <string name="activity_type_driving_car">memandu kereta</string>
+    <string name="activity_type_ferry">feri</string>
+    <string name="activity_type_frisbee">frisbee</string>
+    <string name="activity_type_gliding">meluncur angin</string>
+    <string name="activity_type_hang_gliding">geluncur angin</string>
+    <string name="activity_type_helicopter">helikopter</string>
+    <string name="activity_type_hiking">kembara berjalan kaki</string>
+    <string name="activity_type_horse_back_riding">menunggang kuda</string>
+    <string name="activity_type_hot_air_balloon">belon udara panas</string>
+    <string name="activity_type_ice_sailing">belayar ais</string>
+    <string name="activity_type_inline_skating">geluncur sebaris</string>
+    <string name="activity_type_kayaking">berkayak</string>
+    <string name="activity_type_kite_surfing">bermain layang-layang</string>
+    <string name="activity_type_land_sailing">belayar bumi</string>
+    <string name="activity_type_mixed_type">jenis bercampur</string>
+    <string name="activity_type_motor_bike">motosikal</string>
+    <string name="activity_type_motor_boating">bermain motobot</string>
+    <string name="activity_type_mountain_biking">berbasikal bukit</string>
+    <string name="activity_type_off_trail_hiking">kembara susur luar denai</string>
+    <string name="activity_type_other">lain-lain</string>
+    <string name="activity_type_paddling">Berdayung</string>
+    <string name="activity_type_para_gliding">para-geluncur</string>
+    <string name="activity_type_rc_airplane">Kapal terbang RC</string>
+    <string name="activity_type_rc_boat">Bot RC</string>
+    <string name="activity_type_rc_helicopter">helikopter RC</string>
+    <string name="activity_type_riding">menunggang</string>
+    <string name="activity_type_road_biking">berbasikal di jalan raya</string>
+    <string name="activity_type_roller_skiing">meluncur roda</string>
+    <string name="activity_type_rowing">mendayung</string>
+    <string name="activity_type_running">berlari</string>
+    <string name="activity_type_sailing">belayar</string>
+    <string name="activity_type_seaplane">pesawat laut</string>
+    <string name="activity_type_skate_boarding">bermain papan selaju</string>
+    <string name="activity_type_skating">meluncur</string>
+    <string name="activity_type_skiing">meluncur salji</string>
+    <string name="activity_type_sky_jumping">terjun udara</string>
+    <string name="activity_type_sled">kereta luncur salji</string>
+    <string name="activity_type_snow_boarding">meluncur salji</string>
+    <string name="activity_type_snow_shoeing">berjalan dalam salji</string>
+    <string name="activity_type_speed_walking">berjalan laju</string>
+    <string name="activity_type_street_running">larian jalan</string>
+    <string name="activity_type_surfing">luncur air</string>
+    <string name="activity_type_track_cycling">berbasikal trek</string>
+    <string name="activity_type_track_running">larian trek</string>
+    <string name="activity_type_trail_hiking">kembara susur denai</string>
+    <string name="activity_type_trail_running">larian denai</string>
+    <string name="activity_type_train">kereta api</string>
+    <string name="activity_type_ultimate_frisbee">frisbee terhebat</string>
+    <string name="activity_type_unknown">tidak diketahui</string>
+    <string name="activity_type_wakeboarding">bermain papan luncur air</string>
+    <string name="activity_type_walking">berjalan</string>
+    <string name="activity_type_water_skiing">meluncur air</string>
+    <string name="activity_type_wind_surfing">meluncur angin</string>
+    <!-- Description -->
+    <string name="description_activity_type">Jenis aktiviti: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Purata langkah pergerakan: %1$s min/km (%2$s min/bt)</string>
+    <string name="description_average_moving_speed">Purata kelajuan pergerakan: %1$.2f km/j (%2$.1f bt/j)</string>
+    <string name="description_average_pace_in_minute">Purata langkah: %1$s min/km (%2$s min/bt)</string>
+    <string name="description_average_speed">Purata kelajuan: %1$.2f km/j (%2$.1f bt/j)</string>
+    <string name="description_altitude_gain">Peningkatan ketinggian: %1$d m (%2$d kaki)</string>
+    <string name="description_altitude_imperial">Ketinggian (kaki)</string>
+    <string name="description_altitude_metric">Ketinggian (m)</string>
+    <string name="description_fastest_pace_in_minute">Langkah paling laju: %1$s min/km (%2$s min/bt)</string>
+    <string name="description_max_altitude">Ketinggian maksimum: %1$d m (%2$d kaki)</string>
+    <string name="description_max_speed">Kelajuan maksimum: %1$.2f km/j (%2$.1f bt/j)</string>
+    <string name="description_min_altitude">Ketinggian min: %1$d m (%2$d kaki)</string>
+    <string name="description_moving_time">Masa pergerakan: %1$s</string>
+    <string name="description_pace_imperial">Langkah (min/bt)</string>
+    <string name="description_pace_metric">Langkah (min/km)</string>
+    <string name="description_recorded_time">Dirakam: %1$s</string>
+    <string name="description_speed_ms">Kelajuan (m/s)</string>
+    <string name="description_sensor_cadence">Rentak (rpm)</string>
+    <string name="description_sensor_heart_rate">Kadar denyut jantung (bpm)</string>
+    <string name="description_sensor_power">Kuasa (W)</string>
+    <string name="description_speed_imperial">Kelajuan (bt/j)</string>
+    <string name="description_speed_metric">Kelajuan (km/j)</string>
+    <string name="description_time">Masa</string>
+    <string name="description_total_distance">Jumlah jarak: %1$.2f km (%2$.1f bt)</string>
+    <string name="description_total_time">Jumlah masa: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">Mengeksport ke %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="other">%1$d fail</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Tambah</string>
+    <string name="generic_delete_selected_confirm_title">Padamkan yang dipilih?</string>
+    <string name="generic_description">Keterangan</string>
+    <string name="generic_description_line">Keterangan: %1$s</string>
+    <string name="generic_name">Nama</string>
+    <string name="generic_name_line">Nama: %1$s</string>
+    <string name="generic_paused">Dijeda</string>
+    <string name="generic_recording">Merakam…</string>
+    <string name="generic_save">Simpan</string>
+    <string name="generic_tracks">Lagu</string>
+    <!-- Gps -->
+    <string name="gps_starting">Memulakan GPS</string>
+    <string name="gps_wait_for_better_signal">Menunggu isyarat GPS yang lebih baik</string>
+    <string name="gps_wait_for_signal">Menunggu isyarat GPS</string>
+    <!-- Image -->
+    <string name="image_arrow">Anak panah</string>
+    <string name="image_marker">Penanda</string>
+    <string name="image_marker_count">Kiraan penanda</string>
+    <string name="image_pause">Jeda</string>
+    <string name="image_photo_marker">Penanda foto</string>
+    <string name="image_record">Rakam</string>
+    <string name="image_stop">Berhenti</string>
+    <string name="image_track">Lagu</string>
+    <!-- Import -->
+    <string name="import_progress_message">Mengimport dari %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Tidak dapat menyisipkan penanda. Tiada isyarat GPS. Cuba lagi.</string>
+    <string name="marker_add_success">Penanda telah disisipkan</string>
+    <string name="marker_add_canceled">Dibatalkan, tiada penanda ditambahkan</string>
+    <string name="marker_delete_one_confirm_message">Penanda akan dipadamkan terus dari peranti</string>
+    <string name="marker_delete_one_confirm_title">Padamkan penanda?</string>
+    <string name="marker_delete_multiple_confirm_message">Penanda yang dipilih akan dipadamkan terus dari peranti</string>
+    <string name="marker_name_format">Penanda %1$d</string>
+    <string name="marker_title">%1$d daripada %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Jenis penanda (mis. air terjun)</string>
+    <string name="marker_edit_marker_type_hint">Jenis penanda</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Anda tiada sebarang penanda</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Statistik teragregat</string>
+    <string name="menu_delete">Padam</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_export_all">Eksport semua</string>
+    <string name="menu_help">Bantuan</string>
+    <string name="menu_import_all">Import semua</string>
+    <string name="menu_insert_marker">Sisipkan penanda</string>
+    <string name="menu_insert_photo">Sisipkan foto</string>
+    <string name="menu_markers">Penanda</string>
+    <string name="menu_search">Carian</string>
+    <string name="menu_select_all">Pilih semua</string>
+    <string name="menu_settings">Tetapan</string>
+    <string name="menu_share">Kongsi</string>
+    <string name="menu_show_on_map">Tunjukkan pada peta</string>
+    <string name="menu_start_gps">Mulakan GPS</string>
+    <string name="menu_stop_gps">Hentikan GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Khidmat rakaman</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Aras bateri</string>
+    <string name="sensor_state_cadence">Rentak</string>
+    <string name="sensor_state_cadence_value">%1$d rpm</string>
+    <string name="sensor_state_heart_rate">Kadar denyut jantung</string>
+    <string name="sensor_state_heart_rate_value">%1$d bpm</string>
+    <string name="sensor_state_power">Kuasa</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">Tidak tersedia semasa merakam laluan</string>
+    <string name="settings_show">Tunjukkan</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Terperinci</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Mengikut jarak</string>
+    <string name="settings_chart_by_time">Mengikut masa</string>
+    <string name="settings_recording">Rakaman</string>
+    <string name="settings_recording_default_activity_title">Jenis aktiviti tetapan asal</string>
+    <string name="settings_recording_location_frequency_summary">%1$s antara lokasi rakaman</string>
+    <string name="settings_recording_max_recording_distance_summary">Segmen baharu dibuat jika jarak di antara dua lokasi melebihi %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">Jarak maksimum</string>
+    <string name="settings_recording_min_recording_distance_title">Selang jarak rakaman</string>
+    <string name="settings_recording_min_recording_interval_title">Selang masa rakaman</string>
+    <string name="settings_recording_min_required_accuracy_summary">Lokasi diabaikan jika ketepatannya kurang daripada %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">Ketepatan GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Tarikh (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Tarikh (setempat)</string>
+    <string name="settings_recording_track_name_number_option">Nombor</string>
+    <string name="settings_recording_track_name_title">Nama lalai laluan</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Tetapkan semula</string>
+    <string name="settings_reset_confirm_message">Semua tetapan akan dikembalikan kepada nilai lalai.</string>
+    <string name="settings_reset_confirm_title">Tetapkan semula sekarang?</string>
+    <string name="settings_reset_done">Semua tetapan telah dikembalikan kepada nilai tetapan asal</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Kadar pilihan</string>
+    <string name="settings_stats_units_imperial">Imperial (bt, kaki)</string>
+    <string name="settings_stats_units_metric">Metrik (km, m)</string>
+    <string name="settings_stats_units_title">Unit pilihan</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Saya fikir anda mungkin berminat dengan laluan ini.\n\nUntuk melihat laluan, gunakan Google Earth atau perisian
+    pemetaan lain.\n\n%1$s</string>
+    <string name="share_track_subject">Saya mahu berkongsi jejak dengan awak</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Langkah bergerak purata</string>
+    <string name="stats_average_moving_speed">Kelajuan bergerak purata</string>
+    <string name="stats_average_pace">Langkah purata</string>
+    <string name="stats_average_speed">Kelajuan purata</string>
+    <string name="stats_altitude">Ketinggian</string>
+    <string name="stats_fastest_pace">Langkah paling cepat</string>
+    <string name="stats_gain">Pertambahan</string>
+    <string name="stats_latitude">Latitud</string>
+    <string name="stats_longitude">Longitud</string>
+    <string name="stats_max_speed">Kelajuan maks</string>
+    <string name="stats_moving_time">Masa bergerak</string>
+    <string name="stats_pace">Langkah</string>
+    <string name="stats_speed">Kelajuan</string>
+    <string name="stats_distance">Jarak</string>
+    <string name="stats_total_time">Jumlah masa</string>
+    <!-- Track -->
+    <string name="track_name_format">Jejak %1$d</string>
+    <string name="track_markers">Penanda %1$s</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Laluan dan penandanya akan dipadamkan secara kekal dari peranti.</string>
+    <string name="track_delete_one_confirm_title">Padamkan lagu?</string>
+    <string name="track_delete_multiple_confirm_message">Laluan yang dipilih dan penandanya akan dipadamkan secara kekal dari peranti.</string>
+    <string name="track_delete_progress_message">Memadamkan…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Statistik</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Jenis aktiviti (mis. mengembara berjalan kaki)</string>
+    <string name="track_edit_activity_type_hint">Jenis aktiviti</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Mula merakam pengembaraan anda yang seterusnya di sini</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">kaki</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/j</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">bt</string>
+    <string name="unit_mile_per_hour">bt/j</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/bt</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d kaki</string>
+    <string name="value_integer_feet_excellent_gps">%1$d kaki (GPS bagus)</string>
+    <string name="value_integer_feet_recommended">%1$d kaki (disyorkan)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/j</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (GPS bagus)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (GPS lemah)</string>
+    <string name="value_integer_meter_recommended">%1$d m (disyorkan)</string>
+    <string name="value_integer_mile">%1$d bt</string>
+    <string name="value_integer_mile_hour">%1$d bt/j</string>
+    <string name="value_integer_minute">%1$d min</string>
+    <string name="value_integer_second">%1$d s</string>
+    <string name="value_none">Tiada</string>
+    <string name="value_off">Dimatikan</string>
+    <string name="value_smallest_recommended">Terkecil (disyorkan)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="other">%1$d minit</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="other">%1$.1f kilometer sejam</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="other">%1$.1f batu sejam</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s sekilometer</string>
+    <string name="voice_pace_per_mile">%1$s sejam</string>
+    <string name="voice_template">%1$s dalam %2$s pada %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="other">jumlah jarak %1$.2f kilometer</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="other">jumlah jarak %1$.2f batu</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">ATM</string>
+    <string name="waypoint_type_bank">bank</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">barbeku</string>
+    <string name="waypoint_type_building">bangunan</string>
+    <string name="waypoint_type_bus_stop">perhentian bas</string>
+    <string name="waypoint_type_cafe">kedai kopi</string>
+    <string name="waypoint_type_campfire">unggun api</string>
+    <string name="waypoint_type_campground">tapak khemah</string>
+    <string name="waypoint_type_church">gereja</string>
+    <string name="waypoint_type_coffee_house">kedai kopi</string>
+    <string name="waypoint_type_convenience_store">kedai serbaneka</string>
+    <string name="waypoint_type_drinking_water">air minuman</string>
+    <string name="waypoint_type_falling_rocks">runtuhan batu</string>
+    <string name="waypoint_type_ferry">feri</string>
+    <string name="waypoint_type_fire_place">pendiangan</string>
+    <string name="waypoint_type_fire_station">balai bomba</string>
+    <string name="waypoint_type_fishing">memancing</string>
+    <string name="waypoint_type_gas_station">stesen minyak</string>
+    <string name="waypoint_type_golf_course">padang golf</string>
+    <string name="waypoint_type_grocery_store">kedai runcit</string>
+    <string name="waypoint_type_hair_dresser">pendandan rambut</string>
+    <string name="waypoint_type_harbor">pelabuhan</string>
+    <string name="waypoint_type_hiking_path">laluan kembara berjalan kaki</string>
+    <string name="waypoint_type_hotel">hotel</string>
+    <string name="waypoint_type_house">rumah</string>
+    <string name="waypoint_type_information">maklumat</string>
+    <string name="waypoint_type_intersection">persimpangan jalan</string>
+    <string name="waypoint_type_mail_box">peti mel</string>
+    <string name="waypoint_type_market">pasar</string>
+    <string name="waypoint_type_meeting_point">titik pertemuan</string>
+    <string name="waypoint_type_opera">opera</string>
+    <string name="waypoint_type_parking">tempat letak kereta</string>
+    <string name="waypoint_type_police_station">balai polis</string>
+    <string name="waypoint_type_post_office">pejabat pos</string>
+    <string name="waypoint_type_pothole">lubang atas jalan raya</string>
+    <string name="waypoint_type_railway_crossing">lintasan kereta api</string>
+    <string name="waypoint_type_restaurant">restoran</string>
+    <string name="waypoint_type_shopping">beli-belah</string>
+    <string name="waypoint_type_sight">penglihatan</string>
+    <string name="waypoint_type_store">simpan</string>
+    <string name="waypoint_type_swimming_pool">kolam mandi</string>
+    <string name="waypoint_type_telephone">telefon</string>
+    <string name="waypoint_type_theater">teater</string>
+    <string name="waypoint_type_toilet">tandas</string>
+    <string name="waypoint_type_tourist_information">maklumat pelancong</string>
+    <string name="waypoint_type_tree">pokok</string>
+    <string name="waypoint_type_tunnel">terowong</string>
+    <string name="waypoint_type_waterfall">air terjun</string>
+    <string name="waypoint_type_water_fountain">air pancut</string>
+    <string name="waypoint_type_waypoint">titik laluan</string>
+</resources>

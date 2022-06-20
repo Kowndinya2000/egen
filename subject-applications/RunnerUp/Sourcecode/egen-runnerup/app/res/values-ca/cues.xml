@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--~ Copyright (C) 2014 jonas.oreland@gmail.com
+  ~
+  ~  This program is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
+  <string name="cue_activity">activitat</string>
+  <string name="cue_interval">interval</string>
+  <string name="cue_lap">tram</string>
+  <string name="cue_warmup">escalfament</string>
+  <string name="cue_cooldown">refredament</string>
+  <string name="cue_current">actual</string>
+  <string name="cue_perkilometer">per kilòmetre</string>
+  <string name="cue_permile">per milla</string>
+  <string name="cue_started">iniciat</string>
+  <string name="cue_paused">en pausa</string>
+  <string name="cue_resumed">reprès</string>
+  <string name="cue_stopped">aturat</string>
+  <string name="cue_completed">finalitzat</string>
+  <string name="cue_speedup">accelereu</string>
+  <string name="cue_slowdown">alentiu</string>
+  <plurals name="cue_hour">
+    <item quantity="one">%d hora</item>
+    <item quantity="other">%d hores</item>
+  </plurals>
+  <plurals name="cue_minute">
+    <item quantity="one">%d minut</item>
+    <item quantity="other">%d minuts</item>
+  </plurals>
+  <plurals name="cue_second">
+    <item quantity="one">%d segon</item>
+    <item quantity="other">%d segons</item>
+  </plurals>
+  <plurals name="cue_meter">
+    <item quantity="one">%d metre</item>
+    <item quantity="other">%d metres</item>
+  </plurals>
+  <plurals name="cue_kilometer">
+    <item quantity="one">%s kilòmetre</item>
+    <item quantity="other">%s kilòmetres</item>
+  </plurals>
+  <plurals name="cue_mile">
+    <item quantity="one">%s milla</item>
+    <item quantity="other">%s milles</item>
+  </plurals>
+  <plurals name="cue_kilometers_per_hour">
+    <item quantity="one">%s quilòmetre per hora</item>
+    <item quantity="other">%s kilòmetres per hora</item>
+  </plurals>
+  <plurals name="cue_miles_per_hour">
+    <item quantity="one">%s milla per hora</item>
+    <item quantity="other">%s milles per hora</item>
+  </plurals>
+  <plurals name="cue_bpm">
+    <item quantity="one">%d bpm</item>
+    <item quantity="other">%d ppm</item>
+  </plurals>
+  <plurals name="cue_rpm">
+    <item quantity="one">%drpm</item>
+    <item quantity="other">%d rpm</item>
+  </plurals>
+  <string name="cue_activity_paused">activitat en pausa</string>
+  <string name="cue_activity_resumed">activitat represa</string>
+  <string name="cue_activity_stopped">activitat aturada</string>
+  <string name="cue_lap_started">tram iniciat</string>
+  <string name="cue_lap_completed">tram finalitzat</string>
+  <string name="cue_warmup_started">escalfament iniciat</string>
+  <string name="cue_cooldown_started">refredament iniciat</string>
+</resources>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">letalo</string>
+    <string name="activity_type_atv">štirikolesniki</string>
+    <string name="activity_type_biking">kolesarjenje</string>
+    <string name="activity_type_blimp">zrakoplov</string>
+    <string name="activity_type_boat">čoln</string>
+    <string name="activity_type_climbing">plezanje</string>
+    <string name="activity_type_commercial_airplane">komercialno letalo</string>
+    <string name="activity_type_cross_country_skiing">tek na smučeh</string>
+    <string name="activity_type_cycling">kolesarjenje</string>
+    <string name="activity_type_dirt_bike">motokros</string>
+    <string name="activity_type_donkey_back_riding">jezdenje na oslu</string>
+    <string name="activity_type_driving">vožnja</string>
+    <string name="activity_type_driving_bus">vožnja z avtobusom</string>
+    <string name="activity_type_driving_car">vožnja avtomobila</string>
+    <string name="activity_type_ferry">trajekt</string>
+    <string name="activity_type_frisbee">frizbi</string>
+    <string name="activity_type_gliding">jadralno letenje</string>
+    <string name="activity_type_hang_gliding">zmajarstvo</string>
+    <string name="activity_type_helicopter">helikopter</string>
+    <string name="activity_type_hiking">pohodništvo</string>
+    <string name="activity_type_horse_back_riding">jezdenje na konju</string>
+    <string name="activity_type_hot_air_balloon">toplozračni balon</string>
+    <string name="activity_type_ice_sailing">jadranje po ledu</string>
+    <string name="activity_type_inline_skating">rolanje</string>
+    <string name="activity_type_kayaking">vožnja s kajakom</string>
+    <string name="activity_type_kite_surfing">deskanje z zmajem</string>
+    <string name="activity_type_land_sailing">jadranje po kopnem</string>
+    <string name="activity_type_mixed_type">mešana vrsta</string>
+    <string name="activity_type_motor_bike">motorno kolo</string>
+    <string name="activity_type_motor_boating">vožnja z motornim čolnom</string>
+    <string name="activity_type_mountain_biking">gorsko kolesarjenje</string>
+    <string name="activity_type_off_trail_hiking">pohodništvo po neurejenih poteh</string>
+    <string name="activity_type_other">drugo</string>
+    <string name="activity_type_paddling">veslanje</string>
+    <string name="activity_type_para_gliding">jadralno padalstvo</string>
+    <string name="activity_type_rc_airplane">letalo na daljinsko upravljanje</string>
+    <string name="activity_type_rc_boat">čoln na dalinjsko upravljanje</string>
+    <string name="activity_type_rc_helicopter">helikopter na daljinsko upravljanje</string>
+    <string name="activity_type_riding">jezdenje</string>
+    <string name="activity_type_road_biking">kolesarjenje po cesti</string>
+    <string name="activity_type_roller_skiing">tek na tekaških rolkah</string>
+    <string name="activity_type_rowing">veslanje</string>
+    <string name="activity_type_running">tek</string>
+    <string name="activity_type_sailing">jadranje</string>
+    <string name="activity_type_seaplane">hidroplan</string>
+    <string name="activity_type_skate_boarding">deskanje</string>
+    <string name="activity_type_skating">drsanje</string>
+    <string name="activity_type_skiing">smučanje</string>
+    <string name="activity_type_sky_jumping">padalstvo</string>
+    <string name="activity_type_sled">sani</string>
+    <string name="activity_type_snow_boarding">deskanje na snegu</string>
+    <string name="activity_type_snow_shoeing">krpljanje</string>
+    <string name="activity_type_speed_walking">hitra hoja</string>
+    <string name="activity_type_street_running">ulični tek</string>
+    <string name="activity_type_surfing">deskanje</string>
+    <string name="activity_type_track_cycling">kolesarjenje po urejenih poteh</string>
+    <string name="activity_type_track_running">tek po progi</string>
+    <string name="activity_type_trail_hiking">pohodništvo po urejenih poteh</string>
+    <string name="activity_type_trail_running">tek po urejenih poteh</string>
+    <string name="activity_type_train">vlak</string>
+    <string name="activity_type_ultimate_frisbee">Ultimate frizbi</string>
+    <string name="activity_type_unknown">neznano</string>
+    <string name="activity_type_wakeboarding">wakeboardanje</string>
+    <string name="activity_type_walking">hoja</string>
+    <string name="activity_type_water_skiing">smučanje na vodi</string>
+    <string name="activity_type_wind_surfing">jadranje na deski</string>
+    <!-- Description -->
+    <string name="description_activity_type">Vrsta dejavnosti: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Povprečni tempo gibanja: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_moving_speed">Povprečna hitrost gibanja: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_average_pace_in_minute">Povprečni tempo: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_speed">Povprečna hitrost: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_altitude_gain">Pridobljena višina: %1$d m (%2$d ft)</string>
+    <string name="description_altitude_imperial">Nadmorska višina (ft)</string>
+    <string name="description_altitude_metric">Nadmorska višina (m)</string>
+    <string name="description_fastest_pace_in_minute">Najhitrejši tempo: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_max_altitude">Največja višina: %1$d m (%2$d ft)</string>
+    <string name="description_max_speed">Največja hitrost: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_min_altitude">Najmanjša višina: %1$d m (%2$d ft)</string>
+    <string name="description_moving_time">Čas gibanja: %1$s</string>
+    <string name="description_pace_imperial">Tempo (min/mi)</string>
+    <string name="description_pace_metric">Tempo (min/km)</string>
+    <string name="description_recorded_time">Posneto: %1$s</string>
+    <string name="description_speed_ms">Hitrost (m/s)</string>
+    <string name="description_sensor_cadence">Ritem (rpm)</string>
+    <string name="description_sensor_heart_rate">Srčni utrip (bpm)</string>
+    <string name="description_sensor_power">Moč (W)</string>
+    <string name="description_speed_imperial">Hitrost (mi/h)</string>
+    <string name="description_speed_metric">Hitrost (km/h)</string>
+    <string name="description_time">Čas</string>
+    <string name="description_total_distance">Skupna dolžina: %1$.2f km (%2$.1f mi)</string>
+    <string name="description_total_time">Skupni čas: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">Izvažanje v %1$s …</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">%1$d datoteka</item>
+        <item quantity="two">%1$d datoteki</item>
+        <item quantity="few">št. datotek: %1$d</item>
+        <item quantity="other">%1$d datotek</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Dodaj</string>
+    <string name="generic_delete_selected_confirm_title">Izbriši izbrano?</string>
+    <string name="generic_description">Opis</string>
+    <string name="generic_description_line">Opis: %1$s</string>
+    <string name="generic_name">Ime</string>
+    <string name="generic_name_line">Ime: %1$s</string>
+    <string name="generic_paused">Začasno zaustavljeno</string>
+    <string name="generic_recording">Poteka snemanje …</string>
+    <string name="generic_save">Shrani</string>
+    <string name="generic_tracks">Poti</string>
+    <!-- Gps -->
+    <string name="gps_starting">Zagon GPS-a</string>
+    <string name="gps_wait_for_better_signal">Čakanje na boljši signal GPS</string>
+    <string name="gps_wait_for_signal">Čakanje na signal GPS</string>
+    <!-- Image -->
+    <string name="image_arrow">Puščica</string>
+    <string name="image_marker">Oznaka</string>
+    <string name="image_marker_count">Število oznak</string>
+    <string name="image_pause">Začasno ustavi</string>
+    <string name="image_photo_marker">Oznaka fotografije</string>
+    <string name="image_record">Snemaj</string>
+    <string name="image_stop">Ustavi</string>
+    <string name="image_track">Pot</string>
+    <!-- Import -->
+    <string name="import_progress_message">Uvažanje iz imenika %1$s …</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Oznake ni mogoče vstaviti. Ni signala GPS. Poskusite znova.</string>
+    <string name="marker_add_success">Oznaka je bila vstavljena</string>
+    <string name="marker_add_canceled">Preklicano, nobena oznaka ni bila dodana</string>
+    <string name="marker_delete_one_confirm_message">Oznaka bo trajno izbrisana iz naprave</string>
+    <string name="marker_delete_one_confirm_title">Izbriši oznako?</string>
+    <string name="marker_delete_multiple_confirm_message">Izbrane oznake bodo trajno izbrisane iz naprave</string>
+    <string name="marker_name_format">Oznaka %1$d</string>
+    <string name="marker_title">%1$d od %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Vrsta oznake (npr. slap)</string>
+    <string name="marker_edit_marker_type_hint">Vrsta oznake</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Nimate nobene oznake</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Združeni statistični podatki</string>
+    <string name="menu_delete">Izbriši</string>
+    <string name="menu_edit">Uredi</string>
+    <string name="menu_export_all">Izvozi vse</string>
+    <string name="menu_help">Pomoč</string>
+    <string name="menu_import_all">Uvozi vse</string>
+    <string name="menu_insert_marker">Vstavi oznako</string>
+    <string name="menu_insert_photo">Vstavi fotografijo</string>
+    <string name="menu_markers">Oznake</string>
+    <string name="menu_search">Iskanje</string>
+    <string name="menu_select_all">Izberi vse</string>
+    <string name="menu_settings">Nastavitve</string>
+    <string name="menu_share">Daj v skupno rabo</string>
+    <string name="menu_show_on_map">Pokaži na zemljevidu</string>
+    <string name="menu_start_gps">Zaženi GPS</string>
+    <string name="menu_stop_gps">Ustavi GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Storitev snemanja</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Raven napolnjenosti baterije</string>
+    <string name="sensor_state_cadence">Ritem</string>
+    <string name="sensor_state_cadence_value">%1$d rpm</string>
+    <string name="sensor_state_heart_rate">Srčni utrip</string>
+    <string name="sensor_state_heart_rate_value">%1$d bpm</string>
+    <string name="sensor_state_power">Moč</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">Ni na voljo med snemanjem poti</string>
+    <string name="settings_show">Prikaži</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Dodatno</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Po razdalji</string>
+    <string name="settings_chart_by_time">Po času</string>
+    <string name="settings_recording">Snemanje</string>
+    <string name="settings_recording_default_activity_title">Privzeta vrsta dejavnosti</string>
+    <string name="settings_recording_location_frequency_summary">Beleženje lokacije vsakih %1$s</string>
+    <string name="settings_recording_max_recording_distance_summary">Ustvarjen bo nov odsek, če je razdalja med lokacijama večja od %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">Najdaljša razdalja</string>
+    <string name="settings_recording_min_recording_distance_title">Dolžinski interval snemanja</string>
+    <string name="settings_recording_min_recording_interval_title">Časovni interval snemanja</string>
+    <string name="settings_recording_min_required_accuracy_summary">Lokacija ne bo upoštevana, če bo določena z manjšo natančnostjo kot %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">Natančnost GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Datum (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Datum (lokalni)</string>
+    <string name="settings_recording_track_name_number_option">Številka</string>
+    <string name="settings_recording_track_name_title">Privzeto ime poti</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Ponastavi</string>
+    <string name="settings_reset_confirm_message">Vse nastavitve bodo povrnjene na privzete vrednosti.</string>
+    <string name="settings_reset_confirm_title">Ponastavi zdaj?</string>
+    <string name="settings_reset_done">Vse nastavitve so bile povrnjene na privzete vrednosti</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Pred. enot. za hitr.</string>
+    <string name="settings_stats_units_imperial">Imperialni sistem (mi, ft)</string>
+    <string name="settings_stats_units_metric">Metrični sistem (km, m)</string>
+    <string name="settings_stats_units_title">Prednostne enote</string>
+
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Zdi se mi, da bi te ta pot utegnila zanimati.
+\n
+\n%1$s</string>
+    <string name="share_track_subject">V skupno rabo z vami želim dati progo</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Povprečni tempo gibanja</string>
+    <string name="stats_average_moving_speed">Povprečna hitrost gibanja</string>
+    <string name="stats_average_pace">Povprečni tempo</string>
+    <string name="stats_average_speed">Povprečna hitrost</string>
+    <string name="stats_altitude">Nadmorska višina</string>
+    <string name="stats_fastest_pace">Najhitrejši tempo</string>
+    <string name="stats_gain">Porast</string>
+    <string name="stats_latitude">Zemljepisna širina</string>
+    <string name="stats_longitude">Zemljepisna dolžina</string>
+    <string name="stats_max_speed">Najvišja hitrost</string>
+    <string name="stats_moving_time">Čas gibanja</string>
+    <string name="stats_pace">Tempo</string>
+    <string name="stats_speed">Hitrost</string>
+    <string name="stats_distance">Razdalja</string>
+    <string name="stats_total_time">Skupni čas</string>
+    <!-- Track -->
+    <string name="track_name_format">Proga %1$d</string>
+    <string name="track_markers">Oznake %1$s</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Pot in njene oznake bodo trajno izbrisane iz naprave.</string>
+    <string name="track_delete_one_confirm_title">Izbriši pot?</string>
+    <string name="track_delete_multiple_confirm_message">Izbrane poti in njihove oznake bodo trajno izbrisane iz naprave.</string>
+    <string name="track_delete_progress_message">Brisanje …</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Statistika</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Vrsta dejavnosti (npr. pohodništvo)</string>
+    <string name="track_edit_activity_type_hint">Vrsta dejavnosti</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Tukaj začnite snemati svojo naslednjo pustolovščino</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">čevljev</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">mi</string>
+    <string name="unit_mile_per_hour">mi/h</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d čevljev</string>
+    <string name="value_integer_feet_excellent_gps">%1$d čevljev (odličen signal GPS)</string>
+    <string name="value_integer_feet_recommended">%1$d čevljev (priporočeno)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/h</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (odličen signal GPS)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (slab signal GPS)</string>
+    <string name="value_integer_meter_recommended">%1$d m (priporočeno)</string>
+    <string name="value_integer_mile">%1$d mi</string>
+    <string name="value_integer_mile_hour">%1$d mi/h</string>
+    <string name="value_integer_minute">%1$d min</string>
+    <string name="value_integer_second">%1$d s</string>
+    <string name="value_none">Nobena</string>
+    <string name="value_off">Izklopi</string>
+    <string name="value_smallest_recommended">Najmanjše (priporočeno)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">%1$d ura</item>
+        <item quantity="two">%1$d uri</item>
+        <item quantity="few">%1$d ur</item>
+        <item quantity="other">%1$d ur</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="two">%1$d minuti</item>
+        <item quantity="few">%1$d minut</item>
+        <item quantity="other">%1$d minut</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">%1$d sekunda</item>
+        <item quantity="two">%1$d sekundi</item>
+        <item quantity="few">%1$d sekund</item>
+        <item quantity="other">%1$d sekund</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">%1$.1f kilometer na uro</item>
+        <item quantity="two">%1$.1f kilometra na uro</item>
+        <item quantity="few">%1$.1f kilometrov na uro</item>
+        <item quantity="other">%1$.1f kilometrov na uro</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">%1$.1f milj na uro</item>
+        <item quantity="two">%1$.1f milji na uro</item>
+        <item quantity="few">%1$.1f milj na uro</item>
+        <item quantity="other">%1$.1f milj na uro</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s na kilometer</string>
+    <string name="voice_template">%1$s v %2$s pri %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">skupna razdalja %1$.2f kilometer</item>
+        <item quantity="two">skupna razdalja %1$.2f kilometra</item>
+        <item quantity="few">skupna razdalja %1$.2f kilometrov</item>
+        <item quantity="other">skupna razdalja %1$.2f kilometrov</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">skupna razdalja %1$.2f milja</item>
+        <item quantity="two">skupna razdalja %1$.2f milji</item>
+        <item quantity="few">skupna razdalja %1$.2f milj</item>
+        <item quantity="other">skupna razdalja %1$.2f milj</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">bankomat</string>
+    <string name="waypoint_type_bank">banka</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">žar</string>
+    <string name="waypoint_type_building">stavba</string>
+    <string name="waypoint_type_bus_stop">avtobusno postajališče</string>
+    <string name="waypoint_type_cafe">lokal</string>
+    <string name="waypoint_type_campfire">taborni ogenj</string>
+    <string name="waypoint_type_campground">kamp</string>
+    <string name="waypoint_type_church">cerkev</string>
+    <string name="waypoint_type_coffee_house">kavarna</string>
+    <string name="waypoint_type_convenience_store">prodajalna</string>
+    <string name="waypoint_type_drinking_water">pitna voda</string>
+    <string name="waypoint_type_falling_rocks">padajoče kamenje</string>
+    <string name="waypoint_type_ferry">trajekt</string>
+    <string name="waypoint_type_fire_place">kamin</string>
+    <string name="waypoint_type_fire_station">gasilska postaja</string>
+    <string name="waypoint_type_fishing">ribarjenje</string>
+    <string name="waypoint_type_gas_station">bencinska črpalka</string>
+    <string name="waypoint_type_golf_course">igrišče za golf</string>
+    <string name="waypoint_type_grocery_store">trgovina z živili</string>
+    <string name="waypoint_type_hair_dresser">frizerski salon</string>
+    <string name="waypoint_type_harbor">pristanišče</string>
+    <string name="waypoint_type_hiking_path">pohodniška pot</string>
+    <string name="waypoint_type_hotel">hotel</string>
+    <string name="waypoint_type_house">hiša</string>
+    <string name="waypoint_type_information">informacije</string>
+    <string name="waypoint_type_intersection">križišče</string>
+    <string name="waypoint_type_mail_box">poštni nabiralnik</string>
+    <string name="waypoint_type_market">tržnica</string>
+    <string name="waypoint_type_meeting_point">zbirna točka</string>
+    <string name="waypoint_type_opera">opera</string>
+    <string name="waypoint_type_parking">parkirišče</string>
+    <string name="waypoint_type_police_station">policijska postaja</string>
+    <string name="waypoint_type_post_office">pošta</string>
+    <string name="waypoint_type_pothole">luknja</string>
+    <string name="waypoint_type_railway_crossing">železniški prehod</string>
+    <string name="waypoint_type_restaurant">restavracija</string>
+    <string name="waypoint_type_shopping">nakupovanje</string>
+    <string name="waypoint_type_sight">znamenitost</string>
+    <string name="waypoint_type_store">trgovina</string>
+    <string name="waypoint_type_swimming_pool">plavalni bazen</string>
+    <string name="waypoint_type_telephone">telefon</string>
+    <string name="waypoint_type_theater">gledališče</string>
+    <string name="waypoint_type_toilet">stranišče</string>
+    <string name="waypoint_type_tourist_information">turistične informacije</string>
+    <string name="waypoint_type_tree">drevo</string>
+    <string name="waypoint_type_tunnel">predor</string>
+    <string name="waypoint_type_waterfall">slap</string>
+    <string name="waypoint_type_water_fountain">fontana</string>
+    <string name="waypoint_type_waypoint">smerna točka</string>
+</resources>

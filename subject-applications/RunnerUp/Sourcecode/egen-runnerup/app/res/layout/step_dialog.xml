@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2013 jonas.oreland@gmail.com
+  ~
+  ~  This program is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:runnerup="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="48dp"
+    android:minHeight="48dp"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="@dimen/dialog_padding_vert"
+    android:paddingEnd="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="@dimen/dialog_padding_vert">
+
+    <org.runnerup.widget.TitleSpinner
+        android:id="@+id/step_dialog_intensity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/step_intensity_types"
+        android:prompt="@string/Type"
+        android:text="@string/Step_intensity"
+        runnerup:values="@array/step_intensity_values"/>
+
+    <org.runnerup.widget.TitleSpinner
+        android:id="@+id/step_dialog_duration_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/duration_types"
+        android:prompt="@string/Type"
+        android:text="@string/Type"
+        runnerup:values="@array/step_duration_values"/>
+
+    <org.runnerup.widget.TitleSpinner
+        android:id="@+id/step_dialog_duration_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:defaultValue="1000"
+        android:inputType="numberDecimal"
+        android:prompt="@string/Type"
+        android:text=""
+        runnerup:type="distancepicker"/>
+
+    <org.runnerup.widget.TitleSpinner
+        android:id="@+id/step_dialog_duration_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:defaultValue="00:01:00"
+        android:inputType="time"
+        android:prompt="@string/Type"
+        android:text=""
+        android:visibility="gone"
+        runnerup:type="durationpicker"/>
+
+    <org.runnerup.widget.TitleSpinner
+        android:id="@+id/step_dialog_target_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/target_types"
+        android:prompt="@string/Type"
+        android:text="@string/Target"
+        runnerup:values="@array/target_values"/>
+
+    <org.runnerup.widget.TitleSpinner
+        android:id="@+id/step_dialog_target_pace_lo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:defaultValue="00:05:00"
+        android:inputType="time"
+        android:prompt="@string/Type"
+        android:text="@string/Low_pace"
+        runnerup:type="durationpicker"/>
+
+    <org.runnerup.widget.TitleSpinner
+        android:id="@+id/step_dialog_target_pace_hi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:defaultValue="00:05:30"
+        android:inputType="time"
+        android:prompt="@string/Type"
+        android:text="@string/High_pace"
+        runnerup:type="durationpicker"/>
+
+    <org.runnerup.widget.TitleSpinner
+        android:id="@+id/step_dialog_target_hrz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/Type"
+        android:text="@string/heart_rate_zone"
+        android:visibility="gone"/>
+
+</LinearLayout>

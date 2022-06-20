@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">eroplano</string>
+    <string name="activity_type_atv">ATV</string>
+    <string name="activity_type_biking">pagbibisikleta</string>
+    <string name="activity_type_blimp">blimp</string>
+    <string name="activity_type_boat">bangka</string>
+    <string name="activity_type_climbing">pag-akyat</string>
+    <string name="activity_type_commercial_airplane">komersyal na eroplano</string>
+    <string name="activity_type_cross_country_skiing">cross-country skiing</string>
+    <string name="activity_type_cycling">pagbibisikleta</string>
+    <string name="activity_type_dirt_bike">dirt bike</string>
+    <string name="activity_type_donkey_back_riding">donkey back riding</string>
+    <string name="activity_type_driving">pagmamaneho</string>
+    <string name="activity_type_driving_bus">nagmamaneho ng bus</string>
+    <string name="activity_type_driving_car">pagmamaneho ng kotse</string>
+    <string name="activity_type_ferry">ferry</string>
+    <string name="activity_type_frisbee">frisbee</string>
+    <string name="activity_type_gliding">gliding</string>
+    <string name="activity_type_hang_gliding">hang gliding</string>
+    <string name="activity_type_helicopter">helicopter</string>
+    <string name="activity_type_hiking">hiking</string>
+    <string name="activity_type_horse_back_riding">horse back riding</string>
+    <string name="activity_type_hot_air_balloon">hot air balloon</string>
+    <string name="activity_type_ice_sailing">ice sailing</string>
+    <string name="activity_type_inline_skating">inline skating</string>
+    <string name="activity_type_kayaking">kayaking</string>
+    <string name="activity_type_kite_surfing">kite surfing</string>
+    <string name="activity_type_land_sailing">land sailing</string>
+    <string name="activity_type_mixed_type">halu-halong uri</string>
+    <string name="activity_type_motor_bike">motorsiklo</string>
+    <string name="activity_type_motor_boating">motor boating</string>
+    <string name="activity_type_mountain_biking">mountain biking</string>
+    <string name="activity_type_off_trail_hiking">off trail hiking</string>
+    <string name="activity_type_other">iba pa</string>
+    <string name="activity_type_paddling">paddling</string>
+    <string name="activity_type_para_gliding">para gliding</string>
+    <string name="activity_type_rc_airplane">Remote-controlled na eroplano</string>
+    <string name="activity_type_rc_boat">Remote-controlled na bangka</string>
+    <string name="activity_type_rc_helicopter">Remote-controlled na helicopter</string>
+    <string name="activity_type_riding">nakasakay</string>
+    <string name="activity_type_road_biking">road biking</string>
+    <string name="activity_type_roller_skiing">roller skiing</string>
+    <string name="activity_type_rowing">rowing</string>
+    <string name="activity_type_running">pagtakbo</string>
+    <string name="activity_type_sailing">paglalayag</string>
+    <string name="activity_type_seaplane">seaplane</string>
+    <string name="activity_type_skate_boarding">skate boarding</string>
+    <string name="activity_type_skating">skating</string>
+    <string name="activity_type_skiing">skiing</string>
+    <string name="activity_type_sky_jumping">sky jumping</string>
+    <string name="activity_type_sled">sled</string>
+    <string name="activity_type_snow_boarding">snow boarding</string>
+    <string name="activity_type_snow_shoeing">snow shoeing</string>
+    <string name="activity_type_speed_walking">mabilis na paglalakad (speed walking)</string>
+    <string name="activity_type_street_running">tumatakbo sa kalye</string>
+    <string name="activity_type_surfing">surfing</string>
+    <string name="activity_type_track_cycling">pagbibisikleta sa track</string>
+    <string name="activity_type_track_running">track running</string>
+    <string name="activity_type_trail_hiking">trail hiking</string>
+    <string name="activity_type_trail_running">trail running</string>
+    <string name="activity_type_train">tren</string>
+    <string name="activity_type_ultimate_frisbee">ultimate frisbee</string>
+    <string name="activity_type_unknown">hindi kilala</string>
+    <string name="activity_type_wakeboarding">wakeboarding</string>
+    <string name="activity_type_walking">naglalakad</string>
+    <string name="activity_type_water_skiing">water skiing</string>
+    <string name="activity_type_wind_surfing">wind surfing</string>
+    <!-- Description -->
+    <string name="description_activity_type">Uri ng aktibidad: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Average na bilis ng paglipat: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_moving_speed">Average na bilis ng paglipat: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_average_pace_in_minute">Average na bilis: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_speed">Average na bilis: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_altitude_gain">Nakamit na Elevation: %1$d m (%2$d piye)</string>
+    <string name="description_altitude_imperial">Elevation (ft)</string>
+    <string name="description_altitude_metric">Elevation (m)</string>
+    <string name="description_fastest_pace_in_minute">Pinakamabilis na bilis: %1$s (na) min/km (%2$s (na) min/mi)</string>
+    <string name="description_max_altitude">Max elevation: %1$d m (%2$d piye)</string>
+    <string name="description_max_speed">Max na bilis: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_min_altitude">Min na elevation: %1$d m (%2$d piye)</string>
+    <string name="description_moving_time">Oras ng paglipat: %1$s</string>
+    <string name="description_pace_imperial">Bilis (min/mi)</string>
+    <string name="description_pace_metric">Bilis (min/km)</string>
+    <string name="description_recorded_time">Naitala: %1$s</string>
+    <string name="description_speed_ms">Bilis (m/s)</string>
+    <string name="description_sensor_cadence">Cadence (rpm)</string>
+    <string name="description_sensor_heart_rate">Heart rate (bpm)</string>
+    <string name="description_sensor_power">Power (W)</string>
+    <string name="description_speed_imperial">Bilis (mi/oras)</string>
+    <string name="description_speed_metric">Bilis (km/hr)</string>
+    <string name="description_time">Oras</string>
+    <string name="description_total_distance">Kabuuang distansya: %1$.2f km (%2$.1f mi)</string>
+    <string name="description_total_time">Kabuuang oras: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">Ine-export sa %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">%1$d file</item>
+        <item quantity="other">%1$d (na) file</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Idagdag</string>
+    <string name="generic_delete_selected_confirm_title">Tanggalin ang pinili?</string>
+    <string name="generic_description">Paglalarawan</string>
+    <string name="generic_description_line">Paglalarawan: %1$s</string>
+    <string name="generic_name">Pangalan</string>
+    <string name="generic_name_line">Pangalan: %1$s</string>
+    <string name="generic_paused">Naka-pause</string>
+    <string name="generic_recording">Nagre-record…</string>
+    <string name="generic_save">I-save</string>
+    <string name="generic_tracks">Mga Track</string>
+    <!-- Gps -->
+    <string name="gps_starting">Sinisimulan ang GPS</string>
+    <string name="gps_wait_for_better_signal">Naghihintay para sa isang mas mahusay na signal ng GPS</string>
+    <string name="gps_wait_for_signal">Naghihintay para sa signal ng GPS</string>
+    <!-- Image -->
+    <string name="image_arrow">Arrow</string>
+    <string name="image_marker">Marker</string>
+    <string name="image_marker_count">Bilang ng marker</string>
+    <string name="image_pause">Pause</string>
+    <string name="image_photo_marker">Marker ng larawan</string>
+    <string name="image_record">Mag-record</string>
+    <string name="image_stop">Huminto</string>
+    <string name="image_track">Track</string>
+    <!-- Import -->
+    <string name="import_progress_message">Ini-import mula sa %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Hindi makapaglagay ng marker. Walang signal ng GPS. Subukang muli.</string>
+    <string name="marker_add_success">Ipinasok ang isang marker</string>
+    <string name="marker_add_canceled">Kinansela, walang idinagdag na marker</string>
+    <string name="marker_delete_one_confirm_message">Permanenteng tatanggalin ang marker mula sa device</string>
+    <string name="marker_delete_one_confirm_title">Tanggalin ang marker?</string>
+    <string name="marker_delete_multiple_confirm_message">Permanenteng tatanggalin ang mga piling marker mula sa device</string>
+    <string name="marker_name_format">Marker %1$d</string>
+    <string name="marker_title">%1$d ng %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Uri ng marker (hal.talon)</string>
+    <string name="marker_edit_marker_type_hint">Uri ng marker</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Wala kang anumang mga marker</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Pinagsamang stats</string>
+    <string name="menu_delete">Tanggalin</string>
+    <string name="menu_edit">I-edit</string>
+    <string name="menu_export_all">I-export lahat</string>
+    <string name="menu_help">Tulong</string>
+    <string name="menu_import_all">I-import lahat</string>
+    <string name="menu_insert_marker">I-insert ang marker</string>
+    <string name="menu_insert_photo">Maglagay ng larawan</string>
+    <string name="menu_markers">Mga Marker</string>
+    <string name="menu_search">Paghahanap</string>
+    <string name="menu_select_all">Piliin lahat</string>
+    <string name="menu_settings">Mga Setting</string>
+    <string name="menu_share">Ibahagi</string>
+    <string name="menu_show_on_map">Ipakita sa mapa</string>
+    <string name="menu_start_gps">Simulan ang GPS</string>
+    <string name="menu_stop_gps">Itigil ang GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Serbisyo ng pagrerekord</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Antas ng baterya</string>
+    <string name="sensor_state_cadence">Cadence</string>
+    <string name="sensor_state_cadence_value">%1$d rpm</string>
+    <string name="sensor_state_heart_rate">Heart rate</string>
+    <string name="sensor_state_heart_rate_value">%1$d bpm</string>
+    <string name="sensor_state_power">Power</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">Hindi available habang inire-rekord ang isang track</string>
+    <string name="settings_show">Ipakita</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Advanced</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Ayon sa distansya</string>
+    <string name="settings_chart_by_time">Ayon sa oras</string>
+    <string name="settings_recording">Pagre-rekord</string>
+    <string name="settings_recording_default_activity_title">Dafault na uri ng gawain</string>
+    <string name="settings_recording_location_frequency_summary">%1$s sa pagitan ng mga nakatalang lokasyon</string>
+    <string name="settings_recording_max_recording_distance_summary">Nilikha ang isang bagong segment kung mas malaki sa %1$s ang distansya sa pagitan ng dalawang lokasyon</string>
+    <string name="settings_recording_max_recording_distance_title">Max na distansya</string>
+    <string name="settings_recording_min_recording_distance_title">Itinatala ang distansya ng pagitan</string>
+    <string name="settings_recording_min_recording_interval_title">Itinatala ang agwat ng oras</string>
+    <string name="settings_recording_min_required_accuracy_summary">Binabalewala ang lokasyon kung mas mababa sa %1$s ang katumpakan nito</string>
+    <string name="settings_recording_min_required_accuracy_title">Katumpakan ng GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Petsa (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Petsa (lokal)</string>
+    <string name="settings_recording_track_name_number_option">Numero</string>
+    <string name="settings_recording_track_name_title">Default na pangalan ng track</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">I-reset</string>
+    <string name="settings_reset_confirm_message">Ibabalik sa dati ang lahat ng mga setting sa mga default na value.</string>
+    <string name="settings_reset_confirm_title">I-reset ngayon?</string>
+    <string name="settings_reset_done">Ibinalik ang lahat ng setting sa mga default na value</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Gustong rate</string>
+    <string name="settings_stats_units_imperial">Imperial (mi, ft)</string>
+    <string name="settings_stats_units_metric">Metric (km, m)</string>
+    <string name="settings_stats_units_title">Gustong mga unit</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Tingin ko maaari kang maging interesado sa track na ito.
+\n
+\n%1$s</string>
+    <string name="share_track_subject">Gusto kong magbahagi ng track sa iyo</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Avg na nakatakdang bilis ng pagkilos</string>
+    <string name="stats_average_moving_speed">Avg na nakatakdang bilis ng pagkilos</string>
+    <string name="stats_average_pace">Avg na nakatakdang bilis</string>
+    <string name="stats_average_speed">Avg na bilis</string>
+    <string name="stats_altitude">Elevation</string>
+    <string name="stats_fastest_pace">Pinakamabilis na tulin</string>
+    <string name="stats_gain">Gain</string>
+    <string name="stats_latitude">Latitude</string>
+    <string name="stats_longitude">Longitude</string>
+    <string name="stats_max_speed">Max na bilis</string>
+    <string name="stats_moving_time">Oras ng pagkilos</string>
+    <string name="stats_pace">Tulin</string>
+    <string name="stats_speed">Bilis</string>
+    <string name="stats_distance">Layo</string>
+    <string name="stats_total_time">Kabuuang oras</string>
+    <!-- Track -->
+    <string name="track_name_format">Track bilang %1$d</string>
+    <string name="track_markers">%1$s Mga Marker</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Ang track at ang mga marker nito ay permanenteng tatanggalin mula sa device.</string>
+    <string name="track_delete_one_confirm_title">Tanggalin ang track?</string>
+    <string name="track_delete_multiple_confirm_message">Ang mga napiling track at mga marker nito ay permanenteng matatanggal mula sa device.</string>
+    <string name="track_delete_progress_message">Tinatanggal…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Mga Istatistika</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Uri ng gawain (hal. hiking)</string>
+    <string name="track_edit_activity_type_hint">Uri ng gawain</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Simulan ang pag-record ng iyong susunod na pakikipagsapalaran dito</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">ft</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">mi</string>
+    <string name="unit_mile_per_hour">mi/h</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d ft</string>
+    <string name="value_integer_feet_excellent_gps">%1$d ft (malinaw na GPS)</string>
+    <string name="value_integer_feet_recommended">%1$d ft (inirerekomenda)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/h</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (malakas ang GPS)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (mahina ang GPS)</string>
+    <string name="value_integer_meter_recommended">%1$d m (inirerekomenda)</string>
+    <string name="value_integer_mile">%1$d mi</string>
+    <string name="value_integer_mile_hour">%1$d mi/h</string>
+    <string name="value_integer_minute">%1$d min</string>
+    <string name="value_integer_second">%1$d s</string>
+    <string name="value_none">Wala</string>
+    <string name="value_off">I-off</string>
+    <string name="value_smallest_recommended">Pinakamaliit (inirerekomenda)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">%1$d oras</item>
+        <item quantity="other">%1$d (na) oras</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">%1$d minuto</item>
+        <item quantity="other">%1$d (na) minuto</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">%1$d segundo</item>
+        <item quantity="other">%1$d (na) segundo</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">%1$.1f kilometro bawat oras</item>
+        <item quantity="other">%1$.1f (na) kilometro bawat oras</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">%1$.1f milya bawat oras</item>
+        <item quantity="other">%1$.1f (na) milya bawat oras</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s bawat kilometro</string>
+    <string name="voice_pace_per_mile">%1$s bawat milya</string>
+    <string name="voice_template">%1$s sa %2$s sa %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">kabuuang distansya %1$.2f kilometro</item>
+        <item quantity="other">kabuuang distansya %1$.2f (na) kilometro</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">kabuuang distansya %1$.2f milya</item>
+        <item quantity="other">kabuuang distansya %1$.2f (na) milya</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">ATM</string>
+    <string name="waypoint_type_bank">bangko</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">barbecue</string>
+    <string name="waypoint_type_building">gusali</string>
+    <string name="waypoint_type_bus_stop">sakayan ng bus</string>
+    <string name="waypoint_type_cafe">cafe</string>
+    <string name="waypoint_type_campfire">campfire</string>
+    <string name="waypoint_type_campground">campground</string>
+    <string name="waypoint_type_church">simbahan</string>
+    <string name="waypoint_type_coffee_house">coffee house</string>
+    <string name="waypoint_type_convenience_store">convenience store</string>
+    <string name="waypoint_type_drinking_water">maiinom na tubig</string>
+    <string name="waypoint_type_falling_rocks">falling rocks</string>
+    <string name="waypoint_type_ferry">ferry</string>
+    <string name="waypoint_type_fire_place">fire place</string>
+    <string name="waypoint_type_fire_station">himpilan ng bumbero</string>
+    <string name="waypoint_type_fishing">pangingisda</string>
+    <string name="waypoint_type_gas_station">gasolinahan</string>
+    <string name="waypoint_type_golf_course">golf course</string>
+    <string name="waypoint_type_grocery_store">grocery</string>
+    <string name="waypoint_type_hair_dresser">hair dresser</string>
+    <string name="waypoint_type_harbor">harbor</string>
+    <string name="waypoint_type_hiking_path">daanan para sa pagha-hiking</string>
+    <string name="waypoint_type_hotel">hotel</string>
+    <string name="waypoint_type_house">bahay</string>
+    <string name="waypoint_type_information">impormasyon</string>
+    <string name="waypoint_type_intersection">intersection</string>
+    <string name="waypoint_type_mail_box">mail box</string>
+    <string name="waypoint_type_market">palengke</string>
+    <string name="waypoint_type_meeting_point">tagpuan</string>
+    <string name="waypoint_type_opera">opera house</string>
+    <string name="waypoint_type_parking">parking</string>
+    <string name="waypoint_type_police_station">himpilan ng pulis</string>
+    <string name="waypoint_type_post_office">post office</string>
+    <string name="waypoint_type_pothole">pothole</string>
+    <string name="waypoint_type_railway_crossing">railway crossing</string>
+    <string name="waypoint_type_restaurant">restawran</string>
+    <string name="waypoint_type_shopping">nagsa-shopping</string>
+    <string name="waypoint_type_sight">paningin</string>
+    <string name="waypoint_type_store">tindahan</string>
+    <string name="waypoint_type_swimming_pool">swimming pool</string>
+    <string name="waypoint_type_telephone">telepono</string>
+    <string name="waypoint_type_theater">teatro</string>
+    <string name="waypoint_type_toilet">toilet</string>
+    <string name="waypoint_type_tourist_information">impormasyon para sa turista</string>
+    <string name="waypoint_type_tree">puno</string>
+    <string name="waypoint_type_tunnel">tunnel</string>
+    <string name="waypoint_type_waterfall">waterfall</string>
+    <string name="waypoint_type_water_fountain">water fountain</string>
+    <string name="waypoint_type_waypoint">waypoint</string>
+    <string name="about_description"><i> OpenTracks</i> ay isang sport tracking application na ganap na nirerespeto ang iyong privacy.</string>
+    <string name="about_url">Web page ng Proyekto: <a href="%1$s "> %1$s</a></string>
+    <string name="about_version_code">Code ng bersyon: %1$d</string>
+    <string name="about_version_name">Pangalan ng bersyon: %1$s</string>
+    <string name="about_preference_title">Tungkol Sa OpenTracks</string>
+</resources>

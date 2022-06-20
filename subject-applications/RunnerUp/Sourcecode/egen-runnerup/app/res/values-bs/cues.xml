@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--~ Copyright (C) 2014 jonas.oreland@gmail.com
+  ~
+  ~  This program is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
+  <string name="cue_activity">aktivnost</string>
+  <string name="cue_interval">interval</string>
+  <string name="cue_lap">krug</string>
+  <string name="cue_warmup">zagrijavanje</string>
+  <string name="cue_cooldown">hlađenje</string>
+  <string name="cue_current">trenutno</string>
+  <string name="cue_perkilometer">po kilometru</string>
+  <string name="cue_permile">po milji</string>
+  <string name="cue_started">pokrenuto</string>
+  <string name="cue_paused">pauzirano</string>
+  <string name="cue_resumed">nastavljeno</string>
+  <string name="cue_stopped">zaustavljeno</string>
+  <string name="cue_completed">završeno</string>
+  <string name="cue_speedup">ubrzaj</string>
+  <string name="cue_slowdown">uspori</string>
+  <plurals name="cue_hour">
+    <item quantity="one">%d sat</item>
+    <item quantity="few">%d sati</item>
+    <item quantity="other">%d sati</item>
+  </plurals>
+  <plurals name="cue_minute">
+    <item quantity="one">%d minuta</item>
+    <item quantity="few">%d minuta</item>
+    <item quantity="other">%d minuta</item>
+  </plurals>
+  <plurals name="cue_second">
+    <item quantity="one">%d sekunda</item>
+    <item quantity="few">%d sekundi</item>
+    <item quantity="other">%d sekundi</item>
+  </plurals>
+  <plurals name="cue_meter">
+    <item quantity="one">%d metar</item>
+    <item quantity="few">%d metara</item>
+    <item quantity="other">%d metara</item>
+  </plurals>
+  <plurals name="cue_kilometer">
+    <item quantity="one">%s kilometar</item>
+    <item quantity="few">%s kilometara</item>
+    <item quantity="other">%s kilometara</item>
+  </plurals>
+  <plurals name="cue_mile">
+    <item quantity="one">%s milja</item>
+    <item quantity="few">%s milja</item>
+    <item quantity="other">%s milja</item>
+  </plurals>
+  <plurals name="cue_kilometers_per_hour">
+    <item quantity="one">%s kilometar po satu</item>
+    <item quantity="few">%s kilometara po satu</item>
+    <item quantity="other">%s kilometara po satu</item>
+  </plurals>
+  <plurals name="cue_miles_per_hour">
+    <item quantity="one">%s milja po satu</item>
+    <item quantity="few">%s milja po satu</item>
+    <item quantity="other">%s milja po satu</item>
+  </plurals>
+  <plurals name="cue_bpm">
+    <item quantity="one">%d bpm</item>
+    <item quantity="few">%d bpm</item>
+    <item quantity="other">%d bpm</item>
+  </plurals>
+  <string name="cue_activity_paused">aktivnost pauzirana</string>
+  <string name="cue_activity_resumed">aktivnost nastavljena</string>
+  <string name="cue_activity_stopped">aktivnost zaustavljena</string>
+  <string name="cue_lap_started">krug počet</string>
+  <string name="cue_lap_completed">krug završen</string>
+  <string name="cue_warmup_started">zagrijavanje počelo</string>
+  <string name="cue_cooldown_started">hlađenje počelo</string>
+</resources>

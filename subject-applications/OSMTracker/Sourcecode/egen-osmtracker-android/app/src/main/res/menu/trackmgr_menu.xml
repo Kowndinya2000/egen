@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/trackmgr_menu_newtrack"
+		android:title="@string/menu_newtrack"
+		android:icon="@android:drawable/ic_menu_add"
+		app:showAsAction="ifRoom|withText"/>
+	<item android:id="@+id/trackmgr_menu_continuetrack"
+		android:title="@string/menu_continue"
+		android:icon="@android:drawable/ic_menu_edit"
+		android:visible="false"
+		app:showAsAction="never"/>
+	<item android:id="@+id/trackmgr_menu_stopcurrenttrack"
+		android:title="@string/menu_stopcurrenttrack"
+		android:icon="@android:drawable/ic_menu_close_clear_cancel"
+		app:showAsAction="never"/>
+	<item android:id="@+id/trackmgr_menu_deletetracks"
+		android:title="@string/menu_deletetracks"
+		android:icon="@android:drawable/ic_menu_delete"/>
+	<item android:id="@+id/trackmgr_menu_exportall"
+	    android:title="@string/menu_exportall"
+	    android:icon="@android:drawable/ic_menu_set_as"/>
+	<item android:id="@+id/trackmgr_menu_settings"
+		android:title="@string/menu_settings"
+		android:icon="@android:drawable/ic_menu_preferences"
+		app:showAsAction="never"/>
+	<item android:id="@+id/trackmgr_menu_about"
+		android:title="@string/menu_about"
+		android:icon="@android:drawable/ic_menu_help"
+		app:showAsAction="never" />
+</menu>

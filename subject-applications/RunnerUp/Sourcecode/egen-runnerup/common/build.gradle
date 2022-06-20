@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion 26
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName '1.0'
+        // Default, needed by test
+        buildConfigField ('String', 'applicationIdFull', '"' + rootProject.ext.applicationId + '"')
+    }
+    buildTypes {
+        buildTypes {
+            debug {
+                // The applicationId for the Android app (needed in Wear app)
+                // This must be unique to allow Notification button intents to work independently
+                buildConfigField ('String', 'applicationIdFull', '"' + rootProject.ext.applicationId + '.debug"')
+                resValue "string", "applicationIdFull", rootProject.ext.applicationId + ".debug"
+            }
+            release {
+                buildConfigField ('String', 'applicationIdFull', '"' + rootProject.ext.applicationId + '"')
+                resValue "string", "applicationIdFull", rootProject.ext.applicationId
+
+                minifyEnabled false
+            }
+        }
+    }
+    lintOptions {
+        warning 'MissingTranslation'
+        showAll true
+    }
+}
+
+repositories {
+    google()
+    jcenter()
+}
+
+dependencies {
+    implementation "androidx.annotation:annotation:${rootProject.ext.annotation_version}"
+
+    testImplementation 'org.hamcrest:hamcrest-library:1.3'
+    testImplementation "junit:junit:${rootProject.ext.junitVersion}"
+    testImplementation "org.mockito:mockito-core:${rootProject.ext.mockitoVersion}"
+}

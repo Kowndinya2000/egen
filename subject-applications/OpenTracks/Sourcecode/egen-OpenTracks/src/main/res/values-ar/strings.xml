@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">طائرة</string>
+    <string name="activity_type_atv">ATV</string>
+    <string name="activity_type_biking">ركوب الدراجات</string>
+    <string name="activity_type_blimp">ركوب المناطيد</string>
+    <string name="activity_type_boat">قارب</string>
+    <string name="activity_type_climbing">تسلق</string>
+    <string name="activity_type_commercial_airplane">طائرة تجارية</string>
+    <string name="activity_type_cross_country_skiing">تزلج اختراق الضاحية</string>
+    <string name="activity_type_cycling">ركوب الدراجات</string>
+    <string name="activity_type_dirt_bike">دراجات للطرق الترابية</string>
+    <string name="activity_type_donkey_back_riding">ركوب الحمير</string>
+    <string name="activity_type_driving">بالسيارة</string>
+    <string name="activity_type_driving_bus">قيادة حافلات</string>
+    <string name="activity_type_driving_car">قيادة السيارات</string>
+    <string name="activity_type_ferry">العبور بمعدّية</string>
+    <string name="activity_type_frisbee">الفرسبي</string>
+    <string name="activity_type_gliding">الطيران الشراعي</string>
+    <string name="activity_type_hang_gliding">الطيران الشراعي المعلق</string>
+    <string name="activity_type_helicopter">الطيران بالمروحيات</string>
+    <string name="activity_type_hiking">تنزه</string>
+    <string name="activity_type_horse_back_riding">ركوب الخيل</string>
+    <string name="activity_type_hot_air_balloon">بالون يعمل بالهواء الساخن</string>
+    <string name="activity_type_ice_sailing">الإبحار الشراعي على الجليد</string>
+    <string name="activity_type_inline_skating">التزلج بزلاجات ذات صف عجل واحد</string>
+    <string name="activity_type_kayaking">ركوب قوارب الكاياك</string>
+    <string name="activity_type_kite_surfing">التزلج بالطائرات الورقية</string>
+    <string name="activity_type_land_sailing">الإبحار الشراعي على الأرض</string>
+    <string name="activity_type_mixed_type">نوع مختلط</string>
+    <string name="activity_type_motor_bike">دراجة بخارية</string>
+    <string name="activity_type_motor_boating">قوارب بخارية</string>
+    <string name="activity_type_mountain_biking">ركوب الدراجات عبر الجبال</string>
+    <string name="activity_type_off_trail_hiking">المشي خارج الممر</string>
+    <string name="activity_type_other">غير ذلك</string>
+    <string name="activity_type_paddling">التجديف</string>
+    <string name="activity_type_para_gliding">الطيران الشراعي</string>
+    <string name="activity_type_rc_airplane">طائرة يتم التحكم فيها عن بعد</string>
+    <string name="activity_type_rc_boat">قارب يتم التحكم فيه عن بعد</string>
+    <string name="activity_type_rc_helicopter">مروحية يتم التحكم فيها عن بعد</string>
+    <string name="activity_type_riding">الفروسية</string>
+    <string name="activity_type_road_biking">ركوب الدراجات في الطريق</string>
+    <string name="activity_type_roller_skiing">التزلج</string>
+    <string name="activity_type_rowing">التجديف</string>
+    <string name="activity_type_running">جري</string>
+    <string name="activity_type_sailing">الإبحار الشراعي</string>
+    <string name="activity_type_seaplane">الطيران بطائرة مائية</string>
+    <string name="activity_type_skate_boarding">التزلج على الزلاجات</string>
+    <string name="activity_type_skating">تزلج</string>
+    <string name="activity_type_skiing">التزلج</string>
+    <string name="activity_type_sky_jumping">القفز بالمظلات</string>
+    <string name="activity_type_sled">تزلج</string>
+    <string name="activity_type_snow_boarding">التزلج على الجليد</string>
+    <string name="activity_type_snow_shoeing">التزلج بالأحذية الجليدية</string>
+    <string name="activity_type_speed_walking">المشي السريع</string>
+    <string name="activity_type_street_running">الجري في الشارع</string>
+    <string name="activity_type_surfing">التزلج على الأمواج</string>
+    <string name="activity_type_track_cycling">ركوب الدراجات بالمضمار</string>
+    <string name="activity_type_track_running">جري بالمسار</string>
+    <string name="activity_type_trail_hiking">مشي بالممرات</string>
+    <string name="activity_type_trail_running">جري بالممرات</string>
+    <string name="activity_type_train">تدريب</string>
+    <string name="activity_type_ultimate_frisbee">لعبة الالتمت فرسبي</string>
+    <string name="activity_type_unknown">غير معروف</string>
+    <string name="activity_type_wakeboarding">تزلج على الماء بالجسم والزلاجات</string>
+    <string name="activity_type_walking">مَشْي</string>
+    <string name="activity_type_water_skiing">التزلج على الماء</string>
+    <string name="activity_type_wind_surfing">ركوب الأمواج</string>
+    <!-- Description -->
+    <string name="description_activity_type">نوع النشاط: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">متوسط سرعة التحرك:‏ %1$s‏ دقيقة/كم‏ (%2$s‏ دقيقة/ميل)‏</string>
+    <string name="description_average_moving_speed">متوسط سرعة التحرك: %1$.2f كم/ساعة (%2$.1f ميل/ساعة)</string>
+    <string name="description_average_pace_in_minute">متوسط السرعة:‏ %1$s‏ دقيقة/كم‏ (%2$s‏ دقيقة/ميل)‏</string>
+    <string name="description_average_speed">سرعة متوسطة: %1$.2f كم/ساعة (%2$.1f ميل/ساعة)</string>
+    <string name="description_altitude_gain">الزيادة في الارتفاع: %1$d م (%2$d قدم)</string>
+    <string name="description_altitude_imperial">الارتفاع (قدم)</string>
+    <string name="description_altitude_metric">الارتفاع (م)</string>
+    <string name="description_fastest_pace_in_minute">أسرع سرعة:‏ %1$s‏ دقيقة/كم‏ (%2$s‏ دقيقة/ميل)‏</string>
+    <string name="description_max_altitude">أقصى ارتفاع: %1$d م (%2$d قدم)</string>
+    <string name="description_max_speed">أقصى سرعة: %1$.2f كم/ساعة ( %2$.1f ميل/ساعة)</string>
+    <string name="description_min_altitude">أدنى ارتفاع: %1$d م ( %2$d قدم)</string>
+    <string name="description_moving_time">وقت النقل: %1$s</string>
+    <string name="description_pace_imperial">السرعة (دقيقة/ميل)</string>
+    <string name="description_pace_metric">السرعة (دقيقة/كم)</string>
+    <string name="description_recorded_time">مسجّل في: %1$s</string>
+    <string name="description_speed_ms">السرعة (متر/ثانية)</string>
+    <string name="description_sensor_cadence">الإيقاع (دورة في الدقيقة)</string>
+    <string name="description_sensor_heart_rate">معدل ضربات القلب (نبضة في الدقيقة)</string>
+    <string name="description_sensor_power">الطاقة (واط)</string>
+    <string name="description_speed_imperial">السرعة (ميل/ساعة)</string>
+    <string name="description_speed_metric">السرعة (كم/ساعة)</string>
+    <string name="description_time">الوقت</string>
+    <string name="description_total_distance">المسافة الإجمالية: %1$.2f كم (%2$.1f ميل)</string>
+    <string name="description_total_time">الوقت الإجمالي: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">جارٍ التصدير إلى‏ %1$s‏…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="zero">0 ملفات</item>
+        <item quantity="one">1 ملف</item>
+        <item quantity="two">2 ملفان</item>
+        <item quantity="few">%1$d‏ ملفات</item>
+        <item quantity="many">%1$d‏ ملفًا</item>
+        <item quantity="other">%1$d‏ من الملفات</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">إضافة</string>
+    <string name="generic_delete_selected_confirm_title">حذف ما تم تحديده؟</string>
+    <string name="generic_description">الوصف</string>
+    <string name="generic_description_line">الوصف: %1$s</string>
+    <string name="generic_name">الاسم</string>
+    <string name="generic_name_line">الاسم: %1$s</string>
+    <string name="generic_paused">متوقف مؤقتًا</string>
+    <string name="generic_recording">جارٍ التسجيل…</string>
+    <string name="generic_save">حفظ</string>
+    <string name="generic_tracks">المسارات</string>
+    <!-- Gps -->
+    <string name="gps_starting">بدء نظام تحديد المواقع العالمي (GPS)</string>
+    <string name="gps_wait_for_better_signal">في انتظار إشارة أفضل ‏‫لنظام تحديد المواقع العالمي (GPS)‬</string>
+    <string name="gps_wait_for_signal">في انتظار إشارة نظام تحديد المواقع العالمي (GPS)‬</string>
+    <!-- Image -->
+    <string name="image_arrow">سهم</string>
+    <string name="image_marker">علامة</string>
+    <string name="image_marker_count">عدد العلامات</string>
+    <string name="image_pause">إيقاف مؤقت</string>
+    <string name="image_photo_marker">علامة الصورة</string>
+    <string name="image_record">تسجيل</string>
+    <string name="image_stop">إيقاف</string>
+    <string name="image_track">مسار</string>
+    <!-- Import -->
+    <string name="import_progress_message">جارٍ الاستيراد من %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">يتعذر إدراج مُحدد. ليس هناك إشارة لنظام تحديد المواقع العالمي (GPS). حاول مرة أخرى.</string>
+    <string name="marker_add_success">تم إدراج علامة</string>
+    <string name="marker_add_canceled">تم الإلغاء، لم تتم إضافة أية علامة</string>
+    <string name="marker_delete_one_confirm_message">سيتم حذف العلامة من الجهاز نهائيًا</string>
+    <string name="marker_delete_one_confirm_title">حذف العلامة؟</string>
+    <string name="marker_delete_multiple_confirm_message">سيتم حذف العلامات التي تم تحديدها نهائيًا من الجهاز</string>
+    <string name="marker_name_format">مُحدد %1$d</string>
+    <string name="marker_title">%1$d‏ من‏ %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">نوع المُحدد (على سبيل المثال شلال)</string>
+    <string name="marker_edit_marker_type_hint">نوع المُحدد</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">ليس لديك أية علامات</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">الإحصاءات المجمعة</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_edit">تعديل</string>
+    <string name="menu_export_all">تصدير جميع المسارات</string>
+    <string name="menu_help">مساعدة</string>
+    <string name="menu_import_all">استيراد جميع المسارات</string>
+    <string name="menu_insert_marker">إدراج مُحدد</string>
+    <string name="menu_insert_photo">جارٍ إدراج الصورة</string>
+    <string name="menu_markers">العلامات</string>
+    <string name="menu_search">بحث</string>
+    <string name="menu_select_all">تحديد الكل</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_share">مشاركة</string>
+    <string name="menu_show_on_map">إظهار على الخريطة</string>
+    <string name="menu_start_gps">بدء GPS</string>
+    <string name="menu_stop_gps">إيقاف GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">خدمة التسجيل</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">مستوى شحن البطارية</string>
+    <string name="sensor_state_cadence">الإيقاع</string>
+    <string name="sensor_state_cadence_value">%1$d دورة في الدقيقة</string>
+    <string name="sensor_state_heart_rate">معدل ضربات القلب</string>
+    <string name="sensor_state_heart_rate_value">%1$d نبضة في الدقيقة</string>
+    <string name="sensor_state_power">الطاقة</string>
+    <string name="sensor_state_power_value">%1$d واط</string>
+    <string name="settings_not_while_recording">غير متاح أثناء تسجيل مسار</string>
+    <string name="settings_show">إظهار</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">خيارات متقدمة</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">بحسب المسافة</string>
+    <string name="settings_chart_by_time">بحسب الوقت</string>
+    <string name="settings_recording">التسجيل</string>
+    <string name="settings_recording_default_activity_title">نوع النشاط الافتراضي</string>
+    <string name="settings_recording_location_frequency_summary">%1$s‏ بين المواقع المسجلة</string>
+    <string name="settings_recording_max_recording_distance_summary">يتم إنشاء جزء جديد إذا كانت المسافة بين موقعين أكبر من %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">المسافة القصوى</string>
+    <string name="settings_recording_min_recording_distance_title">تسجيل المسافة الفاصلة</string>
+    <string name="settings_recording_min_recording_interval_title">تسجيل الفاصل الزمني</string>
+    <string name="settings_recording_min_required_accuracy_summary">يتم تجاهل الموقع إذا كانت دقته أقل من %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">دقة نظام تحديد المواقع العالمي (GPS)</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">التاريخ (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">التاريخ (المحلي)</string>
+    <string name="settings_recording_track_name_number_option">عدد</string>
+    <string name="settings_recording_track_name_title">اسم المسار الافتراضي</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">إعادة تعيين</string>
+    <string name="settings_reset_confirm_message">ستتم إعادة جميع الإعدادات إلى القيم الافتراضية.</string>
+    <string name="settings_reset_confirm_title">إعادة التعيين الآن؟</string>
+    <string name="settings_reset_done">لقد تمت إعادة جميع الإعدادات إلى القيم الافتراضية</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">البلوتوث</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">المعدل المفضل</string>
+    <string name="settings_stats_units_imperial">وحدات القياس البريطانية (ميل، قدم)</string>
+    <string name="settings_stats_units_metric">وحدات القياس المترية (كم، م)</string>
+    <string name="settings_stats_units_title">الوحدات المفضلة</string>
+
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">أعتقد أنك قد تكون مهتمًا بهذا المسار.\n\nلعرض هذا المسار، استخدام برنامج Google Earth أو غيره من البرامج تصميم الخرائط.\n\n%1$s</string>
+    <string name="share_track_subject">أريد مشاركة مسار معك</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">متوسط إيقاع التحرك</string>
+    <string name="stats_average_moving_speed">متوسط سرعة التحرك</string>
+    <string name="stats_average_pace">متوسط ​​الإيقاع</string>
+    <string name="stats_average_speed">متوسط السرعة</string>
+    <string name="stats_altitude">الارتفاع</string>
+    <string name="stats_fastest_pace">أسرع إيقاع</string>
+    <string name="stats_gain">الاكتساب</string>
+    <string name="stats_latitude">خط العرض</string>
+    <string name="stats_longitude">خط الطول</string>
+    <string name="stats_max_speed">أقصى سرعة</string>
+    <string name="stats_moving_time">وقت التحرك</string>
+    <string name="stats_pace">الإيقاع</string>
+    <string name="stats_speed">السرعة</string>
+    <string name="stats_distance">المسافة</string>
+    <string name="stats_total_time">الوقت الإجمالي</string>
+    <!-- Track -->
+    <string name="track_name_format">المسار %1$d</string>
+    <string name="track_markers">%1$s علامات</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">سيتم حذف المسار والعلامات نهائيًا من الجهاز.</string>
+    <string name="track_delete_one_confirm_title">حذف المسار؟</string>
+    <string name="track_delete_multiple_confirm_message">سيتم حذف المسارات المحددة وعلاماتها نهائيًا من الجهاز.</string>
+    <string name="track_delete_progress_message">جارٍ الحذف…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">الإحصاءات</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">نوع النشاط (على سبيل المثال المشي)</string>
+    <string name="track_edit_activity_type_hint">نوع النشاط</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">بدء تسجيل مغامرتك التالية هنا</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">قدم</string>
+    <string name="unit_kilometer">كم</string>
+    <string name="unit_kilometer_per_hour">كم/س</string>
+    <string name="unit_meter">م</string>
+    <string name="unit_mile">ميل</string>
+    <string name="unit_mile_per_hour">ميل/ساعة</string>
+    <string name="unit_minute_per_kilometer">د/كم</string>
+    <string name="unit_minute_per_mile">دقيقة/ميل</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d قدم</string>
+    <string name="value_integer_feet_excellent_gps">%1$d قدم (إشارة نظام تحديد المواقع ممتازة)</string>
+    <string name="value_integer_feet_recommended">%1$d قدم (موصى به)</string>
+    <string name="value_integer_kilometer">%1$d كم</string>
+    <string name="value_integer_kilometer_hour">%1$d‏ كم/ساعة</string>
+    <string name="value_integer_meter">%1$d م</string>
+    <string name="value_integer_meter_excellent_gps">%1$d م (إشارة نظام تحديد المواقع ممتازة)</string>
+    <string name="value_integer_meter_poor_gps">%1$d م (إشارة نظام تحديد المواقع سيئة)</string>
+    <string name="value_integer_meter_recommended">%1$d م (موصى به)</string>
+    <string name="value_integer_mile">%1$d ميل</string>
+    <string name="value_integer_mile_hour">%1$d‏‏ ميل/ساعة</string>
+    <string name="value_integer_minute">%1$d دقيقة</string>
+    <string name="value_integer_second">%1$d ث</string>
+    <string name="value_none">لا شيء</string>
+    <string name="value_off">إيقاف</string>
+    <string name="value_smallest_recommended">الأصغر (موصى به)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="zero">0 ساعة</item>
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="two">ساعتان</item>
+        <item quantity="few">%1$d ساعات</item>
+        <item quantity="many">%1$d ساعة</item>
+        <item quantity="other">%1$d ساعة</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="zero">0 دقائق</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%1$d دقائق</item>
+        <item quantity="many">%1$d دقيقة</item>
+        <item quantity="other">%1$d دقيقة</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="zero">0 ثانية</item>
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">%1$d ثوانٍ</item>
+        <item quantity="many">%1$d ثانية</item>
+        <item quantity="other">%1$d ثانية</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="zero">0 كيلومتر في الساعة</item>
+        <item quantity="one">1 كيلومتر في الساعة</item>
+        <item quantity="two">2 كيلومتر في الساعة</item>
+        <item quantity="few">%1$.1f كيلومتر في الساعة</item>
+        <item quantity="many">%1$.1f كيلومتر في الساعة</item>
+        <item quantity="other">%1$.1f كيلومتر في الساعة</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="zero">0 ميل في الساعة</item>
+        <item quantity="one">ميل واحد في الساعة</item>
+        <item quantity="two">2 ميل في الساعة</item>
+        <item quantity="few">%1$.1f أميال في الساعة</item>
+        <item quantity="many">%1$.1f ميلاً في الساعة</item>
+        <item quantity="other">%1$.1f من الأميال في الساعة</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s لكل كيلومتر</string>
+    <string name="voice_pace_per_mile">%1$s لكل ميل</string>
+    <string name="voice_template">%1$s‏ في‏ %2$s‏ بسرعة‏ %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="zero">المسافة الإجمالية 0 كيلومتر</item>
+        <item quantity="one">المسافة الإجمالية كيلومتر واحد</item>
+        <item quantity="two">المسافة الإجمالية 2 كيلومتر</item>
+        <item quantity="few">المسافة الإجمالية %1$.2f كيلومتر</item>
+        <item quantity="many">المسافة الإجمالية %1$.2f كيلومتر</item>
+        <item quantity="other">المسافة الإجمالية %1$.2f كيلومتر</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="zero">المسافة الإجمالية 2 ميل</item>
+        <item quantity="one">إجمالي المسافة ميل واحد</item>
+        <item quantity="two">المسافة الإجمالية 0 ميل</item>
+        <item quantity="few">المسافة الإجمالية %1$.2f أميال</item>
+        <item quantity="many">مجموع المسافة %1$.2f ميلاً</item>
+        <item quantity="other">المسافة الإجمالية %1$.2f من الأميال</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">أجهزة الصراف الآلي</string>
+    <string name="waypoint_type_bank">مصرف</string>
+    <string name="waypoint_type_bar">بار</string>
+    <string name="waypoint_type_barbecue">شواء</string>
+    <string name="waypoint_type_building">مبنى</string>
+    <string name="waypoint_type_bus_stop">محطة حافلات</string>
+    <string name="waypoint_type_cafe">مقهى</string>
+    <string name="waypoint_type_campfire">نار المعسكر</string>
+    <string name="waypoint_type_campground">أرض المعسكر</string>
+    <string name="waypoint_type_church">كنيسة</string>
+    <string name="waypoint_type_coffee_house">مقهى</string>
+    <string name="waypoint_type_convenience_store">محلات صغيرة</string>
+    <string name="waypoint_type_drinking_water">مياه شرب</string>
+    <string name="waypoint_type_falling_rocks">صخور متساقطة</string>
+    <string name="waypoint_type_ferry">معدّية</string>
+    <string name="waypoint_type_fire_place">مدفئة</string>
+    <string name="waypoint_type_fire_station">مركز إطفاء</string>
+    <string name="waypoint_type_fishing">صيد السمك</string>
+    <string name="waypoint_type_gas_station">محطة غاز</string>
+    <string name="waypoint_type_golf_course">ملعب غولف</string>
+    <string name="waypoint_type_grocery_store">محل بقالة</string>
+    <string name="waypoint_type_hair_dresser">مصفف شعر</string>
+    <string name="waypoint_type_harbor">مرفأ</string>
+    <string name="waypoint_type_hiking_path">مسار مشي</string>
+    <string name="waypoint_type_hotel">فندق</string>
+    <string name="waypoint_type_house">منزل</string>
+    <string name="waypoint_type_information">معلومات</string>
+    <string name="waypoint_type_intersection">تقاطع</string>
+    <string name="waypoint_type_mail_box">صندوق البريد</string>
+    <string name="waypoint_type_market">السوق</string>
+    <string name="waypoint_type_meeting_point">نقطة التقاء</string>
+    <string name="waypoint_type_opera">أوبرا</string>
+    <string name="waypoint_type_parking">مواقف سيارات</string>
+    <string name="waypoint_type_police_station">مركز شرطة</string>
+    <string name="waypoint_type_post_office">مكتب البريد</string>
+    <string name="waypoint_type_pothole">أخدود</string>
+    <string name="waypoint_type_railway_crossing">عبور السكك الحديدية</string>
+    <string name="waypoint_type_restaurant">مطعم</string>
+    <string name="waypoint_type_shopping">تسوق</string>
+    <string name="waypoint_type_sight">معلم</string>
+    <string name="waypoint_type_store">متجر</string>
+    <string name="waypoint_type_swimming_pool">حمام سباحة</string>
+    <string name="waypoint_type_telephone">هاتف</string>
+    <string name="waypoint_type_theater">مسرح</string>
+    <string name="waypoint_type_toilet">مرحاض</string>
+    <string name="waypoint_type_tourist_information">معلومات سياحية</string>
+    <string name="waypoint_type_tree">شجرة</string>
+    <string name="waypoint_type_tunnel">نفق</string>
+    <string name="waypoint_type_waterfall">شلال</string>
+    <string name="waypoint_type_water_fountain">نافورة مياه</string>
+    <string name="waypoint_type_waypoint">نقطة طريق</string>
+</resources>

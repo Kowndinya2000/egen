@@ -1,0 +1,140 @@
+<!--
+  ~ Copyright (c) 2017 Bartek Fabiszewski
+  ~ http://www.fabiszewski.net
+  ~
+  ~ This file is part of μlogger-android.
+  ~ Licensed under GPL, either version 3, or any later.
+  ~ See <http://www.gnu.org/licenses/>
+  -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="button_newtrack">Nueva ruta</string>
+    <string name="button_upload">Subir</string>
+    <string name="is_running" comment="substituted app_name">%s está en ejecución</string>
+    <string name="title_newtrack">Nueva ruta</string>
+    <string name="label_track">Ruta actual</string>
+    <string name="label_newtrack_name">Nombre de la nueva ruta</string>
+    <string name="label_name">Nombre</string>
+    <string name="label_last_update">Última actualización: %s</string>
+    <string name="label_synchronized">Sincronizado</string>
+    <string name="cancel">Cancelar</string>
+    <string name="submit">Enviar</string>
+    <string name="ok">OK</string>
+    <string name="settings">Ajustes</string>
+    <string name="pref_username_title">Nombre de usuario</string>
+    <string name="pref_username_summary">Nombre de usuario en el servidor remoto</string>
+    <string name="pref_pass_title">Contraseña</string>
+    <string name="pref_pass_summary">Contraseña del usuario en el servidor remoto</string>
+    <string name="pref_host_title">URL del servidor</string>
+    <string name="pref_host_summary">URL base del servidor remoto</string>
+    <string name="pref_mintime_title">Tiempo mínimo</string>
+    <string name="pref_mintime_summary">Tiempo mínimo entre actualizaciones de ubicación</string>
+    <string name="pref_mindistance_title">Distancia mínima</string>
+    <string name="pref_mindistance_summary">Distancia mínima entre actualizaciones de ubicación</string>
+    <string name="pref_minaccuracy_title">Precisión mínima</string>
+    <string name="pref_minaccuracy_summary">Precisión mínima de la posición</string>
+    <string name="pref_imagesize_title">Tamaño de la imagen</string>
+    <string name="pref_imagesize_summary">Máxima anchura/altura de la imagen a cargar, en píxeles. En caso de reducción de la imagen, una copia se guardará en la aplicación antes de cargarla. Si escoge la opción “Tamaño actual” no se guardará una copia, las imágenes originales deberán estar disponibles durante la carga.</string>
+    <string name="pref_livesync_title">Sincronización continua</string>
+    <string name="pref_livesync_summary">Subida continua de posiciones al servidor. Requiere un usuario, contraseña y URL de servidor válidos.</string>
+    <string name="pref_autostart_title">Inicio automático</string>
+    <string name="pref_autostart_summary">La aplicación se iniciará al arrancar el sistema</string>
+    <string name="pref_external_title">Permitir comandos externos</string>
+    <string name="pref_external_summary">Permite recibir comandos de otras aplicaciones para facilitar la automatización y la programación de tareas.</string>
+    <string name="pref_provider_title">Proveedor de ubicación</string>
+    <string name="pref_provider_summary">La ubicación puede ser proporcionada por el proveedor de GPS, de la red o por ambos. Usar ambos proveedores proporcionará los mejores resultados, pero un mayor consumo de batería.</string>
+    <string name="pref_units_title">Unidades</string>
+    <string name="pref_units_summary">Tipo de unidad preferido para mostrar el resumen de la ruta</string>
+    <string name="pref_units_metric">Métricas</string>
+    <string name="pref_units_imperial">Imperiales</string>
+    <string name="pref_units_nautical">Náuticas</string>
+    <string name="pref_auto_name_title">Plantilla del nombre de ruta</string>
+    <string name="pref_auto_name_summary" formatted="false">Plantilla del nombre de la nueva ruta. Los siguientes patrones serán sustituidos con elementos de fecha actuales: %y (año), %m (mes), %d (día), %H (hora), %M (minuto), %S (segundo). Si necesita un carácter de porcentaje literal, use %%.</string>
+    <string name="label_status">Estado</string>
+    <string name="label_location">Ubicación</string>
+    <string name="label_synchronization">Sincronización</string>
+    <string name="tracking_stopped">Registro parado</string>
+    <string name="tracking_started">Registro iniciado</string>
+    <string name="uploading_started">Subida iniciada</string>
+    <string name="nothing_to_synchronize">Nada para sincronizar</string>
+    <string name="no_positions">La ruta actual no tiene posiciones</string>
+    <string name="warning">Alerta</string>
+    <string name="notsync_warning">La ruta actual contiene posiciones no sincronizadas. Crear una nueva ruta eliminará todos estos datos.</string>
+    <string name="clear_warning">¿Está seguro que quiere borrar la ruta actual y todos sus datos de este dispositivo? Esto no borrará nada en el servidor.</string>
+    <string name="no_track_warning">Por favor, configura una nueva ruta primero</string>
+    <string name="empty_trackname_warning">El nombre de la ruta no puede estar vacío</string>
+    <string name="logger_running_warning">Por favor, para el registro actual primero</string>
+    <string name="about">Acerca de</string>
+    <string name="about_description">Aplicación de registro de ubicaciones sencilla, con soporte para registro continuo y subida de posiciones a tu propio <xliff:g id="server_link_open"><![CDATA[<a href="https://github.com/bfabiszewski/ulogger-server">]]></xliff:g>servidor μlogger<xliff:g id="server_link_close"><![CDATA[</a>]]></xliff:g>.</string>
+    <string name="about_description2">Para más información y ayuda, por favor consulta la <xliff:g id="app_link_open"><![CDATA[<a href="https://github.com/bfabiszewski/ulogger-android">]]></xliff:g>página de μlogger<xliff:g id="app_link_close"><![CDATA[</a>]]></xliff:g>.</string>
+    <string name="about_version">Versión %s</string>
+    <string name="about_license">Licencia: GPL</string>
+    <string name="uploading_failed">La subida ha fallado:</string>
+    <string name="uploading_done">Subida completada</string>
+    <string name="track_summary">Resumen de la ruta</string>
+    <string name="summary_distance" comment="1-distance, 2-unit name">%1$s %2$s</string>
+    <plurals name="summary_positions">
+        <item quantity="one">%d posición</item>
+        <item quantity="other">%d posiciones</item>
+    </plurals>
+    <string name="summary_duration">%1$d h %2$d min</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_mile">mi.</string>
+    <string name="provide_valid_url">Por favor, indica una URL de servidor válida</string>
+    <string name="provide_user_pass_url">Por favor, indica primero el usuario, contraseña y URL del servidor</string>
+    <string name="e_illegal_state">Excepción de estado ilegal: %s</string>
+    <string name="e_illegal_redirect">Redirección ilegal: %d</string>
+    <string name="e_auth_failure">Fallo de autenticación: %d</string>
+    <string name="e_http_code">Código de error HTTP: %d</string>
+    <string name="e_server_response">Error de respuesta del servidor</string>
+    <string name="e_unknown_host">Host desconocido: %s</string>
+    <string name="e_bad_url">URL incorrecta: %s</string>
+    <string name="e_connect">Error de conexión: %s</string>
+    <string name="gps_disabled_warning">Alerta: el proveedor de GPS está desactivado</string>
+    <string name="net_disabled_warning">Alerta: el proveedor de red está desactivado</string>
+    <string name="location_disabled">Debes especificar al menos un proveedor de ubicación</string>
+    <string name="location_permission_denied">Debes aceptar la solicitud de permisos de ubicación</string>
+    <string name="using_network">Utilizando proveedor de red</string>
+    <string name="using_gps">Utilizando proveedor GPS</string>
+    <string name="export">Exportar a GPX</string>
+    <string name="waypoint">Punto de paso</string>
+    <string name="nothing_to_export">No hay nada que exportar</string>
+    <string name="export_done">La ruta se ha guardado correctamente</string>
+    <string name="export_failed">Ha fallado la exportación</string>
+    <string name="unknown_track">Ruta desconocida</string>
+    <string name="export_started">Exportación iniciada</string>
+    <plurals name="label_positions_behind">
+        <item quantity="one">%d posición pendiente</item>
+        <item quantity="other">%d posiciones pendiente</item>
+    </plurals>
+    <string name="track_server_setup_warning">Si cambias la configuración del servidor no será posible sincronizar la ruta en curso.</string>
+    <string name="pref_mintime_other">Mínimo intervalo de tiempo en segundos</string>
+    <string name="pref_mindistance_other">Mínima distancia en metros</string>
+    <string name="pref_minaccuracy_other">Mínima precisión en metros</string>
+    <string name="pref_imagesize_other">Anchura/altura máxima de la imagen, en píxeles</string>
+    <string name="unit_nmile">nm</string>
+    <string name="pref_cat_location">Seguimiento de ubicación</string>
+    <string name="pref_cat_server">Servidor</string>
+    <string name="pref_cat_other">Otros</string>
+    <string name="illegal_template_warning">La plantilla contiene caracteres ilegales</string>
+    <string name="cannot_open_picker">No se puede abrir el selector de archivos</string>
+    <string name="e_open_out_stream">No se pudo abrir la secuencia de salida</string>
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Red</string>
+    <string name="provider_gps_network">Red y GPS</string>
+    <string name="logger_task_failure">No se encuentra la localización</string>
+    <string name="take_photo">Hacer foto</string>
+    <string name="from_library">Escoger de la galería</string>
+    <string name="accuracy_meters">%d m de precisión</string>
+    <string name="meters_asl">%s m s.n.m.</string>
+    <string name="label_position">Posición</string>
+    <string name="label_waypoint_description">Descripción del punto de paso</string>
+    <string name="label_add_photo">Añadir foto</string>
+    <string name="button_save">Guardar</string>
+    <string name="tracking">Seguimiento de ubicación</string>
+    <string name="clear">Limpiar ruta</string>
+    <string name="share_link">Enlace para compartir ruta</string>
+    <string name="image_task_failed">Error en el remuestreo de la imagen</string>
+    <string name="background_location_rationale">El permiso de ubicación en segundo plano solo es necesario cuando el seguimiento se inicia sin la interacción del usuario: a través de un comando externo o cuando la aplicación se inicia automáticamente al arrancar el sistema.\nPara que esta funcionalidad funcione, debe seleccionar la opción \"%s\" en el diálogo de permisos de ubicación.\n¿Continuar con los permisos de la aplicación? </string>
+    <string name="background_location_required">Se requiere permiso de ubicación en segundo plano</string>
+</resources>

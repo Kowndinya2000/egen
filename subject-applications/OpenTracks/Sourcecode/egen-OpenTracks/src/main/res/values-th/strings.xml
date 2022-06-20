@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">เครื่องบิน</string>
+    <string name="activity_type_atv">รถ ATV</string>
+    <string name="activity_type_biking">ขี่จักรยาน</string>
+    <string name="activity_type_blimp">เรือเหาะ</string>
+    <string name="activity_type_boat">เรือ</string>
+    <string name="activity_type_climbing">ปีนเขา</string>
+    <string name="activity_type_commercial_airplane">เครื่องบินพาณิชย์</string>
+    <string name="activity_type_cross_country_skiing">สกีครอสคันทรี</string>
+    <string name="activity_type_cycling">ขี่จักรยาน</string>
+    <string name="activity_type_dirt_bike">มอเตอร์ไซค์วิบาก</string>
+    <string name="activity_type_donkey_back_riding">ขี่ลา</string>
+    <string name="activity_type_driving">ขับรถ</string>
+    <string name="activity_type_driving_bus">ขับรถบัส</string>
+    <string name="activity_type_driving_car">ขับรถ</string>
+    <string name="activity_type_ferry">เรือข้ามฟาก</string>
+    <string name="activity_type_frisbee">จานร่อน</string>
+    <string name="activity_type_gliding">การร่อน</string>
+    <string name="activity_type_hang_gliding">เครื่องร่อน</string>
+    <string name="activity_type_helicopter">เฮลิคอปเตอร์</string>
+    <string name="activity_type_hiking">เดินป่า</string>
+    <string name="activity_type_horse_back_riding">ขี่ม้า</string>
+    <string name="activity_type_hot_air_balloon">บอลลูนอากาศร้อน</string>
+    <string name="activity_type_ice_sailing">แล่นเรือใบน้ำแข็ง</string>
+    <string name="activity_type_inline_skating">อินไลน์สเก็ต</string>
+    <string name="activity_type_kayaking">พายเรือคายัค</string>
+    <string name="activity_type_kite_surfing">ไคต์เซิร์ฟ</string>
+    <string name="activity_type_land_sailing">แล่นเรือใบดิน</string>
+    <string name="activity_type_mixed_type">ประเภทผสม</string>
+    <string name="activity_type_motor_bike">มอเตอร์ไซค์</string>
+    <string name="activity_type_motor_boating">เรือยนต์</string>
+    <string name="activity_type_mountain_biking">ขี่จักรยานภูเขา</string>
+    <string name="activity_type_off_trail_hiking">เดินป่านอกเส้นทาง</string>
+    <string name="activity_type_other">อื่นๆ</string>
+    <string name="activity_type_paddling">พายเรือ</string>
+    <string name="activity_type_para_gliding">ร่มร่อน</string>
+    <string name="activity_type_rc_airplane">เครื่องบินบังคับวิทยุ</string>
+    <string name="activity_type_rc_boat">เรือบังคับวิทยุ</string>
+    <string name="activity_type_rc_helicopter">เฮลิคอปเตอร์บังคับวิทยุ</string>
+    <string name="activity_type_riding">ขี่ม้า</string>
+    <string name="activity_type_road_biking">ขี่จักรยานบนถนน</string>
+    <string name="activity_type_roller_skiing">โรลเลอร์สกี</string>
+    <string name="activity_type_rowing">พายเรือ</string>
+    <string name="activity_type_running">วิ่ง</string>
+    <string name="activity_type_sailing">แล่นเรือใบ</string>
+    <string name="activity_type_seaplane">เครื่องบินทะเล</string>
+    <string name="activity_type_skate_boarding">สเก็ตบอร์ด</string>
+    <string name="activity_type_skating">สเก็ต</string>
+    <string name="activity_type_skiing">เล่นสกี</string>
+    <string name="activity_type_sky_jumping">โดดร่ม</string>
+    <string name="activity_type_sled">เลื่อน</string>
+    <string name="activity_type_snow_boarding">สโนว์บอร์ด</string>
+    <string name="activity_type_snow_shoeing">รองเท้าหิมะ</string>
+    <string name="activity_type_speed_walking">เดินเร็ว</string>
+    <string name="activity_type_street_running">วิ่งบนถนน</string>
+    <string name="activity_type_surfing">โต้คลื่น</string>
+    <string name="activity_type_track_cycling">ขี่จักรยานลู่</string>
+    <string name="activity_type_track_running">วิ่งลู่</string>
+    <string name="activity_type_trail_hiking">เดินป่าตามเส้นทาง</string>
+    <string name="activity_type_trail_running">วิ่งผจญภัย</string>
+    <string name="activity_type_train">รถไฟ</string>
+    <string name="activity_type_ultimate_frisbee">จานร่อน Ultimate</string>
+    <string name="activity_type_unknown">ไม่ทราบ</string>
+    <string name="activity_type_wakeboarding">เวกบอร์ด</string>
+    <string name="activity_type_walking">เดิน</string>
+    <string name="activity_type_water_skiing">สกีน้ำ</string>
+    <string name="activity_type_wind_surfing">เล่นวินด์เซิร์ฟ</string>
+    <!-- Description -->
+    <string name="description_activity_type">ประเภทกิจกรรม: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">ความเร็วก้าวเฉลี่ย: %1$s นาที/กม. (%2$s นาที/ไมล์)</string>
+    <string name="description_average_moving_speed">ความเร็วการเคลื่อนที่เฉลี่ย: %1$.2f กม./ชม. (%2$.1f ไมล์/ชม.)</string>
+    <string name="description_average_pace_in_minute">อัตราก้าวเฉลี่ย: %1$s นาที/กม. (%2$s นาที/ไมล์)</string>
+    <string name="description_average_speed">ความเร็วเฉลี่ย: %1$.2f กม./ชม. (%2$.1f ไมล์/ชม.)</string>
+    <string name="description_altitude_gain">ระดับความสูง: %1$d ม. (%2$d ฟุต)</string>
+    <string name="description_altitude_imperial">ระดับความสูง (ฟุต)</string>
+    <string name="description_altitude_metric">ระดับความสูง (เมตร)</string>
+    <string name="description_fastest_pace_in_minute">อัตราก้าวสูงสุด: %1$s นาที/กม. (%2$s นาที/ไมล์)</string>
+    <string name="description_max_altitude">ระดับความสูงสูงสุด: %1$d ม. (%2$d ฟุต)</string>
+    <string name="description_max_speed">ความเร็วสูงสุด: %1$.2f กม./ชม. (%2$.1f ไมล์/ชม.)</string>
+    <string name="description_min_altitude">ระดับความสูงต่ำสุด: %1$d ม. (%2$d ฟุต)</string>
+    <string name="description_moving_time">เวลาการเคลื่อนที่: %1$s</string>
+    <string name="description_pace_imperial">อัตราก้าว (นาที/ไมล์)</string>
+    <string name="description_pace_metric">อัตราก้าว (นาที/กม.)</string>
+    <string name="description_recorded_time">เวลาบันทึก: %1$s</string>
+    <string name="description_speed_ms">ความเร็ว (ม./วินาที)</string>
+    <string name="description_sensor_cadence">จังหวะ (รอบต่อนาที)</string>
+    <string name="description_sensor_heart_rate">อัตราการเต้นหัวใจ (ครั้งต่อนาที)</string>
+    <string name="description_sensor_power">กำลัง (วัตต์)</string>
+    <string name="description_speed_imperial">ความเร็ว (ไมล์/ชม.)</string>
+    <string name="description_speed_metric">ความเร็ว (กม./ชม.)</string>
+    <string name="description_time">เวลา</string>
+    <string name="description_total_distance">รวมระยะทาง: %1$.2f กม. (%2$.1f ไมล์)</string>
+    <string name="description_total_time">เวลาทั้งหมด: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">ส่งออกลงใน %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="other">%1$d ไฟล</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">เพิ่ม</string>
+    <string name="generic_delete_selected_confirm_title">ลบรายการที่เลือกใช่ไหม</string>
+    <string name="generic_description">รายละเอียด</string>
+    <string name="generic_description_line">รายละเอียด: %1$s</string>
+    <string name="generic_name">ชื่อ</string>
+    <string name="generic_name_line">ชื่อ: %1$s</string>
+    <string name="generic_paused">หยุดชั่วคราว</string>
+    <string name="generic_recording">กำลังบันทึก…</string>
+    <string name="generic_save">บันทึก</string>
+    <string name="generic_tracks">เส้นการเดินทาง</string>
+    <!-- Gps -->
+    <string name="gps_starting">กำลังเริ่ม GPS</string>
+    <string name="gps_wait_for_better_signal">กำลังรอสัญญาณ GPS ที่ดีกว่านี้</string>
+    <string name="gps_wait_for_signal">กำลังรอสัญญาณ GPS</string>
+    <!-- Image -->
+    <string name="image_arrow">ลูกศร</string>
+    <string name="image_marker">เครื่องหมาย</string>
+    <string name="image_marker_count">จำนวนเครื่องหมาย</string>
+    <string name="image_pause">หยุด</string>
+    <string name="image_photo_marker">เครื่องหมายรูปภาพ</string>
+    <string name="image_record">บันทึก</string>
+    <string name="image_stop">หยุด</string>
+    <string name="image_track">เส้นการเดินทาง</string>
+    <!-- Import -->
+    <string name="import_progress_message">กำลังนำเข้าจาก %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">ไม่สามารถใส่เครื่องหมายได้ เนื่องจากไม่มีสัญญาณ GPS โปรดลองอีกครั้ง</string>
+    <string name="marker_add_success">ใส่เครื่องหมายแล้ว</string>
+    <string name="marker_add_canceled">ยกเลิกแล้ว ไม่มีการเพิ่มเครื่องหมาย</string>
+    <string name="marker_delete_one_confirm_message">เครื่องหมายจะถูกลบออกจากอุปกรณ์อย่างถาวร</string>
+    <string name="marker_delete_one_confirm_title">ลบเครื่องหมายไหม</string>
+    <string name="marker_delete_multiple_confirm_message">เครื่องหมายที่เลือกจะถูกลบออกจากอุปกรณ์อย่างถาวร</string>
+    <string name="marker_name_format">เครื่องหมาย %1$d</string>
+    <string name="marker_title">%1$d จาก %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">ประเภทเครื่องหมาย (เช่น น้ำตก)</string>
+    <string name="marker_edit_marker_type_hint">ประเภทเครื่องหมาย</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">คุณไม่มีเครื่องหมายเลย</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">สถิติที่รวบรวม</string>
+    <string name="menu_delete">ลบ</string>
+    <string name="menu_edit">แก้ไข</string>
+    <string name="menu_export_all">ส่งออกทั้งหมด</string>
+    <string name="menu_help">ความช่วยเหลือ</string>
+    <string name="menu_import_all">นำเข้าทั้งหมด</string>
+    <string name="menu_insert_marker">ใส่เครื่องหมาย</string>
+    <string name="menu_insert_photo">แทรกรูปภาพ</string>
+    <string name="menu_markers">เครื่องหมาย</string>
+    <string name="menu_search">ค้นหา</string>
+    <string name="menu_select_all">เลือกทั้งหมด</string>
+    <string name="menu_settings">การตั้งค่า</string>
+    <string name="menu_share">แบ่งปัน</string>
+    <string name="menu_show_on_map">แสดงบนแผนที่</string>
+    <string name="menu_start_gps">เริ่ม GPS</string>
+    <string name="menu_stop_gps">หยุด GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">บริการการบันทึก</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">ระดับแบตเตอรี่</string>
+    <string name="sensor_state_cadence">รอบขา</string>
+    <string name="sensor_state_cadence_value">%1$d รอบต่อนาที</string>
+    <string name="sensor_state_heart_rate">อัตราการเต้นหัวใจ</string>
+    <string name="sensor_state_heart_rate_value">%1$d ครั้งต่อนาที</string>
+    <string name="sensor_state_power">กำลัง</string>
+    <string name="sensor_state_power_value">%1$d วัตต์</string>
+    <string name="settings_not_while_recording">ไม่สามารถใช้งานได้ในขณะบันทึกเส้นการเดินทาง</string>
+    <string name="settings_show">แสดง</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">ขั้นสูง</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">ตามระยะทาง</string>
+    <string name="settings_chart_by_time">ตามเวลา</string>
+    <string name="settings_recording">การบันทึก</string>
+    <string name="settings_recording_default_activity_title">ประเภทกิจกรรมเริ่มต้น</string>
+    <string name="settings_recording_location_frequency_summary">บันทึกตำแหน่งทุก %1$s</string>
+    <string name="settings_recording_max_recording_distance_summary">เซ็กเมนต์ใหม่จะถูกสร้างขึ้นถ้าระยะห่างระหว่างสองตำแหน่งมีค่ามากกว่า %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">ระยะทางสูงสุด</string>
+    <string name="settings_recording_min_recording_distance_title">ช่วงระยะการบันทึก</string>
+    <string name="settings_recording_min_recording_interval_title">ช่วงเวลาการบันทึก</string>
+    <string name="settings_recording_min_required_accuracy_summary">ตำแหน่งจะถูกละเว้นถ้าความแม่นยำน้อยกว่า %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">ความแม่นยำของ GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">วันที่ (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">วันที่ (ท้องถิ่น)</string>
+    <string name="settings_recording_track_name_number_option">หมายเลข</string>
+    <string name="settings_recording_track_name_title">ชื่อเส้นการเดินทางเริ่มต้น</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">รีเซ็ต</string>
+    <string name="settings_reset_confirm_message">การตั้งค่าทั้งหมดจะกลับไปเป็นค่าเริ่มต้น </string>
+    <string name="settings_reset_confirm_title">รีเซ็ตเลยไหม</string>
+    <string name="settings_reset_done">การตั้งค่าทั้งหมดถูกเปลี่ยนกลับไปเป็นค่าเริ่มต้นแล้ว</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">บลูทูธ</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">อัตราที่ต้องการ</string>
+    <string name="settings_stats_units_imperial">หน่วยอังกฤษ (ไมล์, ฟุต)</string>
+    <string name="settings_stats_units_metric">หน่วยเมตริก (กม., เมตร)</string>
+    <string name="settings_stats_units_title">หน่วยที่ต้องการ</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">ฉันคิดว่าคุณอาจจะสนใจในเส้นการเดินทางนี้\n\nเมื่อต้องการดูเส้นการเดินทางนี้ ให้ใช้ Google Earth หรือซอฟแวร์แผนที่อื่นๆ\n\n%1$s</string>
+    <string name="share_track_subject">ฉันต้องการแบ่งปันเส้นทางกับคุณ</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">การก้าวโดยเฉลี่ย</string>
+    <string name="stats_average_moving_speed">ความเร็วในการเคลื่อนที่เฉลี่ย</string>
+    <string name="stats_average_pace">ก้าวเฉลี่ย</string>
+    <string name="stats_average_speed">ความเร็วเฉลี่ย</string>
+    <string name="stats_altitude">ระดับความสูง</string>
+    <string name="stats_fastest_pace">อ้ตราก้าวที่เร็วที่สุด</string>
+    <string name="stats_gain">เพิ่มค่า</string>
+    <string name="stats_latitude">ละติจูด</string>
+    <string name="stats_longitude">ลองจิจูด</string>
+    <string name="stats_max_speed">ความเร็วสูงสุด</string>
+    <string name="stats_moving_time">เวลาเดินทาง</string>
+    <string name="stats_pace">อัตราก้าว</string>
+    <string name="stats_speed">ความเร็ว</string>
+    <string name="stats_distance">ระยะทาง</string>
+    <string name="stats_total_time">เวลารวม</string>
+    <!-- Track -->
+    <string name="track_name_format">เส้นทาง %1$d</string>
+    <string name="track_markers">%1$s เครื่องหมาย</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">ส้นการเดินทางและเครื่องหมายจะถูกลบออกจากอุปกรณ์อย่างถาวร</string>
+    <string name="track_delete_one_confirm_title">ลบเส้นการเดินทางนี้ไหม</string>
+    <string name="track_delete_multiple_confirm_message">ส้นการเดินทางและเครื่องหมายที่เลือกจะถูกลบออกจากอุปกรณ์อย่างถาวร</string>
+    <string name="track_delete_progress_message">กำลังลบ…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">สถิติ</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">ประเภทกิจกรรม (เช่น เดินป่า)</string>
+    <string name="track_edit_activity_type_hint">ประเภทกิจกรรม</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">เริ่มบันทึกผจญภัยต่อไปของคุณที่นี่</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">ฟุต</string>
+    <string name="unit_kilometer">กม.</string>
+    <string name="unit_kilometer_per_hour">กม./ชม.</string>
+    <string name="unit_meter">ม.</string>
+    <string name="unit_mile">ไมล์</string>
+    <string name="unit_mile_per_hour">ไมล์/ชม.</string>
+    <string name="unit_minute_per_kilometer">นาที/กม.</string>
+    <string name="unit_minute_per_mile">นาที/ไมล์</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d ฟุต</string>
+    <string name="value_integer_feet_excellent_gps">%1$d ฟุต (สัญญาณ GPS ดี)</string>
+    <string name="value_integer_feet_recommended">%1$d ฟุต (แนะนำ)</string>
+    <string name="value_integer_kilometer">%1$d กม.</string>
+    <string name="value_integer_kilometer_hour">%1$d กม./ชม.</string>
+    <string name="value_integer_meter">%1$d ม.</string>
+    <string name="value_integer_meter_excellent_gps">%1$d ม. (สัญญาณ GPS ดี)</string>
+    <string name="value_integer_meter_poor_gps">%1$d ม. (สัญญาณ GPS ไม่ดี)</string>
+    <string name="value_integer_meter_recommended">%1$d ม. (แนะนำ)</string>
+    <string name="value_integer_mile">%1$d ไมล์</string>
+    <string name="value_integer_mile_hour">%1$d ไมล์/ชม.</string>
+    <string name="value_integer_minute">%1$d นาที</string>
+    <string name="value_integer_second">%1$d วินาที</string>
+    <string name="value_none">ไม่มี</string>
+    <string name="value_off">ปิด</string>
+    <string name="value_smallest_recommended">น้อยที่สุด (แนะนำ)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="other">%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="other">%1$d นาท</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="other">%1$d ต่อไมล</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="other">%1$.1f กิโลเมตรต่อชั่วโมง</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="other">%1$.1f ไมล์ต่อชั่วโมง</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s ต่อกิโลเมตร</string>
+    <string name="voice_pace_per_mile">%1$s ต่อไมล์</string>
+    <string name="voice_template">%1$s ใน %2$s ที่ความเร็ว %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="other">รวมระยะทาง %1$.2f กิโลเมตร</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="other">รวมระยะทาง %1$.2f ไมล์</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">เอทีเอ็ม</string>
+    <string name="waypoint_type_bank">ธนาคาร</string>
+    <string name="waypoint_type_bar">บาร์</string>
+    <string name="waypoint_type_barbecue">บาร์บีคิว</string>
+    <string name="waypoint_type_building">สิ่งปลูกสร้าง</string>
+    <string name="waypoint_type_bus_stop">ป้ายรถประจำทาง</string>
+    <string name="waypoint_type_cafe">คาเฟ่</string>
+    <string name="waypoint_type_campfire">แคมป์ไฟ</string>
+    <string name="waypoint_type_campground">พื้นที่กางเต็นท์</string>
+    <string name="waypoint_type_church">โบสถ์</string>
+    <string name="waypoint_type_coffee_house">ร้านกาแฟ</string>
+    <string name="waypoint_type_convenience_store">ร้านสะดวกซื้อ</string>
+    <string name="waypoint_type_drinking_water">น้ำดื่ม</string>
+    <string name="waypoint_type_falling_rocks">หินหล่น</string>
+    <string name="waypoint_type_ferry">เรือข้ามฟาก</string>
+    <string name="waypoint_type_fire_place">เตาผิง</string>
+    <string name="waypoint_type_fire_station">สถานีดับเพลิง</string>
+    <string name="waypoint_type_fishing">ตกปลา</string>
+    <string name="waypoint_type_gas_station">ปั๊มน้ำมัน</string>
+    <string name="waypoint_type_golf_course">สนามกอล์ฟ</string>
+    <string name="waypoint_type_grocery_store">ร้านขายของชำ</string>
+    <string name="waypoint_type_hair_dresser">ช่างทำผม</string>
+    <string name="waypoint_type_harbor">ท่าเรือ</string>
+    <string name="waypoint_type_hiking_path">เส้นทางเดินป่า</string>
+    <string name="waypoint_type_hotel">โรงแรม</string>
+    <string name="waypoint_type_house">บ้าน</string>
+    <string name="waypoint_type_information">ข้อมูล</string>
+    <string name="waypoint_type_intersection">ทางแยก</string>
+    <string name="waypoint_type_mail_box">ตู้ไปรษณีย์</string>
+    <string name="waypoint_type_market">ตลาด</string>
+    <string name="waypoint_type_meeting_point">จุดนัดพบ</string>
+    <string name="waypoint_type_opera">โอเปร่า</string>
+    <string name="waypoint_type_parking">ที่จอดรถ</string>
+    <string name="waypoint_type_police_station">สถานีตำรวจ</string>
+    <string name="waypoint_type_post_office">ที่ทำการไปรษณีย์</string>
+    <string name="waypoint_type_pothole">หลุม</string>
+    <string name="waypoint_type_railway_crossing">ข้ามทางรถไฟ</string>
+    <string name="waypoint_type_restaurant">ร้านอาหาร</string>
+    <string name="waypoint_type_shopping">ช็อปปิ้ง</string>
+    <string name="waypoint_type_sight">จุดชมวิว</string>
+    <string name="waypoint_type_store">ร้านค้า</string>
+    <string name="waypoint_type_swimming_pool">สระว่ายน้ำ</string>
+    <string name="waypoint_type_telephone">โทรศัพท์</string>
+    <string name="waypoint_type_theater">โรงภาพยนตร์</string>
+    <string name="waypoint_type_toilet">ห้องสุขา</string>
+    <string name="waypoint_type_tourist_information">ข้อมูลการท่องเที่ยว</string>
+    <string name="waypoint_type_tree">ต้นไม้</string>
+    <string name="waypoint_type_tunnel">อุโมงค์</string>
+    <string name="waypoint_type_waterfall">น้ำตก</string>
+    <string name="waypoint_type_water_fountain">น้ำพุ</string>
+    <string name="waypoint_type_waypoint">ชี้ทาง</string>
+</resources>

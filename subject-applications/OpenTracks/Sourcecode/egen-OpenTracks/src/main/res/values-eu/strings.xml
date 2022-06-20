@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <string name="about_preference_title">OpenTracks-i buruz</string>
+    <string name="about_description"><i> OpenTracks </i> kirol jarraipena egiteko aplikazioa da, zure pribatutasuna erabat errespetatzen duena.</string>
+    <string name="about_url">Proiektuaren web orria: <a href="%1$s">%1$s</a></string>
+    <string name="about_version_name">Bertsioaren izena: %1$s</string>
+    <string name="about_version_code">Bertsio kodea: %1$d</string>
+    <string name="about_history">OpenTracks <a href="https://code.google.com/archive/p/mytracks/"> <i> Google n MyTracks </i> </a> (horixe utzi zen 2016an).</string>
+    <string name="about_libraries">Liburutegiak</string>
+    <!-- Help -->
+    <string name="help_feature_title">OpenTracks ek ezaugarri hauek ditu:</string>
+    <string name="help_feature_content">
+* GPS ibilbideak sortu\n
+* erabili bihotz-maiztasuneko sentsorea (Bluetooth LE soilik)\n
+* ahots iragarpenak (denboraren edo distantziaren arabera)\n
+* Sortu markatzaileak (irudiak barne)\n
+* guztiz lineaz kanpo funtzionatzen du\n
+* Erakutsi ibilbideak mapa batean (ikusi azpian)</string>
+    <string name="help_track_map_title">Nola erakutsi pista batean mapa batean?</string>
+    <string name="help_track_map_content"> Erabili maparen ikono txikia.
+\n a) (zuzeneko eguneratzeak) Instalatu <a href="https://github.com/OpenTracksApp/OSMDashboard">OSMDashboard</a>. Lineako edo lineaz kanpoko mapak eskaintzen ditu <a href="https://www.openstreetmap.org">OpenStreetMap</a>.
+\n Egia esan, OSMDashboard erakundea da erakutsiko diren pista (k) datuetara sartzeko soilik (aldi baterako) sar daitekeena.
+\n b) Mapa aplikazio normal baten bidez (adibidez, <a href="http://osmand.net/">OsmAnd</a> eta <a href="https://maps.me/">MAPS.ME</a>). Aplikazio horiek KMZ fitxategi formatua onartzen dute (kokapenak eta timestamps soilik). Izan ere, aplikazio batek <i>ACTION_VIEW</i> onartzen du MIME <i>application/vnd.google-earth.kmz</i> rekin. </string>
+    <string name="help_storage_pictures_title">Nola gordetzen du OpenTracks markatzaile gisa ateratako argazkiak?</string>
+    <string name="help_storage_pictures_content">Aplikazioaren barne biltegian gordetzen dira (hau da, OpenTracks en soilik eskura daiteke).</string>
+    <string name="help_track_export_title">Nola esportatu/berdinak diren ibilbideak grabatutako ibilbideak?</string>
+    <string name="help_track_export_content"> Pistak Ezarpenetatik KMZ, KML edo GPX gisa esportatu daitezke. KMZ / KML datu guztiak; GPX kokapenak soilik. <i> Partekatutako ikonoa </i> bidez partekatutako ibilbideak KMZ gisa partekatzen dira. </string>
+    <string name="help_data_google_play_services_title">OpenTracks-ek Google Play zerbitzua erabiltzea eskatzen al du?</string>
+    <string name="help_recording_title">Nola grabatzen ditu OpenTracks datuak?</string>
+    <string name="help_recording_content">
+OpenTracks gailuaren GPS sentsorea erabiltzen du kokapena etengabe grabatzeko.
+GPS gailuak datu okerrak salatzen baditu (adibidez, kokapena, abiadura, kota), OpenTracks-ek ezin du ezer egin.</string>
+    <string name="help_data_storage_title">Nola gordetzen du OpenTracks ek sentsoreen datuak?</string>
+    <string name="help_data_storage_content"> Sentsoreen datuak grabatutako kokapen bakoitzeko gordetzen dira. Bihotz-maiztasuneko sentsoreari dagokionez, horrek esan nahi du <i> bat </i> bihotz-tasaren neurketa kokapen bakoitzean gordetzen dela. Geldirik egon edo barrualdean bazaude, ez da sentsoreen daturik grabatuko (baina erakutsiko da). </string>
+    <string name="help_gps_troubleshooting_title">OpenTracks ez dira kokapenak grabatzen?</string>
+    <string name="help_gps_troubleshooting_content"> Zer egin dezakezu:
+\n a) egiaztatu GPSa gaituta dagoen ala ez,
+\n b) GPS harrera hobetu (adibidez, kanpora joan),
+\n c) egiaztatu <a href="https://f-droid.org/en/packages/com.android.gpstest.osmdroid/"> GPSTest </a> aplikazioarekin eta
+\n d) desgaitu energia aurreztea.
+\n
+\n Dena laguntzen ez baduzu, jakinarazi akats bat. </string>
+    <string name="help_support_title">Nola onartzen dut OpenTracks?</string>
+    <string name="help_support_content"> Ahal izango duzu:
+\n a) buruz hitz zabaltzeko OpenTracks,
+\n b) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">proposatzen ezaugarriak</a>,
+\n c) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">txostena bugs</a>,
+\n d) laguntza software garapena,
+\n e) erosi <a href="https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore">Google Play Denda</a>,
+\n f) eman, eta
+\n g) ez edozein dela uste duzu laguntzen OpenTracks. </string>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">hegazkina</string>
+    <string name="activity_type_atv">Lurreko ibilgailu guztiak</string>
+    <string name="activity_type_biking">ziklismoa</string>
+    <string name="activity_type_blimp">zepelina</string>
+    <string name="activity_type_boat">itsasontzia</string>
+    <string name="activity_type_climbing">eskalada</string>
+    <string name="activity_type_commercial_airplane">hegazkin komertziala</string>
+    <string name="activity_type_cross_country_skiing">iraupen-eskia</string>
+    <string name="activity_type_cycling">bizikleta</string>
+    <string name="activity_type_dirt_bike">moto-krosa</string>
+    <string name="activity_type_donkey_back_riding">astoa</string>
+    <string name="activity_type_driving">gidatuz</string>
+    <string name="activity_type_driving_bus">autobusa</string>
+    <string name="activity_type_driving_car">autoa</string>
+    <string name="activity_type_ferry">ferrya</string>
+    <string name="activity_type_frisbee">frisbee-a</string>
+    <string name="activity_type_gliding">hegazkin ultra-arina</string>
+    <string name="activity_type_hang_gliding">delta hegala</string>
+    <string name="activity_type_helicopter">helikopteroa</string>
+    <string name="activity_type_hiking">mendi-txangoa</string>
+    <string name="activity_type_horse_back_riding">zaldia</string>
+    <string name="activity_type_hot_air_balloon">globoa</string>
+    <string name="activity_type_ice_sailing">izotzetan nabigatzea</string>
+    <string name="activity_type_inline_skating">lineako patinak</string>
+    <string name="activity_type_kayaking">kayaka</string>
+    <string name="activity_type_kite_surfing">kite-surfa</string>
+    <string name="activity_type_land_sailing">blokart-a</string>
+    <string name="activity_type_mixed_type">mistoa</string>
+    <string name="activity_type_motor_bike">motorra</string>
+    <string name="activity_type_motor_boating">karelez kanpoko txalupa</string>
+    <string name="activity_type_mountain_biking">mendiko bizikleta</string>
+    <string name="activity_type_off_trail_hiking">bidez kanpoko mendi-txangoa</string>
+    <string name="activity_type_other">beste bat</string>
+    <string name="activity_type_paddling">arrauna</string>
+    <string name="activity_type_para_gliding">parapentea</string>
+    <string name="activity_type_rc_airplane">urrunetik kontrolatutako hegazkina</string>
+    <string name="activity_type_rc_boat">urrunetik kontrolatutako txalupa</string>
+    <string name="activity_type_rc_helicopter">urrunetik kontrolatutako helikopteroa</string>
+    <string name="activity_type_riding">zaldiketa</string>
+    <string name="activity_type_road_biking">errepideko bizikleta</string>
+    <string name="activity_type_roller_skiing">roller-eskia</string>
+    <string name="activity_type_rowing">arrauna</string>
+    <string name="activity_type_running">lasterketa</string>
+    <string name="activity_type_sailing">bela</string>
+    <string name="activity_type_seaplane">ur-hegazkina</string>
+    <string name="activity_type_skate_boarding">skate board-a</string>
+    <string name="activity_type_skating">patinak</string>
+    <string name="activity_type_skiing">eskia</string>
+    <string name="activity_type_sky_jumping">eski-jauziak</string>
+    <string name="activity_type_sled">lera</string>
+    <string name="activity_type_snow_boarding">snowboard-a</string>
+    <string name="activity_type_snow_shoeing">elur-erraketak</string>
+    <string name="activity_type_speed_walking">ibilketa</string>
+    <string name="activity_type_street_running">kale-lasterketa</string>
+    <string name="activity_type_surfing">surfa</string>
+    <string name="activity_type_track_cycling">pistako bizikleta</string>
+    <string name="activity_type_track_running">bide-lasterketa</string>
+    <string name="activity_type_trail_hiking">pistako mendi-txangoa</string>
+    <string name="activity_type_trail_running">pista-lasterketa</string>
+    <string name="activity_type_train">trena</string>
+    <string name="activity_type_ultimate_frisbee">frisbee-a</string>
+    <string name="activity_type_unknown">ezezaguna</string>
+    <string name="activity_type_wakeboarding">wakeboard-a</string>
+    <string name="activity_type_walking">oinez</string>
+    <string name="activity_type_water_skiing">uretako eskia</string>
+    <string name="activity_type_wind_surfing">windsurfa</string>
+    <!-- Description -->
+    <string name="description_activity_type">Jarduera mota: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Batez besteko abiadura, abian: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_moving_speed">Batez besteko abiadura, abian: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_average_pace_in_minute">Batez besteko abiadura: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_speed">Batez besteko abiadura: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_altitude_gain">Desnibela: %1$d m (%2$d oin)</string>
+    <string name="description_altitude_imperial">Altitudea (oinak)</string>
+    <string name="description_altitude_metric">Altitudea (m)</string>
+    <string name="description_fastest_pace_in_minute">Abiadura bizkorrena: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_max_altitude">Gehienezko altitudea: %1$d m (%2$d oin)</string>
+    <string name="description_max_speed">Gehienezko abiadura: %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_min_altitude">Gutxieneko altitudea: %1$d m (%2$d oin)</string>
+    <string name="description_moving_time">Abian emandako tartea: %1$s</string>
+    <string name="description_pace_imperial">Abiadura (min/mi)</string>
+    <string name="description_pace_metric">Abiadura (min/km)</string>
+    <string name="description_recorded_time">Grabatuta: %1$s</string>
+    <string name="description_speed_ms">Abiadura (m/s)</string>
+    <string name="description_sensor_cadence">Kadentzia (rpm)</string>
+    <string name="description_sensor_heart_rate">Maiztasun kardiakoa (bpm)</string>
+    <string name="description_sensor_power">Potentzia (W)</string>
+    <string name="description_default_speed_or_pace">Jarduera motaren arabera</string>
+    <string name="description_speed_imperial">Abiadura (mi/h)</string>
+    <string name="description_speed_metric">Abiadura (km/h)</string>
+    <string name="description_time">Iraupena</string>
+    <string name="description_total_distance">Distantzia, guztira: %1$.2f km (%2$.1f mi)</string>
+    <string name="description_total_time">Denbora, guztira: %1$s</string>
+    <!-- Export -->
+    <string name="export_with_photos">argazkiekin</string>
+    <string name="export_without_photos">argazkirik gabe</string>
+    <string name="export_progress_message">%1$s karpetara esportatzen…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">1 fitxategi</item>
+        <item quantity="other">%1$d fitxategi</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Gehitu</string>
+    <string name="generic_delete_selected_confirm_title">Hautatutakoak ezabatu nahi dituzu?</string>
+    <string name="generic_description">Azalpena</string>
+    <string name="generic_description_line">Azalpena: %1$s</string>
+    <string name="generic_name">Izena</string>
+    <string name="generic_name_line">Izena: %1$s</string>
+    <string name="generic_paused">Etenda</string>
+    <string name="generic_recording">Grabatzen…</string>
+    <string name="generic_save">Gorde</string>
+    <string name="generic_tracks">Ibilbideak</string>
+    <!-- Gps -->
+    <string name="gps_starting">GPSa hasten</string>
+    <string name="gps_wait_for_better_signal">GPS seinale hobearen zain</string>
+    <string name="gps_wait_for_signal">GPS seinalearen zain</string>
+    <!-- Image -->
+    <string name="image_arrow">Gezia</string>
+    <string name="image_marker">Markatzailea</string>
+    <string name="image_marker_count">Markatzaile kopurua</string>
+    <string name="image_pause">Pausatu</string>
+    <string name="image_photo_marker">Argazki-markatzailea</string>
+    <string name="image_record">Grabatu</string>
+    <string name="image_stop">Gelditu</string>
+    <string name="image_track">Ibilbidea</string>
+    <!-- Import -->
+    <string name="import_progress_message">%1$s direktoriotik inportatzen…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Ezin da markatzailea txertatu. Ez dago GPS seinalerik. Saiatu berriro.</string>
+    <string name="marker_add_success">Markatzailea txertatu da</string>
+    <string name="marker_add_canceled">Bertan behera utzi da; ez da markatzailea gehitu</string>
+    <string name="marker_add_photo_canceled">Ezeztatu, ez da argazki-markarik gehitu</string>
+    <string name="marker_delete_one_confirm_message">Markatzailea behin betiko ezabatuko da gailutik</string>
+    <string name="marker_delete_one_confirm_title">Markatzailea ezabatu nahi duzu?</string>
+    <string name="marker_delete_multiple_confirm_message">Hautatutako markatzaileak behin betiko ezabatuko dira gailutik</string>
+    <string name="marker_name_format">%1$d markatzailea</string>
+    <string name="marker_title">%1$d/%2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Markatzaile mota (adibidez, ur-jauzia)</string>
+    <string name="marker_edit_marker_type_hint">Markatzaile mota</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Ez duzu markatzailerik</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Estatistika orokorrak</string>
+    <string name="menu_delete">Ezabatu</string>
+    <string name="menu_edit">Editatu</string>
+    <string name="menu_export_all">Esportatu guztiak</string>
+    <string name="menu_help">Laguntza</string>
+    <string name="menu_import_all">Inportatu guztiak</string>
+    <string name="menu_insert_marker">Txertatu markatzailea</string>
+    <string name="menu_insert_photo">Txertatu argazkia</string>
+    <string name="menu_insert_gallery_img">Txertatu galeriako irudia</string>
+    <string name="menu_markers">Markatzaileak</string>
+    <string name="menu_search">Bilatu</string>
+    <string name="menu_select_all">Hautatu guztiak</string>
+    <string name="menu_settings">Ezarpenak</string>
+    <string name="menu_share">Partekatu</string>
+    <string name="menu_show_on_map">Erakutsi mapan</string>
+    <string name="menu_start_gps">Hasi GPSa</string>
+    <string name="menu_stop_gps">Gelditu GPSa</string>
+    <string name="menu_resume_track">Jarraitu pista</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Grabaketa-zerbitzua</string>
+    <!-- Permission -->
+    <string name="permission_gps_failed">OpenTracks GPSa erabiltzeko baimena behar du.</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Bateria maila</string>
+    <string name="sensor_state_cadence">Erritmoa</string>
+    <string name="sensor_state_cadence_value">%1$d mbi</string>
+    <string name="sensor_state_heart_rate">Maiztasun kardiakoa</string>
+    <string name="sensor_state_heart_rate_value">%1$d mbb</string>
+    <string name="sensor_state_power">Potentzia</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="sensor_could_not_scan">Ezin izan da Bluetooth gailuak bilatu (%1$i errorea).</string>
+    <string name="bluetooth_disabled">Mesedez, aktibatu Bluetooth.</string>
+    <string name="settings_not_while_recording">Ez dago erabilgarri ibilbidea grabatzen ari den bitartean</string>
+    <string name="settings_show">Erakutsi</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Aurreratua</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Distantziaren arabera</string>
+    <string name="settings_chart_by_time">Denboraren arabera</string>
+    <!-- Settings Recording -->
+    <string name="settings_recording_show_on_lockscreen_while_recording_title">Erakutsi estatistika blokeo-pantailan</string>
+    <string name="settings_recording_show_on_lockscreen_while_recording_summary">Grabatzen ari zaren bitartean, erakutsi estatistikak gailua desblokeatu gabe.</string>
+    <string name="settings_recording_keep_screen_on_while_recording_title">Mantendu pantaila</string>
+    <string name="settings_recording_keep_screen_on_while_recording_summary">Grabatzen ari zaren bitartean, mantendu pantaila.</string>
+    <string name="settings_recording">Grabaketa</string>
+    <string name="settings_recording_default_activity_title">Jarduera mota lehenetsia</string>
+    <string name="settings_recording_location_frequency_summary">%1$s erregistratutako kokapenen artean</string>
+    <string name="settings_recording_max_recording_distance_summary">Segmentu berri bat sortzen da bi kokapenen arteko distantzia %1$s baino gehiagokoa bada</string>
+    <string name="settings_recording_max_recording_distance_title">Gehienezko distantzia</string>
+    <string name="settings_recording_min_recording_distance_title">Distantzia-tarteak</string>
+    <string name="settings_recording_min_recording_interval_title">Denbora-tarteak</string>
+    <string name="settings_recording_min_required_accuracy_summary">Zehaztasuna %1$s baino gutxiagokoa bada kokapenari ez ikusi egiten zaio</string>
+    <string name="settings_recording_min_required_accuracy_title">GPS zehaztasuna</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Data (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Data (tokikoa)</string>
+    <string name="settings_recording_track_name_number_option">Zenbakia</string>
+    <string name="settings_recording_track_name_title">Ibilbidearen izen lehenetsia</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Berrezarri</string>
+    <string name="settings_reset_confirm_message">Ezarpen guztiak balio lehenetsietara leheneratuko dira.</string>
+    <string name="settings_reset_confirm_title">Berrezarri egin nahi duzu?</string>
+    <string name="settings_reset_done">Ezarpen guztiak balio lehenetsietara leheneratu dira</string>
+    <string name="settings_error_initial_values_restored">Sentitzen dugu, baina akats bat gertatu da. Ezarpen guztiak lehenetsitako balioetara itzuli dira.</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetootha</string>
+    <string name="settings_sensor_connecting">Honekin konektatuta: %1$s</string>
+    <string name="settings_sensor_disconnected">Deskonektatuta %1$s</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Erritmo hobetsia</string>
+    <string name="settings_stats_units_imperial">Inperiala (mi, ft)</string>
+    <string name="settings_stats_units_metric">Metrikoa (km, m)</string>
+    <string name="settings_stats_units_title">Unitate hobetsiak</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Ibilbidea interesgarria gerta dakizukeela uste dut.
+\n
+\n%1$s</string>
+    <string name="share_track_subject">Bide bat partekatu nahi nuke zurekin</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Batez besteko pausoa, mugitzerakoan</string>
+    <string name="stats_average_moving_speed">Batez besteko abiadura, mugitzerakoan</string>
+    <string name="stats_average_pace">Batez besteko pausoa</string>
+    <string name="stats_average_speed">Batez besteko abiadura</string>
+    <string name="stats_altitude">Altitudea</string>
+    <string name="stats_fastest_pace">Pauso-erritmorik bizkorrena</string>
+    <string name="stats_gain">Igoera</string>
+    <string name="stats_latitude">Latitudea</string>
+    <string name="stats_longitude">Longitudea</string>
+    <string name="stats_max_speed">Gehienezko abiadura</string>
+    <string name="stats_moving_time">Abian emandako denbora</string>
+    <string name="stats_pace">Pauso-erritmoa</string>
+    <string name="stats_speed">Abiadura</string>
+    <string name="stats_distance">Distantzia</string>
+    <string name="stats_total_time">Denbora, guztira</string>
+    <!-- Track -->
+    <string name="track_name_format">%1$d. bidea</string>
+    <string name="track_recording_notification_accuracy">Kokapenaren zehaztasuna: %1$s</string>
+    <string name="track_markers">%1$s ibilbideko markatzaileak</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Bidea eta bideko markatzaileak behin betiko ezabatuko dira gailutik.</string>
+    <string name="track_delete_one_confirm_title">Ibilbidea ezabatu nahi duzu?</string>
+    <string name="track_delete_multiple_confirm_message">Hautatutako bidea eta bideko markatzaileak behin betiko ezabatuko dira gailutik.</string>
+    <string name="track_delete_progress_message">Ezabatzen…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Estatistikak</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Jarduera mota (adibidez, mendi-txangoa)</string>
+    <string name="track_edit_activity_type_hint">Jarduera mota</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Hasi hurrengo abentura grabatzen</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">oin</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">mi</string>
+    <string name="unit_mile_per_hour">sopela</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d ft</string>
+    <string name="value_integer_feet_excellent_gps">%1$d ft (GPS bikaina)</string>
+    <string name="value_integer_feet_recommended">%1$d oin (gomendatua)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/h</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (GPS bikaina)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (GPS ahula)</string>
+    <string name="value_integer_meter_recommended">%1$d m (gomendatua)</string>
+    <string name="value_integer_mile">%1$d mi</string>
+    <string name="value_integer_mile_hour">%1$d mi/h</string>
+    <string name="value_integer_minute">%1$d min</string>
+    <string name="value_integer_second">%1$d s</string>
+    <string name="value_none">Bat ere ez</string>
+    <string name="value_off">Desaktibatuta</string>
+    <string name="value_smallest_recommended">Txikiena (gomendatua)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">1 ordu</item>
+        <item quantity="other">%1$d ordu</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">1 minutu</item>
+        <item quantity="other">%1$d minutu</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">1 segundo</item>
+        <item quantity="other">%1$d segundo</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">1 kilometro orduko</item>
+        <item quantity="other">%1$.1f kilometro orduko</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">1 milia orduko</item>
+        <item quantity="other">%1$.1f milia orduko</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s kilometro bakoitzeko</string>
+    <string name="voice_pace_per_mile">%1$s miliako</string>
+    <string name="voice_template">Distantzia: %1$s. Denbora: %2$s. Abiadura: %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">distantzia, guztira: 1 kilometro</item>
+        <item quantity="other">distantzia, guztira: %1$.2f kilometro</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">distantzia, guztira: 1 milia</item>
+        <item quantity="other">distantzia, guztira: %1$.2f milia</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">kutxazaina</string>
+    <string name="waypoint_type_bank">bankua</string>
+    <string name="waypoint_type_bar">taberna</string>
+    <string name="waypoint_type_barbecue">barbakoa</string>
+    <string name="waypoint_type_building">eraikina</string>
+    <string name="waypoint_type_bus_stop">autobus-geltokia</string>
+    <string name="waypoint_type_cafe">kafetegia</string>
+    <string name="waypoint_type_campfire">sua</string>
+    <string name="waypoint_type_campground">kanpina</string>
+    <string name="waypoint_type_church">eliza</string>
+    <string name="waypoint_type_coffee_house">kafetegia</string>
+    <string name="waypoint_type_convenience_store">gau eta egun irekita dagoen denda</string>
+    <string name="waypoint_type_drinking_water">edateko ura</string>
+    <string name="waypoint_type_falling_rocks">harri-jauziak</string>
+    <string name="waypoint_type_ferry">ferrya</string>
+    <string name="waypoint_type_fire_place">tximinia</string>
+    <string name="waypoint_type_fire_station">suhiltzaileak</string>
+    <string name="waypoint_type_fishing">arrantza</string>
+    <string name="waypoint_type_gas_station">gasolindegia</string>
+    <string name="waypoint_type_golf_course">golf-zelaia</string>
+    <string name="waypoint_type_grocery_store">janari-denda</string>
+    <string name="waypoint_type_hair_dresser">ile-apaindegia</string>
+    <string name="waypoint_type_harbor">portua</string>
+    <string name="waypoint_type_hiking_path">mendi-bidea</string>
+    <string name="waypoint_type_hotel">hotela</string>
+    <string name="waypoint_type_house">etxea</string>
+    <string name="waypoint_type_information">informazioa</string>
+    <string name="waypoint_type_intersection">bidegurutzea</string>
+    <string name="waypoint_type_mail_box">postontzia</string>
+    <string name="waypoint_type_market">azoka</string>
+    <string name="waypoint_type_meeting_point">topagunea</string>
+    <string name="waypoint_type_opera">opera</string>
+    <string name="waypoint_type_parking">aparkalekua</string>
+    <string name="waypoint_type_police_station">koartela</string>
+    <string name="waypoint_type_post_office">postetxea</string>
+    <string name="waypoint_type_pothole">bideko zuloa</string>
+    <string name="waypoint_type_railway_crossing">trenbide-pasagunea</string>
+    <string name="waypoint_type_restaurant">jatetxea</string>
+    <string name="waypoint_type_shopping">erosketak</string>
+    <string name="waypoint_type_sight">bista</string>
+    <string name="waypoint_type_store">denda</string>
+    <string name="waypoint_type_swimming_pool">igerilekua</string>
+    <string name="waypoint_type_telephone">telefonoa</string>
+    <string name="waypoint_type_theater">antzokia</string>
+    <string name="waypoint_type_toilet">komunak</string>
+    <string name="waypoint_type_tourist_information">turismo-informazioa</string>
+    <string name="waypoint_type_tree">zuhaitza</string>
+    <string name="waypoint_type_tunnel">tunela</string>
+    <string name="waypoint_type_waterfall">ur-jauzia</string>
+    <string name="waypoint_type_water_fountain">iturria</string>
+    <string name="waypoint_type_waypoint">bideko puntua</string>
+    <!-- Share image -->
+    <string name="share_image_subject">Irudi bat zurekin partekatu nahi nuke</string>
+    <string name="share_image_body">Irudi hau interesatuko zaizuela uste dut.</string>
+    <string name="open_track_as_KML">Ireki gisa KML</string>
+    <string name="open_track_as_trackfileformat">Ireki gisa %1$s</string>
+    <string name="activity_type_escooter">eskooterra</string>
+    <string name="settings_recording_fullscreen_on_while_recording_summary">Grabatzen ari zaren bitartean, pantaila osoan ikusi.</string>
+    <string name="settings_recording_fullscreen_on_while_recording_title">Pantaila osoa</string>
+    <string name="settings_default_export_uri_title">Track esportazio-direktorioa</string>
+    <string name="instant_export_enabled_title">Berehalako post-entrenamendu esportatu</string>
+    <string name="instant_export_enabled_summary">Esportazio-pista biltegiratze ondoren grabaketa amaitu da</string>
+    <string name="interval_list_empty_message">Ez dira edozein tarte oraindik</string>
+    <string name="aggregated_stats_empty_message">Grabatu zure lehen pista ikusteko batzen estatistikak</string>
+    <string name="open_track_as_GPX">Ireki gisa GPX</string>
+    <string name="description_altitude_loss">Kota galera: %1$d m (%2$d ft)</string>
+    <string name="export_error_post_workout">Post-entrenamendu esportazio huts egin du, mesedez, egiaztatu esportazio direktorioa.</string>
+    <string name="export_progress_summary_new_msg">Pista berriak esportatutako</string>
+    <string name="export_progress_summary_overwrite_msg">Ibilbideak gainidatzi</string>
+    <string name="generic_overwrite">Gainidatzi</string>
+    <string name="generic_separator_done_total">/</string>
+    <string name="settings_sensor_wheel_circumference">Gurpila zirkunferentzia (mm)</string>
+    <string name="sensor_state_heart_rate_max">Max Bihotzean tasa</string>
+    <string name="import_thread_interrupted">Haria eten</string>
+    <string name="import_unsupported_format">Onartzen ez den fitxategi-formatua</string>
+    <string name="import_progress_summary_ok_msg">Fitxategiak inportatu</string>
+    <string name="export_track_already_exists_msg">Pista %1$s dagoeneko existitzen helmugara direktorioa.</string>
+    <string name="export_all_do_it_for_all">ez da gatazka guztiak</string>
+    <string name="export_track_errors">Ibilbideak ez esportatutako</string>
+    <string name="settings_prevent_reimport_tracks_title">Saihesteko re-inportazio ibilbideak</string>
+    <plurals name="generic_completed_with_errors">
+        <item quantity="one">Osatu bat errorea</item>
+        <item quantity="other">Bukatu %1$d akatsak</item>
+    </plurals>
+    <string name="sensor_state_heart_rate_avg">Avg Bihotzean tasa</string>
+    <string name="sensor_state_cadence_max">Max Kadentzia</string>
+    <string name="sensor_state_cadence_avg">Avg Kadentzia</string>
+    <string name="settings_default_trackfileformat">Export/partekatzea fitxategi-formatua</string>
+    <string name="settings_night_mode_title">UI Gaia</string>
+    <string name="settings_night_mode_option_system">Sistema</string>
+    <string name="settings_night_mode_option_day">Egun</string>
+    <string name="settings_night_mode_option_night">Gauean</string>
+    <string name="sensor_state_power_avg">Avg Boterea</string>
+    <string name="track_detail_intervals_tab">Tarteak</string>
+    <string name="stats_split_interval">Zatitu tarte</string>
+    <string name="stats_loss">Galera</string>
+    <string name="voice_pace_lap">Itzulian-denbora %1$s</string>
+    <string name="voice_speed_lap">Itzulian abiadura %1$s</string>
+    <string name="hold_to_pause">Eutsi eteteko</string>
+    <string name="hold_to_stop">Eutsi gelditzeko</string>
+    <string name="export_progress_summary_skip_msg">Ibilbideak saltatu</string>
+    <string name="export_progress_summary_errors_msg">Akatsak</string>
+    <string name="generic_open_track">Ireki Track</string>
+    <string name="generic_skip">Saltatzeko</string>
+    <string name="generic_show_errors">Erakutsi Akatsak</string>
+    <string name="generic_completed">Bukatu</string>
+    <string name="generic_click_twice_cancel">Egin klik berriro bertan behera uzteko</string>
+    <string name="gps_disabled_msg">GPS egokitua</string>
+    <string name="import_progress_summary_errors_msg">Akatsak</string>
+    <string name="import_parser_error">Analizatzailea errorea: %1$s</string>
+    <string name="import_unable_to_import_file">Ezin izan da inportazio fitxategia: %1$s</string>
+    <string name="import_no_kml_file_found">Ez doc.kml fitxategia aurkitu KMZ</string>
+    <string name="import_error_info">%1$s: %2$s</string>
+    <string name="import_progress_summary_exists_msg">Dagoeneko existitzen da</string>
+    <string name="import_prevent_reimport">Ezarri duzu saihesteko re-import track</string>
+    <string name="import_file_imported">File %1$s inportatutako</string>
+    <string name="import_error_list_dialog_title">Fitxategiak ez inportatutako</string>
+    <string name="gps_fixed_and_ready">GPS konpondu eta prest</string>
+    <string name="track_distance_notification">Distantzia: %1$s</string>
+    <string name="track_speed_notification">Abiadura: %1$s</string>
+    <string name="track_pace_notification">Erritmoa: %1$s</string>
+    <string name="about_third_party_data">Hirugarrenen datuak</string>
+    <string name="delete_service">Ezabatzeko zerbitzua</string>
+    <string name="track_delete_progress">%1$d/%2$d</string>
+    <string name="menu_voice_rate">Ahots abiadura</string>
+    <string name="track_delete_not_recording">Pista hau ezin da ezabatu da gaur egun grabatzen.</string>
+    <string name="settings_sensor_cycling_cadence">Txirrindularitza: kadentzia</string>
+    <string name="settings_sensor_cycling_distance_speed">Txirrindularitza: distantzia eta abiadura</string>
+    <string name="settings_sensor_running_speed_and_cadence">Korrika: distantzia, abiadura, eta kadentzia</string>
+</resources>

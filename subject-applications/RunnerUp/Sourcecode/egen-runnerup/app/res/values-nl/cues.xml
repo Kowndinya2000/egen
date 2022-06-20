@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--~ Copyright (C) 2014 jonas.oreland@gmail.com
+  ~
+  ~  This program is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
+  <string name="cue_activity">activiteit</string>
+  <string name="cue_interval">interval</string>
+  <string name="cue_lap">ronde</string>
+  <string name="cue_warmup">warming-up</string>
+  <string name="cue_cooldown">cooling-down</string>
+  <string name="cue_current">huidige</string>
+  <string name="cue_perkilometer">per kilometer</string>
+  <string name="cue_permile">per mijl</string>
+  <string name="cue_started">gestart</string>
+  <string name="cue_paused">gepauzeerd</string>
+  <string name="cue_resumed">hervatten</string>
+  <string name="cue_stopped">gestopt</string>
+  <string name="cue_completed">afgerond</string>
+  <string name="cue_speedup">versnellen</string>
+  <string name="cue_slowdown">vertragen</string>
+  <plurals name="cue_hour">
+    <item quantity="one">%d uur</item>
+    <item quantity="other">%d uren</item>
+  </plurals>
+  <plurals name="cue_minute">
+    <item quantity="one">%d minuut</item>
+    <item quantity="other">%d minuten</item>
+  </plurals>
+  <plurals name="cue_second">
+    <item quantity="one">%d seconde</item>
+    <item quantity="other">%d seconden</item>
+  </plurals>
+  <plurals name="cue_meter">
+    <item quantity="one">%d meter</item>
+    <item quantity="other">%d meters</item>
+  </plurals>
+  <plurals name="cue_kilometer">
+    <item quantity="one">%s kilometer</item>
+    <item quantity="other">%s kilometers</item>
+  </plurals>
+  <plurals name="cue_mile">
+    <item quantity="one">%s mijl</item>
+    <item quantity="other">%s mijlen</item>
+  </plurals>
+  <plurals name="cue_bpm">
+    <item quantity="one">%d bpm</item>
+    <item quantity="other">%d bpm</item>
+  </plurals>
+  <string name="cue_activity_paused">activiteit gepauzeerd</string>
+  <string name="cue_activity_resumed">activiteit hervat</string>
+  <string name="cue_activity_stopped">activiteit gestopt</string>
+  <string name="cue_lap_started">ronde gestart</string>
+  <string name="cue_lap_completed">ronde beeindigd</string>
+  <string name="cue_warmup_started">opwarming gestart</string>
+  <string name="cue_cooldown_started">afkoeling gestart</string>
+</resources>

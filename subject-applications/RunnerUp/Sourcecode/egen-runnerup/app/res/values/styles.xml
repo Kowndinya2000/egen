@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2012 - 2013 jonas.oreland@gmail.com
+  ~
+  ~  This program is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  This program is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="MainLayoutTheme" parent="AppTheme.NoActionBar">
+        <item name="android:tabWidgetStyle">@style/BottomNavigationTabWidget</item>
+    </style>
+
+    <style name="ButtonText" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/btn_text_color</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="RunHeader" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="RunInfo" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="BottomNavigationTabWidget" parent="android:Widget.TabWidget">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="divider">@null</item>
+        <item name="android:gravity">fill_horizontal|center_vertical</item>
+    </style>
+
+    <style name="BottomNavigationTabText" tools:ignore="UnusedResources">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/bottom_tabs</item>
+    </style>
+
+    <style name="AccountListText">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppBarStatisticsText">
+        <item name="fontFamily" tools:ignore="NewApi">@string/fontFamily_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ListItem">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="ListDescription">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="ListCategoryHeading">
+        <item name="fontFamily" tools:ignore="NewApi">@string/fontFamily_medium</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CardAnnotation">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="CardParagraph">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="StatusText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+</resources>

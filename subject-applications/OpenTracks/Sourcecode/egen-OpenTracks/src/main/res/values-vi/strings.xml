@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">máy bay</string>
+    <string name="activity_type_atv">ATV</string>
+    <string name="activity_type_biking">đi xe đạp</string>
+    <string name="activity_type_blimp">khí cầu nhỏ</string>
+    <string name="activity_type_boat">thuyền</string>
+    <string name="activity_type_climbing">leo núi</string>
+    <string name="activity_type_commercial_airplane">máy bay thương mại</string>
+    <string name="activity_type_cross_country_skiing">Trượt tuyết băng đồng</string>
+    <string name="activity_type_cycling">đi xe đạp</string>
+    <string name="activity_type_dirt_bike">đi xe đạp địa hình</string>
+    <string name="activity_type_donkey_back_riding">cưỡi lừa</string>
+    <string name="activity_type_driving">lái xe</string>
+    <string name="activity_type_driving_bus">lái xe buýt</string>
+    <string name="activity_type_driving_car">lái xe ô tô</string>
+    <string name="activity_type_ferry">phà</string>
+    <string name="activity_type_frisbee">dĩa nhựa</string>
+    <string name="activity_type_gliding">đi tàu lượn</string>
+    <string name="activity_type_hang_gliding">đi diều lượn</string>
+    <string name="activity_type_helicopter">máy bay trực thăng</string>
+    <string name="activity_type_hiking">đi bộ đường dài</string>
+    <string name="activity_type_horse_back_riding">cưỡi ngựa</string>
+    <string name="activity_type_hot_air_balloon">khinh khí cầu</string>
+    <string name="activity_type_ice_sailing">đi thuyền trên băng</string>
+    <string name="activity_type_inline_skating">trượt băng bằng giày 1 hàng bánh</string>
+    <string name="activity_type_kayaking">bơi xuồng caiac</string>
+    <string name="activity_type_kite_surfing">lướt ván dù</string>
+    <string name="activity_type_land_sailing">đi thuyền trên cát</string>
+    <string name="activity_type_mixed_type">kết hợp</string>
+    <string name="activity_type_motor_bike">đi xe máy</string>
+    <string name="activity_type_motor_boating">đi thuyền máy</string>
+    <string name="activity_type_mountain_biking">đi xe đạp leo núi</string>
+    <string name="activity_type_off_trail_hiking">đi bộ không theo đường mòn</string>
+    <string name="activity_type_other">hoạt động khác</string>
+    <string name="activity_type_paddling">chèo xuồng</string>
+    <string name="activity_type_para_gliding">dù lượn</string>
+    <string name="activity_type_rc_airplane">máy bay điều khiển từ xa</string>
+    <string name="activity_type_rc_boat">thuyền điều khiển từ xa</string>
+    <string name="activity_type_rc_helicopter">máy bay trực thăng điều khiển từ xa</string>
+    <string name="activity_type_riding">cưỡi ngựa</string>
+    <string name="activity_type_road_biking">đi xe đạp theo đường lớn</string>
+    <string name="activity_type_roller_skiing">trượt tuyết kiểu patanh</string>
+    <string name="activity_type_rowing">chèo thuyền</string>
+    <string name="activity_type_running">chạy</string>
+    <string name="activity_type_sailing">bơi thuyền</string>
+    <string name="activity_type_seaplane">thủy phi cơ</string>
+    <string name="activity_type_skate_boarding">trượt ván</string>
+    <string name="activity_type_skating">trượt băng</string>
+    <string name="activity_type_skiing">trượt tuyết</string>
+    <string name="activity_type_sky_jumping">nhảy xki</string>
+    <string name="activity_type_sled">đi xe trượt tuyết</string>
+    <string name="activity_type_snow_boarding">trượt tuyết bằng ván</string>
+    <string name="activity_type_snow_shoeing">trượt tuyết bằng giày có liếp</string>
+    <string name="activity_type_speed_walking">đi bộ nhanh</string>
+    <string name="activity_type_street_running">chạy theo đường</string>
+    <string name="activity_type_surfing">lướt sóng</string>
+    <string name="activity_type_track_cycling">đi xe đạp theo tuyến</string>
+    <string name="activity_type_track_running">chạy theo tuyến</string>
+    <string name="activity_type_trail_hiking">đi bộ theo đường mòn</string>
+    <string name="activity_type_trail_running">chạy theo đường mòn</string>
+    <string name="activity_type_train">tàu hỏa</string>
+    <string name="activity_type_ultimate_frisbee">trò chơi bằng đĩa nhựa</string>
+    <string name="activity_type_unknown">không xác định</string>
+    <string name="activity_type_wakeboarding">lướt sóng</string>
+    <string name="activity_type_walking">đi bộ</string>
+    <string name="activity_type_water_skiing">lướt ván nước</string>
+    <string name="activity_type_wind_surfing">lướt ván buồm</string>
+    <!-- Description -->
+    <string name="description_activity_type">Loại hoạt động: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Nhịp độ di chuyển bình quân: %1$s phút/km (%2$s phút/dặm)</string>
+    <string name="description_average_moving_speed">Tốc độ di chuyển trung bình: %1$.2f km/h (%2$.1f dặm/h)</string>
+    <string name="description_average_pace_in_minute">Nhịp độ bình quân: %1$s phút/km (%2$s phút/dặm)</string>
+    <string name="description_average_speed">Tốc độ trung bình: %1$.2f km/h (%2$.1f dặm/h)</string>
+    <string name="description_altitude_gain">Hệ số độ cao: %1$d m (%2$d ft)</string>
+    <string name="description_altitude_imperial">Độ cao (ft)</string>
+    <string name="description_altitude_metric">Độ cao (m)</string>
+    <string name="description_fastest_pace_in_minute">Nhịp độ nhanh nhất: %1$s phút/km (%2$s phút/dặm)</string>
+    <string name="description_max_altitude">Độ cao tối đa: %1$d m (%2$d ft)</string>
+    <string name="description_max_speed">Tốc độ tối đa: %1$.2f km/h (%2$.1f dặm/h)</string>
+    <string name="description_min_altitude">Độ cao tối thiểu: %1$d m (%2$d ft)</string>
+    <string name="description_moving_time">Thời gian di chuyển: %1$s</string>
+    <string name="description_pace_imperial">Nhịp độ (phút/dặm)</string>
+    <string name="description_pace_metric">Nhịp độ (phút/km)</string>
+    <string name="description_recorded_time">Đã lưu lại: %1$s</string>
+    <string name="description_speed_ms">Tốc độ (m/s)</string>
+    <string name="description_sensor_cadence">Nhịp (vòng/phút)</string>
+    <string name="description_sensor_heart_rate">Nhịp tim (lần/phút)</string>
+    <string name="description_sensor_power">Công suất (W)</string>
+    <string name="description_speed_imperial">Tốc độ (dặm/giờ)</string>
+    <string name="description_speed_metric">Tốc độ (km/giờ)</string>
+    <string name="description_time">Thời gian</string>
+    <string name="description_total_distance">Tổng khoảng cách: %1$.2f km (%2$.1f dặm)</string>
+    <string name="description_total_time">Tổng thời gian: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">Đang xuất sang %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="other">%1$d tệp</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Thêm</string>
+    <string name="generic_delete_selected_confirm_title">Xóa phần được chọn?</string>
+    <string name="generic_description">Mô tả</string>
+    <string name="generic_description_line">Mô tả: %1$s</string>
+    <string name="generic_name">Tên</string>
+    <string name="generic_name_line">Tên: %1$s</string>
+    <string name="generic_paused">Đã tạm dừng</string>
+    <string name="generic_recording">Đang ghi…</string>
+    <string name="generic_save">Lưu</string>
+    <string name="generic_tracks">Đường đi</string>
+    <!-- Gps -->
+    <string name="gps_starting">Đang khởi động GPS</string>
+    <string name="gps_wait_for_better_signal">Đang chờ tín hiệu GPS tốt hơn</string>
+    <string name="gps_wait_for_signal">Đang chờ tín hiệu GPS</string>
+    <!-- Image -->
+    <string name="image_arrow">Mũi tên</string>
+    <string name="image_marker">Điểm đánh dấu</string>
+    <string name="image_marker_count">Số lượng điểm đánh dấu</string>
+    <string name="image_pause">Tạm dừng</string>
+    <string name="image_photo_marker">Điểm đánh dấu ảnh</string>
+    <string name="image_record">Ghi</string>
+    <string name="image_stop">Dừng</string>
+    <string name="image_track">Đường đi</string>
+    <!-- Import -->
+    <string name="import_progress_message">Đang nhập từ %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Không thể chèn điểm đánh dấu. Không có tín hiệu GPS. Hãy thử lại.</string>
+    <string name="marker_add_success">Đã chèn vào một điểm đánh dấu</string>
+    <string name="marker_add_canceled">Đã hủy, điểm đánh dấu chưa được thêm vào</string>
+    <string name="marker_delete_one_confirm_message">Điểm đánh dấu sẽ bị xóa vĩnh viễn khỏi thiết bị</string>
+    <string name="marker_delete_one_confirm_title">Xóa điểm đánh dấu?</string>
+    <string name="marker_delete_multiple_confirm_message">Điểm đánh dấu đã chọn sẽ bị xóa vĩnh viễn khỏi thiết bị</string>
+    <string name="marker_name_format">Điểm đánh dấu %1$d</string>
+    <string name="marker_title">%1$d / %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Loại điểm đánh dấu (ví dụ: thác nước)</string>
+    <string name="marker_edit_marker_type_hint">Loại điểm đánh dấu</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Bạn không có bất kỳ điểm đánh dấu nào</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Số liệu thống kê tổng hợp</string>
+    <string name="menu_delete">Xóa</string>
+    <string name="menu_edit">Chỉnh sửa</string>
+    <string name="menu_export_all">Xuất tất cả</string>
+    <string name="menu_help">Trợ giúp</string>
+    <string name="menu_import_all">Nhập tất cả</string>
+    <string name="menu_insert_marker">Chèn điểm đánh dấu</string>
+    <string name="menu_insert_photo">Chèn ảnh</string>
+    <string name="menu_markers">Điểm đánh dấu</string>
+    <string name="menu_search">Tìm kiếm</string>
+    <string name="menu_select_all">Chọn tất cả</string>
+    <string name="menu_settings">Cài đặt</string>
+    <string name="menu_share">Chia sẻ</string>
+    <string name="menu_show_on_map">Hiển thị trên bản đồ</string>
+    <string name="menu_start_gps">Bắt đầu GPS</string>
+    <string name="menu_stop_gps">Dừng GPS</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Dịch vụ ghi</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Mức pin</string>
+    <string name="sensor_state_cadence">Nhịp</string>
+    <string name="sensor_state_cadence_value">%1$d vòng/phút</string>
+    <string name="sensor_state_heart_rate">Nhịp tim</string>
+    <string name="sensor_state_heart_rate_value">%1$d nhịp đập/phút</string>
+    <string name="sensor_state_power">Công suất</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">Không khả dụng khi đang ghi tuyến đường</string>
+    <string name="settings_show">Hiển thị</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Nâng cao</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Theo khoảng cách</string>
+    <string name="settings_chart_by_time">Theo thời gian</string>
+    <string name="settings_recording">Ghi tuyến đường</string>
+    <string name="settings_recording_default_activity_title">Loại hoạt động mặc định</string>
+    <string name="settings_recording_location_frequency_summary">%1$s giữa các vị trí được ghi</string>
+    <string name="settings_recording_max_recording_distance_summary">Một đoạn mới được tạo nếu khoảng cách giữa hai vị trí lớn hơn %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">Khoảng cách tối đa</string>
+    <string name="settings_recording_min_recording_distance_title">Khoảng cách ghi</string>
+    <string name="settings_recording_min_recording_interval_title">Khoảng thời gian ghi</string>
+    <string name="settings_recording_min_required_accuracy_summary">Vị trí được bỏ qua nếu độ chính xác của vị trí nhỏ hơn %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">Độ chính xác của GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Ngày (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Ngày (địa phương)</string>
+    <string name="settings_recording_track_name_number_option">Số</string>
+    <string name="settings_recording_track_name_title">Tên mặc định của tuyến đường</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Đặt lại</string>
+    <string name="settings_reset_confirm_message">Tất cả cài đặt của bạn sẽ được hoàn nguyên về giá trị mặc định.</string>
+    <string name="settings_reset_confirm_title">Đặt lại bây giờ?</string>
+    <string name="settings_reset_done">Tất cả cài đặt đã được hoàn nguyên về giá trị mặc định</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Tốc độ ưa thích</string>
+    <string name="settings_stats_units_imperial">Hệ đo lường Anh (mi, ft)</string>
+    <string name="settings_stats_units_metric">Hệ mét (km, m)</string>
+    <string name="settings_stats_units_title">Đơn vị ưa thích</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Tôi nghĩ bạn có thể sẽ quan tâm đến tuyến đường này.
+\n
+\n%1$s</string>
+    <string name="share_track_subject">Tôi muốn chia sẻ một tuyến đường với bạn</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Nhịp độ di chuyển trung bình</string>
+    <string name="stats_average_moving_speed">Tốc độ di chuyển trung bình</string>
+    <string name="stats_average_pace">Nhịp độ trung bình</string>
+    <string name="stats_average_speed">Tốc độ trung bình</string>
+    <string name="stats_altitude">Độ cao</string>
+    <string name="stats_fastest_pace">Nhịp độ nhanh nhất</string>
+    <string name="stats_gain">Tăng</string>
+    <string name="stats_latitude">Vĩ độ</string>
+    <string name="stats_longitude">Kinh độ</string>
+    <string name="stats_max_speed">Tốc độ tối đa</string>
+    <string name="stats_moving_time">Thời gian di chuyển</string>
+    <string name="stats_pace">Nhịp độ</string>
+    <string name="stats_speed">Tốc độ</string>
+    <string name="stats_distance">Khoảng cách</string>
+    <string name="stats_total_time">Tổng thời gian</string>
+    <!-- Track -->
+    <string name="track_name_format">Tuyến đường %1$d</string>
+    <string name="track_markers">%1$s Điểm đánh dấu</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Tuyến đường và các điểm đánh dấu của nó sẽ bị xóa vĩnh viễn khỏi thiết bị.</string>
+    <string name="track_delete_one_confirm_title">Xóa tuyến đường\?</string>
+    <string name="track_delete_multiple_confirm_message">Các tuyến đường được chọn và điểm đánh dấu của chúng sẽ bị xóa vĩnh viễn khỏi thiết bị.</string>
+    <string name="track_delete_progress_message">Đang xóa…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Thống kê</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Loại hoạt động (ví dụ: đi bộ đường dài)</string>
+    <string name="track_edit_activity_type_hint">Loại hoạt động</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Bắt đầu ghi lại cuộc phiêu lưu tiếp theo của bạn ở đây</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">ft</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">dặm</string>
+    <string name="unit_mile_per_hour">dặm/giờ</string>
+    <string name="unit_minute_per_kilometer">phút/km</string>
+    <string name="unit_minute_per_mile">phút/dặm</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d ft</string>
+    <string name="value_integer_feet_excellent_gps">%1$d ft (tín hiệu GPS tốt)</string>
+    <string name="value_integer_feet_recommended">%1$d ft (được đề nghị)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/giờ</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (tín hiệu GPS tốt)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (tín hiệu GPS xấu)</string>
+    <string name="value_integer_meter_recommended">%1$d m (được đề nghị)</string>
+    <string name="value_integer_mile">%1$d dặm</string>
+    <string name="value_integer_mile_hour">%1$d dặm/giờ</string>
+    <string name="value_integer_minute">%1$d phút</string>
+    <string name="value_integer_second">%1$d giây</string>
+    <string name="value_none">Không có</string>
+    <string name="value_off">Tắt</string>
+    <string name="value_smallest_recommended">Nhỏ nhất (được đề nghị)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="other">%1$d giây</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="other">%1$.1f ki lô mét mỗi giờ</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="other">%1$.1f dặm mỗi giờ</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s mỗi ki lô mét</string>
+    <string name="voice_pace_per_mile">%1$s mỗi dặm</string>
+    <string name="voice_template">%1$s trong %2$s tại %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="other">tổng khoảng cách là %1$.2f ki lô mét</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="other">tổng khoảng cách là %1$.2f dặm</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">ATM</string>
+    <string name="waypoint_type_bank">ngân hàng</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">món nướng</string>
+    <string name="waypoint_type_building">tòa nhà</string>
+    <string name="waypoint_type_bus_stop">điểm dừng xe buýt</string>
+    <string name="waypoint_type_cafe">quán cà phê</string>
+    <string name="waypoint_type_campfire">lửa trại</string>
+    <string name="waypoint_type_campground">khu cắm trại</string>
+    <string name="waypoint_type_church">nhà thờ</string>
+    <string name="waypoint_type_coffee_house">quán cà phê</string>
+    <string name="waypoint_type_convenience_store">cửa hàng tiện lợi</string>
+    <string name="waypoint_type_drinking_water">nước uống</string>
+    <string name="waypoint_type_falling_rocks">đá rơi</string>
+    <string name="waypoint_type_ferry">phà</string>
+    <string name="waypoint_type_fire_place">lò sưởi</string>
+    <string name="waypoint_type_fire_station">trạm cứu hoả</string>
+    <string name="waypoint_type_fishing">câu cá</string>
+    <string name="waypoint_type_gas_station">cửa hàng gas</string>
+    <string name="waypoint_type_golf_course">sân gôn</string>
+    <string name="waypoint_type_grocery_store">cửa hàng tạp hoá</string>
+    <string name="waypoint_type_hair_dresser">thợ làm tóc</string>
+    <string name="waypoint_type_harbor">cảng</string>
+    <string name="waypoint_type_hiking_path">lối đi bộ đường dài</string>
+    <string name="waypoint_type_hotel">khách sạn</string>
+    <string name="waypoint_type_house">nhà</string>
+    <string name="waypoint_type_information">thông tin</string>
+    <string name="waypoint_type_intersection">giao lộ</string>
+    <string name="waypoint_type_mail_box">hộp thư</string>
+    <string name="waypoint_type_market">chợ</string>
+    <string name="waypoint_type_meeting_point">điểm nối</string>
+    <string name="waypoint_type_opera">opera</string>
+    <string name="waypoint_type_parking">bãi đỗ xe</string>
+    <string name="waypoint_type_police_station">đồn cảnh sát</string>
+    <string name="waypoint_type_post_office">bưu điện</string>
+    <string name="waypoint_type_pothole">ổ gà</string>
+    <string name="waypoint_type_railway_crossing">băng qua đường sắt</string>
+    <string name="waypoint_type_restaurant">nhà hàng</string>
+    <string name="waypoint_type_shopping">mua sắm</string>
+    <string name="waypoint_type_sight">tầm nhìn</string>
+    <string name="waypoint_type_store">cửa hàng</string>
+    <string name="waypoint_type_swimming_pool">bể bơi</string>
+    <string name="waypoint_type_telephone">điện thoại</string>
+    <string name="waypoint_type_theater">nhà hát</string>
+    <string name="waypoint_type_toilet">phòng vệ sinh</string>
+    <string name="waypoint_type_tourist_information">thông tin du lịch</string>
+    <string name="waypoint_type_tree">cây</string>
+    <string name="waypoint_type_tunnel">đường hầm</string>
+    <string name="waypoint_type_waterfall">thác nước</string>
+    <string name="waypoint_type_water_fountain">đài phun nước</string>
+    <string name="waypoint_type_waypoint">điểm tham chiếu</string>
+    <string name="about_preference_title">Về OpenTracks</string>
+    <string name="about_version_name">Tên phiên bản: %1$s</string>
+    <string name="about_version_code">Mã phiên bản: %1$d</string>
+    <string name="about_libraries">Thư viện</string>
+    <string name="help_feature_title">OpenTracks có những tính năng sau đây:</string>
+    <string name="help_storage_pictures_content">Chúng được lưu trữ trong bộ nhớ trong của ứng dụng (vd: chỉ truy cập được từ trong OpenTracks).</string>
+    <string name="help_data_google_play_services_title">OpenTracks có yêu cầu/sử dụng Dịch vụ Google Play không\?</string>
+    <string name="help_recording_title">OpenTracks ghi lại dữ liệu như thế nào\?</string>
+    <string name="about_description"><i>OpenTracks</i> là một ứng dụng theo dõi thể thao hoàn toàn tôn trọng sự riêng tư của bạn.</string>
+    <string name="about_url">Trang web của dự án: <a href="%1$s">%1$s</a></string>
+    <string name="about_history">OpenTracks là một fork của <a href="https://code.google.com/archive/p/mytracks/"><i>MyTracks của Google</i></a> (bị ngừng tiếp tục vào năm 2016).</string>
+    <string name="help_feature_content">* tạo các tuyến đường GPS
+\n* sử dụng cảm biến nhịp tim (chỉ Bluetooth LE)
+\n* tuyên bố bằng giọng nói (thời gian hoặc khoảng cách)
+\n* tạo đánh dấu (bao gồm hình ảnh)
+\n* hoạt động hoàn toàn ngoại tuyến
+\n* hiện đường đi trên bản đồ (xem bên dưới)</string>
+    <string name="help_track_map_title">Hiện tuyến đường trên bản đồ như thế nào\?</string>
+    <string name="about_third_party_data">Dữ liệu bên thứ ba</string>
+    <string name="help_storage_pictures_title">OpenTracks lưu trữ các ảnh được chụp làm đánh dấu như thế nào\?</string>
+    <string name="generic_show_errors">Hiện lỗi</string>
+    <string name="open_track_as_trackfileformat">Mở dưới dạng %1$s</string>
+    <string name="export_track_errors">Tuyến đường không được xuất</string>
+    <string name="delete_service">Dịch vụ xóa</string>
+    <string name="export_progress_summary_new_msg">Đã xuất tuyến đường mới</string>
+    <string name="generic_overwrite">Ghi đè</string>
+    <string name="menu_voice_rate">Tốc độ giọng nói</string>
+    <string name="open_track_as_GPX">Mở dưới dạng GPX</string>
+    <string name="help_recording_content">OpenTracks sử dụng cảm biến GPS của thiết bị để liên tục ghi lại vị trí. Nếu thiết bị GPS báo cáo dữ liệu không chính xác (vd: vị trí, tốc độ, độ cao), OpenTracks không thể làm gì để khắc phục cả.</string>
+    <string name="gps_fixed_and_ready">GPS đã xác định và sẵn sàng</string>
+    <string name="generic_skip">Bỏ qua</string>
+    <string name="import_unsupported_format">Định dạng tệp không được hỗ trợ</string>
+    <string name="import_prevent_reimport">Bạn đã đặt ngăn chặn nhập lại tuyến đường</string>
+    <string name="import_parser_error">Lỗi xử lý: %1$s</string>
+    <string name="help_gps_troubleshooting_content"> Những gì bạn có thể làm:
+\n a) kiểm tra xem GPS có được bật không,
+\n b) cải thiện việc nhận GPS (vd: đi ra ngoài trời),
+\n c) kiểm tra bằng ứng dụng <a href="https://f-droid.org/en/packages/com.android.gpstest.osmdroid/">GPSTest</a>, và
+\n d) tắt tiết kiệm pin.
+\n
+\n Nếu mọi thứ đều không được, vui lòng báo cáo lỗi. </string>
+    <string name="export_with_photos">có ảnh</string>
+    <string name="import_unable_to_import_file">Không thể nhập tệp: %1$s</string>
+    <string name="open_track_as_KML">Mở dưới dạng KML</string>
+    <string name="generic_separator_done_total">/</string>
+    <string name="menu_insert_gallery_img">Chèn ảnh thư viện</string>
+    <string name="import_progress_summary_errors_msg">Lỗi</string>
+    <string name="gps_disabled_msg">GPS đã tắt</string>
+    <string name="import_progress_summary_ok_msg">Đã nhập tệp</string>
+    <string name="menu_resume_track">Tiếp tục tuyến đường</string>
+    <string name="import_error_list_dialog_title">Tệp không được nhập</string>
+    <string name="import_thread_interrupted">Thread đã bị gián đoạn</string>
+    <string name="help_track_map_content"> Sử dụng biểu tượng bản đồ nhỏ.
+\n a) (cập nhật trực tiếp) Cài đặt <a href="https://github.com/OpenTracksApp/OSMDashboard">OSMDashboard</a>. Nó cung cấp các bản đồ trực tuyến hoặc ngoại tuyến qua <a href="https://www.openstreetmap.org">OpenStreetMap</a>.
+\n Thực ra, OSMDashboard là một ứng dụng riêng biệt chỉ có thể truy cập (tạm thời) dữ liệu của (các) tuyến đường sẽ được hiện.
+\n b) Qua một ứng dụng bản đồ bình thường (vd: <a href="http://osmand.net/">OsmAnd</a> và <a href="https://maps.me/">MAPS.ME</a>). Các ứng dụng này cần phải hỗ trợ định dạng tệp KMZ (chỉ có vị trí và dấu thời gian). Thực tế, một ứng dụng cần phải hỗ trợ <i>ACTION_VIEW</i> với MIME <i>application/vnd.google-earth.kmz</i>. </string>
+    <string name="help_track_export_title">Tôi có thể xuất/chia sẻ các tuyến đường đã ghi lại như thế nào\?</string>
+    <string name="generic_open_track">Mở tuyến đường</string>
+    <string name="help_track_export_content"> Các tuyến đường có thể được xuất từ Cài đặt dưới dạng KMZ, KML, hoặc GPX. KMZ/KML tất cả dữ liệu; GPX chỉ có vị trí. Các tuyến đường được chia sẻ qua <i>biểu tượng chia sẻ</i> được chia sẻ dưới dạng KMZ. </string>
+    <string name="help_gps_troubleshooting_title">OpenTracks đang không ghi lại vị trí\?</string>
+    <string name="help_support_content"> Bạn có thể:
+\n a) cho người khác biết về OpenTracks,
+\n b) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">đề nghị các tính năng</a>,
+\n c) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">báo cáo lỗi</a>,
+\n d) giúp đỡ trong việc phát triển phần mềm,
+\n e) mua trong <a href="https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore">CH Play</a>,
+\n f) ủng hộ, và
+\n g) làm những gì bạn nghĩ là sẽ giúp đỡ OpenTracks. </string>
+    <string name="description_altitude_loss">Giảm độ cao: %1$d m (%2$d ft)</string>
+    <string name="generic_click_twice_cancel">Nhấn quay lại lần nữa để hủy</string>
+    <string name="export_progress_summary_skip_msg">Đã bỏ qua tuyến đường</string>
+    <string name="help_data_storage_title">OpenTracks lưu trữ dữ liệu cảm biến như thế nào\?</string>
+    <string name="export_all_do_it_for_all">thực hiện cho tất cả xung đột</string>
+    <string name="import_error_info">%1$s: %2$s</string>
+    <string name="description_default_speed_or_pace">Theo loại hoạt động</string>
+    <string name="export_error_post_workout">Xuất sau thể dục thất bại, vui lòng kiểm tra thư mục xuất.</string>
+    <string name="import_progress_summary_exists_msg">Đã tồn tại</string>
+    <string name="export_progress_summary_overwrite_msg">Đã ghi đè tuyến đường</string>
+    <string name="export_track_already_exists_msg">Tuyến đường %1$s đã tồn tại trong thư mục đích.</string>
+    <string name="export_without_photos">không có ảnh</string>
+    <string name="help_support_title">Tôi có thể hỗ trợ OpenTracks như thế nào\?</string>
+    <string name="permission_gps_failed">OpenTracks yêu cầu quyền sử dụng GPS.</string>
+    <string name="help_data_storage_content"> Dữ liệu cảm biến được lưu trữ cho mỗi vị trí được ghi lại. Về mặt cảm biến nhịp tim, điều này có nghĩa là chỉ có <i>một</i> lần đo nhịp tim được lưu trữ cho mỗi vị trí. Nếu bạn đang đứng yên hoặc đang ở trong nhà, không có dữ liệu cảm biến nào sẽ được ghi lại (nhưng nó sẽ được hiện). </string>
+    <string name="marker_add_photo_canceled">Đã hủy, không có dấu ảnh nào được thêm</string>
+    <string name="generic_completed">Hoàn tất</string>
+    <string name="export_progress_summary_errors_msg">Lỗi</string>
+    <string name="import_no_kml_file_found">Không tìm thấy tệp doc.kml nào trong KMZ</string>
+    <string name="activity_type_escooter">xe scooter điện</string>
+    <plurals name="generic_completed_with_errors">
+        <item quantity="other">Đã hoàn tất với %1$d lỗi</item>
+    </plurals>
+    <string name="import_file_imported">Đã nhập tệp %1$s</string>
+</resources>

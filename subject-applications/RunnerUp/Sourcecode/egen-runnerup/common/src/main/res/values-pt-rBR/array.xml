@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string-array name="unitEntries">
+    <item>Milhas</item>
+    <item>Quilômetros</item>
+  </string-array>
+  <!--Note: keep in same order as DB.INTENSITY-->
+  <string-array name="step_intensity_types">
+    <item>Aquecimento</item>
+    <item>Atividade</item>
+    <item>Descanso</item>
+    <item>Recuperação</item>
+    <item>Desaquecimento</item>
+  </string-array>
+  <string-array name="duration_types">
+    <item>Até ser pressionado</item>
+    <item>Tempo</item>
+    <item>Distância</item>
+  </string-array>
+  <string-array name="target_types">
+    <item>Nenhuma</item>
+    <item>Ritmo</item>
+    <item>Zona de freq. cardíaca</item>
+  </string-array>
+  <!--Note: keep in same order as DB.ACCOUNT.SPORT_-->
+  <string-array name="sportEntries">
+    <item>Corrida</item>
+    <item>Ciclismo</item>
+    <item>Outros</item>
+    <item>Orientação</item>
+    <item>Caminhada</item>
+  </string-array>
+  <string-array name="types">
+    <item>Tempo</item>
+    <item>Distância</item>
+  </string-array>
+  <string-array name="sexes">
+    <item>Masculino</item>
+    <item>Feminino</item>
+  </string-array>
+  <!--Note: keep in same order as DB-->
+</resources>

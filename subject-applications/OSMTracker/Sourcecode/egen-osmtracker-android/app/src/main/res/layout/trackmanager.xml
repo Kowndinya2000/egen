@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+
+	<androidx.appcompat.widget.Toolbar
+		android:id="@+id/my_toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:elevation="4dp"
+		android:background="?attr/colorPrimary" />
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		style="@android:style/TextAppearance.Large"
+		android:text="@string/trackmgr_tracklist"
+		android:paddingBottom="5dp"/>
+
+	<androidx.coordinatorlayout.widget.CoordinatorLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:padding="3dp">
+
+		<androidx.recyclerview.widget.RecyclerView
+			android:id="@+id/recyclerview"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			tools:listitem="@layout/tracklist_item" />
+
+		<TextView
+			android:id="@+id/trackmgr_empty"
+			style="@android:style/TextAppearance.Large"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:padding="5dp"
+			android:text="@string/trackmgr_empty" />
+
+		<com.google.android.material.floatingactionbutton.FloatingActionButton
+			android:id="@+id/trackmgr_fab"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="end|bottom"
+			android:layout_margin="16dp"
+			android:contentDescription="@string/trackmgr_newtrack_hint"
+			android:src="@drawable/ic_fab_add_track" />
+
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

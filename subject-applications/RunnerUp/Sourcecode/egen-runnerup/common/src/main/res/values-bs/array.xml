@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string-array name="unitEntries">
+    <item>Milje</item>
+    <item>Kilometri</item>
+  </string-array>
+  <!--Note: keep in same order as DB.INTENSITY-->
+  <string-array name="step_intensity_types">
+    <item>Zagrijavanje</item>
+    <item>Aktivan</item>
+    <item>Odmor</item>
+    <item>Oporavak</item>
+    <item>Hlađenje</item>
+  </string-array>
+  <string-array name="duration_types">
+    <item>Do pritiska</item>
+    <item>Vrijeme</item>
+    <item>Razdaljina</item>
+  </string-array>
+  <string-array name="target_types">
+    <item>Ništa</item>
+    <item>Tempo</item>
+    <item>Zona pulsa</item>
+  </string-array>
+  <!--Note: keep in same order as DB.ACCOUNT.SPORT_-->
+  <string-array name="sportEntries">
+    <item>Trčanje</item>
+    <item>Bicikl</item>
+    <item>Ostalo</item>
+    <item>Planinarenje</item>
+    <item>Hodanje</item>
+  </string-array>
+  <string-array name="types">
+    <item>Vrijeme</item>
+    <item>Udaljenost</item>
+  </string-array>
+  <string-array name="sexes">
+    <item>Muško</item>
+    <item>Žensko</item>
+  </string-array>
+  <!--Note: keep in same order as DB-->
+</resources>

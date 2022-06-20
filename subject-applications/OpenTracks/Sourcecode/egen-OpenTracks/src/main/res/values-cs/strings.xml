@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <string name="about_preference_title">O OpenTracks</string>
+    <string name="about_description"><i> OpenTracks </i> je sportovní sledovací aplikace, která zcela respektuje vaše soukromí.</string>
+    <string name="about_url">Webová stránka projektu: <a href="%1$s">%1$s</a></string>
+    <string name="about_version_name">Název verze: %1$s</string>
+    <string name="about_version_code">Kód verze: %1$d</string>
+    <string name="about_history">OpenTracks je fork aplikace <a href="https://code.google.com/archive/p/mytracks/"> <i> MyTracks Google </i> </a> (v roce 2016 ukončena).</string>
+    <string name="about_libraries">Knihovny</string>
+    <!-- Help -->
+    <string name="help_feature_title">OpenTracks má následující funkce:</string>
+    <string name="help_feature_content">* vytvářet GPS stopy
+\n* použít snímač srdeční frekvence (pouze Bluetooth LE)
+\n* hlasová oznámení (podle času nebo vzdálenosti)
+\n* vytvářet značky (včetně obrázků)
+\n* funguje zcela offline
+\n* zobrazit trasy na mapě (viz níže)</string>
+    <string name="help_track_map_title">Jak ukázat trasu na mapě\?</string>
+    <string name="help_track_map_content"> Použijte malou ikonu mapy.
+\n a) (živé aktualizace) Nainstalujte <a href="https://github.com/OpenTracksApp/OSMDashboard">OSMDashboard</a>. Poskytuje online nebo offline mapy prostřednictvím <a href="https://www.openstreetmap.org">OpenStreetMap</a>.
+\n Ve skutečnosti je OSMDashboard samostatná aplikace, která má přístup (dočasně) pouze k datům stop, které se budou zobrazovat.
+\n b) Prostřednictvím „normální“ mapové aplikace (např. <a href="http://osmand.net/">OsmAnd</a> a <a href="https://maps.me/">MAPS.ME</a>). Tyto aplikace musí podporovat formát souboru KMZ (pouze umístění a časová razítka). Ve skutečnosti musí aplikace podporovat <i>ACTION_VIEW</i> pomocí MIME <i>application/vnd.google-earth.kmz</i>. </string>
+    <string name="help_storage_pictures_title">Jak ukládá OpenTracks obrázky pořízené jako značky?</string>
+    <string name="help_storage_pictures_content">Jsou uloženy v interním úložišti aplikace (tj. přístupné pouze v rámci OpenTracks).</string>
+    <string name="help_track_export_title">Jak mohu exportovat / sdílet zaznamenané stopy?</string>
+    <string name="help_track_export_content"> Trasy lze exportovat z Nastavení jako KMZ, KML nebo GPX. KMZ / KML všechna data; Pouze umístění GPX. Trasy sdílené pomocí ikony sdílení <i> </i> jsou sdíleny jako KMZ. </string>
+    <string name="help_data_google_play_services_title">Vyžaduje/používá OpenTracks službu Google Play\?</string>
+    <string name="help_recording_title">Jak OpenTracks zaznamenává data?</string>
+    <string name="help_recording_content">
+OpenTracks používá GPS senzor zařízení k nepřetržitému zaznamenávání polohy.
+Pokud zařízení GPS hlásí nepřesná data (např. Polohu, rychlost, nadmořskou výšku), OpenTracks s tím nemůže nic udělat.</string>
+    <string name="help_data_storage_title">Jak OpenTracks ukládá data senzorů?</string>
+    <string name="help_data_storage_content"> Data senzoru se ukládají na zaznamenané místo. Pokud jde o snímač srdeční frekvence, znamená to, že na každé místo je uloženo pouze <i> jedno </i> měření srdeční frekvence. Pokud stojíte v klidu nebo jste uvnitř, nebudou zaznamenána žádná data ze senzorů (ale budou zobrazena). </string>
+    <string name="help_gps_troubleshooting_title">OpenTracks nezaznamenává místa?</string>
+    <string name="help_gps_troubleshooting_content"> Co můžete udělat:
+\n a) zkontrolujte zda je zapnuto GPS,
+\n b) zkuste zlepšit příjem GPS (např. vyjít ven),
+\n c) zkontrolujte, zda používáte aplikaci <a href="https://f-droid.org/en/packages/com.android.gpstest.osmdroid/">GPSTest </a> a
+\n d) deaktivujte úsporu energie.
+\n
+\n Pokud nic nepomůže, nahlašte jako chybu. </string>
+    <string name="help_support_title">Jak mohu podpořit OpenTracks\?</string>
+    <string name="help_support_content"> Můžete:
+\n a) dát vědět ostatním o OpenTracks
+\n b) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">navrhnout nové funkce</a>,
+\n c) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">nahlásit chybu</a>,
+\n d) pomoci při vývoji aplikace,
+\n e) zakoupit v <a href="https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore">Obchodě Google Play</a>,
+\n f) zaslat dar či
+\n g) udělat něco jiného, co si myslíte že pomůže OpenTracks. </string>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">letadlo</string>
+    <string name="activity_type_atv">terénní auta</string>
+    <string name="activity_type_biking">cyklistika</string>
+    <string name="activity_type_blimp">neztužená vzducholoď</string>
+    <string name="activity_type_boat">člun</string>
+    <string name="activity_type_climbing">horolezectví</string>
+    <string name="activity_type_commercial_airplane">komerční letadlo</string>
+    <string name="activity_type_cross_country_skiing">běh na lyžích</string>
+    <string name="activity_type_cycling">cyklistika</string>
+    <string name="activity_type_dirt_bike">terénní motorka</string>
+    <string name="activity_type_donkey_back_riding">jízda na oslu</string>
+    <string name="activity_type_driving">řízení</string>
+    <string name="activity_type_driving_bus">řízení autobusu</string>
+    <string name="activity_type_driving_car">řízení auta</string>
+    <string name="activity_type_ferry">trajekt</string>
+    <string name="activity_type_frisbee">házecí talíř</string>
+    <string name="activity_type_gliding">plachtění</string>
+    <string name="activity_type_hang_gliding">závěsné létání</string>
+    <string name="activity_type_helicopter">vrtulník</string>
+    <string name="activity_type_hiking">turistika</string>
+    <string name="activity_type_horse_back_riding">jízda na koni</string>
+    <string name="activity_type_hot_air_balloon">horkovzdušný balón</string>
+    <string name="activity_type_ice_sailing">plachtění na ledu</string>
+    <string name="activity_type_inline_skating">inline bruslení</string>
+    <string name="activity_type_kayaking">jízda na kajaku</string>
+    <string name="activity_type_kite_surfing">kitesurfing</string>
+    <string name="activity_type_land_sailing">plachtění po zemi</string>
+    <string name="activity_type_mixed_type">smíšený typ</string>
+    <string name="activity_type_motor_bike">motorka</string>
+    <string name="activity_type_motor_boating">jízda na motorovém člunu</string>
+    <string name="activity_type_mountain_biking">jízda na horském kole</string>
+    <string name="activity_type_off_trail_hiking">turistika mimo značené cesty</string>
+    <string name="activity_type_other">další</string>
+    <string name="activity_type_paddling">pádlování</string>
+    <string name="activity_type_para_gliding">paragliding</string>
+    <string name="activity_type_rc_airplane">letadlo na dálkové ovládání</string>
+    <string name="activity_type_rc_boat">loď na dálkové ovládání</string>
+    <string name="activity_type_rc_helicopter">vrtulník na dálkové ovládání</string>
+    <string name="activity_type_riding">jízda na koni</string>
+    <string name="activity_type_road_biking">silniční cyklistika</string>
+    <string name="activity_type_roller_skiing">jízda na kolečkových lyžích</string>
+    <string name="activity_type_rowing">veslování</string>
+    <string name="activity_type_running">běh</string>
+    <string name="activity_type_sailing">jachting</string>
+    <string name="activity_type_seaplane">hydroplán</string>
+    <string name="activity_type_skate_boarding">skateboarding</string>
+    <string name="activity_type_skating">bruslení</string>
+    <string name="activity_type_skiing">lyžování</string>
+    <string name="activity_type_sky_jumping">skákání na obloze</string>
+    <string name="activity_type_sled">sáně</string>
+    <string name="activity_type_snow_boarding">snowboarding</string>
+    <string name="activity_type_snow_shoeing">lyžování na sněžnicích</string>
+    <string name="activity_type_speed_walking">rychlá chůze</string>
+    <string name="activity_type_street_running">silniční běh</string>
+    <string name="activity_type_surfing">surfování</string>
+    <string name="activity_type_track_cycling">dráhová cyklistika</string>
+    <string name="activity_type_track_running">běh na dráze</string>
+    <string name="activity_type_trail_hiking">turistika po značených cestách</string>
+    <string name="activity_type_trail_running">běhání – trail</string>
+    <string name="activity_type_train">vlak</string>
+    <string name="activity_type_ultimate_frisbee">ultimativní házení talířem</string>
+    <string name="activity_type_unknown">neznámé</string>
+    <string name="activity_type_wakeboarding">wakeboard</string>
+    <string name="activity_type_walking">chůze</string>
+    <string name="activity_type_water_skiing">vodní lyžování</string>
+    <string name="activity_type_wind_surfing">windsurfing</string>
+    <!-- Description -->
+    <string name="description_activity_type">Typ aktivity: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Průměrné tempo pohybu: %1$s min/km (%2$s min/míli)</string>
+    <string name="description_average_moving_speed">Průměrná rychlost přesunu: %1$.2f km/h (%2$.1f mil/h)</string>
+    <string name="description_average_pace_in_minute">Průměrné tempo: %1$s min/km (%2$s min/míli)</string>
+    <string name="description_average_speed">Průměrná rychlost: %1$.2f km/h (%2$.1f mil/h)</string>
+    <string name="description_altitude_gain">Převýšení: %1$d m (%2$d stop)</string>
+    <string name="description_altitude_imperial">Nadmořská výška (stopy)</string>
+    <string name="description_altitude_metric">Nadmořská výška (m)</string>
+    <string name="description_fastest_pace_in_minute">Nejvyšší tempo: %1$s min/km (%2$s min/míli)</string>
+    <string name="description_max_altitude">Maximální výška: %1$d m (%2$d stop)</string>
+    <string name="description_max_speed">Maximální rychlost: %1$.2f km/h (%2$.1f mil/h)</string>
+    <string name="description_min_altitude">Minimální výška: %1$d m (%2$d stop)</string>
+    <string name="description_moving_time">Doba přesunu: %1$s</string>
+    <string name="description_pace_imperial">Tempo (min/míli)</string>
+    <string name="description_pace_metric">Tempo (min/km)</string>
+    <string name="description_recorded_time">Datum záznamu: %1$s</string>
+    <string name="description_speed_ms">Rychlost (m/s)</string>
+    <string name="description_sensor_cadence">Tempo (ot./min)</string>
+    <string name="description_sensor_heart_rate">Srdeční frekvence (údery/min)</string>
+    <string name="description_sensor_power">Výkon (W)</string>
+    <string name="description_default_speed_or_pace">Podle typu činnosti</string>
+    <string name="description_speed_imperial">Rychlost (míle/h)</string>
+    <string name="description_speed_metric">Rychlost (km/h)</string>
+    <string name="description_time">Doba</string>
+    <string name="description_total_distance">Celková vzdálenost: %1$.2f km (%2$.1f mil)</string>
+    <string name="description_total_time">Celková doba: %1$s</string>
+    <!-- Export -->
+    <string name="export_with_photos">s fotkami</string>
+    <string name="export_without_photos">bez fotografií</string>
+    <string name="export_progress_message">Exportování do složky %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">1 soubor</item>
+        <item quantity="few">%1$d soubory</item>
+        <item quantity="other">%1$d souborů</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Přidat</string>
+    <string name="generic_delete_selected_confirm_title">Smazat vybrané?</string>
+    <string name="generic_description">Popis</string>
+    <string name="generic_description_line">Popis: %1$s</string>
+    <string name="generic_name">Název</string>
+    <string name="generic_name_line">Název: %1$s</string>
+    <string name="generic_paused">Pozastaveno</string>
+    <string name="generic_recording">Nahrávání…</string>
+    <string name="generic_save">Uložit</string>
+    <string name="generic_tracks">Trasy</string>
+    <!-- Gps -->
+    <string name="gps_starting">Spouštění GPS</string>
+    <string name="gps_wait_for_better_signal">Čekání na lepší signál GPS</string>
+    <string name="gps_wait_for_signal">Čekání na signál GPS</string>
+    <!-- Image -->
+    <string name="image_arrow">Šipka</string>
+    <string name="image_marker">Značka</string>
+    <string name="image_marker_count">Počet značek</string>
+    <string name="image_pause">Pozastavit</string>
+    <string name="image_photo_marker">Fotografická značka</string>
+    <string name="image_record">Zaznamenat</string>
+    <string name="image_stop">Ukončit</string>
+    <string name="image_track">Trasa</string>
+    <!-- Import -->
+    <string name="import_progress_message">Import z %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Značku nelze vložit. Signál GPS není dostupný. Zkuste to znovu.</string>
+    <string name="marker_add_success">Značka byla vložena</string>
+    <string name="marker_add_canceled">Zrušeno, značky nebyly přidány</string>
+    <string name="marker_add_photo_canceled">Zrušeno, nebyla přidána žádná značka</string>
+    <string name="marker_delete_one_confirm_message">Značka bude trvale smazána ze zařízení</string>
+    <string name="marker_delete_one_confirm_title">Smazat značku?</string>
+    <string name="marker_delete_multiple_confirm_message">Vybrané značky budou trvale smazány ze zařízení</string>
+    <string name="marker_name_format">Značka %1$d</string>
+    <string name="marker_title">%1$d z %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Typ značky (např. vodopád)</string>
+    <string name="marker_edit_marker_type_hint">Typ značky</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Nemáte žádné značky</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Souhrnná statistika</string>
+    <string name="menu_delete">Smazat</string>
+    <string name="menu_edit">Upravit</string>
+    <string name="menu_export_all">Exportovat vše</string>
+    <string name="menu_help">Nápověda</string>
+    <string name="menu_import_all">Importovat vše</string>
+    <string name="menu_insert_marker">Vložit značku</string>
+    <string name="menu_insert_photo">Vložit fotku</string>
+    <string name="menu_insert_gallery_img">Vložit obrázek galerie</string>
+    <string name="menu_markers">Značky</string>
+    <string name="menu_search">Vyhledat</string>
+    <string name="menu_select_all">Vybrat vše</string>
+    <string name="menu_settings">Nastavení</string>
+    <string name="menu_share">Sdílet</string>
+    <string name="menu_show_on_map">Zobrazit na mapě</string>
+    <string name="menu_start_gps">Spustit GPS</string>
+    <string name="menu_stop_gps">Ukončit GPS</string>
+    <string name="menu_resume_track">Obnovit měření</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Služba pro záznam</string>
+    <!-- Permission -->
+    <string name="permission_gps_failed">OpenTracks vyžaduje povolení k používání GPS.</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Stav baterie</string>
+    <string name="sensor_state_cadence">Frekvence chůze</string>
+    <string name="sensor_state_cadence_value">%1$d ot./min</string>
+    <string name="sensor_state_heart_rate">Srdeční frekvence</string>
+    <string name="sensor_state_heart_rate_value">%1$d úderů/min</string>
+    <string name="sensor_state_power">Napájení</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="sensor_could_not_scan">Nelze vyhledat zařízení Bluetooth (chyba %1$i).</string>
+    <string name="bluetooth_disabled">Aktivujte prosím Bluetooth.</string>
+    <string name="settings_not_while_recording">Při záznamu trasy není tato funkce dostupná</string>
+    <string name="settings_show">Zobrazit</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Pokročilé</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Podle vzdálenosti</string>
+    <string name="settings_chart_by_time">Podle doby</string>
+    <!-- Settings Recording -->
+    <string name="settings_recording_show_on_lockscreen_while_recording_title">Zobrazit statistiky na uzamčené obrazovce</string>
+    <string name="settings_recording_show_on_lockscreen_while_recording_summary">Během nahrávání zobrazte statistiky bez odemknutí zařízení.</string>
+    <string name="settings_recording_keep_screen_on_while_recording_title">Nechte obrazovku zapnutou</string>
+    <string name="settings_recording_keep_screen_on_while_recording_summary">Během nahrávání udržovat obrazovku zapnutou.</string>
+    <string name="settings_recording">Záznam</string>
+    <string name="settings_recording_default_activity_title">Výchozí typ aktivity</string>
+    <string name="settings_recording_location_frequency_summary">%1$s mezi zaznamenanými polohami</string>
+    <string name="settings_recording_max_recording_distance_summary">Vytvořit nový segment pokud je vzdálenost mezi dvěma polohami větší než %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">Maximální vzdálenost</string>
+    <string name="settings_recording_min_recording_distance_title">Vzdál. interval záznamu</string>
+    <string name="settings_recording_min_recording_interval_title">Časový interval záznamu</string>
+    <string name="settings_recording_min_required_accuracy_summary">Pokud je přesnost polohy menší než %1$s, je poloha ignorována</string>
+    <string name="settings_recording_min_required_accuracy_title">Přesnost GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Datum (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Datum (místní)</string>
+    <string name="settings_recording_track_name_number_option">Číslo</string>
+    <string name="settings_recording_track_name_title">Výchozí název trasy</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Resetovat</string>
+    <string name="settings_reset_confirm_message">Všechna nastavení budou obnovena na výchozí hodnoty. Toto nevymaže žádné trasy na přístroji.</string>
+    <string name="settings_reset_confirm_title">Resetovat nyní?</string>
+    <string name="settings_reset_done">Všechna nastavení byla obnovena na výchozí hodnoty</string>
+    <string name="settings_error_initial_values_restored">Litujeme, ale došlo k chybě. Všechna nastavení byla vrácena na výchozí hodnoty.</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <string name="settings_sensor_connecting">Připojeno k senzoru %1$s</string>
+    <string name="settings_sensor_disconnected">Odpojeno od %1$s</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Preferovaná rychlost</string>
+    <string name="settings_stats_units_imperial">Imperiální jednotky (míle, stopy)</string>
+    <string name="settings_stats_units_metric">Metrické jednotky (km, m)</string>
+    <string name="settings_stats_units_title">Preferované jednotky</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Možná by vás mohla zajímat tato trasa.
+\n
+\n%1$s</string>
+    <string name="share_track_subject">Chci s vámi sdílet trasu</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Průměrné tempo pohybu</string>
+    <string name="stats_average_moving_speed">Průměrná rychlost pohybu</string>
+    <string name="stats_average_pace">Průměrné tempo</string>
+    <string name="stats_average_speed">Průměrná rychlost</string>
+    <string name="stats_altitude">Nadmořská výška</string>
+    <string name="stats_fastest_pace">Nejvyšší tempo</string>
+    <string name="stats_gain">Nárůst</string>
+    <string name="stats_latitude">Zeměpisná šířka</string>
+    <string name="stats_longitude">Zeměpisná délka</string>
+    <string name="stats_max_speed">Maximální rychlost</string>
+    <string name="stats_moving_time">Doba pohybu</string>
+    <string name="stats_pace">Tempo</string>
+    <string name="stats_speed">Rychlost</string>
+    <string name="stats_distance">Vzdálenost</string>
+    <string name="stats_total_time">Celková doba</string>
+    <!-- Track -->
+    <string name="track_name_format">Trasa %1$d</string>
+    <string name="track_recording_notification_accuracy">Přesnost polohy: %1$s</string>
+    <string name="track_markers">Značky na trase %1$s</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Trasa a související značky budou trvale smazány ze zařízení.</string>
+    <string name="track_delete_one_confirm_title">Smazat trasu?</string>
+    <string name="track_delete_multiple_confirm_message">Vybrané trasy a jejich značky budou trvale smazány ze zařízení.</string>
+    <string name="track_delete_progress_message">Mazání…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Statistika</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Typ aktivity (např. chůze)</string>
+    <string name="track_edit_activity_type_hint">Typ aktivity</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Spustit záznam trasy</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">stop</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">mil</string>
+    <string name="unit_mile_per_hour">mil/h</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/míle</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d stop</string>
+    <string name="value_integer_feet_excellent_gps">%1$d stop (vynikající signál GPS)</string>
+    <string name="value_integer_feet_recommended">%1$d stop (doporučeno)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/h</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (vynikající signál GPS)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (špatný signál GPS)</string>
+    <string name="value_integer_meter_recommended">%1$d m (doporučeno)</string>
+    <string name="value_integer_mile">%1$d mil</string>
+    <string name="value_integer_mile_hour">%1$d mil/h</string>
+    <string name="value_integer_minute">%1$d min</string>
+    <string name="value_integer_second">%1$d s</string>
+    <string name="value_none">Žádné</string>
+    <string name="value_off">Vypnuto</string>
+    <string name="value_smallest_recommended">Nejnižší hodnota (doporučeno)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">1 hodina</item>
+        <item quantity="few">%1$d hodiny</item>
+        <item quantity="other">%1$d hodin</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">1 minuta</item>
+        <item quantity="few">%1$d minuty</item>
+        <item quantity="other">%1$d minut</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">1 sekunda</item>
+        <item quantity="few">%1$d sekundy</item>
+        <item quantity="other">%1$d sekund</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">1 kilometr za hodinu</item>
+        <item quantity="few">%1$.1f kilometry za hodinu</item>
+        <item quantity="other">%1$.1f kilometrů za hodinu</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">1 míle za hodinu</item>
+        <item quantity="few">%1$.1f míle za hodinu</item>
+        <item quantity="other">%1$.1f mil za hodinu</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s na kilometr</string>
+    <string name="voice_pace_per_mile">%1$s na míli</string>
+    <string name="voice_template">%1$s za %2$s rychlostí %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">celková vzdálenost 1 kilometr</item>
+        <item quantity="few">celková vzdálenost %1$.2f kilometry</item>
+        <item quantity="other">celková vzdálenost %1$.2f kilometrů</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">celková vzdálenost 1 míle</item>
+        <item quantity="few">celková vzdálenost %1$.2f míle</item>
+        <item quantity="other">celková vzdálenost %1$.2f mil</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">Bankomat</string>
+    <string name="waypoint_type_bank">banka</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">grilování</string>
+    <string name="waypoint_type_building">budova</string>
+    <string name="waypoint_type_bus_stop">autobusová zastávka</string>
+    <string name="waypoint_type_cafe">kavárna</string>
+    <string name="waypoint_type_campfire">ohniště</string>
+    <string name="waypoint_type_campground">kempink</string>
+    <string name="waypoint_type_church">kostel</string>
+    <string name="waypoint_type_coffee_house">kavárna</string>
+    <string name="waypoint_type_convenience_store">samoobsluha</string>
+    <string name="waypoint_type_drinking_water">pitná voda</string>
+    <string name="waypoint_type_falling_rocks">padající kamení</string>
+    <string name="waypoint_type_ferry">trajekt</string>
+    <string name="waypoint_type_fire_place">ohniště</string>
+    <string name="waypoint_type_fire_station">hasičská stanice</string>
+    <string name="waypoint_type_fishing">rybaření</string>
+    <string name="waypoint_type_gas_station">čerpací stanice</string>
+    <string name="waypoint_type_golf_course">golfové hřiště</string>
+    <string name="waypoint_type_grocery_store">obchod s potravinami</string>
+    <string name="waypoint_type_hair_dresser">kadeřnictví</string>
+    <string name="waypoint_type_harbor">přístav</string>
+    <string name="waypoint_type_hiking_path">pěší stezka</string>
+    <string name="waypoint_type_hotel">hotel</string>
+    <string name="waypoint_type_house">dům</string>
+    <string name="waypoint_type_information">informace</string>
+    <string name="waypoint_type_intersection">křižovatka</string>
+    <string name="waypoint_type_mail_box">poštovní schránka</string>
+    <string name="waypoint_type_market">obchod</string>
+    <string name="waypoint_type_meeting_point">místo setkání</string>
+    <string name="waypoint_type_opera">opera</string>
+    <string name="waypoint_type_parking">parkoviště</string>
+    <string name="waypoint_type_police_station">policejní stanice</string>
+    <string name="waypoint_type_post_office">pošta</string>
+    <string name="waypoint_type_pothole">výmol</string>
+    <string name="waypoint_type_railway_crossing">železniční přejezd</string>
+    <string name="waypoint_type_restaurant">restaurace</string>
+    <string name="waypoint_type_shopping">nakupování</string>
+    <string name="waypoint_type_sight">pamětihodnost</string>
+    <string name="waypoint_type_store">prodejna</string>
+    <string name="waypoint_type_swimming_pool">bazén</string>
+    <string name="waypoint_type_telephone">telefon</string>
+    <string name="waypoint_type_theater">divadlo</string>
+    <string name="waypoint_type_toilet">WC</string>
+    <string name="waypoint_type_tourist_information">turistické informace</string>
+    <string name="waypoint_type_tree">strom</string>
+    <string name="waypoint_type_tunnel">tunel</string>
+    <string name="waypoint_type_waterfall">vodopád</string>
+    <string name="waypoint_type_water_fountain">kašna</string>
+    <string name="waypoint_type_waypoint">navigační bod</string>
+    <!-- Share image -->
+    <string name="share_image_subject">Chtěl bych s vámi sdílet obrázek</string>
+    <string name="share_image_body">Myslím, že by vás mohl tento obrázek zajímat.</string>
+    <string name="open_track_as_KML">Otevřít jako KML</string>
+    <string name="open_track_as_GPX">Otevřít jako GPX</string>
+    <string name="open_track_as_trackfileformat">Otevřít jako %1$s</string>
+    <string name="export_all_do_it_for_all">provést pro všechny konflikty</string>
+    <string name="export_track_errors">Trasa nebyla exportována</string>
+    <string name="generic_separator_done_total">/</string>
+    <string name="generic_completed">Ukončeno</string>
+    <string name="gps_disabled_msg">GPS vypnuto</string>
+    <string name="gps_fixed_and_ready">GPS zaměřeno a připraveno</string>
+    <string name="import_no_kml_file_found">Soubor doc.kml nenalezen v KMZ</string>
+    <string name="settings_default_trackfileformat">Formát souboru pro export/sdílení</string>
+    <string name="settings_recording_fullscreen_on_while_recording_title">Na celou obrazovku</string>
+    <string name="settings_recording_fullscreen_on_while_recording_summary">Při nahrávání využívat celou obrazovku.</string>
+    <string name="settings_night_mode_title">Vzhled</string>
+    <string name="settings_night_mode_option_day">Světlý</string>
+    <string name="settings_night_mode_option_night">Tmavý</string>
+    <string name="settings_sensor_wheel_circumference">Obvod kola (mm)</string>
+    <string name="stats_split_interval">Rozdělit interval</string>
+    <string name="track_detail_intervals_tab">Intervaly</string>
+    <string name="voice_pace_lap">Čas na kolo %1$s</string>
+    <string name="hold_to_pause">Podržet pro pozastavení</string>
+    <string name="instant_export_enabled_title">Instantní export po tréninku</string>
+    <string name="settings_default_export_uri_title">Adresář pro export tras</string>
+    <string name="import_thread_interrupted">Vlákno přerušeno</string>
+    <string name="import_parser_error">Chyba parsování: %1$s</string>
+    <string name="import_unable_to_import_file">Nelze importovat soubor: %1$s</string>
+    <string name="import_error_info">%1$s: %2$s</string>
+    <string name="import_error_list_dialog_title">Soubory nebyly importovány</string>
+    <string name="import_file_imported">Soubor %1$s importován</string>
+    <string name="generic_skip">Přeskočit</string>
+    <string name="activity_type_escooter">elektroskůtr</string>
+    <string name="description_altitude_loss">Převýšení: %1$d m (%2$d ft)</string>
+    <string name="export_error_post_workout">Export po ukončení aktivity selhal, zkontrolujte prosím adresář pro export.</string>
+    <string name="stats_loss">Ztráta</string>
+    <string name="export_track_already_exists_msg">Trasa %1$s již existuje v cílovém adresáři.</string>
+    <string name="generic_overwrite">Přepsat</string>
+    <string name="generic_show_errors">Zobrazit chyby</string>
+    <string name="generic_click_twice_cancel">Opakovaně kliknout zpět pro ukončení</string>
+    <string name="import_unsupported_format">Nepodporovaný formát souboru</string>
+    <string name="import_prevent_reimport">Je nastaveno zamezení opakovaného importu tras</string>
+    <string name="settings_night_mode_option_system">Systémový</string>
+    <string name="aggregated_stats_empty_message">Zaznamenejte svou první trasu pro zobrazení agregované statistiky</string>
+    <string name="interval_list_empty_message">Ještě zde nejsou žádné intervaly</string>
+    <string name="voice_speed_lap">Rychlost na kolo %1$s</string>
+    <string name="hold_to_stop">Podržet pro ukončení</string>
+    <string name="instant_export_enabled_summary">Exportovat trasu na úložiště po ukončení záznamu</string>
+    <plurals name="generic_completed_with_errors">
+        <item quantity="one">Ukončeno s chybou</item>
+        <item quantity="few">Ukončeno s %1$d chybami</item>
+        <item quantity="other">Ukončeno s %1$d chybami</item>
+    </plurals>
+    <string name="import_progress_summary_errors_msg">Chyba</string>
+    <string name="settings_prevent_reimport_tracks_title">Zabraňte opětovnému importu Stop</string>
+    <string name="export_progress_summary_errors_msg">Chyba</string>
+    <string name="export_progress_summary_skip_msg">Stopy přeskočeny</string>
+    <string name="export_progress_summary_overwrite_msg">Skladby přepsány</string>
+    <string name="export_progress_summary_new_msg">Vyvezeny nové tratě</string>
+    <string name="import_progress_summary_exists_msg">Existovat</string>
+    <string name="import_progress_summary_ok_msg">Importované soubory</string>
+    <string name="generic_open_track">Otevřená Trať</string>
+    <string name="sensor_state_power_avg">Výkon Avg</string>
+    <string name="sensor_state_heart_rate_max">Maximální srdeční frekvence</string>
+    <string name="sensor_state_heart_rate_avg">Avg srdeční frekvence</string>
+    <string name="sensor_state_cadence_max">Max kadence</string>
+    <string name="sensor_state_cadence_avg">Avg kadence</string>
+    <string name="track_distance_notification">Vzdálenost: %1$s</string>
+    <string name="track_speed_notification">Rychlost: %1$s</string>
+    <string name="track_pace_notification">Rychlost: %1$s</string>
+    <string name="about_third_party_data">Údaje třetích stran</string>
+    <string name="track_delete_progress">%1$d/%2$d</string>
+    <string name="delete_service">Služba mazání</string>
+    <string name="menu_voice_rate">Rychlost hlasových oznámení</string>
+    <string name="track_delete_not_recording">Není možno vymazat aktuálně zaznamenávanou trasu.</string>
+    <string name="settings_sensor_cycling_distance_speed">Jízda na kole: vzdálenost a rychlost</string>
+    <string name="settings_sensor_cycling_cadence">Cyklistika: kadence</string>
+    <string name="settings_sensor_running_speed_and_cadence">Běh: vzdálenost, rychlost a kadence</string>
+    <string name="settings_recording_customize_layout_title">Přizpůsobit vzhled měření</string>
+    <string name="settings_recording_customize_layout_select_columns">Počet polí na řádek</string>
+    <string name="title_activity_settings_custom_layout">Přizpůsobit vzhled měření</string>
+    <string name="field_set_primary">První</string>
+    <string name="field_set_secondary">Druhý</string>
+    <string name="field_remove_from_layout">Odstranit</string>
+</resources>

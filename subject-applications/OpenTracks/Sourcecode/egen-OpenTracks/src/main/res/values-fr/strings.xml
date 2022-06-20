@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="about_preference_title">À propos d\'OpenTracks</string>
+    <string name="about_description"><i>OpenTracks</i> est une application de suivi sportif qui respecte totalement votre vie privée.</string>
+    <string name="about_url">Page web du projet : <a href="%1$s">%1$s</a></string>
+    <string name="about_version_name">Nom de la version : %1$s</string>
+    <string name="about_version_code">Code de version : %1$d</string>
+    <string name="about_history">OpenTracks est une bifurcation de <a href="https://code.google.com/archive/p/mytracks/"><i>Google\'s MyTracks</i></a> (abandonné en 2016).</string>
+    <string name="about_libraries">Bibliothèques</string>
+    <!-- Help -->
+    <string name="help_feature_title">OpenTracks présente les caractéristiques suivantes :</string>
+    <string name="help_feature_content">* créer des traces GPS
+\n * utilisation d\'un capteur de fréquence cardiaque (Bluetooth LE uniquement)
+\n * annonces vocales (par temps ou distance)
+\n * créer des marqueurs (y compris des images)
+\n * fonctionne complètement hors ligne
+\n * montrer les traces sur une carte (voir ci-dessous)</string>
+    <string name="help_track_map_title">Comment faire apparaître une trace sur une carte ?</string>
+    <string name="help_track_map_content"> Utilisez la petite icône de carte.
+\n a) (mises à jour en direct) Installez <a href="https://github.com/OpenTracksApp/OSMDashboard">OSMDashboard</a>. Il fournit des cartes en ligne ou hors ligne via <a href="https://www.openstreetmap.org ">OpenStreetMap</a>.
+\n En fait, OSMDashboard est une application séparée qui ne peut accéder (temporairement) qu aux données des trace(s) qui vont être affichées.
+\n b) Via une application cartographique normale (par exemple) , <a href="http://osmand.net/">OsmAnd</a> et <a href="https://maps.me/">MAPS.ME</a> Ces applications doivent prendre en charge le format de fichier KMZ (uniquement les lieux et les horodatages). En fait, une application doit prendre en charge <i>ACTION_VIEW</i> avec MIME <i>application/vnd.google-earth.kmz</i>. </string>
+    <string name="help_storage_pictures_title">Comment OpenTracks stocke-t-il les photos qui ont été prises comme marqueurs ?</string>
+    <string name="help_storage_pictures_content">Elles sont stockées dans le stockage interne de lapplication (c est-à-dire uniquement accessible dans OpenTracks).</string>
+    <string name="help_track_export_title">Comment puis-je exporter/partager des traces enregistrées \?</string>
+    <string name="help_track_export_content"> Les traces peuvent être exportées à partir des paramètres en tant que KMZ, KML ou GPX. KMZ/KML toutes les données ; GPX seulement les emplacements. Les traces partagées via l\'icône <i>partager</i> sont partagées au format KMZ. </string>
+    <string name="help_data_google_play_services_title">OpenTracks nécessite-t-il/utilise-t-il le service Google Play ?</string>
+    <string name="help_recording_title">Comment OpenTracks enregistre-t-il les données ?</string>
+    <string name="help_recording_content">
+OpenTracks utilise le capteur GPS de lappareil pour enregistrer la position en continu.
+Si le dispositif GPS signale des données inexactes (par exemple, la localisation, la vitesse, laltitude), OpenTracks ne peut rien y faire.</string>
+    <string name="help_data_storage_title">Comment OpenTracks stocke-t-il les données des capteurs \?</string>
+    <string name="help_data_storage_content"> Les données des capteurs sont stockées par emplacement enregistré. Dans le cas dun capteur de fréquence cardiaque, cela signifie que seule la mesure de la fréquence cardiaque <i>one</i> est stockée par emplacement. Si vous êtes à larrêt ou à lintérieur, aucune donnée du capteur ne sera enregistrée (mais elle sera affichée). </string>
+    <string name="help_gps_troubleshooting_title">OpenTracks nenregistre pas les lieux \?</string>
+    <string name="help_gps_troubleshooting_content"> Ce que vous pouvez faire :
+\n a) vérifier si le GPS est activé,
+\n b) améliorer la réception GPS (par exemple, aller à lextérieur),
+\n c) vérifier si avec <a href="https://f-droid.org/en/packages/com.android.gpstest.osmdroid/">GPSTest</a> app, et
+\n d) désactiver léconomie dénergie.
+\n
+\n Si tout ne va pas dans le bon sens, veuillez signaler un bug. </string>
+    <string name="help_support_title">Comment puis-je soutenir OpenTracks \?</string>
+    <string name="help_support_content"> Vous pouvez :
+\n a) faire connaître OpenTracks,
+\n b) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">proposer des fonctionnalités</a>,
+\n c) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">rapporter des bogues</a>,
+\n d) aider au développement du logiciel,
+\n e) acheter dans <a href="https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore">Google Play Store</a>,
+\n f) faire un don, et
+\n g) faire tout ce qui vous semble utile à OpenTracks. </string>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">navigation aérienne</string>
+    <string name="activity_type_atv">quad</string>
+    <string name="activity_type_biking">cyclisme</string>
+    <string name="activity_type_blimp">dirigeable</string>
+    <string name="activity_type_boat">nautisme</string>
+    <string name="activity_type_climbing">escalade</string>
+    <string name="activity_type_commercial_airplane">avion commercial</string>
+    <string name="activity_type_cross_country_skiing">ski de fond</string>
+    <string name="activity_type_cycling">cyclisme</string>
+    <string name="activity_type_dirt_bike">motocross</string>
+    <string name="activity_type_donkey_back_riding">équitation à dos d\'âne</string>
+    <string name="activity_type_driving">automobile</string>
+    <string name="activity_type_driving_bus">conduite d\'un autobus</string>
+    <string name="activity_type_driving_car">conduite automobile</string>
+    <string name="activity_type_ferry">bac</string>
+    <string name="activity_type_frisbee">Friesbee</string>
+    <string name="activity_type_gliding">vol à voile</string>
+    <string name="activity_type_hang_gliding">deltaplane</string>
+    <string name="activity_type_helicopter">hélicoptère</string>
+    <string name="activity_type_hiking">randonnée</string>
+    <string name="activity_type_horse_back_riding">équitation</string>
+    <string name="activity_type_hot_air_balloon">vol en montgolfière</string>
+    <string name="activity_type_ice_sailing">char à glace</string>
+    <string name="activity_type_inline_skating">roller</string>
+    <string name="activity_type_kayaking">kayak</string>
+    <string name="activity_type_kite_surfing">kite surf</string>
+    <string name="activity_type_land_sailing">char à voile</string>
+    <string name="activity_type_mixed_type">type mixte</string>
+    <string name="activity_type_motor_bike">moto</string>
+    <string name="activity_type_motor_boating">bateau à moteur</string>
+    <string name="activity_type_mountain_biking">VTT</string>
+    <string name="activity_type_off_trail_hiking">randonnée hors piste</string>
+    <string name="activity_type_other">autre</string>
+    <string name="activity_type_paddling">paddleboard</string>
+    <string name="activity_type_para_gliding">parapente</string>
+    <string name="activity_type_rc_airplane">avion radiocommandé</string>
+    <string name="activity_type_rc_boat">bateau radiocommandé</string>
+    <string name="activity_type_rc_helicopter">hélicoptère radiocommandé</string>
+    <string name="activity_type_riding">équitation</string>
+    <string name="activity_type_road_biking">cyclisme sur route</string>
+    <string name="activity_type_roller_skiing">ski à roulettes</string>
+    <string name="activity_type_rowing">aviron</string>
+    <string name="activity_type_running">course à pied</string>
+    <string name="activity_type_sailing">voile</string>
+    <string name="activity_type_seaplane">hydravion</string>
+    <string name="activity_type_skate_boarding">skateboard</string>
+    <string name="activity_type_skating">patinage</string>
+    <string name="activity_type_skiing">ski</string>
+    <string name="activity_type_sky_jumping">parachutisme</string>
+    <string name="activity_type_sled">traîneau</string>
+    <string name="activity_type_snow_boarding">snowboard</string>
+    <string name="activity_type_snow_shoeing">randonnée raquette</string>
+    <string name="activity_type_speed_walking">marche sportive</string>
+    <string name="activity_type_street_running">course urbaine</string>
+    <string name="activity_type_surfing">surf</string>
+    <string name="activity_type_track_cycling">cyclisme sur piste</string>
+    <string name="activity_type_track_running">course athlétique</string>
+    <string name="activity_type_trail_hiking">randonnée</string>
+    <string name="activity_type_trail_running">trail</string>
+    <string name="activity_type_train">chemin</string>
+    <string name="activity_type_ultimate_frisbee">ultimate</string>
+    <string name="activity_type_unknown">inconnue</string>
+    <string name="activity_type_wakeboarding">wakeboard</string>
+    <string name="activity_type_walking">marche</string>
+    <string name="activity_type_water_skiing">ski nautique</string>
+    <string name="activity_type_wind_surfing">planche à voile</string>
+    <!-- Description -->
+    <string name="description_activity_type">Type d\'activité : %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Allure moyenne : %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_moving_speed">Vitesse moyenne de déplacement : %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_average_pace_in_minute">Vitesse moyenne : %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_speed">Vitesse moyenne : %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_altitude_gain">Dénivelé positif : %1$d m (%2$d pi)</string>
+    <string name="description_altitude_imperial">Altitude (pi)</string>
+    <string name="description_altitude_metric">Altitude (m)</string>
+    <string name="description_fastest_pace_in_minute">Vitesse maximale : %1$s min/km (%2$s min/mi)</string>
+    <string name="description_max_altitude">Élévation max. : %1$d m (%2$d pi)</string>
+    <string name="description_max_speed">Vitesse max. : %1$.2f km/h (%2$.1f mi/h)</string>
+    <string name="description_min_altitude">Élévation min. : %1$d m (%2$d pi)</string>
+    <string name="description_moving_time">Durée du déplacement : %1$s</string>
+    <string name="description_pace_imperial">Vitesse (min/mi)</string>
+    <string name="description_pace_metric">Vitesse (min/km)</string>
+    <string name="description_recorded_time">Date d\'enregistrement : %1$s</string>
+    <string name="description_speed_ms">Vitesse (m/s)</string>
+    <string name="description_sensor_cadence">Cadence (tr/min)</string>
+    <string name="description_sensor_heart_rate">Fréquence cardiaque (bpm)</string>
+    <string name="description_sensor_power">Puissance (W)</string>
+    <string name="description_default_speed_or_pace">Par type d activité</string>
+    <string name="description_speed_imperial">Vitesse (mi/h)</string>
+    <string name="description_speed_metric">Vitesse (km/h)</string>
+    <string name="description_time">Durée</string>
+    <string name="description_total_distance">Distance totale : %1$.2f km (%2$.1f mi)</string>
+    <string name="description_total_time">Durée totale : %1$s</string>
+    <!-- Export -->
+    <string name="export_with_photos">avec les photos</string>
+    <string name="export_without_photos">sans les photos</string>
+    <string name="export_progress_message">Exportation vers le répertoire %1$s en cours…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">%1$d fichier</item>
+        <item quantity="other">%1$d fichiers</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Ajouter</string>
+    <string name="generic_delete_selected_confirm_title">Supprimer les éléments sélectionnés ?</string>
+    <string name="generic_description">Description</string>
+    <string name="generic_description_line">Description : %1$s</string>
+    <string name="generic_name">Nom</string>
+    <string name="generic_name_line">Nom : %1$s</string>
+    <string name="generic_paused">En pause</string>
+    <string name="generic_recording">Enregistrement…</string>
+    <string name="generic_save">Enregistrer</string>
+    <string name="generic_tracks">Parcours</string>
+    <!-- Gps -->
+    <string name="gps_starting">Lancement du GPS en cours</string>
+    <string name="gps_wait_for_better_signal">En attente d\'un signal GPS de meilleure qualité</string>
+    <string name="gps_wait_for_signal">En attente du signal GPS</string>
+    <!-- Image -->
+    <string name="image_arrow">Flèche</string>
+    <string name="image_marker">Repère</string>
+    <string name="image_marker_count">Nombre de repères</string>
+    <string name="image_pause">Pause</string>
+    <string name="image_photo_marker">Repère de photo</string>
+    <string name="image_record">Enregistrer</string>
+    <string name="image_stop">Arrêter</string>
+    <string name="image_track">Parcours</string>
+    <!-- Import -->
+    <string name="import_progress_message">Importation depuis le répertoire %1$s en cours…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Impossible d\'insérer un repère. Pas de signal GPS. Veuillez réessayer.</string>
+    <string name="marker_add_success">Un repère a bien été inséré</string>
+    <string name="marker_add_canceled">Opération annulée. Aucun repère n\'a été ajouté</string>
+    <string name="marker_add_photo_canceled">Annulé, aucun marqueur de photo ajouté</string>
+    <string name="marker_delete_one_confirm_message">Le repère va être définitivement supprimé de l\'appareil</string>
+    <string name="marker_delete_one_confirm_title">Supprimer le repère ?</string>
+    <string name="marker_delete_multiple_confirm_message">Les repères sélectionnés vont être définitivement supprimés de l\'appareil</string>
+    <string name="marker_name_format">Repère %1$d</string>
+    <string name="marker_title">%1$d sur %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Type de repère (exemple : cascade)</string>
+    <string name="marker_edit_marker_type_hint">Type de repère</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">Vous n\'avez aucun repère</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Statistiques cumulées</string>
+    <string name="menu_delete">Supprimer</string>
+    <string name="menu_edit">Modifier</string>
+    <string name="menu_export_all">Tout exporter</string>
+    <string name="menu_help">Aide</string>
+    <string name="menu_import_all">Tout importer</string>
+    <string name="menu_insert_marker">Insérer un repère</string>
+    <string name="menu_insert_photo">Insérer une photo</string>
+    <string name="menu_insert_gallery_img">Insérer une image de la galerie</string>
+    <string name="menu_markers">Repères</string>
+    <string name="menu_search">Rechercher</string>
+    <string name="menu_select_all">Tout sélectionner</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_share">Partager</string>
+    <string name="menu_show_on_map">Afficher sur la carte</string>
+    <string name="menu_start_gps">Démarrer le GPS</string>
+    <string name="menu_stop_gps">Arrêter le GPS</string>
+    <string name="menu_resume_track">Reprendre la trace</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Service enregistrement</string>
+    <!-- Permission -->
+    <string name="permission_gps_failed">OpenTracks nécessite une autorisation pour utiliser le GPS.</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Niveau de la batterie</string>
+    <string name="sensor_state_cadence">Cadences</string>
+    <string name="sensor_state_cadence_value">%1$d tr/min</string>
+    <string name="sensor_state_heart_rate">Fréquence cardiaque</string>
+    <string name="sensor_state_heart_rate_value">%1$d ppm</string>
+    <string name="sensor_state_power">Puissance</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="sensor_could_not_scan">Impossible de rechercher les appareils Bluetooth (erreur %1$i).</string>
+    <string name="bluetooth_disabled">Veuillez activer Bluetooth.</string>
+    <string name="settings_not_while_recording">Non disponible pendant l\'enregistrement d\'un parcours</string>
+    <string name="settings_show">Afficher</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Avancé</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">En fonction de la distance</string>
+    <string name="settings_chart_by_time">En fonction de la durée</string>
+    <!-- Settings Recording -->
+    <string name="settings_recording_show_on_lockscreen_while_recording_title">Afficher les statistiques sur l\'écran de verrouillage</string>
+    <string name="settings_recording_show_on_lockscreen_while_recording_summary">Pendant l\'enregistrement, afficher les statistiques sans déverrouiller l\'appareil.</string>
+    <string name="settings_recording_keep_screen_on_while_recording_title">Garder l\'écran allumé</string>
+    <string name="settings_recording_keep_screen_on_while_recording_summary">Pendant l\'enregistrement, garder l\'écran allumé.</string>
+    <string name="settings_recording">Enregistrement</string>
+    <string name="settings_recording_default_activity_title">Type activité par déf</string>
+    <string name="settings_recording_location_frequency_summary">%1$s entre chaque enregistrement de la position</string>
+    <string name="settings_recording_max_recording_distance_summary">Une nouvelle section est créée si la distance entre deux positions est supérieure à %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">Distance max</string>
+    <string name="settings_recording_min_recording_distance_title">Intervalle dist. enreg</string>
+    <string name="settings_recording_min_recording_interval_title">Intervalle temps enreg</string>
+    <string name="settings_recording_min_required_accuracy_summary">La position est ignorée si sa précision est inférieure à %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">Précision du GPS</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Date (format ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Date (format local)</string>
+    <string name="settings_recording_track_name_number_option">Numéro</string>
+    <string name="settings_recording_track_name_title">Nom parcours par défaut</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Réinitialiser</string>
+    <string name="settings_reset_confirm_message">Les valeurs par défaut seront rétablies pour tous les paramètres.</string>
+    <string name="settings_reset_confirm_title">Réinitialiser maintenant ?</string>
+    <string name="settings_reset_done">Les valeurs par défaut de tous les paramètres ont bien été rétablies</string>
+    <string name="settings_error_initial_values_restored">Désolé, mais une erreur sest produite. Tous les paramètres ont été rétablis aux valeurs par défaut.</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <string name="settings_sensor_connecting">Connecté à %1$s</string>
+    <string name="settings_sensor_disconnected">Déconnecté de %1$s</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Mode de calcul souhaité</string>
+    <string name="settings_stats_units_imperial">Unités impériales (mi, pi)</string>
+    <string name="settings_stats_units_metric">Unités métriques (km, m)</string>
+    <string name="settings_stats_units_title">Unités souhaitées</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Je pense que ce parcours peut t\'intéresser.
+\n
+\n%1$s</string>
+    <string name="share_track_subject">J\'aimerais partager un parcours avec toi</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Allure moyenne de déplacement</string>
+    <string name="stats_average_moving_speed">Vitesse moyenne de déplacement</string>
+    <string name="stats_average_pace">Allure moyenne</string>
+    <string name="stats_average_speed">Vitesse moyenne</string>
+    <string name="stats_altitude">Altitude</string>
+    <string name="stats_fastest_pace">Allure la plus rapide</string>
+    <string name="stats_gain">Dénivelé positif</string>
+    <string name="stats_latitude">Latitude</string>
+    <string name="stats_longitude">Longitude</string>
+    <string name="stats_max_speed">Vitesse max</string>
+    <string name="stats_moving_time">Durée de déplacement</string>
+    <string name="stats_pace">Allure</string>
+    <string name="stats_speed">Vitesse</string>
+    <string name="stats_distance">Distance</string>
+    <string name="stats_total_time">Durée totale</string>
+    <!-- Track -->
+    <string name="track_name_format">Parcours %1$d</string>
+    <string name="track_recording_notification_accuracy">Précision de la localisation : %1$s</string>
+    <string name="track_markers">Repères pour le parcours %1$s</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">Ce parcours et ses repères vont être définitivement effacés de l\'appareil.</string>
+    <string name="track_delete_one_confirm_title">Supprimer le parcours ?</string>
+    <string name="track_delete_multiple_confirm_message">Les parcours sélectionnés et leurs repères respectifs vont être définitivement effacés de l\'appareil.</string>
+    <string name="track_delete_progress_message">Suppression en cours…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Statistiques</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Type d\'activité (exemple : randonnée)</string>
+    <string name="track_edit_activity_type_hint">Type d\'activité</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Commencez à enregistrer votre prochaine aventure ici</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">pied(s)</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">mile(s)</string>
+    <string name="unit_mile_per_hour">mph</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d pied(s)</string>
+    <string name="value_integer_feet_excellent_gps">%1$d pied(s) (réception GPS excellente)</string>
+    <string name="value_integer_feet_recommended">%1$d pied(s) (recommandé)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/h</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (réception GPS excellente)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (mauvaise réception GPS)</string>
+    <string name="value_integer_meter_recommended">%1$d m (recommandé)</string>
+    <string name="value_integer_mile">%1$d mile(s)</string>
+    <string name="value_integer_mile_hour">%1$d mi/h</string>
+    <string name="value_integer_minute">%1$d min</string>
+    <string name="value_integer_second">%1$d s</string>
+    <string name="value_none">Aucun</string>
+    <string name="value_off">Désactiver</string>
+    <string name="value_smallest_recommended">La plus petite (recommandé)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">%1$d heure</item>
+        <item quantity="other">%1$d heures</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">%1$.1f kilomètre-heure</item>
+        <item quantity="other">%1$.1f kilomètres-heure</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">%1$.1f mile par heure</item>
+        <item quantity="other">%1$.1f miles par heure</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s par kilomètre</string>
+    <string name="voice_pace_per_mile">%1$s par mile</string>
+    <string name="voice_template">%1$s en %2$s à %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">distance totale %1$.2f kilomètre</item>
+        <item quantity="other">distance totale %1$.2f kilomètres</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">distance totale %1$.2f mile</item>
+        <item quantity="other">distance totale %1$.2f miles</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">distributeur de billets</string>
+    <string name="waypoint_type_bank">banque</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">grillade</string>
+    <string name="waypoint_type_building">bâtiment</string>
+    <string name="waypoint_type_bus_stop">arrêt de bus</string>
+    <string name="waypoint_type_cafe">café</string>
+    <string name="waypoint_type_campfire">feu de camp</string>
+    <string name="waypoint_type_campground">terrain de camping</string>
+    <string name="waypoint_type_church">église</string>
+    <string name="waypoint_type_coffee_house">café</string>
+    <string name="waypoint_type_convenience_store">supérette</string>
+    <string name="waypoint_type_drinking_water">eau potable</string>
+    <string name="waypoint_type_falling_rocks">chute de pierres</string>
+    <string name="waypoint_type_ferry">bac</string>
+    <string name="waypoint_type_fire_place">cheminée</string>
+    <string name="waypoint_type_fire_station">caserne de pompiers</string>
+    <string name="waypoint_type_fishing">pêche</string>
+    <string name="waypoint_type_gas_station">station-service</string>
+    <string name="waypoint_type_golf_course">parcours de golf</string>
+    <string name="waypoint_type_grocery_store">épicerie</string>
+    <string name="waypoint_type_hair_dresser">coiffeur</string>
+    <string name="waypoint_type_harbor">port</string>
+    <string name="waypoint_type_hiking_path">sentier de randonnée</string>
+    <string name="waypoint_type_hotel">hôtel</string>
+    <string name="waypoint_type_house">maison</string>
+    <string name="waypoint_type_information">informations</string>
+    <string name="waypoint_type_intersection">croisement</string>
+    <string name="waypoint_type_mail_box">boîte aux lettres</string>
+    <string name="waypoint_type_market">marché</string>
+    <string name="waypoint_type_meeting_point">point de rencontre</string>
+    <string name="waypoint_type_opera">opéra</string>
+    <string name="waypoint_type_parking">parking</string>
+    <string name="waypoint_type_police_station">poste de police</string>
+    <string name="waypoint_type_post_office">bureau de poste</string>
+    <string name="waypoint_type_pothole">nid-de-poule</string>
+    <string name="waypoint_type_railway_crossing">passage à niveau</string>
+    <string name="waypoint_type_restaurant">restaurant</string>
+    <string name="waypoint_type_shopping">centre commercial</string>
+    <string name="waypoint_type_sight">point de vue</string>
+    <string name="waypoint_type_store">magasin</string>
+    <string name="waypoint_type_swimming_pool">piscine</string>
+    <string name="waypoint_type_telephone">téléphone</string>
+    <string name="waypoint_type_theater">théâtre</string>
+    <string name="waypoint_type_toilet">toilettes</string>
+    <string name="waypoint_type_tourist_information">informations touristiques</string>
+    <string name="waypoint_type_tree">arbre</string>
+    <string name="waypoint_type_tunnel">un tunnel</string>
+    <string name="waypoint_type_waterfall">cascade</string>
+    <string name="waypoint_type_water_fountain">fontaine</string>
+    <string name="waypoint_type_waypoint">point de cheminement</string>
+    <!-- Share image -->
+    <string name="share_image_subject">J aimerais partager une image avec vous</string>
+    <string name="share_image_body">Je pense que cette image pourrait vous intéresser.</string>
+    <string name="track_pace_notification">Vitesse : %1$s</string>
+    <string name="track_speed_notification">Vitesse : %1$s</string>
+    <string name="track_detail_intervals_tab">Intervalles</string>
+    <string name="interval_list_empty_message">Il n\'y a pas encore d\'intervalle</string>
+    <string name="aggregated_stats_empty_message">Enregistrez votre première trace pour voir les statistiques agrégées</string>
+    <string name="voice_pace_lap">Temps au tour de %1$s</string>
+    <string name="voice_speed_lap">Vitesse du tour de %1$s</string>
+    <string name="settings_default_export_uri_title">Répertoire d\'exportation des traces</string>
+    <string name="instant_export_enabled_title">Exportation instantanée après l\'entraînement</string>
+    <string name="stats_loss">Dénivelé négatif</string>
+    <string name="settings_prevent_reimport_tracks_title">Empêcher la réimportation de traces</string>
+    <string name="settings_night_mode_option_night">Nuit</string>
+    <string name="settings_night_mode_option_day">Jour</string>
+    <string name="settings_night_mode_option_system">Système</string>
+    <string name="stats_split_interval">Intervalle partagé</string>
+    <string name="instant_export_enabled_summary">Exportation de la trace vers le stockage après la fin de l\'enregistrement</string>
+    <string name="hold_to_pause">Tenir pour faire une pause</string>
+    <string name="hold_to_stop">Maintenir pour arrêter</string>
+    <string name="track_distance_notification">Distance : %1$s</string>
+    <string name="open_track_as_KML">Ouvert comme KML</string>
+    <string name="open_track_as_GPX">Ouvert en tant que GPX</string>
+    <string name="open_track_as_trackfileformat">Ouvrir comme %1$s</string>
+    <string name="activity_type_escooter">éscooter</string>
+    <string name="settings_sensor_wheel_circumference">Circonférence de roue (millimètre)</string>
+    <string name="export_error_post_workout">L\'exportation du post-travail a échoué, veuillez vérifier le répertoire d\'exportation.</string>
+    <string name="export_all_do_it_for_all">le faire pour tous les conflits</string>
+    <string name="export_track_errors">Traces non exportées</string>
+    <string name="import_unable_to_import_file">Impossible d\'importer le fichier : %1$s</string>
+    <string name="import_no_kml_file_found">Pas de doc.fichier kml trouvé dans KMZ</string>
+    <string name="import_error_info">%1$s : %2$s</string>
+    <string name="import_error_list_dialog_title">Les fichiers ne sont pas importées</string>
+    <string name="settings_night_mode_title">Thème de l\'Interface utilisateur</string>
+    <string name="generic_completed">Compléter</string>
+    <string name="sensor_state_cadence_max">Cadence maximale</string>
+    <string name="settings_recording_fullscreen_on_while_recording_title">Plein écran</string>
+    <string name="settings_recording_fullscreen_on_while_recording_summary">Pendant l\'enregistrement, présent en plein écran.</string>
+    <string name="sensor_state_power_avg">Puissance moyenne</string>
+    <string name="sensor_state_heart_rate_max">Fréquence cardiaque max</string>
+    <string name="sensor_state_heart_rate_avg">Rythme cardiaque moyen</string>
+    <string name="sensor_state_cadence_avg">Cadence moyenne</string>
+    <string name="generic_click_twice_cancel">Cliquez sur retour pour annuler</string>
+    <string name="export_progress_summary_new_msg">Nouvelles traces exportées</string>
+    <string name="export_progress_summary_skip_msg">Traces ignorées</string>
+    <string name="export_progress_summary_errors_msg">Erreurs</string>
+    <string name="generic_overwrite">Écraser</string>
+    <string name="generic_show_errors">Afficher les erreurs</string>
+    <string name="generic_separator_done_total">/</string>
+    <string name="generic_skip">Ignorer</string>
+    <string name="generic_open_track">Voie ouverte</string>
+    <string name="gps_disabled_msg">GPS désactivé</string>
+    <string name="gps_fixed_and_ready">GPS fixe et prêt</string>
+    <string name="import_thread_interrupted">Fil interrompu</string>
+    <string name="import_unsupported_format">Format de fichier non pris en charge</string>
+    <string name="import_parser_error">Erreur de l\'analyseur : %1$s</string>
+    <string name="import_file_imported">Fichier %1$s importé</string>
+    <string name="import_prevent_reimport">Vous avez défini empêcher la réimportation de la trace</string>
+    <string name="import_progress_summary_ok_msg">Les fichiers importés</string>
+    <string name="import_progress_summary_exists_msg">Il existe déjà</string>
+    <string name="import_progress_summary_errors_msg">Erreur</string>
+    <plurals name="generic_completed_with_errors">
+        <item quantity="one">Terminé avec %1$d erreur</item>
+        <item quantity="other">Terminé avec des %1$d erreurs</item>
+    </plurals>
+    <string name="settings_default_trackfileformat">Format de fichier d\'exportation / partage</string>
+    <string name="description_altitude_loss">Dénivelé négatif : %1$d m (%2$d ft)</string>
+    <string name="export_track_already_exists_msg">La trace %1$s existe déjà dans le répertoire de destination.</string>
+    <string name="export_progress_summary_overwrite_msg">Traces écrasées</string>
+    <string name="about_third_party_data">Données de tiers</string>
+    <string name="track_delete_progress">%1$d/%2$d</string>
+    <string name="delete_service">Service de suppression</string>
+    <string name="menu_voice_rate">Vitesse vocale</string>
+    <string name="track_delete_not_recording">Cette piste ne peut pas être supprimée car elle est en cours d\'enregistrement.</string>
+    <string name="settings_sensor_cycling_distance_speed">Cyclisme : distance et vitesse</string>
+    <string name="settings_sensor_cycling_cadence">Vélo : cadence</string>
+    <string name="settings_sensor_running_speed_and_cadence">Course à pied : distance, vitesse et cadence</string>
+</resources>

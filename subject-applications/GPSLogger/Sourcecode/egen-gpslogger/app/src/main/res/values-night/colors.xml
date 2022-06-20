@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ colors.xml (night)
+  ~ Created by G.Capelli on 5/1/2020
+  ~ This file is part of BasicAirData GPS Logger
+  ~
+  ~ Copyright (C) 2011 BasicAirData
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ======[ DARK THEME ]================================================================== -->
+
+    <color name="colorPrimary">#880000</color>
+    <color name="colorPrimaryDark">#550000</color>
+    <color name="colorPrimaryLight">#ca1818</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="textColorCardTitle">#d7d7d7</color>
+    <color name="textColorSecondary">#888888</color>
+    <color name="colorBackground">#111111</color>
+
+    <color name="colorRecControlBackground">#2b2b2b</color>
+    <color name="textColorRecControlPrimary">#ffffff</color>
+    <color name="textColorRecControlSecondary">#cccccc</color>
+    <color name="textColorRecControlDisabled">#555555</color>
+    <color name="textColorRecControlPrimary_Active">#ffffff</color>
+    <color name="textColorRecControlSecondary_Active">#cccccc</color>
+
+    <color name="colorIconDisabledOnDialog">#707070</color>
+
+    <color name="colorCardBackground_Title">#3d3d3d</color>
+    <color name="colorCardBackground_Line">#2b2b2b</color>
+    <color name="colorCardBackground_Data">#333333</color>
+    <color name="colorCardBackground">#2b2b2b</color>
+    <color name="colorCardBackground_Selected">#42ff4f4f</color>
+
+    <color name="colorAccent">#ffffff</color>
+    <color name="preference_accent">#ca1818</color>
+    <color name="preference_fallback_accent_color" tools:override="true">#ca1818</color>
+
+    <color name="colorRoundedCornerBottom">#161616</color>
+    <color name="colorRoundedCornerTop">#202020</color>
+    <color name="colorRoundedCornerBorder">#707070</color>
+
+</resources>

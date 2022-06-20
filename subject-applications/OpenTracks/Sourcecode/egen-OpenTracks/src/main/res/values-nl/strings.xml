@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--><resources>
+    <string name="about_preference_title">Over OpenTracks</string>
+    <string name="about_description"><i>OpenTracks</i> is een sporttrackingapplicatie die uw privacy volledig respecteert.</string>
+    <string name="about_url">Project webpagina: <a href="%1$s">%1$s</a></string>
+    <string name="about_version_name">Versie naam: %1$s</string>
+    <string name="about_version_code">Versiecode: %1$d</string>
+    <string name="about_history">OpenTracks is een vork van <a href="https://code.google.com/archive/p/mytracks/"><i>Google\s MyTracks</i></a> (stopgezet in 2016).</string>
+    <string name="about_libraries">Bibliotheken</string>
+    <!-- Help -->
+    <string name="help_feature_title">OpenTracks heeft de volgende kenmerken:</string>
+    <string name="help_feature_content">* GPS tracks maken
+\n * een hartslagsensor gebruiken (alleen Bluetooth LE)
+\n * spraakaankondigingen (op tijd of afstand)
+\n * markers maken (incl. foto\'s)
+\n * werkt volledig offline
+\n * toon tracks op een kaart (zie hieronder)</string>
+    <string name="help_track_map_title">Hoe toon je een spoor op een kaart?</string>
+    <string name="help_track_map_content"> Gebruik het kleine kaartpictogram.
+\n a) (live updates) Installeer <a href="https://github.com/OpenTracksApp/OSMDashboard">OSMDashboard</a>. Het biedt online of offline kaarten via <a href="https://www.openstreetmap.org">OpenStreetMap</a>.
+\n Eigenlijk is OSMDashboard een aparte app die alleen (tijdelijk) toegang heeft tot de gegevens van de track(s) die getoond gaan worden.
+\n b) Via een normale kaartapplicatie (bijv. <a href="http://osmand.net/">OsmAnd</a> en <a href="https://maps.me/">MAPS.ME</a>). Deze apps moeten het KMZ-bestandsformaat ondersteunen (alleen locaties en tijdstempels). In feite moet een app <i>ACTION_VIEW</i> ondersteunen met MIME <i>application/vnd.google-earth.kmz</i>. </string>
+    <string name="help_storage_pictures_title">Hoe slaat OpenTracks fotos op die als markers zijn genomen?</string>
+    <string name="help_storage_pictures_content">Deze worden opgeslagen in de interne opslag van de app (d.w.z. alleen toegankelijk binnen OpenTracks).</string>
+    <string name="help_track_export_title">Hoe kan ik opgenomen tracks exporteren/delen?</string>
+    <string name="help_track_export_content"> Tracks kunnen worden geëxporteerd vanuit de instellingen als KMZ, KML of GPX. KMZ/KML alle gegevens; GPX alleen locaties. Tracks die worden gedeeld via het <i>share-icoontje</i> worden gedeeld als KMZ </string>
+    <string name="help_data_google_play_services_title">Heeft OpenTracks Google Play Service nodig/gebruikt?</string>
+    <string name="help_recording_title">Hoe legt OpenTracks gegevens vast?</string>
+    <string name="help_recording_content">
+OpenTracks gebruikt de GPS-sensor van het apparaat om de locatie continu te registreren.
+Als het GPS-apparaat onnauwkeurige gegevens rapporteert (bijv. locatie, snelheid, hoogte), kan OpenTracks daar niets aan doen.</string>
+    <string name="help_data_storage_title">Hoe slaat OpenTracks sensorgegevens op?</string>
+    <string name="help_data_storage_content"> De sensorgegevens worden per opgenomen locatie opgeslagen. In termen van een hartslagsensor betekent dit dat slechts <i>een</i> hartslagmeting per locatie wordt opgeslagen. Als u stilstaat of binnenshuis bent, worden er geen sensorgegevens geregistreerd (maar wel getoond) </string>
+    <string name="help_gps_troubleshooting_title">OpenTracks neemt geen locaties op?</string>
+    <string name="help_gps_troubleshooting_content"> Wat u kunt doen:
+\n a) Controleer of GPS is ingeschakeld,
+\n b) verbeter de GPS-ontvangst (ga bijvoorbeeld naar buiten),
+\n c) controleren met <a href="https://f-droid.org/en/packages/com.android.gpstest.osmdroid/">GPSTest</a> app, en
+\n d) schakel energiebesparing uit.
+\n
+\n Als alles niet helpt, meld dan een bug. </string>
+    <string name="help_support_title">Hoe kan ik OpenTracks ondersteunen?</string>
+    <string name="help_support_content"> U kunt:
+\n a) het woord verspreiden over OpenTracks,
+\n b) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">functies voorstellen</a>,
+\n c) <a href="https://github.com/OpenTracksApp/OpenTracks/issues">bugs melden</a>,
+\n d) helpen bij de ontwikkeling van software,
+\n e) kopen in <a href="https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore">Google Play Store</a>,
+\n f) doneren, en
+\n g) doe wat u denkt dat OpenTracks helpt. </string>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">vliegtuig</string>
+    <string name="activity_type_atv">quad</string>
+    <string name="activity_type_biking">fietsen</string>
+    <string name="activity_type_blimp">slap luchtschip</string>
+    <string name="activity_type_boat">boot</string>
+    <string name="activity_type_climbing">klimmen</string>
+    <string name="activity_type_commercial_airplane">commercieel vliegtuig</string>
+    <string name="activity_type_cross_country_skiing">langlaufen</string>
+    <string name="activity_type_cycling">fietsen</string>
+    <string name="activity_type_dirt_bike">crossmotor</string>
+    <string name="activity_type_donkey_back_riding">ezelrijden</string>
+    <string name="activity_type_driving">rijden</string>
+    <string name="activity_type_driving_bus">bus besturen</string>
+    <string name="activity_type_driving_car">autorijden</string>
+    <string name="activity_type_ferry">veerboot</string>
+    <string name="activity_type_frisbee">Frisbee</string>
+    <string name="activity_type_gliding">zweefvliegen</string>
+    <string name="activity_type_hang_gliding">deltavliegen</string>
+    <string name="activity_type_helicopter">helikopter</string>
+    <string name="activity_type_hiking">trektocht</string>
+    <string name="activity_type_horse_back_riding">paardrijden</string>
+    <string name="activity_type_hot_air_balloon">heteluchtballon</string>
+    <string name="activity_type_ice_sailing">ijszeilen</string>
+    <string name="activity_type_inline_skating">inline skaten</string>
+    <string name="activity_type_kayaking">kajakken</string>
+    <string name="activity_type_kite_surfing">kitesurfen</string>
+    <string name="activity_type_land_sailing">landzeilen</string>
+    <string name="activity_type_mixed_type">combinatie</string>
+    <string name="activity_type_motor_bike">motorfiets</string>
+    <string name="activity_type_motor_boating">motorboot varen</string>
+    <string name="activity_type_mountain_biking">mountainbiken</string>
+    <string name="activity_type_off_trail_hiking">trektocht (terrein)</string>
+    <string name="activity_type_other">overige</string>
+    <string name="activity_type_paddling">peddelen</string>
+    <string name="activity_type_para_gliding">paragliden</string>
+    <string name="activity_type_rc_airplane">vliegtuig op afstandsbediening</string>
+    <string name="activity_type_rc_boat">boot op afstandsbediening</string>
+    <string name="activity_type_rc_helicopter">helikopter op afstandsbediening</string>
+    <string name="activity_type_riding">rijden</string>
+    <string name="activity_type_road_biking">fietsen (weg)</string>
+    <string name="activity_type_roller_skiing">rolskiën</string>
+    <string name="activity_type_rowing">roeien</string>
+    <string name="activity_type_running">hardlopen</string>
+    <string name="activity_type_sailing">zeilen</string>
+    <string name="activity_type_seaplane">watervliegtuig</string>
+    <string name="activity_type_skate_boarding">skateboarden</string>
+    <string name="activity_type_skating">schaatsen</string>
+    <string name="activity_type_skiing">skiën</string>
+    <string name="activity_type_sky_jumping">parachutespringen</string>
+    <string name="activity_type_sled">sleeën</string>
+    <string name="activity_type_snow_boarding">snowboarden</string>
+    <string name="activity_type_snow_shoeing">sneeuwschoenlopen</string>
+    <string name="activity_type_speed_walking">snelwandelen</string>
+    <string name="activity_type_street_running">hardlopen (weg)</string>
+    <string name="activity_type_surfing">surfen</string>
+    <string name="activity_type_track_cycling">baanwielrennen</string>
+    <string name="activity_type_track_running">hardlopen (baan)</string>
+    <string name="activity_type_trail_hiking">trektocht (pad)</string>
+    <string name="activity_type_trail_running">trailrunning</string>
+    <string name="activity_type_train">trein</string>
+    <string name="activity_type_ultimate_frisbee">ultieme frisbee</string>
+    <string name="activity_type_unknown">onbekend</string>
+    <string name="activity_type_wakeboarding">wakeboarden</string>
+    <string name="activity_type_walking">wandelen</string>
+    <string name="activity_type_water_skiing">waterskiën</string>
+    <string name="activity_type_wind_surfing">windsurfen</string>
+    <!-- Description -->
+    <string name="description_activity_type">Type activiteit: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">Gemiddeld verplaatsingstempo: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_moving_speed">Gemiddelde verplaatsingssnelheid: %1$.2f km/u (%2$.1f mi/u)</string>
+    <string name="description_average_pace_in_minute">Gemiddeld tempo: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_average_speed">Gemiddelde snelheid: %1$.2f km/u (%2$.1f mi/u)</string>
+    <string name="description_altitude_gain">Hoogteverschil: %1$d m (%2$d ft)</string>
+    <string name="description_altitude_imperial">Hoogte (ft)</string>
+    <string name="description_altitude_metric">Hoogte (m)</string>
+    <string name="description_fastest_pace_in_minute">Snelste tempo: %1$s min/km (%2$s min/mi)</string>
+    <string name="description_max_altitude">Max. hoogte: %1$d m (%2$d ft)</string>
+    <string name="description_max_speed">Max. snelheid: %1$.2f km/u (%2$.1f mi/u)</string>
+    <string name="description_min_altitude">Min. hoogte: %1$d m (%2$d ft)</string>
+    <string name="description_moving_time">Verplaatsingstijd: %1$s</string>
+    <string name="description_pace_imperial">Tempo (min/mi)</string>
+    <string name="description_pace_metric">Tempo (min/km)</string>
+    <string name="description_recorded_time">Opgenomen: %1$s</string>
+    <string name="description_speed_ms">Snelheid (m/s)</string>
+    <string name="description_sensor_cadence">Cadans (tpm)</string>
+    <string name="description_sensor_heart_rate">Hartslag (spm)</string>
+    <string name="description_sensor_power">Vermogen (W)</string>
+    <string name="description_default_speed_or_pace">Op type activiteit</string>
+    <string name="description_speed_imperial">Snelheid (mi/u)</string>
+    <string name="description_speed_metric">Snelheid (km/u)</string>
+    <string name="description_time">Tijd</string>
+    <string name="description_total_distance">Totale afstand: %1$.2f km (%2$.1f mi)</string>
+    <string name="description_total_time">Totale tijd: %1$s</string>
+    <!-- Export -->
+    <string name="export_with_photos">met fotos</string>
+    <string name="export_without_photos">zonder fotos</string>
+    <string name="export_progress_message">Exporteren naar %1$s…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="one">1 bestand</item>
+        <item quantity="other">%1$d bestanden</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">Toevoegen</string>
+    <string name="generic_delete_selected_confirm_title">Geselecteerde items verwijderen?</string>
+    <string name="generic_description">Beschrijving</string>
+    <string name="generic_description_line">Beschrijving: %1$s</string>
+    <string name="generic_name">Naam</string>
+    <string name="generic_name_line">Naam: %1$s</string>
+    <string name="generic_paused">Onderbroken</string>
+    <string name="generic_recording">Opnemen…</string>
+    <string name="generic_save">Opslaan</string>
+    <string name="generic_tracks">Routes</string>
+    <!-- Gps -->
+    <string name="gps_starting">GPS starten</string>
+    <string name="gps_wait_for_better_signal">Wachten op een beter GPS-signaal</string>
+    <string name="gps_wait_for_signal">Wachten op GPS-signaal</string>
+    <!-- Image -->
+    <string name="image_arrow">Pijl</string>
+    <string name="image_marker">Markering</string>
+    <string name="image_marker_count">Aantal markeringen</string>
+    <string name="image_pause">Onderbreken</string>
+    <string name="image_photo_marker">Fotomarkering</string>
+    <string name="image_record">Opnemen</string>
+    <string name="image_stop">Stoppen</string>
+    <string name="image_track">Route</string>
+    <!-- Import -->
+    <string name="import_progress_message">Importeren uit %1$s…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">Kan geen markering invoegen. Er is geen GPS-signaal. Probeer het opnieuw.</string>
+    <string name="marker_add_success">Markering is ingevoegd</string>
+    <string name="marker_add_canceled">Geannuleerd, geen markering toegevoegd</string>
+    <string name="marker_add_photo_canceled">Geannuleerd, geen fotomarker toegevoegd</string>
+    <string name="marker_delete_one_confirm_message">De markering wordt definitief verwijderd van het apparaat</string>
+    <string name="marker_delete_one_confirm_title">Markering verwijderen?</string>
+    <string name="marker_delete_multiple_confirm_message">De geselecteerde markeringen worden definitief verwijderd van het apparaat</string>
+    <string name="marker_name_format">Markering %1$d</string>
+    <string name="marker_title">%1$d van %2$d</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">Type markering (bijv. waterval)</string>
+    <string name="marker_edit_marker_type_hint">Type markering</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">U heeft geen markeringen</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">Statistieken</string>
+    <string name="menu_delete">Verwijderen</string>
+    <string name="menu_edit">Bewerken</string>
+    <string name="menu_export_all">Alles exporteren</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_import_all">Alles importeren</string>
+    <string name="menu_insert_marker">Markering invoegen</string>
+    <string name="menu_insert_photo">Foto invoegen</string>
+    <string name="menu_insert_gallery_img">Galerijafbeelding invoegen</string>
+    <string name="menu_markers">Markeringen</string>
+    <string name="menu_search">Zoeken</string>
+    <string name="menu_select_all">Alles selecteren</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="menu_share">Delen</string>
+    <string name="menu_show_on_map">Weergeven op kaart</string>
+    <string name="menu_start_gps">GPS starten</string>
+    <string name="menu_stop_gps">GPS stoppen</string>
+    <string name="menu_resume_track">Hervat spoor</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">Opnameservice</string>
+    <!-- Permission -->
+    <string name="permission_gps_failed">Voor OpenTracks is toestemming nodig om GPS te gebruiken.</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">Accuniveau</string>
+    <string name="sensor_state_cadence">Cadans</string>
+    <string name="sensor_state_cadence_value">%1$d tpm</string>
+    <string name="sensor_state_heart_rate">Hartslag</string>
+    <string name="sensor_state_heart_rate_value">%1$d spm</string>
+    <string name="sensor_state_power">Vermogen</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="sensor_could_not_scan">Kon niet scannen naar Bluetooth-apparaten (fout %1$i).</string>
+    <string name="bluetooth_disabled">Schakel Bluetooth in.</string>
+    <string name="settings_not_while_recording">Niet beschikbaar tijdens het opnemen van een route</string>
+    <string name="settings_show">Weergeven</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">Geavanceerd</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">Op afstand</string>
+    <string name="settings_chart_by_time">Op tijd</string>
+    <!-- Settings Recording -->
+    <string name="settings_recording_show_on_lockscreen_while_recording_title">Toon de statistieken op het slotscherm</string>
+    <string name="settings_recording_show_on_lockscreen_while_recording_summary">Toon tijdens de opname de statistieken zonder het apparaat te ontgrendelen.</string>
+    <string name="settings_recording_keep_screen_on_while_recording_title">Houd het scherm aan</string>
+    <string name="settings_recording_keep_screen_on_while_recording_summary">Houd tijdens de opname het scherm aan.</string>
+    <string name="settings_recording">Opname</string>
+    <string name="settings_recording_default_activity_title">Standaardtype activiteit</string>
+    <string name="settings_recording_location_frequency_summary">%1$s tussen opgenomen locaties</string>
+    <string name="settings_recording_max_recording_distance_summary">Er wordt een nieuw segment gemaakt als de afstand tussen twee locaties groter is dan %1$s</string>
+    <string name="settings_recording_max_recording_distance_title">Maximale afstand</string>
+    <string name="settings_recording_min_recording_distance_title">Afstand tussen opnamen</string>
+    <string name="settings_recording_min_recording_interval_title">Tijd tussen opnamen</string>
+    <string name="settings_recording_min_required_accuracy_summary">Locatie wordt genegeerd als de nauwkeurigheid minder is dan %1$s</string>
+    <string name="settings_recording_min_required_accuracy_title">GPS-nauwkeurigheid</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">Datum (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">Datum (lokaal)</string>
+    <string name="settings_recording_track_name_number_option">Nummer</string>
+    <string name="settings_recording_track_name_title">Standaardroutenaam</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">Opnieuw instellen</string>
+    <string name="settings_reset_confirm_message">Alle instellingen worden teruggezet op de standaardwaarden.</string>
+    <string name="settings_reset_confirm_title">Nu opnieuw instellen?</string>
+    <string name="settings_reset_done">Voor alle instellingen zijn de standaardwaarden teruggezet</string>
+    <string name="settings_error_initial_values_restored">Sorry, maar er is een fout gemaakt. Alle instellingen zijn teruggezet naar de standaardwaarden.</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">Bluetooth</string>
+    <string name="settings_sensor_connecting">Verbonden met %1$s</string>
+    <string name="settings_sensor_disconnected">Ontkoppeld van %1$s</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">Voorkeursverhouding</string>
+    <string name="settings_stats_units_imperial">Engels (mi, ft)</string>
+    <string name="settings_stats_units_metric">Metrisch (km, m)</string>
+    <string name="settings_stats_units_title">Voorkeurseenheden</string>
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">Ik denk dat u misschien wel geïnteresseerd bent in deze route.
+\n
+\n%1$s</string>
+    <string name="share_track_subject">Ik wil graag een route met u delen</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">Gem. verplaatsingstempo</string>
+    <string name="stats_average_moving_speed">Gem. verplaatsingssnelheid</string>
+    <string name="stats_average_pace">Gem. tempo</string>
+    <string name="stats_average_speed">Gem. snelheid</string>
+    <string name="stats_altitude">Hoogte</string>
+    <string name="stats_fastest_pace">Snelste tempo</string>
+    <string name="stats_gain">Stijging</string>
+    <string name="stats_latitude">Breedtegraad</string>
+    <string name="stats_longitude">Lengtegraad</string>
+    <string name="stats_max_speed">Maximum snelheid</string>
+    <string name="stats_moving_time">Verplaatsingstijd</string>
+    <string name="stats_pace">Tempo</string>
+    <string name="stats_speed">Snelheid</string>
+    <string name="stats_distance">Afstand</string>
+    <string name="stats_total_time">Totale tijd</string>
+    <!-- Track -->
+    <string name="track_name_format">Route %1$d</string>
+    <string name="track_recording_notification_accuracy">Locatie nauwkeurigheid: %1$s</string>
+    <string name="track_markers">Markeringen voor %1$s</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">De route en de bijbehorende markeringen worden definitief verwijderd van het apparaat.</string>
+    <string name="track_delete_one_confirm_title">Route verwijderen?</string>
+    <string name="track_delete_multiple_confirm_message">De geselecteerde routes en de bijbehorende markeringen worden definitief verwijderd van het apparaat.</string>
+    <string name="track_delete_progress_message">Verwijderen…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">Statistieken</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">Type activiteit (bijv. trektocht)</string>
+    <string name="track_edit_activity_type_hint">Type activiteit</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">Neem uw volgende avontuur hier op</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">ft</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_mile">mi</string>
+    <string name="unit_mile_per_hour">mph</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d ft</string>
+    <string name="value_integer_feet_excellent_gps">%1$d ft (uitstekend GPS-signaal)</string>
+    <string name="value_integer_feet_recommended">%1$d ft (aanbevolen)</string>
+    <string name="value_integer_kilometer">%1$d km</string>
+    <string name="value_integer_kilometer_hour">%1$d km/u</string>
+    <string name="value_integer_meter">%1$d m</string>
+    <string name="value_integer_meter_excellent_gps">%1$d m (uitstekend GPS-signaal)</string>
+    <string name="value_integer_meter_poor_gps">%1$d m (slecht GPS-signaal)</string>
+    <string name="value_integer_meter_recommended">%1$d m (aanbevolen)</string>
+    <string name="value_integer_mile">%1$d mi</string>
+    <string name="value_integer_mile_hour">%1$d mi/u</string>
+    <string name="value_integer_minute">%1$d min</string>
+    <string name="value_integer_second">%1$d s</string>
+    <string name="value_none">Geen</string>
+    <string name="value_off">Uit</string>
+    <string name="value_smallest_recommended">Kleinste (aanbevolen)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="one">1 uur</item>
+        <item quantity="other">%1$d uur</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="one">1 minuut</item>
+        <item quantity="other">%1$d minutenr</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="one">1 seconde</item>
+        <item quantity="other">%1$d seconden</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="one">1 kilometer per uur</item>
+        <item quantity="other">%1$.1f kilometer per uur</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="one">1 mijl per uur</item>
+        <item quantity="other">%1$.1f mijl per uur</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">%1$s te kilometer</string>
+    <string name="voice_pace_per_mile">%1$s per mijl</string>
+    <string name="voice_template">%1$s in %2$s bij %3$s</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="one">totale afstand 1 kilometer</item>
+        <item quantity="other">totale afstand %1$.2f kilometer</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="one">totale afstand 1 mijl</item>
+        <item quantity="other">totale afstand %1$.2f mijl</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">Pinautomaat</string>
+    <string name="waypoint_type_bank">bank</string>
+    <string name="waypoint_type_bar">bar</string>
+    <string name="waypoint_type_barbecue">barbecueën</string>
+    <string name="waypoint_type_building">gebouw</string>
+    <string name="waypoint_type_bus_stop">bushalte</string>
+    <string name="waypoint_type_cafe">café</string>
+    <string name="waypoint_type_campfire">kampvuur</string>
+    <string name="waypoint_type_campground">kampeerterrein</string>
+    <string name="waypoint_type_church">kerk</string>
+    <string name="waypoint_type_coffee_house">koffiehuis</string>
+    <string name="waypoint_type_convenience_store">buurtwinkel</string>
+    <string name="waypoint_type_drinking_water">drinkwater</string>
+    <string name="waypoint_type_falling_rocks">vallende stenen</string>
+    <string name="waypoint_type_ferry">veerboot</string>
+    <string name="waypoint_type_fire_place">open haard</string>
+    <string name="waypoint_type_fire_station">brandweerkazerne</string>
+    <string name="waypoint_type_fishing">vissen</string>
+    <string name="waypoint_type_gas_station">tankstation</string>
+    <string name="waypoint_type_golf_course">golfbaan</string>
+    <string name="waypoint_type_grocery_store">kruidenier</string>
+    <string name="waypoint_type_hair_dresser">kapper</string>
+    <string name="waypoint_type_harbor">haven</string>
+    <string name="waypoint_type_hiking_path">trektochtpad</string>
+    <string name="waypoint_type_hotel">hotel</string>
+    <string name="waypoint_type_house">huis</string>
+    <string name="waypoint_type_information">informatie</string>
+    <string name="waypoint_type_intersection">kruispunt</string>
+    <string name="waypoint_type_mail_box">postbus</string>
+    <string name="waypoint_type_market">markt</string>
+    <string name="waypoint_type_meeting_point">trefpunt</string>
+    <string name="waypoint_type_opera">opera</string>
+    <string name="waypoint_type_parking">parkeerplaats</string>
+    <string name="waypoint_type_police_station">politiebureau</string>
+    <string name="waypoint_type_post_office">postkantoor</string>
+    <string name="waypoint_type_pothole">kuil</string>
+    <string name="waypoint_type_railway_crossing">spoorwegovergang</string>
+    <string name="waypoint_type_restaurant">restaurant</string>
+    <string name="waypoint_type_shopping">winkelcentrum</string>
+    <string name="waypoint_type_sight">zicht</string>
+    <string name="waypoint_type_store">winkel</string>
+    <string name="waypoint_type_swimming_pool">zwembad</string>
+    <string name="waypoint_type_telephone">telefoon</string>
+    <string name="waypoint_type_theater">schouwburg</string>
+    <string name="waypoint_type_toilet">restroom</string>
+    <string name="waypoint_type_tourist_information">toeristische informatie</string>
+    <string name="waypoint_type_tree">boom</string>
+    <string name="waypoint_type_tunnel">schacht</string>
+    <string name="waypoint_type_waterfall">waterval</string>
+    <string name="waypoint_type_water_fountain">waterfontein</string>
+    <string name="waypoint_type_waypoint">routepunt</string>
+    <!-- Share image -->
+    <string name="share_image_subject">Ik wil graag een beeld met u delen</string>
+    <string name="share_image_body">Ik denk dat je misschien geïnteresseerd bent in dit beeld.</string>
+    <string name="export_track_already_exists_msg">De track %1$s bestaat al in de doelmap.</string>
+    <string name="export_track_errors">Tracks niet geëxporteerd</string>
+    <string name="description_altitude_loss">Hoogteverlies: %1$d m (%2$d ft)</string>
+    <string name="export_error_post_workout">Post-workout export mislukt, controleer de export map.</string>
+    <string name="open_track_as_KML">Openen als KML</string>
+    <string name="open_track_as_GPX">Openen als GPX</string>
+    <string name="open_track_as_trackfileformat">Openen als %1$s</string>
+    <string name="activity_type_escooter">scooter</string>
+    <string name="export_all_do_it_for_all">doe het voor alle conflicten</string>
+    <string name="export_progress_summary_new_msg">Nieuwe sporen geëxporteerd</string>
+    <string name="generic_click_twice_cancel">Klik nogmaals terug om te annuleren</string>
+    <string name="settings_default_export_uri_title">Spoor export map</string>
+    <string name="import_thread_interrupted">Draad onderbroken</string>
+    <string name="import_no_kml_file_found">Geen doc.kml bestand gevonden in KMZ</string>
+    <string name="settings_recording_fullscreen_on_while_recording_title">Volledig scherm</string>
+    <string name="gps_fixed_and_ready">GPS vast en klaar</string>
+    <string name="aggregated_stats_empty_message">Neem uw eerste track op om geaggregeerde statistieken te zien</string>
+    <string name="track_detail_intervals_tab">Intervallen</string>
+    <string name="settings_sensor_wheel_circumference">Wielomtrek (mm)</string>
+    <string name="settings_prevent_reimport_tracks_title">Voorkom herinvoer van tracks</string>
+    <plurals name="generic_completed_with_errors">
+        <item quantity="one">Voltooid met één fout</item>
+        <item quantity="other">Afgerond met %1$d fouten</item>
+    </plurals>
+    <string name="settings_recording_fullscreen_on_while_recording_summary">Tijdens opname, aanwezig in volledig scherm.</string>
+    <string name="settings_default_trackfileformat">Bestandsformaat exporteren/delen</string>
+    <string name="sensor_state_power_avg">Gem. Vermogen</string>
+    <string name="sensor_state_heart_rate_max">Max. Hartslag</string>
+    <string name="sensor_state_heart_rate_avg">Gem. Hartslag</string>
+    <string name="sensor_state_cadence_avg">Avg cadans</string>
+    <string name="sensor_state_cadence_max">Max. cadans</string>
+    <string name="settings_night_mode_option_night">Nacht</string>
+    <string name="settings_night_mode_option_day">Dag</string>
+    <string name="settings_night_mode_option_system">Systeem</string>
+    <string name="settings_night_mode_title">UI Thema</string>
+    <string name="stats_loss">Verlies</string>
+    <string name="interval_list_empty_message">Er zijn nog geen intervallen</string>
+    <string name="stats_split_interval">Gesplitst interval</string>
+    <string name="voice_pace_lap">Rondetijd van %1$s</string>
+    <string name="voice_speed_lap">Ronde snelheid van %1$s</string>
+    <string name="instant_export_enabled_title">Directe export na de training</string>
+    <string name="instant_export_enabled_summary">Exporteer track naar opslag nadat opname is voltooid</string>
+    <string name="hold_to_pause">Vasthouden om te pauzeren</string>
+    <string name="export_progress_summary_skip_msg">Tracks overgeslagen</string>
+    <string name="export_progress_summary_overwrite_msg">Tracks overschreven</string>
+    <string name="export_progress_summary_errors_msg">Fouten</string>
+    <string name="generic_open_track">Open spoor</string>
+    <string name="generic_overwrite">Overschrijven</string>
+    <string name="generic_skip">Sla over.</string>
+    <string name="generic_separator_done_total">/</string>
+    <string name="generic_show_errors">Fouten tonen</string>
+    <string name="generic_completed">Voltooid</string>
+    <string name="import_unsupported_format">Niet-ondersteund bestandsformaat</string>
+    <string name="import_error_list_dialog_title">Bestanden niet geïmporteerd</string>
+    <string name="import_prevent_reimport">Jij hebt ingesteld voorkom her-import spoor</string>
+    <string name="import_progress_summary_ok_msg">Ingevoerde bestanden</string>
+    <string name="import_progress_summary_exists_msg">Bestaat reeds</string>
+    <string name="import_progress_summary_errors_msg">Fouten</string>
+    <string name="gps_disabled_msg">GPS uitgeschakeld</string>
+    <string name="import_parser_error">Parser fout: %1$s</string>
+    <string name="import_unable_to_import_file">Kan bestand niet importeren: %1$s</string>
+    <string name="import_error_info">%1$s: %2$s</string>
+    <string name="import_file_imported">Bestand %1$s geimporteerd</string>
+    <string name="hold_to_stop">Hou vast om te stoppen</string>
+    <string name="track_speed_notification">Snelheid: %1$s</string>
+    <string name="track_distance_notification">Afstand: %1$s</string>
+    <string name="track_pace_notification">Tempo: %1$s</string>
+    <string name="about_third_party_data">Gegevens van derden</string>
+    <string name="track_delete_progress">%1$d/%2$d</string>
+    <string name="delete_service">Dienst verwijdering</string>
+    <string name="menu_voice_rate">Spraak snelheid</string>
+    <string name="track_delete_not_recording">Dit fragment kan niet worden gewist omdat het momenteel is opgenomen.</string>
+    <string name="settings_sensor_cycling_cadence">Fietsen: cadans</string>
+    <string name="settings_sensor_cycling_distance_speed">Fietsen: afstand en snelheid</string>
+    <string name="settings_sensor_running_speed_and_cadence">Lopen: afstand, snelheid en cadans</string>
+</resources>

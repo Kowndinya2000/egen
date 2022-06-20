@@ -1,0 +1,52 @@
+/*
+ * Copyright (c) 2017 Bartek Fabiszewski
+ * http://www.fabiszewski.net
+ *
+ * This file is part of μlogger-android.
+ * Licensed under GPL, either version 3, or any later.
+ * See <http://www.gnu.org/licenses/>
+ */
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
+
+    defaultConfig {
+        applicationId 'net.fabiszewski.non_egen_ulogger'
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 305
+        versionName '3.5'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix '.debug'
+            versionNameSuffix '-dev'
+        }
+    }
+
+    lintOptions {
+        disable 'GoogleAppIndexingWarning'
+        disable 'MissingTranslation'
+        disable 'NotificationIconCompatibility'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'androidx.exifinterface:exifinterface:1.3.2'
+    testImplementation 'junit:junit:4.13'
+}

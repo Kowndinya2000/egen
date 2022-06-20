@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string-array name="unitEntries">
+    <item>Mile</item>
+    <item>Kilometry</item>
+  </string-array>
+  <string-array name="speedUnitEntries">
+    <item>Tempo</item>
+    <item>Prędkość</item>
+  </string-array>
+  <!--Note: keep in same order as DB.INTENSITY-->
+  <string-array name="step_intensity_types">
+    <item>Rozgrzewka</item>
+    <item>Aktywność</item>
+    <item>Odpoczynek</item>
+    <item>Regeneracja</item>
+    <item>Uspokojenie</item>
+  </string-array>
+  <string-array name="duration_types">
+    <item>Do przyciśnięcia</item>
+    <item>Czas</item>
+    <item>Dystans</item>
+  </string-array>
+  <string-array name="target_types">
+    <item>Brak</item>
+    <item>Tempo</item>
+    <item>Strefa tętna</item>
+  </string-array>
+  <!--Note: keep in same order as DB.ACCOUNT.SPORT_-->
+  <string-array name="sportEntries">
+    <item>Bieganie</item>
+    <item>Jazda rowerem</item>
+    <item>Inne</item>
+    <item>Bieg na orientację</item>
+    <item>Chodzenie</item>
+  </string-array>
+  <string-array name="types">
+    <item>Czas</item>
+    <item>Dystans</item>
+  </string-array>
+  <string-array name="sexes">
+    <item>Mężczyzna</item>
+    <item>Kobieta</item>
+  </string-array>
+  <!--Note: keep in same order as DB-->
+  <string-array name="path_simplification_algorithm_titles">
+    <item>Radial-Distance (szybki)</item>
+    <item>Ramer-Douglas-Peucker (wysoka jakość)</item>
+  </string-array>
+</resources>

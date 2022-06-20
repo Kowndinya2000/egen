@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string-array name="unitEntries">
+    <item>Míle</item>
+    <item>Kilometry</item>
+  </string-array>
+  <string-array name="unitValues">
+    <item>mi</item>
+    <item>km</item>
+  </string-array>
+  <!--Note: keep in same order as DB.INTENSITY-->
+  <!--Note: keep in same order as DB.ACCOUNT.SPORT_-->
+  <string-array name="sportEntries">
+    <item>Běh</item>
+    <item>Cyklistika</item>
+    <item>Ostatní</item>
+    <item>Orienteering</item>
+    <item>Walking</item>
+  </string-array>
+  <string-array name="sexes">
+    <item>Muž</item>
+    <item>Žena</item>
+  </string-array>
+</resources>

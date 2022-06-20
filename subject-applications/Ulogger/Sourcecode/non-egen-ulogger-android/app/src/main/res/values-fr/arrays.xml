@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 Bartek Fabiszewski
+  ~ http://www.fabiszewski.net
+  ~
+  ~ This file is part of μlogger-android.
+  ~ Licensed under GPL, either version 3, or any later.
+  ~ See <http://www.gnu.org/licenses/>
+  -->
+
+<resources>
+    <string-array name="minTimeEntries">
+        <item>10 secondes</item>
+        <item>30 secondes</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 heure</item>
+        <item>autre</item>
+    </string-array>
+
+    <string-array name="minDistanceEntries">
+        <item>aucun minimum</item>
+        <item>50 m</item>
+        <item>100 m</item>
+        <item>250 m</item>
+        <item>500 m</item>
+        <item>1 km</item>
+        <item>5 km</item>
+        <item>autre</item>
+    </string-array>
+
+    <string-array name="minAccuracyEntries">
+        <item>10 m</item>
+        <item>25 m</item>
+        <item>50 m</item>
+        <item>100 m</item>
+        <item>250 m</item>
+        <item>500 m</item>
+        <item>1 km</item>
+        <item>5 km</item>
+        <item>autre</item>
+    </string-array>
+
+    <string-array name="imageSizeEntries">
+        <item>Taille native</item>
+        <item>800 px</item>
+        <item>1080 px</item>
+        <item>1280 px</item>
+        <item>1920 px</item>
+        <item>autre</item>
+    </string-array>
+
+    </resources>

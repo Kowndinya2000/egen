@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+    <!-- Activity Type -->
+    <string name="activity_type_airplane">비행기</string>
+    <string name="activity_type_atv">ATV</string>
+    <string name="activity_type_biking">자전거</string>
+    <string name="activity_type_blimp">소형 비행선</string>
+    <string name="activity_type_boat">보트</string>
+    <string name="activity_type_climbing">등산</string>
+    <string name="activity_type_commercial_airplane">민간 항공기</string>
+    <string name="activity_type_cross_country_skiing">크로스컨트리 스키</string>
+    <string name="activity_type_cycling">사이클</string>
+    <string name="activity_type_dirt_bike">비포장 도로용 오토바이</string>
+    <string name="activity_type_donkey_back_riding">당나귀타기</string>
+    <string name="activity_type_driving">운전</string>
+    <string name="activity_type_driving_bus">버스 운전</string>
+    <string name="activity_type_driving_car">자동차 운전</string>
+    <string name="activity_type_ferry">페리</string>
+    <string name="activity_type_frisbee">프리스비</string>
+    <string name="activity_type_gliding">글라이딩</string>
+    <string name="activity_type_hang_gliding">행글라이더</string>
+    <string name="activity_type_helicopter">헬리콥터</string>
+    <string name="activity_type_hiking">하이킹</string>
+    <string name="activity_type_horse_back_riding">승마</string>
+    <string name="activity_type_hot_air_balloon">열기구</string>
+    <string name="activity_type_ice_sailing">아이스 세일링</string>
+    <string name="activity_type_inline_skating">인라인 스케이트</string>
+    <string name="activity_type_kayaking">카약</string>
+    <string name="activity_type_kite_surfing">카이트 서핑</string>
+    <string name="activity_type_land_sailing">랜드 세일링</string>
+    <string name="activity_type_mixed_type">혼합된 유형</string>
+    <string name="activity_type_motor_bike">오토바이</string>
+    <string name="activity_type_motor_boating">모터보트</string>
+    <string name="activity_type_mountain_biking">산악 자전거</string>
+    <string name="activity_type_off_trail_hiking">오프 트레일 하이킹</string>
+    <string name="activity_type_other">기타</string>
+    <string name="activity_type_paddling">패들링</string>
+    <string name="activity_type_para_gliding">파라 글라이딩</string>
+    <string name="activity_type_rc_airplane">RC 비행기</string>
+    <string name="activity_type_rc_boat">RC 보트</string>
+    <string name="activity_type_rc_helicopter">RC 헬리콥터</string>
+    <string name="activity_type_riding">승마</string>
+    <string name="activity_type_road_biking">로드 바이킹</string>
+    <string name="activity_type_roller_skiing">롤러 스키</string>
+    <string name="activity_type_rowing">조정</string>
+    <string name="activity_type_running">달리기</string>
+    <string name="activity_type_sailing">세일링</string>
+    <string name="activity_type_seaplane">수상 비행기</string>
+    <string name="activity_type_skate_boarding">스케이트보딩</string>
+    <string name="activity_type_skating">스케이팅</string>
+    <string name="activity_type_skiing">스키</string>
+    <string name="activity_type_sky_jumping">스카이 점프</string>
+    <string name="activity_type_sled">썰매</string>
+    <string name="activity_type_snow_boarding">스노우보딩</string>
+    <string name="activity_type_snow_shoeing">스노우 슈잉</string>
+    <string name="activity_type_speed_walking">경보</string>
+    <string name="activity_type_street_running">길거리 달리기</string>
+    <string name="activity_type_surfing">서핑</string>
+    <string name="activity_type_track_cycling">사이클링</string>
+    <string name="activity_type_track_running">달리기</string>
+    <string name="activity_type_trail_hiking">트레일 하이킹</string>
+    <string name="activity_type_trail_running">산악 달리기</string>
+    <string name="activity_type_train">기차</string>
+    <string name="activity_type_ultimate_frisbee">얼티밋 프리스비</string>
+    <string name="activity_type_unknown">알 수 없음</string>
+    <string name="activity_type_wakeboarding">웨이크보드</string>
+    <string name="activity_type_walking">도보</string>
+    <string name="activity_type_water_skiing">수상 스키</string>
+    <string name="activity_type_wind_surfing">윈드서핑</string>
+    <!-- Description -->
+    <string name="description_activity_type">운동 유형: %1$s</string>
+    <string name="description_average_moving_pace_in_minute">평균 이동 속도: %1$s분/km(%2$s분/마일)</string>
+    <string name="description_average_moving_speed">평균 이동 속도: 시속 %1$.2fkm(시속 %2$.1f마일)</string>
+    <string name="description_average_pace_in_minute">평균 속도: %1$s분/km(%2$s분/마일)</string>
+    <string name="description_average_speed">평균 속도: 시속 %1$.2fkm(시속 %2$.1f마일)</string>
+    <string name="description_altitude_gain">고도: %1$dm(%2$d피트)</string>
+    <string name="description_altitude_imperial">고도(피트)</string>
+    <string name="description_altitude_metric">고도(m)</string>
+    <string name="description_fastest_pace_in_minute">최고 속도: %1$s 분/km (%2$s 분/마일)</string>
+    <string name="description_max_altitude">최고 고도: %1$dm(%2$d피트)</string>
+    <string name="description_max_speed">최대 속도: 시속 %1$.2fkm(시속 %2$.1f마일)</string>
+    <string name="description_min_altitude">최저 고도: %1$dm(%2$d피트)</string>
+    <string name="description_moving_time">이동 시간: %1$s</string>
+    <string name="description_pace_imperial">속도(분/마일)</string>
+    <string name="description_pace_metric">속도(분/km)</string>
+    <string name="description_recorded_time">기록 시간: %1$s</string>
+    <string name="description_speed_ms">속도(m/s)</string>
+    <string name="description_sensor_cadence">페달 회전수(rpm)</string>
+    <string name="description_sensor_heart_rate">심장박동수(bpm)</string>
+    <string name="description_sensor_power">출력(W)</string>
+    <string name="description_speed_imperial">속도(마일/시간)</string>
+    <string name="description_speed_metric">속도(km/시간)</string>
+    <string name="description_time">시간</string>
+    <string name="description_total_distance">총 거리: %1$.2fkm(%2$.1f마일)</string>
+    <string name="description_total_time">총 시간: %1$s</string>
+    <!-- Export -->
+    <string name="export_progress_message">%1$s(으)로 내보내기 중…</string>
+    <!-- External Storage -->
+    <!-- Files -->
+    <plurals name="files">
+        <item quantity="other">파일 %1$d개</item>
+    </plurals>
+    <!-- Generic -->
+    <string name="generic_add">추가하기</string>
+    <string name="generic_delete_selected_confirm_title">선택한 항목을 삭제하시겠습니까?</string>
+    <string name="generic_description">설명</string>
+    <string name="generic_description_line">설명: %1$s</string>
+    <string name="generic_name">이름</string>
+    <string name="generic_name_line">이름: %1$s</string>
+    <string name="generic_paused">일시중지됨</string>
+    <string name="generic_recording">기록 중…</string>
+    <string name="generic_save">저장</string>
+    <string name="generic_tracks">운동기록</string>
+    <!-- Gps -->
+    <string name="gps_starting">GPS 시작</string>
+    <string name="gps_wait_for_better_signal">더 나은 GPS 신호 대기 중</string>
+    <string name="gps_wait_for_signal">GPS 신호 대기 중</string>
+    <!-- Image -->
+    <string name="image_arrow">화살표</string>
+    <string name="image_marker">마커</string>
+    <string name="image_marker_count">마커 수</string>
+    <string name="image_pause">일시중지</string>
+    <string name="image_photo_marker">사진 마커</string>
+    <string name="image_record">기록</string>
+    <string name="image_stop">중지</string>
+    <string name="image_track">운동기록</string>
+    <!-- Import -->
+    <string name="import_progress_message">%1$s에서 가져오기…</string>
+    <!-- Marker -->
+    <string name="marker_add_error">아이콘을 삽입할 수 없습니다. GPS 신호가 없습니다. 다시 시도하세요.</string>
+    <string name="marker_add_success">마커가 삽입되었습니다.</string>
+    <string name="marker_add_canceled">취소되어 마커가 추가되지 않았습니다.</string>
+    <string name="marker_delete_one_confirm_message">마커가 기기에서 영구적으로 삭제됩니다.</string>
+    <string name="marker_delete_one_confirm_title">마커를 삭제하시겠습니까?</string>
+    <string name="marker_delete_multiple_confirm_message">선택한 마커가 기기에서 영구적으로 삭제됩니다.</string>
+    <string name="marker_name_format">아이콘 %1$d</string>
+    <string name="marker_title">%2$d개 중 %1$d개</string>
+    <!-- Marker Detail -->
+    <!-- Marker Edit -->
+    <string name="marker_edit_marker_type">아이콘 유형(예: 폭포)</string>
+    <string name="marker_edit_marker_type_hint">아이콘 유형</string>
+    <!-- Marker List -->
+    <string name="marker_list_empty_message">마커가 없습니다.</string>
+    <!-- Menu -->
+    <string name="menu_aggregated_statistics">전체 통계</string>
+    <string name="menu_delete">삭제</string>
+    <string name="menu_edit">수정</string>
+    <string name="menu_export_all">모두 내보내기</string>
+    <string name="menu_help">도움말</string>
+    <string name="menu_import_all">모두 가져오기</string>
+    <string name="menu_insert_marker">아이콘 삽입</string>
+    <string name="menu_insert_photo">사진 삽입</string>
+    <string name="menu_markers">아이콘</string>
+    <string name="menu_search">검색</string>
+    <string name="menu_select_all">모두 선택</string>
+    <string name="menu_settings">설정</string>
+    <string name="menu_share">공유</string>
+    <string name="menu_show_on_map">지도에 표시</string>
+    <string name="menu_start_gps">GPS 시작</string>
+    <string name="menu_stop_gps">GPS 중지</string>
+    <!-- OpenTracks -->
+    <string name="recording_service">기록 서비스</string>
+    <!-- Search -->
+    <!-- Sensor State -->
+    <string name="sensor_state_battery">배터리 수준</string>
+    <string name="sensor_state_cadence">페달 회전수</string>
+    <string name="sensor_state_cadence_value">%1$d rpm</string>
+    <string name="sensor_state_heart_rate">심장박동수</string>
+    <string name="sensor_state_heart_rate_value">%1$d bpm</string>
+    <string name="sensor_state_power">출력</string>
+    <string name="sensor_state_power_value">%1$d W</string>
+    <string name="settings_not_while_recording">운동기록을 기록하는 동안 사용할 수 없습니다.</string>
+    <string name="settings_show">표시</string>
+    <!-- Settings Advanced -->
+    <string name="settings_advanced">고급</string>
+    <!-- Settings Chart -->
+    <string name="settings_chart_by_distance">거리 기준</string>
+    <string name="settings_chart_by_time">시간 기준</string>
+    <string name="settings_recording">기록</string>
+    <string name="settings_recording_default_activity_title">기본 운동 유형</string>
+    <string name="settings_recording_location_frequency_summary">위치 기록 주기는 %1$s입니다.</string>
+    <string name="settings_recording_max_recording_distance_summary">두 위치의 거리가 %1$s(을)를 초과하는 경우 새 세그먼트가 생성됩니다.</string>
+    <string name="settings_recording_max_recording_distance_title">최대 거리</string>
+    <string name="settings_recording_min_recording_distance_title">거리 간격 기록하기</string>
+    <string name="settings_recording_min_recording_interval_title">시간 간격 기록하기</string>
+    <string name="settings_recording_min_required_accuracy_summary">정확도가 %1$s 미만인 경우 위치는 무시됩니다.</string>
+    <string name="settings_recording_min_required_accuracy_title">GPS 정확도</string>
+    <string name="settings_recording_track_name_date_iso_8601_option">날짜 (ISO 8601)</string>
+    <string name="settings_recording_track_name_date_local_option">날짜 (현지)</string>
+    <string name="settings_recording_track_name_number_option">숫자</string>
+    <string name="settings_recording_track_name_title">기본 운동기록 이름</string>
+    <!-- Settings Reset -->
+    <string name="settings_reset">재설정</string>
+    <string name="settings_reset_confirm_message">모든 설정이 기본값으로 복구됩니다.</string>
+    <string name="settings_reset_confirm_title">지금 재설정하시겠습니까?</string>
+    <string name="settings_reset_done">모든 설정을 기본값으로 되돌렸습니다.</string>
+    <!-- Settings Sensor -->
+    <string name="settings_sensor_bluetooth">블루투스</string>
+    <!-- Settings Stats -->
+    <string name="settings_stats_rate_title">선호하는 속도</string>
+    <string name="settings_stats_units_imperial">야드파운드법(마일, 피트)</string>
+    <string name="settings_stats_units_metric">미터법(km,m)</string>
+    <string name="settings_stats_units_title">선호하는 단위</string>
+
+    <!-- Share Track -->
+    <string name="share_track_share_file_body">이 운동기록에 관심이 있으시군요.\n\n이 운동기록을 보려면 Google 어스 또는 기타 지도 소프트웨어를 사용하세요.\n\n%1$s</string>
+    <string name="share_track_subject">운동기록을 공유하려고 합니다.</string>
+    <!-- Stats -->
+    <string name="stats_average_moving_pace">평균 이동 페이스</string>
+    <string name="stats_average_moving_speed">평균 이동 속도</string>
+    <string name="stats_average_pace">평균 페이스</string>
+    <string name="stats_average_speed">평균 속도</string>
+    <string name="stats_altitude">고도</string>
+    <string name="stats_fastest_pace">최고 속도</string>
+    <string name="stats_gain">등락</string>
+    <string name="stats_latitude">위도</string>
+    <string name="stats_longitude">경도</string>
+    <string name="stats_max_speed">최고 속도</string>
+    <string name="stats_moving_time">이동 시간</string>
+    <string name="stats_pace">속도</string>
+    <string name="stats_speed">속도</string>
+    <string name="stats_distance">거리</string>
+    <string name="stats_total_time">총 시간</string>
+    <!-- Track -->
+    <string name="track_name_format">운동기록 %1$d</string>
+    <string name="track_markers">%1$s 마커</string>
+    <!-- Track Delete -->
+    <string name="track_delete_one_confirm_message">운동기록과 아이콘이 기기에서 영구적으로 삭제됩니다.</string>
+    <string name="track_delete_one_confirm_title">운동기록을 삭제하시겠습니까?</string>
+    <string name="track_delete_multiple_confirm_message">선택된 운동기록과 아이콘이 기기에서 영구적으로 삭제됩니다.</string>
+    <string name="track_delete_progress_message">삭제 중…</string>
+    <!-- Track Detail -->
+    <string name="track_detail_stats_tab">통계</string>
+    <!-- Track Edit -->
+    <string name="track_edit_activity_type">운동 유형(예: 하이킹)</string>
+    <string name="track_edit_activity_type_hint">운동 유형</string>
+    <!-- Track List -->
+    <string name="track_list_empty_message">여기에서 새로운 활동을 기록해 보세요.</string>
+    <!-- Track Widget -->
+    <!-- Tracks -->
+    <!-- Unit -->
+    <string name="unit_feet">피트</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_meter">미터</string>
+    <string name="unit_mile">마일</string>
+    <string name="unit_mile_per_hour">mi/h</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <!-- Value -->
+    <string name="value_integer_feet">%1$d피트</string>
+    <string name="value_integer_feet_excellent_gps">%1$d피트(GPS 수신 원활)</string>
+    <string name="value_integer_feet_recommended">%1$d피트(권장)</string>
+    <string name="value_integer_kilometer">%1$dkm</string>
+    <string name="value_integer_kilometer_hour">시속 %1$dkm</string>
+    <string name="value_integer_meter">%1$dm</string>
+    <string name="value_integer_meter_excellent_gps">%1$d미터(GPS 수신 원활)</string>
+    <string name="value_integer_meter_poor_gps">%1$d미터(GPS 수신 불량)</string>
+    <string name="value_integer_meter_recommended">%1$d미터(권장)</string>
+    <string name="value_integer_mile">%1$d마일</string>
+    <string name="value_integer_mile_hour">시속 %1$d마일</string>
+    <string name="value_integer_minute">%1$d분</string>
+    <string name="value_integer_second">%1$d초</string>
+    <string name="value_none">없음</string>
+    <string name="value_off">사용 안함</string>
+    <string name="value_smallest_recommended">최소(권장)</string>
+    <!-- Voice -->
+    <plurals name="voiceHours">
+        <item quantity="other">%1$d시간</item>
+    </plurals>
+    <plurals name="voiceMinutes">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="voiceSeconds">
+        <item quantity="other">%1$d초</item>
+    </plurals>
+    <plurals name="voiceSpeedKilometersPerHour">
+        <item quantity="other">시속 %1$.1f킬로미터</item>
+    </plurals>
+    <plurals name="voiceSpeedMilesPerHour">
+        <item quantity="other">시간 당 %1$.1f마일</item>
+    </plurals>
+    <string name="voice_pace_per_kilometer">킬로미터 당 %1$s</string>
+    <string name="voice_pace_per_mile">마일 당 %1$s</string>
+    <string name="voice_template">%1$s을(를) %2$s에 완료했으며 속도는 %3$s입니다.</string>
+    <plurals name="voiceTotalDistanceKilometers">
+        <item quantity="other">총 거리 %1$.2f킬로미터</item>
+    </plurals>
+    <plurals name="voiceTotalDistanceMiles">
+        <item quantity="other">총 거리 %1$.2f마일</item>
+    </plurals>
+    <!-- Waypoint Type -->
+    <string name="waypoint_type_atm">ATM</string>
+    <string name="waypoint_type_bank">은행</string>
+    <string name="waypoint_type_bar">바</string>
+    <string name="waypoint_type_barbecue">바베큐</string>
+    <string name="waypoint_type_building">건물</string>
+    <string name="waypoint_type_bus_stop">정류장</string>
+    <string name="waypoint_type_cafe">카페</string>
+    <string name="waypoint_type_campfire">캠프파이어</string>
+    <string name="waypoint_type_campground">캠프장</string>
+    <string name="waypoint_type_church">교회</string>
+    <string name="waypoint_type_coffee_house">커피숍</string>
+    <string name="waypoint_type_convenience_store">편의점</string>
+    <string name="waypoint_type_drinking_water">식수</string>
+    <string name="waypoint_type_falling_rocks">낙석 주의</string>
+    <string name="waypoint_type_ferry">페리</string>
+    <string name="waypoint_type_fire_place">벽난로</string>
+    <string name="waypoint_type_fire_station">소방서</string>
+    <string name="waypoint_type_fishing">낚시</string>
+    <string name="waypoint_type_gas_station">주유소</string>
+    <string name="waypoint_type_golf_course">골프장</string>
+    <string name="waypoint_type_grocery_store">식료품점</string>
+    <string name="waypoint_type_hair_dresser">미용사</string>
+    <string name="waypoint_type_harbor">항구</string>
+    <string name="waypoint_type_hiking_path">하이킹 경로</string>
+    <string name="waypoint_type_hotel">호텔</string>
+    <string name="waypoint_type_house">주택</string>
+    <string name="waypoint_type_information">정보</string>
+    <string name="waypoint_type_intersection">교차로</string>
+    <string name="waypoint_type_mail_box">우편함</string>
+    <string name="waypoint_type_market">시장</string>
+    <string name="waypoint_type_meeting_point">만남의 장소</string>
+    <string name="waypoint_type_opera">오페라</string>
+    <string name="waypoint_type_parking">주차</string>
+    <string name="waypoint_type_police_station">경찰서</string>
+    <string name="waypoint_type_post_office">우체국</string>
+    <string name="waypoint_type_pothole">움푹 파인 곳</string>
+    <string name="waypoint_type_railway_crossing">철도 건널목</string>
+    <string name="waypoint_type_restaurant">음식점</string>
+    <string name="waypoint_type_shopping">쇼핑</string>
+    <string name="waypoint_type_sight">시야</string>
+    <string name="waypoint_type_store">상점</string>
+    <string name="waypoint_type_swimming_pool">수영장</string>
+    <string name="waypoint_type_telephone">전화번호</string>
+    <string name="waypoint_type_theater">극장</string>
+    <string name="waypoint_type_toilet">화장실</string>
+    <string name="waypoint_type_tourist_information">관광 안내</string>
+    <string name="waypoint_type_tree">나무</string>
+    <string name="waypoint_type_tunnel">굴, 터널</string>
+    <string name="waypoint_type_waterfall">폭포</string>
+    <string name="waypoint_type_water_fountain">식수대</string>
+    <string name="waypoint_type_waypoint">경유지</string>
+</resources>
